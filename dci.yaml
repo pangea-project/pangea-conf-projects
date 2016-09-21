@@ -1,8 +1,3 @@
-kde-l10n:
-  - '15.12.3':
-    - '*':
-        branch: master
-
 anongit.neon.kde.org:
   - qt:
     - '*':
@@ -51,8 +46,6 @@ anongit.neon.kde.org:
         branch: master
   - applications:
     - '*':
-        branch: Neon/release
-    - 'spectacle':
         branch: Neon/release
   - forks:
     - drumstick:
@@ -125,7 +118,7 @@ git.debian.org:
 github.com:
   - netrunner-common:
     - '*':
-        branch: Debian/jessie
+        branch: master
   - calamares:
     - calamares-debian:
         branch: master
@@ -134,7 +127,7 @@ github.com:
         branch: kubuntu_unstable
   - netrunner-artwork:
     - '*':
-        branch: Debian/jessie
+        branch: master
   - plasma-phone-packaging:
     - libhybris:
         branch: kubuntu_unstable
@@ -142,29 +135,29 @@ github.com:
         branch: kubuntu_unstable
   - netrunner-odroid:
     - '*':
-        branch: Debian/jessie
+        branch: master
   - maui-debian:
     - calamares-maui:
-        branch: Debian/jessie
+        branch: master
     - maui-desktop:
-        branch: Debian/jessie
+        branch: master
     - plymouth-theme-maui-logo:
-        branch: Debian/jessie
+        branch: master
     - base-files:
-        branch: Debian/jessie
+        branch: master
     - maui-debian-wallpapers:
-        branch: Debian/jessie
+        branch: master
   - ds9-debian-packaging:
     - '*':
-        branch: Debian/jessie
+        branch: master
     - kcm-about-extended:
         branch: master
   - netrunner-core:
-    - '{netrunner,calamares}*':
-        branch: Debian/jessie
+    - '{netrunner,calamares,base-files}*':
+        branch: master
   - netrunner-debian-owncloud:
     - '{netrunner,calamares}*':
-        branch: Debian/jessie
+        branch: master
   - blue-systems:
     - live-build:
         branch: Debian/jessie
@@ -173,12 +166,12 @@ github.com:
         branch: master
   - ds9-common:
     - '*':
-        branch: Debian/jessie
+        branch: master
   - maui-common:
     - '*':
-        branch: Debian/jessie
+        branch: master
   - ds9-artwork:
-    - '*':
+    - '{artwork,maui}-*':
         branch: master
   - maui-artwork:
     - '*':
