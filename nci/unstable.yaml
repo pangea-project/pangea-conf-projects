@@ -191,19 +191,7 @@ anongit.neon.kde.org:
   - kde-req:
     - qca-qt5
   - neon:
-    - seeds:
-        branch: Neon/unstable
-    - plasma-wayland-meta:
-        branch: Neon/unstable
-    - settings:
-        branch: Neon/unstable
-    - syslinux-themes-neon:
-        branch: Neon/unstable
-    - ubiquity-slideshow:
-        branch: Neon/unstable
-    - adwaita-icon-theme:
-        branch: Neon/unstable
-    - keyring:
+    - '*':
         branch: Neon/unstable
   - forks:
     - appstream:
