@@ -133,7 +133,7 @@ anongit.neon.kde.org:
     - kscreenlocker:
         branch: Neon/unstable
     - kwin:
-        branch: Neon/mobile
+        branch: Neon/unstable
     - kwayland-integration:
         branch: Neon/unstable
     - kwrited:
