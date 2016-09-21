@@ -134,7 +134,7 @@ github.com:
     - libepoxy:
         branch: kubuntu_unstable
   - netrunner-odroid:
-    - '*':
+    - '{c1,odroid,xserver}-*':
         branch: master
   - maui-debian:
     - calamares-maui:
@@ -171,10 +171,10 @@ github.com:
     - '*':
         branch: master
   - ds9-artwork:
-    - '{artwork,maui}-*':
+    - '*':
         branch: master
   - maui-artwork:
-    - '*':
+    - '{artwork,maui}-*':
         branch: master
 launchpad.net:
   - ~mozillateam/firefox/firefox.xenial
