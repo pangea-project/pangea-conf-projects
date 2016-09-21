@@ -1,12 +1,4 @@
 git.debian.org:
-  - pkg-kde/applications:
-    - kaccounts-integration
-    - kaccounts-providers
-    - signon-kwallet-extension
-    - kio-extras
-    - gpgmepp
-    - kcalcore
-    - kcontacts
   - pkg-kde/kde-extras:
     - debconf-kde
     - kdeconnect-plasma
@@ -110,6 +102,20 @@ anongit.neon.kde.org:
     - kmahjongg:
         branch: Neon/unstable
     - marble:
+        branch: Neon/unstable
+    - kaccounts-providers:
+        branch: Neon/unstable
+    - kaccounts-integration:
+        branch: Neon/unstable
+    - signon-kwallet-extension:
+        branch: Neon/unstable
+    - kio-extras:
+        branch: Neon/unstable
+    - gpgmepp:
+        branch: Neon/unstable
+    - kcalcore:
+        branch: Neon/unstable
+    - kcontacts:
         branch: Neon/unstable
   - plasma:
     - bluedevil:
