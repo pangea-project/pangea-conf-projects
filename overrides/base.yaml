@@ -391,3 +391,8 @@ https://github.com/ds9-debian-packaging/kcm-kernel-config:
   'master':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
+
+https://github.com/ds9-debian-packaging/xdgurl:
+  'master':
+    upstream_scm:
+      type: uscan
