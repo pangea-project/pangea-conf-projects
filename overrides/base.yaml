@@ -16,31 +16,31 @@
 
 # Plasma
 
-'*{debian.org,anongit.neon}*/plasma/*':
+'*{anonscm.debian,anongit.neon}*/plasma/*':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
       branch: Plasma/5.8
 
-'*{debian.org,anongit.neon}*/plasma/plasma-discover':
+'*{anonscm.debian,anongit.neon}*/plasma/plasma-discover':
   '*':
     upstream_scm:
       url: git://anongit.kde.org/discover.git
 
-'*{debian.org,anongit.neon}*/plasma/plasma-mediacenter':
+'*{anonscm.debian,anongit.neon}*/plasma/plasma-mediacenter':
   '*':
     upstream_scm:
       branch: Plasma/5.7
 
 # Apps
 
-'*{debian.org,anongit.neon}*/applications/*':
+'*{anonscm.debian,anongit.neon}*/applications/*':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
       branch: Applications/16.08
 
 # Extras
 
-'*{debian.org,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
+'*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
   '*':
     upstream_scm:
       url: git://anongit.kde.org/kdeconnect-kde.git
@@ -48,12 +48,12 @@
     upstream_scm:
       branch: 0.9
 
-'*{debian.org,anongit.neon}*/*/libkgapi':
+'*{anonscm.debian,anongit.neon}*/*/libkgapi':
   '{kubuntu_stable,Neon/stable,Neon/release}':
     upstream_scm:
       branch: LibKGAPI/5.3
 
-'*{debian.org,anongit.neon}*/applications/ktp-common-internals':
+'*{anonscm.debian,anongit.neon}*/applications/ktp-common-internals':
   kubuntu_unstable:
     upstream_scm:
       branch: mklapetek/SpaceBar
@@ -84,7 +84,7 @@
 
 ## Qt
 
-'*{debian.org,anongit.neon,gitlab.com}*/{qt,netrunner-debian-qt}/*':
+'*{anonscm.debian,anongit.neon,gitlab.com}*/{qt,netrunner-debian-qt}/*':
   kubuntu_unstable:
     upstream_scm:
       url: http://code.qt.io/git/qt/<%= name %>.git
@@ -97,7 +97,7 @@
       type: tarball
       url: http://http.debian.net/debian/pool/main/q/<%= name %>-opensource-src/<%= name %>-opensource-src_5.5.1.orig.tar.xz
 
-'*{debian.org,anongit.neon}*/qt/qt5webkit':
+'*{anonscm.debian,anongit.neon}*/qt/qt5webkit':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: http://code.qt.io/git/qt/qtwebkit.git
@@ -106,13 +106,13 @@
     upstream_scm:
       url: http://http.debian.net/debian/pool/main/q/qtwebkit-opensource-src/qtwebkit-opensource-src_5.6.0+dfsg.orig.tar.xz
 
-'*{debian.org,anongit.neon}*/qt/qtchooser':
+'*{anonscm.debian,anongit.neon}*/qt/qtchooser':
   Neon/release:
     upstream_scm:
       type: tarball
       url: http://http.debian.net/debian/pool/main/q/qtchooser/qtchooser_58-gfab25f1.orig.tar.xz
 
-'*{debian.org,anongit.neon}*/qt/qtpim':
+'*{anonscm.debian,anongit.neon}*/qt/qtpim':
   Neon/mobile:
     upstream_scm:
       type: tarball
@@ -143,59 +143,59 @@
       type: tarball
       url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.0.2/drumstick-1.0.2.tar.bz2
 
-'*{debian.org,anongit.neon}*/frameworks/prison':
+'*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/prison-kf5_1.2~git20150223.orig.tar.gz
 
-'*{debian.org,anongit.neon}*/kde-extras/debconf-kde':
+'*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/libdebconf-kde.git
 
-'*{debian.org,anongit.neon}*/kde-extras/kdeconnect-plasma':
+'*{anonscm.debian,anongit.neon}*/kde-extras/kdeconnect-plasma':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/kdeconnect-kde.git
 
-'*{debian.org,anongit.neon}*/kde-extras/qapt':
+'*{anonscm.debian,anongit.neon}*/kde-extras/qapt':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/libqapt.git
 
-'*{debian.org,anongit.neon}*/kde-req/qca-qt5':
+'*{anonscm.debian,anongit.neon}*/kde-req/qca-qt5':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/qca.git
       branch: qt5
 
-'*{debian.org,anongit.neon}*/kde-std/sddm':
+'*{anonscm.debian,anongit.neon}*/kde-std/sddm':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/sddm/sddm.git
 
-'*{debian.org,anongit.neon}*/kde-extras/qt-gstreamer':
+'*{anonscm.debian,anongit.neon}*/kde-extras/qt-gstreamer':
   '*':
     upstream_scm:
       url: git://anongit.freedesktop.org/gstreamer/qt-gstreamer
 
-'*{debian.org,anongit.neon}*/kde-extras/telepathy-accounts-signon':
+'*{anonscm.debian,anongit.neon}*/kde-extras/telepathy-accounts-signon':
   '*':
     upstream_scm:
       url: https://gitlab.com/accounts-sso/telepathy-accounts-signon.git
 
-'*{debian.org,anongit.neon}*/kde-extras/libaccounts-glib':
+'*{anonscm.debian,anongit.neon}*/kde-extras/libaccounts-glib':
   '*':
     upstream_scm:
       url: https://gitlab.com/accounts-sso/libaccounts-glib.git
 
-'*{debian.org,anongit.neon}*/kde-extras/konversation':
+'*{anonscm.debian,anongit.neon}*/kde-extras/konversation':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
       branch: 1.6
 
-'*{debian.org,anongit.neon}*/forks/libkolab':
+'*{anonscm.debian,anongit.neon}*/forks/libkolab':
   'Neon/unstable':
     upstream_scm:
       url: https://git.kolab.org/diffusion/LK/libkolab.git
@@ -205,7 +205,7 @@
       url: https://git.kolab.org/diffusion/LK/libkolab.git
       branch: libkolab-1.0
 
-'*{debian.org,anongit.neon}*/forks/libkolabxml':
+'*{anonscm.debian,anongit.neon}*/forks/libkolabxml':
   'Neon/unstable':
     upstream_scm:
       url: https://git.kolab.org/diffusion/LKX/libkolabxml.git
@@ -214,13 +214,13 @@
       url: https://git.kolab.org/diffusion/LKX/libkolabxml.git
       branch: libkolabxml-1.1
 
-'*debian.org*/krap/libindi':
+'*anonscm.debian*/krap/libindi':
   'master':
     upstream_scm:
       type: tarball
       url: http://http.debian.net/debian/pool/main/libi/libindi/libindi_1.2.0.orig.tar.gz
 
-'*debian.org*/krap/grantlee':
+'*anonscm.debian*/krap/grantlee':
   'master':
     upstream_scm:
       type: tarball
@@ -242,19 +242,19 @@ https://github.com/*/samba-mounter:
 ## Mobile
 
 ### Xorg
-'*{debian.org,anongit.neon}*/xserver/xorg-server':
+'*{anonscm.debian,anongit.neon}*/xserver/xorg-server':
   debian-experimental:
     upstream_scm:
       type: tarball
       url: http://http.debian.net/debian/pool/main/x/xorg-server/xorg-server_1.18.0.orig.tar.gz
 
-'*{debian.org,anongit.neon}*/proto/x11proto-core':
+'*{anonscm.debian,anongit.neon}*/proto/x11proto-core':
   debian-unstable:
     upstream_scm:
       type: tarball
       url: http://http.debian.net/debian/pool/main/x/x11proto-core/x11proto-core_7.0.28.orig.tar.gz
 
-'*{debian.org,anongit.neon}*/proto/x11proto-randr':
+'*{anonscm.debian,anongit.neon}*/proto/x11proto-randr':
   debian-unstable:
     upstream_scm:
       type: tarball
