@@ -391,8 +391,3 @@ https://github.com/ds9-debian-packaging/kcm-kernel-config:
   'master':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
-
-# A slightly more greedy regex in order to accomodate for tests
-'*/skype':
-  '*':
-    upstream_scm:
