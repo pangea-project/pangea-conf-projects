@@ -377,6 +377,21 @@ https://github.com/debian-packaging/simplemenu:
     upstream_scm:
       url: git://anongit.kde.org/scratch/hein/simplemenu.git
 
+'https://github.com/ds9-extras/*':
+  'master':
+    upstream_scm:
+      url: https://github.com/ds9-extras/<%= name %>
+
+https://github.com/ds9-debian-packaging/imagewriter:
+  'master':
+    upstream_scm:
+      url: https://github.com/openSUSE/imagewriter
+
+https://github.com/ds9-debian-packaging/kcm-kernel-config:
+  'master':
+    upstream_scm:
+      url: https://github.com/plasma-extensions/kernel-kcm
+
 # A slightly more greedy regex in order to accomodate for tests
 '*/skype':
   '*':
