@@ -114,7 +114,11 @@ git.debian.org:
   - debian-med:
     - libquazip:
         branch: master
-
+  - pkg-packagekit:
+    - appstream:
+        branch: master
+    - packagekit-qt:
+        branch: master
 github.com:
   - netrunner-common:
     - '*':
@@ -124,7 +128,10 @@ github.com:
         branch: master
   - plasmazilla:
     - mozilla-kde-support:
-        branch: kubuntu_unstable
+        branch: master
+  - netrunner-nextcloud:
+    '*':
+      branch: master
   - netrunner-artwork:
     - '*':
         branch: master
@@ -134,7 +141,7 @@ github.com:
     - libepoxy:
         branch: kubuntu_unstable
   - netrunner-odroid:
-    - '{c1,odroid,xserver}-*':
+    - '{c1,odroid,xserver,mali}-*':
         branch: master
   - maui-debian:
     - calamares-maui:
@@ -176,6 +183,9 @@ github.com:
   - maui-artwork:
     - '{artwork,maui}-*':
         branch: master
+  - ds9-debian-frameworks:
+    - kcmutils:
+        branch: 'Neon/release'
 launchpad.net:
   - ~mozillateam/firefox/firefox.xenial
   - ~mozillateam/thunderbird/thunderbird.xenial

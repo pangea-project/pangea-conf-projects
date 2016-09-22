@@ -5,6 +5,11 @@
     upstream_scm:
       type: uscan
 
+'*anoscm.debian*':
+  '*':
+    upstream_scm:
+      type: uscan
+
 # Plasma
 
 '*{debian.org,anongit.neon}*/plasma/*':
@@ -396,3 +401,7 @@ https://github.com/ds9-debian-packaging/xdgurl:
   'master':
     upstream_scm:
       type: uscan
+https://github.com/plasmazilla/mozilla-kde-support:
+  'master':
+    upstream_scm:
+      url: https://github.com/openSUSE/kmozillahelper
