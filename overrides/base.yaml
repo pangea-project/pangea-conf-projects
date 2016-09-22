@@ -352,6 +352,9 @@ https://github.com/*/*calamares*:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
+  'master':
+    upstream_scm:
+      type: uscan
 
 https://github.com/netrunner-odroid/xserver-xorg-video-mali:
   '{kubuntu_unstable,Neon/unstable}':
