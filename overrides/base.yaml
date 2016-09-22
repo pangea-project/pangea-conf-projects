@@ -5,7 +5,7 @@
     upstream_scm:
       type: uscan
 
-'*anoscm.debian*':
+'*anonscm.debian*':
   '*':
     upstream_scm:
       type: uscan
