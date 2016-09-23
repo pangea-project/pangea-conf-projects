@@ -126,8 +126,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - kdeplasma-addons:
         branch: Neon/unstable
-    - kfilemetadata:
-        branch: Neon/unstable
     - kinfocenter:
         branch: Neon/unstable
     - kscreenlocker:
@@ -143,8 +141,6 @@ anongit.neon.kde.org:
     - libksysguard:
         branch: Neon/unstable
     - milou:
-        branch: Neon/unstable
-    - muon:
         branch: Neon/unstable
     - plasma-discover:
         branch: Neon/unstable
@@ -163,7 +159,7 @@ anongit.neon.kde.org:
     - kwallet-pam:
         branch: Neon/unstable
     - kaccounts-mobile:
-        branch: Neon/unstable
+        branch: kubuntu_unstable
     - kde-cli-tools:
         branch: Neon/unstable
     - kactivitymanagerd:
