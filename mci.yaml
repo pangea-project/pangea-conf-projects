@@ -168,6 +168,11 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - kactivitymanagerd:
         branch: Neon/unstable
+  - forks:
+    - appstream:
+        branch: Neon/release
+    - packagekit:
+        branch: master
 
 launchpad.net:
   - ubuntu-ui-toolkit
