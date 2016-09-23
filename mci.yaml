@@ -79,6 +79,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - qtserialport:
         branch: Neon/release
+    - qtquickcontrols2:
+        branch: Neon/release
   - frameworks:
     - '*':
         branch: Neon/unstable
