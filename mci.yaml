@@ -96,7 +96,7 @@ anongit.neon.kde.org:
     - kholidays:
         branch: Neon/unstable
     - ktp-common-internals:
-        branch: Neon/mobile
+        branch: Neon/unstable
     - libkdegames:
         branch: Neon/unstable
     - libkmahjongg:
