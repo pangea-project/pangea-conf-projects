@@ -119,6 +119,9 @@ git.debian.org:
         branch: master
     - packagekit-qt:
         branch: master
+  - kernel:
+    - initramfs-tools:
+        branch: master
 github.com:
   - netrunner-common:
     - '*':
