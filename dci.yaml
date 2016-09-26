@@ -81,33 +81,33 @@ git.debian.org:
     - phonon-backend-gstreamer:
         branch: master
   - pkg-kde/krap:
-      - grantlee:
-          branch: master
-      - libdbusmenu-qt:
-          branch: master
-      - mlt:
-          branch: master
+    - grantlee:
+        branch: master
+    - libdbusmenu-qt:
+        branch: master
+    - mlt:
+        branch: master
   - pkg-xorg/wayland:
-      - wayland:
-          branch: debian-experimental
+    - wayland:
+        branch: debian-experimental
   - pkg-xorg/lib:
-      - libinput:
-          branch: debian-unstable
+    - libinput:
+        branch: debian-unstable
   - collab-maint:
-      - pkg-ppp:
-          branch: master
-      - libwacom:
-          branch: master
-      - harfbuzz:
-          branch: master
-      - dbus-test-runner:
-          branch: master
+    - pkg-ppp:
+        branch: master
+    - libwacom:
+        branch: master
+    - harfbuzz:
+        branch: master
+    - dbus-test-runner:
+        branch: master
   - pkg-cmake:
-      - cmake:
-          branch: master
+    - cmake:
+        branch: master
   - pkg-fonts:
-      - fonts-noto:
-          branch: master
+    - fonts-noto:
+        branch: master
   - pkg-utopia:
     - network-manager:
         branch: master
@@ -130,8 +130,8 @@ github.com:
     - mozilla-kde-support:
         branch: master
   - netrunner-nextcloud:
-    '*':
-      branch: master
+    - '*':
+        branch: master
   - netrunner-artwork:
     - '*':
         branch: master
