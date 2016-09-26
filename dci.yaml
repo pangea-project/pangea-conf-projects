@@ -94,6 +94,8 @@ git.debian.org:
     - libinput:
         branch: debian-unstable
   - collab-maint:
+    - sysvinit:
+        branch: master
     - pkg-ppp:
         branch: master
     - libwacom:
