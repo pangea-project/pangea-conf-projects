@@ -3,7 +3,6 @@ git.debian.org:
     - debconf-kde
     - kdeconnect-plasma
     - koko
-    - libkgapi
     - qapt
     - telepathy-accounts-signon
   - pkg-kde/kde-req:
@@ -88,6 +87,8 @@ anongit.neon.kde.org:
     - libaccounts-glib:
         branch: Neon/mobile
     - kirigami:
+        branch: Neon/unstable
+    - libkgapi:
         branch: Neon/unstable
   - kde-std:
     - sddm:
