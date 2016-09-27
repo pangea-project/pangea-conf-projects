@@ -94,8 +94,6 @@ git.debian.org:
     - libinput:
         branch: debian-unstable
   - collab-maint:
-    - sysvinit:
-        branch: master
     - pkg-ppp:
         branch: master
     - libwacom:
@@ -120,9 +118,6 @@ git.debian.org:
     - appstream:
         branch: master
     - packagekit-qt:
-        branch: master
-  - kernel:
-    - initramfs-tools:
         branch: master
 github.com:
   - netrunner-common:
