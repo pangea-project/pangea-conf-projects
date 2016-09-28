@@ -186,6 +186,9 @@ github.com:
   - ds9-debian-frameworks:
     - kcmutils:
         branch: 'Neon/release'
+  - netrunner-desktop:
+    - '{netrunner,calamares}*':
+        branch: 'master'
 launchpad.net:
   - ~mozillateam/firefox/firefox.xenial
   - ~mozillateam/thunderbird/thunderbird.xenial
