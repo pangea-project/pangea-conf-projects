@@ -176,8 +176,7 @@ anongit.neon.kde.org:
     - libkgapi
     - muon
   - neon-packaging:
-    - kphotoalbum
-    - digikam
+    - '*'
   - kde-std:
     - kdevelop
     - kdevplatform
