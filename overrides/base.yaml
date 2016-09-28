@@ -80,6 +80,13 @@
     upstream_scm:
       type: uscan
 
+# Neon specific
+
+'*anongit.neon*/neon-packaging/kde-development-environment':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/scratch/apol/kde-development-environment.git
+
 # Other stuff
 
 ## Qt
