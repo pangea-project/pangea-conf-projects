@@ -119,10 +119,9 @@ git.debian.org:
         branch: master
     - packagekit-qt:
         branch: master
-
   - debhelper:
     - debhelper:
-        branch: debian/10
+        branch: master
   - pkg-lxqt:
     - pavucontrol-qt:
         branch: debian/experimental
