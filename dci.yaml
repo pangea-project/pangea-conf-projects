@@ -119,6 +119,15 @@ git.debian.org:
         branch: master
     - packagekit-qt:
         branch: master
+  -  pkg-lxqt:
+    - pavucontrol-qt:
+        branch: debian/experimental
+    - liblxqt:
+        branch: debian/experimental
+    - lximage-qt:
+        branch: debian/experimental
+    - libqtxdg:
+        branch: debian/experimental
 github.com:
   - netrunner-common:
     - '*':
