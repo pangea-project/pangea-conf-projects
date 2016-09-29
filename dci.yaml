@@ -119,7 +119,7 @@ git.debian.org:
         branch: master
     - packagekit-qt:
         branch: master
-  -  pkg-lxqt:
+  - pkg-lxqt:
     - pavucontrol-qt:
         branch: debian/experimental
     - liblxqt:
