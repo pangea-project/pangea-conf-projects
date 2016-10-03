@@ -375,37 +375,37 @@ https://github.com/rpi2-stuff/mesa:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
 
-'https://github.com/ds9-extras/*':
-  'master':
+'https://github.com/ds9-extras-packaging/*':
+  '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-'https://github.com/ds9-debian-packaging/*':
-  'master':
+'https://github.com/ds9-extras-packaging/{plasma,kcm,ice}-*':
+  '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/<%= name %>
 
-https://github.com/ds9-debian-packaging/imagewriter:
-  'master':
+'https://github.com/ds9-extras-packaging/kcm-{plasma-services,about-extended}':
+  '*':
+    upstream_scm:
+      url: https://github.com/ds9-extras/<%= name %>
+
+https://github.com/ds9-extras-packaging/imagewriter:
+  '*':
     upstream_scm:
       url: https://github.com/openSUSE/imagewriter
 
-https://github.com/ds9-debian-packaging/kcm-kernel-config:
-  'master':
-    upstream_scm:
-      url: https://github.com/plasma-extensions/kernel-kcm
-
-https://github.com/ds9-debian-packaging/ksuperkey:
+https://github.com/ds9-extras-packaging/ksuperkey:
   '*':
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
-https://github.com/ds9-debian-packaging/xdgurl:
-  'master':
+https://github.com/ds9-extras-packaging/xdgurl:
+  '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-debian-packaging/simplemenu:
+https://github.com/ds9-extras-packaging/simplemenu:
   '*':
     upstream_scm:
       url: git://anongit.kde.org/scratch/hein/simplemenu.git

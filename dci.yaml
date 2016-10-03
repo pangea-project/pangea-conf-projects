@@ -166,10 +166,8 @@ github.com:
         branch: master
     - maui-debian-wallpapers:
         branch: master
-  - ds9-debian-packaging:
+  - ds9-extras-packaging:
     - '*':
-        branch: master
-    - kcm-about-extended:
         branch: master
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
