@@ -31,6 +31,18 @@
     upstream_scm:
       branch: Plasma/5.7
 
+# Calligra
+
+'*{anonscm.debian,anongit.neon}*/calligra/{kdb,kreport,kproperty,kexi}*':
+  '{kubuntu_stable,Neon/stable}':
+    upstream_scm:
+      branch: 3.0
+
+'*{anonscm.debian,anongit.neon}*/calligra/krita':
+  '{kubuntu_stable,Neon/stable}':
+    upstream_scm:
+      branch: krita/3.0
+
 # Apps
 
 '*{anonscm.debian,anongit.neon}*/applications/*':
