@@ -197,7 +197,7 @@ github.com:
     - kcmutils:
         branch: 'Neon/release'
   - netrunner-desktop:
-    - '{netrunner,calamares}*':
+    - '{netrunner,calamares,base}*':
         branch: 'master'
 launchpad.net:
   - ~mozillateam/firefox/firefox.xenial
