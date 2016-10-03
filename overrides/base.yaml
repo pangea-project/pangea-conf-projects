@@ -226,13 +226,6 @@
       type: tarball
       url: http://mirror.sucs.swan.ac.uk/pub/linux/debian/pool/main/g/grantlee5/grantlee5_5.1.0.orig.tar.gz
 
-## Some Netrunner things
-https://github.com/*/samba-mounter:
-  '{kubuntu_unstable,Neon/unstable}':
-    upstream_scm:
-      url: git://anongit.kde.org/scratch/afiestas/samba-mounter.git
-      branch: frameworks
-
 ## Mobile
 
 ### Xorg
@@ -389,6 +382,12 @@ https://github.com/rpi2-stuff/mesa:
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
+
+https://github.com/ds9-extras-packaging/samba-mounter:
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/scratch/afiestas/samba-mounter.git
+      branch: frameworks
 
 https://github.com/ds9-extras-packaging/imagewriter:
   '*':
