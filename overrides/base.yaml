@@ -227,12 +227,6 @@
       url: http://mirror.sucs.swan.ac.uk/pub/linux/debian/pool/main/g/grantlee5/grantlee5_5.1.0.orig.tar.gz
 
 ## Some Netrunner things
-
-https://github.com/*/ksuperkey:
-  '{kubuntu_unstable,Neon/unstable}':
-    upstream_scm:
-      url: https://github.com/hanschen/ksuperkey.git
-
 https://github.com/*/samba-mounter:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
@@ -400,6 +394,11 @@ https://github.com/ds9-debian-packaging/kcm-kernel-config:
   'master':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
+
+https://github.com/ds9-debian-packaging/ksuperkey:
+  '*':
+    upstream_scm:
+      url: https://github.com/hanschen/ksuperkey.git
 
 https://github.com/ds9-debian-packaging/xdgurl:
   'master':
