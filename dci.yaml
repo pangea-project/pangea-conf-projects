@@ -6,7 +6,7 @@ anongit.neon.kde.org:
     - libkgapi:
         branch: master
     - kpmcore:
-        branch: kubuntu_unstable
+        branch: Neon/release
     - libqaccessibilityclient:
         branch: master
     - yakuake:
