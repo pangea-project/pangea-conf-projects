@@ -58,7 +58,7 @@
       url: git://anongit.kde.org/kdeconnect-kde.git
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
-      branch: 0.9
+      branch: 1.x
 
 '*{anonscm.debian,anongit.neon}*/*/libkgapi':
   '{kubuntu_stable,Neon/stable,Neon/release}':
