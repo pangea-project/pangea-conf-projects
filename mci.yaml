@@ -15,7 +15,9 @@ git.debian.org:
         branch: debian-unstable
     - x11proto-randr:
         branch: debian_unstable
-
+  - pkg-xorg/wayland:
+    - wayland:
+        branch: debian-experimental
 github.com:
   - plasma-phone-packaging:
     - simplelogin-packaging
@@ -150,8 +152,6 @@ anongit.neon.kde.org:
     - plasma-pa:
         branch: Neon/unstable
     - plasma-nm:
-        branch: Neon/unstable
-    - plasma-sdk:
         branch: Neon/unstable
     - plasma-workspace:
         branch: Neon/unstable
