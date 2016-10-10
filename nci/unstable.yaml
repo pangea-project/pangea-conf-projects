@@ -165,6 +165,7 @@ anongit.neon.kde.org:
     - pim-sieve-editor
     - pim-storage-service-manager
     - kde-baseapps
+    - kgpg
   - kde-extras:
     - kdeconnect
     - yakuake
