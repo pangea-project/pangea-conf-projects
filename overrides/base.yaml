@@ -97,6 +97,11 @@
     upstream_scm:
       branch: master
 
+'*anongit.neon*/kde-std/sddm':
+  '{Neon/unstable}':
+    upstream_scm:
+      branch: develop
+
 # Other stuff
 
 ## Qt
