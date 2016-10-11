@@ -152,6 +152,7 @@ anongit.neon.kde.org:
     - konversation
     - kirigami
     - libkgapi
+    - skrooge
   - neon-packaging:
     - kphotoalbum
     - digikam

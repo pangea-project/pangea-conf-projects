@@ -176,6 +176,7 @@ anongit.neon.kde.org:
     - kdiagram
     - libkgapi
     - muon
+    - skrooge
   - neon-packaging:
     - '*'
   - kde-std:
