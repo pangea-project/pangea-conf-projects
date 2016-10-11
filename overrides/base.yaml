@@ -188,7 +188,7 @@
       branch: qt5
 
 '*{anonscm.debian,anongit.neon}*/kde-std/sddm':
-  '{kubuntu_unstable,Neon/unstable}':
+  '{kubuntu_unstable,Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/sddm/sddm.git
 
