@@ -177,6 +177,7 @@ anongit.neon.kde.org:
     - libkgapi
     - muon
     - skrooge
+    - massif-visualizer
   - neon-packaging:
     - '*'
   - kde-std:
