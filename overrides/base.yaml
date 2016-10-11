@@ -92,6 +92,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/kde-std/sddm':
+  '{Neon/stable}':
+    upstream_scm:
+      branch: master
+
 # Other stuff
 
 ## Qt
