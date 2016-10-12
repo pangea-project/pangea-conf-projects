@@ -131,6 +131,8 @@ git.debian.org:
         branch: debian/experimental
     - libqtxdg:
         branch: debian/experimental
+    - libfm-qt-dev:
+        branch: debian/experimental
 github.com:
   - netrunner-common:
     - '*':
