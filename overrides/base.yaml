@@ -237,12 +237,12 @@
       branch: libkolabxml-1.1
 
 '*anongit.neon*/forks/libarchive':
-  'master':
+  'Neon/unstable':
     upstream_scm:
       type: uscan
 
 '*anongit.neon*/forks/ldc':
-  'master':
+  'Neon/unstable':
     upstream_scm:
       url: https://github.com/ldc-developers/ldc
 
