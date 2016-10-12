@@ -215,6 +215,10 @@ anongit.neon.kde.org:
         branch: master
     - drumstick:
         branch: master
+    - libarchive:
+        branch: Neon/unstable
+    - ldc:
+        branch: Neon/unstable
   - qt:
     - '*':
         branch: Neon/release
