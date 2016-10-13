@@ -457,3 +457,12 @@ https://github.com/ds9-common/sortinglaunchers:
     upstream_scm:
       type: git
       url: git://anongit.kde.org/scratch/hein/sortinglaunchers.git
+
+'https://github.com/ds9-debian-packaging-backports/*':
+  '*':
+    upstream_scm:
+      type: uscan
+
+https://github.com/ds9-debian-packaging-backports/ds9-debian-packaging-backports:
+  '*':
+    upstream_scm:
