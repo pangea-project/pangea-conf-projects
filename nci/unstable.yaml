@@ -219,6 +219,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - ldc:
         branch: Neon/unstable
+    - gpgme:
+        branch: Neon/release
   - qt:
     - '*':
         branch: Neon/release
