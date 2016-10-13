@@ -245,6 +245,7 @@
   'Neon/unstable':
     upstream_scm:
       url: https://github.com/ldc-developers/ldc
+      branch: release-1.1.0
 
 '*anonscm.debian*/krap/libindi':
   'master':
