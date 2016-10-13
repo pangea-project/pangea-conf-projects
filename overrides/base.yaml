@@ -250,8 +250,8 @@
 '*anongit.neon*/forks/ldc':
   'Neon/unstable':
     upstream_scm:
-      url: https://github.com/ldc-developers/ldc
-      branch: release-1.1.0
+      type: tarball 
+      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ldc_1.1.0+b3.orig.tar.gz
 
 '*anonscm.debian*/krap/libindi':
   'master':
