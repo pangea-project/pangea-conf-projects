@@ -250,7 +250,7 @@
 '*anongit.neon*/forks/ldc':
   'Neon/unstable':
     upstream_scm:
-      type: tarball 
+      type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ldc_1.1.0+b3.orig.tar.gz
 
 '*anonscm.debian*/krap/libindi':
@@ -472,3 +472,9 @@ https://github.com/ds9-common/sortinglaunchers:
 https://github.com/ds9-debian-packaging-backports/ds9-debian-packaging-backports:
   '*':
     upstream_scm:
+
+'*anonscm.debian.org/pkg-xorg/lib/libxkbcommon':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: http://xkbcommon.org/download/libxkbcommon-0.6.1.tar.xz
