@@ -35,6 +35,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - kamoso:
         branch: master
+    - kirigami:
+        branch: Neon/release
   - frameworks:
     - '*':
         branch: Neon/release
