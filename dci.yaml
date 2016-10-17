@@ -95,6 +95,8 @@ git.debian.org:
   - pkg-xorg/lib:
     - libinput:
         branch: debian-unstable
+    - libxkbcommon:
+        branch: debian-unstable
   - collab-maint:
     - pkg-ppp:
         branch: master
