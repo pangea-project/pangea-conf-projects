@@ -154,7 +154,7 @@ github.com:
     - '*':
         branch: master
   - netrunner-artwork:
-    - '*':
+    - '{artwork,netrunner,plymouth}-*':
         branch: master
   - plasma-phone-packaging:
     - libhybris:
