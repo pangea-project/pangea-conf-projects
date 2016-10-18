@@ -52,6 +52,9 @@ anongit.neon.kde.org:
   - forks:
     - drumstick:
         branch: master
+  - kde-std:
+    - kdevplatform:
+        branch: Neon/release
 git.debian.org:
   - pkg-gnome/ubuntu:
     - gsettings-desktop-schemas:
