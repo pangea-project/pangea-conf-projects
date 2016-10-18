@@ -52,6 +52,9 @@ anongit.neon.kde.org:
   - forks:
     - drumstick:
         branch: master
+  - kde-std:
+    - kdevplatform:
+        branch: Neon/release
 git.debian.org:
   - pkg-gnome/ubuntu:
     - gsettings-desktop-schemas:
@@ -78,8 +81,6 @@ git.debian.org:
     - phonon:
         branch: master
   - pkg-kde/kde-std:
-    - kdevplatform:
-        branch: Neon/release
     - sddm:
         branch: master
     - phonon-backend-gstreamer:
