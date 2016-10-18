@@ -225,6 +225,9 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - mustache-d:
         branch: Neon/unstable
+    - gcompris:
+        branch: Neon/unstable
+
   - qt:
     - '*':
         branch: Neon/release
