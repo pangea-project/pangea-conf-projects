@@ -167,30 +167,13 @@ anongit.neon.kde.org:
     - kde-baseapps
     - kgpg
   - kde-extras:
-    - kdeconnect
-    - yakuake
-    - kpmcore
-    - partitionmanager
-    - konversation
-    - kirigami
-    - kdiagram
-    - libkgapi
-    - muon
-    - skrooge
-    - massif-visualizer
+    - '*'
   - neon-packaging:
     - '*'
   - kde-std:
-    - kdevelop
-    - kdevplatform
-    - kdevelop-pg-qt
-    - sddm
+    - '*'
   - calligra:
-    - krita
-    - kexi
-    - kproperty
-    - kreport
-    - kdb
+    - '*'
   - kde-req:
     - qca-qt5
   - neon:

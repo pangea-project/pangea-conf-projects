@@ -148,29 +148,13 @@ anongit.neon.kde.org:
     - akonadi-mime
     - akonadi-notes
   - kde-extras:
-    - kdeconnect
-    - yakuake
-    - kpmcore
-    - partitionmanager
-    - konversation
-    - kirigami
-    - libkgapi
-    - muon
-    - skrooge
+    - '*'
   - neon-packaging:
-    - kphotoalbum
-    - digikam
+    - '*'
   - kde-std:
-    - kdevelop
-    - kdevplatform
-    - kdevelop-pg-qt
-    - sddm
+    - '*'
   - calligra:
-    - krita
-    - kexi
-    - kproperty
-    - kreport
-    - kdb
+    - '*'
   - neon:
     - seeds:
         branch: Neon/release
