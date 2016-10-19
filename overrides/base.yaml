@@ -252,6 +252,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/qt5keychain':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/ldc':
   'Neon/unstable':
     upstream_scm:

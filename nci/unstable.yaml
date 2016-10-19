@@ -212,6 +212,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - gcompris:
         branch: Neon/unstable
+    - qt5keychain:
+        branch: Neon/unstable
 
   - qt:
     - '*':
