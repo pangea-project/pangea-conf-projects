@@ -275,7 +275,7 @@
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/mustache-d_0.1.1.orig.tar.gz
 
-'*anongit.neon*/forks/nina-build':
+'*anongit.neon*/forks/ninja-build':
   'Neon/unstable':
     upstream_scm:
       type: tarball
