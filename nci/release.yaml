@@ -187,6 +187,18 @@ anongit.neon.kde.org:
         branch: master
     - gcompris:
         branch: Neon/release
+    - libarchive:
+        branch: Neon/release
+    - ldc:
+        branch: Neon/release
+    - lmdb:
+        branch: Neon/release
+    - meson:
+        branch: Neon/release
+    - mustache-d:
+        branch: Neon/release
+    - ninja-build:
+        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon

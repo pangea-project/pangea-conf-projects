@@ -198,19 +198,7 @@ anongit.neon.kde.org:
         branch: master
     - drumstick:
         branch: master
-    - libarchive:
-        branch: Neon/unstable
-    - ldc:
-        branch: Neon/unstable
-    - lmdb:
-        branch: Neon/unstable
-    - meson:
-        branch: Neon/unstable
     - gpgme:
-        branch: Neon/unstable
-    - mustache-d:
-        branch: Neon/unstable
-    - ninja-build:
         branch: Neon/unstable
     - gcompris:
         branch: Neon/unstable
