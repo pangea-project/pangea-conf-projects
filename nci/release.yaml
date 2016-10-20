@@ -185,6 +185,8 @@ anongit.neon.kde.org:
         branch: master
     - drumstick:
         branch: master
+    - gcompris:
+        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon

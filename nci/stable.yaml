@@ -187,6 +187,8 @@ anongit.neon.kde.org:
         branch: master
     - digikam:
         branch: Neon/unstable
+    - gcompris:
+        branch: Neon/stable
 
 launchpad.net:
   - livecd-rootfs-neon
