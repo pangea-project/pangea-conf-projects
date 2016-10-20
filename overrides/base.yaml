@@ -248,9 +248,9 @@
       type: uscan
 
 '*anongit.neon*/forks/gcompris':
-  'Neon/unstable':
+  'Neon/stable':
     upstream_scm:
-      type: uscan
+      branch: KDE/0.60
 
 '*anongit.neon*/forks/qt5keychain':
   'Neon/unstable':
