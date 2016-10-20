@@ -269,6 +269,13 @@
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/meson_0.35.0.orig.tar.gz
 
+'*anongit.neon*/forks/lmdb':
+  'Neon/unstable':
+    upstream_scm:
+      type: tarball
+      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/lmdb_0.9.18.orig.tar.gz
+
+
 '*anongit.neon*/forks/mustache-d':
   'Neon/unstable':
     upstream_scm:
