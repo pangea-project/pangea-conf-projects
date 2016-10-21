@@ -109,7 +109,22 @@
     upstream_scm:
       branch: develop
 
+'*anongit.neon*/kde-std/phonon-backend-vlc':
+  '{Neon/stable}':
+    upstream_scm:
+      branch: 0.9
+
+'*anongit.neon*/kde-std/phonon-backend-gstreamer':
+  '{Neon/stable}':
+    upstream_scm:
+      branch: 4.9
+
 # Other stuff
+
+'*anongit.neon*/kde-req/phonon':
+  '{Neon/stable}':
+    upstream_scm:
+      branch: 4.9
 
 ## Qt
 
