@@ -50,6 +50,13 @@
     upstream_scm:
       branch: Applications/16.08
 
+# Neon-packaging
+
+'*{anonscm.debian,anongit.neon}*/neon-packaging/kphotoalbum':
+  'Neon/stable':
+    upstream_scm:
+      branch: 5.x
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
