@@ -150,6 +150,8 @@ anongit.neon.kde.org:
     - '*'
   - kde-std:
     - '*'
+  - kde-req:
+    - phonon
   - calligra:
     - '*'
   - neon:
