@@ -110,11 +110,17 @@
       branch: develop
 
 '*anongit.neon*/kde-std/phonon-backend-vlc':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/phonon-vlc.git
   '{Neon/stable}':
     upstream_scm:
       branch: 0.9
 
 '*anongit.neon*/kde-std/phonon-backend-gstreamer':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/plasma-gstreamer.git
   '{Neon/stable}':
     upstream_scm:
       branch: 4.9
