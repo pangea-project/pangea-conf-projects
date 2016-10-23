@@ -94,6 +94,22 @@
     upstream_scm:
       branch: 5.0
 
+'*anongit.neon*/kde-std/kdevelop-python':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/kdev-python.git
+  '{Neon/stable,Neon/release}':
+    upstream_scm:
+      branch: 5.0
+
+'*anongit.neon*/kde-std/kdevelop-php':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/kdev-php.git
+  '{Neon/stable,Neon/release}':
+    upstream_scm:
+      branch: 5.0
+
 '*anongit.neon*/kde-std/sddm':
   '{Neon/mobile}':
     upstream_scm:
