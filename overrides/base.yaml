@@ -94,6 +94,22 @@
     upstream_scm:
       branch: 5.0
 
+'*anongit.neon*/kde-std/kdevelop-python':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/kdev-python.git
+  '{Neon/stable,Neon/release}':
+    upstream_scm:
+      branch: 5.0
+
+'*anongit.neon*/kde-std/kdevelop-php':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/kdev-php.git
+  '{Neon/stable,Neon/release}':
+    upstream_scm:
+      branch: 5.0
+
 '*anongit.neon*/kde-std/sddm':
   '{Neon/mobile}':
     upstream_scm:
@@ -192,12 +208,6 @@
     upstream_scm:
       type: tarball
       url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.0.2/drumstick-1.0.2.tar.bz2
-
-'*anongit.neon*/forks/gpgme':
-  Neon/unstable:
-    upstream_scm:
-      type: tarball
-      url: http://weegie.edinburghlinux.co.uk/~tittiatcoke/gpgme-1.7.0~git20161013.tar.bz2
 
 '*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
