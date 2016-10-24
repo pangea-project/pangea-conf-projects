@@ -191,6 +191,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - gcompris:
         branch: Neon/stable
+    - qt5keychain:
+        branch: Neon/stable
 
 launchpad.net:
   - livecd-rootfs-neon
