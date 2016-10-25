@@ -239,7 +239,6 @@
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/qca.git
-      branch: qt5
 
 '*{anonscm.debian,anongit.neon}*/kde-std/sddm':
   '{kubuntu_unstable,Neon/stable,Neon/unstable}':
