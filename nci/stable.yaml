@@ -151,22 +151,11 @@ anongit.neon.kde.org:
   - kde-std:
     - '*'
   - kde-req:
-    - phonon
+    - '*'
   - calligra:
     - '*'
   - neon:
-    - seeds:
-        branch: Neon/stable
-    - settings:
-        branch: Neon/stable
-    - syslinux-themes-neon:
-        branch: Neon/stable
-    - ubiquity-slideshow:
-        branch: Neon/stable
-    - adwaita-icon-theme:
-        branch: Neon/stable
-    - keyring:
-        branch: Neon/stable
+    - '*'
   - '':
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: kubuntu_xenial_archive
@@ -191,6 +180,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - gcompris:
         branch: Neon/stable
+    - qt5keychain:
+        branch: Neon/stable
 
 launchpad.net:
   - livecd-rootfs-neon
@@ -203,3 +194,7 @@ git.debian.org:
         branch: master
     - grantlee:
         branch: master
+
+archive.ubuntu.com:
+  - yakkety:
+    - hello

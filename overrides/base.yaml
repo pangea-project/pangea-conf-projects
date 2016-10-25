@@ -10,6 +10,11 @@
     upstream_scm:
       type: uscan
 
+'ubuntu':
+  '*':
+    upstream_scm:
+      type: dsc
+
 '*github.com*':
   '*':
     upstream_scm:
@@ -295,7 +300,7 @@
       branch: KDE/0.60
 
 '*anongit.neon*/forks/qt5keychain':
-  'Neon/unstable':
+  '{Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
 
@@ -555,3 +560,15 @@ https://github.com/ds9-debian-packaging-backports/ds9-debian-packaging-backports
     upstream_scm:
       type: tarball
       url: http://xkbcommon.org/download/libxkbcommon-0.6.1.tar.xz
+
+https://github.com/netrunner-odroid/c1-uboot:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/mdrjr/c1_uboot_binaries
+
+https://github.com/netrunner-odroid/c1-bootini:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/mdrjr/c1_bootini

@@ -154,22 +154,11 @@ anongit.neon.kde.org:
   - kde-std:
     - '*'
   - kde-req:
-    - phonon
+    - '*'
   - calligra:
     - '*'
   - neon:
-    - seeds:
-        branch: Neon/release
-    - settings:
-        branch: Neon/release
-    - syslinux-themes-neon:
-        branch: Neon/release
-    - ubiquity-slideshow:
-        branch: Neon/release
-    - adwaita-icon-theme:
-        branch: Neon/release
-    - keyring:
-        branch: Neon/release
+    - '*'
   - forks:
     - appstream:
         branch: Neon/release
@@ -201,6 +190,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - ninja-build:
         branch: Neon/release
+    - qt5keychain:
+        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon
@@ -213,3 +204,7 @@ git.debian.org:
         branch: master
     - grantlee:
         branch: master
+
+archive.ubuntu.com:
+  - yakkety:
+    - hello

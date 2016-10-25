@@ -175,11 +175,9 @@ anongit.neon.kde.org:
   - calligra:
     - '*'
   - kde-req:
-    - qca-qt5
-    - phonon
+    - '*'
   - neon:
-    - '*':
-        branch: Neon/unstable
+    - '*'
   - forks:
     - appstream:
         branch: Neon/release
@@ -224,3 +222,7 @@ git.debian.org:
         branch: master
     - grantlee:
         branch: master
+
+archive.ubuntu.com:
+  - yakkety:
+    - hello
