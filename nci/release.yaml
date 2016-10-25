@@ -155,7 +155,6 @@ anongit.neon.kde.org:
     - '*'
   - kde-req:
     - phonon
-    - qca-qt5
   - calligra:
     - '*'
   - neon:
