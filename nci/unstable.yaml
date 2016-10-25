@@ -178,8 +178,7 @@ anongit.neon.kde.org:
     - qca-qt5
     - phonon
   - neon:
-    - '*':
-        branch: Neon/unstable
+    - '*'
   - forks:
     - appstream:
         branch: Neon/release

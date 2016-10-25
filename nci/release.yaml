@@ -158,18 +158,7 @@ anongit.neon.kde.org:
   - calligra:
     - '*'
   - neon:
-    - seeds:
-        branch: Neon/release
-    - settings:
-        branch: Neon/release
-    - syslinux-themes-neon:
-        branch: Neon/release
-    - ubiquity-slideshow:
-        branch: Neon/release
-    - adwaita-icon-theme:
-        branch: Neon/release
-    - keyring:
-        branch: Neon/release
+    - '*'
   - forks:
     - appstream:
         branch: Neon/release

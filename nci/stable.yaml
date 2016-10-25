@@ -155,18 +155,7 @@ anongit.neon.kde.org:
   - calligra:
     - '*'
   - neon:
-    - seeds:
-        branch: Neon/stable
-    - settings:
-        branch: Neon/stable
-    - syslinux-themes-neon:
-        branch: Neon/stable
-    - ubiquity-slideshow:
-        branch: Neon/stable
-    - adwaita-icon-theme:
-        branch: Neon/stable
-    - keyring:
-        branch: Neon/stable
+    - '*'
   - '':
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: kubuntu_xenial_archive
