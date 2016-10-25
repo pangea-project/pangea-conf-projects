@@ -10,6 +10,11 @@
     upstream_scm:
       type: uscan
 
+'ubuntu':
+  '*':
+    upstream_scm:
+      type: dsc
+
 '*github.com*':
   '*':
     upstream_scm:
