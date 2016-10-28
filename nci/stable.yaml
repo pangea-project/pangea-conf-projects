@@ -103,6 +103,7 @@ anongit.neon.kde.org:
     - krfb
     - signon-kwallet-extension
     - kaccounts-integration
+    - kaccounts-providers
     - baloo-widgets
     - akonadi
     - akonadi-calendar
