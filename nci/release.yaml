@@ -147,6 +147,7 @@ anongit.neon.kde.org:
     - akonadi-contacts
     - akonadi-mime
     - akonadi-notes
+    - ktp-common-internals
   - kde-extras:
     - '*'
   - neon-packaging:

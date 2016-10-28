@@ -166,6 +166,7 @@ anongit.neon.kde.org:
     - pim-storage-service-manager
     - kde-baseapps
     - kgpg
+    - ktp-common-internals
   - kde-extras:
     - '*'
   - neon-packaging:
