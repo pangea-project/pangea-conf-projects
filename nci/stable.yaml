@@ -197,6 +197,3 @@ git.debian.org:
     - grantlee:
         branch: master
 
-archive.ubuntu.com:
-  - yakkety:
-    - hello
