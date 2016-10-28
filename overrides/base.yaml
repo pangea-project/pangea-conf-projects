@@ -62,6 +62,11 @@
     upstream_scm:
       branch: 5.x
 
+'*anongit.neon*/neon-packaging/qoauth':
+  '*':
+    upstream_scm:
+      url: https://github.com/ayoy/qoauth.git
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
