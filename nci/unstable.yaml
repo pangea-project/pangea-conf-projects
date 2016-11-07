@@ -165,9 +165,12 @@ anongit.neon.kde.org:
     - pim-data-exporter
     - pim-sieve-editor
     - pim-storage-service-manager
-    - kde-baseapps
     - kgpg
     - ktp-common-internals
+    - kdialog
+    - keditbookmarks
+    - kfind
+    - konqueror
   - kde-extras:
     - '*'
   - neon-packaging:
