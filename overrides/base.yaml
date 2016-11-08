@@ -581,5 +581,5 @@ https://github.com/netrunner-odroid/c1-bootini:
 https://github.com/shadeslayer/kde-l10n:
   '*':
     upstream_scm:
-      type: l10n
+      type: kde-l10n
       url: http://download.kde.org/stable/applications/16.08.2/src/kde-l10n/<%= name %>-16.08.2.tar.xz
