@@ -338,7 +338,7 @@
   'Neon/release':
     upstream_scm:
       type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz 
+      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
 
 '*anonscm.debian*/krap/libindi':
   'master':
@@ -577,3 +577,9 @@ https://github.com/netrunner-odroid/c1-bootini:
     upstream_scm:
       type: git
       url: https://github.com/mdrjr/c1_bootini
+
+https://github.com/shadeslayer/kde-l10n:
+  '*':
+    upstream_scm:
+      type: l10n
+      url: http://download.kde.org/stable/applications/16.08.2/src/kde-l10n/<%= name %>-16.08.2.tar.xz
