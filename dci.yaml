@@ -1,3 +1,8 @@
+kde-l10n:
+  - '16.08.2':
+    - '*':
+        branch: master
+
 anongit.neon.kde.org:
   - qt:
     - '*':
