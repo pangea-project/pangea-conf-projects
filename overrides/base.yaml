@@ -67,6 +67,11 @@
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
 
+'*anongit.neon*/neon-packaging/kde-development-environment':
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/scratch/apol/kde-development-environment.git
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
