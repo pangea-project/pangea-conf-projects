@@ -219,7 +219,7 @@
       type: uscan
 
 '*anongit.neon*/forks/gpgme':
-  'Neon/unstable':
+  'Neon/{stable,unstable}':
     upstream_scm:
       type: uscan
 
