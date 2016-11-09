@@ -171,6 +171,7 @@ anongit.neon.kde.org:
     - keditbookmarks
     - kfind
     - konqueror
+    - kdegraphics-mobipocket
   - kde-extras:
     - '*'
   - neon-packaging:
