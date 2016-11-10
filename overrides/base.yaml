@@ -46,7 +46,7 @@
 '*{anonscm.debian,anongit.neon}*/calligra/krita':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
-      branch: krita/3.0
+      branch: krita/3.1
 
 # Apps
 
