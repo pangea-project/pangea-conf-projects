@@ -106,6 +106,8 @@ git.debian.org:
     - libxkbcommon:
         branch: debian-unstable
   - collab-maint:
+    - devscripts:
+        branch: refs/tags/v2.16.8
     - pkg-ppp:
         branch: master
     - libwacom:
