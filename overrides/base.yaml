@@ -70,6 +70,7 @@
 '*anongit.neon*/neon-packaging/kde-development-environment':
   '*':
     upstream_scm:
+      type: git
       url: git://anongit.kde.org/scratch/apol/kde-development-environment.git
 
 # Extras
