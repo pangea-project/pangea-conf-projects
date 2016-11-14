@@ -194,8 +194,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - qt5keychain:
         branch: Neon/release
-    - sip4:
-        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon
