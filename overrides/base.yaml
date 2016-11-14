@@ -202,6 +202,14 @@
 
 ### Bindings
 
+'*anongit.neon*/forks/sip4':
+  Neon/release:
+    upstream_scm:
+      type: uscan
+  master:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/pyqt5':
   Neon/release:
     upstream_scm:
