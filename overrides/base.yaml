@@ -205,12 +205,10 @@
 '*anongit.neon*/forks/pyqt5':
   Neon/release:
     upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/pool/universe/p/pyqt5/pyqt5_5.5.1+dfsg.orig.tar.gz
+      type: uscan
   master:
     upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/pool/universe/p/pyqt5/pyqt5_5.5.1+dfsg.orig.tar.gz
+      type: uscan
 
 ## Misc
 
