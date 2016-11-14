@@ -186,7 +186,7 @@
       branch: 5.4
   Neon/release:
     upstream_scm:
-      url: http://http.debian.net/debian/pool/main/q/qtwebkit-opensource-src/qtwebkit-opensource-src_5.6.0+dfsg.orig.tar.xz
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/qt/qtchooser':
   Neon/release:
