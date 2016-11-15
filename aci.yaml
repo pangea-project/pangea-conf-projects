@@ -1,0 +1,5 @@
+github.com:
+  - appimage-packages:
+    - plasmazilla
+    - xdgurl
+    - vlc3
