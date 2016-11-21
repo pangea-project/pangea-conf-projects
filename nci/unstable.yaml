@@ -228,4 +228,6 @@ git.debian.org:
         branch: master
     - grantlee:
         branch: master
+    - libnova:
+        branch: master
 
