@@ -46,7 +46,7 @@
 '*{anonscm.debian,anongit.neon}*/calligra/krita':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
-      branch: krita/3.0
+      branch: krita/3.1
 
 # Apps
 
@@ -66,6 +66,12 @@
   '*':
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
+
+'*anongit.neon*/neon-packaging/kde-development-environment':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/scratch/apol/kde-development-environment.git
 
 # Extras
 
@@ -180,7 +186,7 @@
       branch: 5.4
   Neon/release:
     upstream_scm:
-      url: http://http.debian.net/debian/pool/main/q/qtwebkit-opensource-src/qtwebkit-opensource-src_5.6.0+dfsg.orig.tar.xz
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/qt/qtchooser':
   Neon/release:
@@ -196,15 +202,21 @@
 
 ### Bindings
 
+'*anongit.neon*/forks/sip4':
+  Neon/release:
+    upstream_scm:
+      type: uscan
+  master:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/pyqt5':
   Neon/release:
     upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/pool/universe/p/pyqt5/pyqt5_5.5.1+dfsg.orig.tar.gz
+      type: uscan
   master:
     upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/ubuntu/pool/universe/p/pyqt5/pyqt5_5.5.1+dfsg.orig.tar.gz
+      type: uscan
 
 ## Misc
 
@@ -214,7 +226,7 @@
       type: uscan
 
 '*anongit.neon*/forks/gpgme':
-  'Neon/unstable':
+  'Neon/{stable,unstable}':
     upstream_scm:
       type: uscan
 
@@ -274,6 +286,11 @@
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
       branch: 1.6
+
+'*{anonscm.debian,anongit.neon}*/kde-extras/massif-visualizer':
+  'Neon/stable':
+    upstream_scm:
+      branch: 0.6
 
 '*{anonscm.debian,anongit.neon}*/forks/libkolab':
   'Neon/unstable':
@@ -345,6 +362,12 @@
     upstream_scm:
       type: tarball
       url: http://http.debian.net/debian/pool/main/libi/libindi/libindi_1.2.0.orig.tar.gz
+
+'*anonscm.debian*/krap/libnova':
+  'master':
+    upstream_scm:
+      type: tarball
+      url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
 '*anonscm.debian*/krap/grantlee':
   'master':
@@ -525,7 +548,7 @@ https://github.com/ds9-extras-packaging/ksuperkey:
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
-https://github.com/ds9-extras-packaging/xdgurl:
+https://github.com/ds9-extras-packaging/{xdgurl,telepathy-,telegram-}*:
   '*':
     upstream_scm:
       type: uscan
@@ -582,4 +605,3 @@ https://github.com/shadeslayer/kde-l10n-common:
   '*':
     upstream_scm:
       type: kde-l10n
-      url: http://download.kde.org/stable/applications/16.08.2/src/kde-l10n/<%= name %>-16.08.2.tar.xz

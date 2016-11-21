@@ -178,6 +178,8 @@ anongit.neon.kde.org:
         branch: master
     - drumstick:
         branch: master
+    - gpgme:
+        branch: Neon/stable
     - digikam:
         branch: Neon/unstable
     - gcompris:
@@ -198,4 +200,3 @@ git.debian.org:
         branch: master
     - libnova:
         branch: master
-

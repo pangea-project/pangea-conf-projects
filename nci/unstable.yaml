@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - libkomparediff2
     - lokalize
     - okteta
+    - okular
     - poxml
     - umbrello
     - kdenetwork-filesharing
@@ -209,6 +210,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - qt5keychain:
         branch: Neon/unstable
+    - sip4:
+        branch: master
 
   - qt:
     - '*':
@@ -230,4 +233,3 @@ git.debian.org:
         branch: master
     - libnova:
         branch: master
-
