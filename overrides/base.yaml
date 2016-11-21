@@ -363,6 +363,12 @@
       type: tarball
       url: http://http.debian.net/debian/pool/main/libi/libindi/libindi_1.2.0.orig.tar.gz
 
+'*anonscm.debian*/krap/libnova':
+  'master':
+    upstream_scm:
+      type: tarball
+      url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
+
 '*anonscm.debian*/krap/grantlee':
   'master':
     upstream_scm:
