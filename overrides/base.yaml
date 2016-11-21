@@ -53,7 +53,7 @@
 '*{anonscm.debian,anongit.neon}*/applications/*':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
-      branch: Applications/16.08
+      branch: Applications/16.12
 
 # Neon-packaging
 
@@ -108,7 +108,7 @@
 '*anongit.neon*/kde-std/kdevelop-pg-qt':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 2.0
 
 '*anongit.neon*/kde-std/kdevelop-python':
   '*':
@@ -152,7 +152,7 @@
 '*anongit.neon*/kde-std/phonon-backend-gstreamer':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-gstreamer.git
+      url: git://anongit.kde.org/phonon-gstreamer.git
   '{Neon/stable}':
     upstream_scm:
       branch: 4.9
