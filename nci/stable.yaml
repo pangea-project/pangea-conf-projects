@@ -9,7 +9,8 @@ anongit.neon.kde.org:
     - kholidays
     - konsole
     - kteatime
-    - libkdcraw libkipi
+    - libkdcraw
+    - libkipi
     - print-manager
     - spectacle
     - filelight
@@ -95,6 +96,7 @@ anongit.neon.kde.org:
     - libkomparediff2
     - lokalize
     - okteta
+    - okular
     - poxml
     - umbrello
     - kdenetwork-filesharing
@@ -145,7 +147,30 @@ anongit.neon.kde.org:
     - akonadi-contacts
     - akonadi-mime
     - akonadi-notes
+    - akonadi-calendar-tools
+    - akonadiconsole
+    - akonadi-import-wizard
+    - akregator
+    - blogilo
+    - grantlee-editor
+    - kaddressbook
+    - kalarm
+    - kmail
+    - kmail-account-wizard
+    - knotes
+    - kontact
+    - korganizer
+    - mbox-importer
+    - pim-data-exporter
+    - pim-sieve-editor
+    - pim-storage-service-manager
+    - kgpg
     - ktp-common-internals
+    - kdialog
+    - keditbookmarks
+    - kfind
+    - konqueror
+    - kdegraphics-mobipocket
     - kwalletmanager
   - kde-extras:
     - '*'
