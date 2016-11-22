@@ -143,7 +143,6 @@ anongit.neon.kde.org:
     - pimcommon
     - syndication
     - kdepim-runtime
-    - kdepim
     - akonadi-contacts
     - akonadi-mime
     - akonadi-notes
