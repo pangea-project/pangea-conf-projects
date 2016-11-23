@@ -67,7 +67,7 @@
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
 
-'*anongit.neon*/neon-packaging/kde-development-environment':
+'*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
       type: git
