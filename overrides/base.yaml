@@ -71,7 +71,7 @@
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/scratch/apol/kde-development-environment.git
+      url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
 # Extras
 
