@@ -24,7 +24,6 @@ anongit.neon.kde.org:
     - ktimer
     - kcron
     - ksystemlog
-    - kuser
     - khelpcenter
     - analitza
     - artikulate
@@ -114,7 +113,6 @@ anongit.neon.kde.org:
     - akonadi-search
     - calendarsupport
     - eventviews
-    - gpgmepp
     - grantleetheme
     - incidenceeditor
     - kalarmcal
@@ -124,7 +122,6 @@ anongit.neon.kde.org:
     - kcontacts
     - kdepim-addons
     - kdepim-apps-libs
-    - kdgantt2
     - kidentitymanagement
     - kimap
     - kldap
