@@ -287,6 +287,11 @@
     upstream_scm:
       branch: 1.6
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/peruse':
+  '{Neon/stable}':
+    upstream_scm:
+      branch: master
+
 '*{anonscm.debian,anongit.neon}*/kde-extras/massif-visualizer':
   'Neon/stable':
     upstream_scm:
