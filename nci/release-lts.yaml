@@ -195,6 +195,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - qt5keychain:
         branch: Neon/release
+    - python-apt:
+        branch: master
 
 launchpad.net:
   - livecd-rootfs-neon
