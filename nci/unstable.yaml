@@ -209,6 +209,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - sip4:
         branch: master
+    - python-apt:
+        branch: master
 
   - qt:
     - '*':
