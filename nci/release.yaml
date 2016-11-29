@@ -150,6 +150,7 @@ anongit.neon.kde.org:
     - akonadi-notes
     - ktp-common-internals
     - kwalletmanager
+    - kdegraphics-mobipocket
   - kde-extras:
     - '*'
   - neon-packaging:
