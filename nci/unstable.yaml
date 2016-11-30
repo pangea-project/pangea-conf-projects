@@ -211,6 +211,8 @@ anongit.neon.kde.org:
         branch: master
     - python-apt:
         branch: master
+    - libinput:
+        branch: Neon/unstable
 
   - qt:
     - '*':
