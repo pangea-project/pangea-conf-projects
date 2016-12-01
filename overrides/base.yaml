@@ -617,11 +617,11 @@ https://github.com/shadeslayer/kde-l10n-common:
     upstream_scm:
       type: kde-l10n
 
-'https://github.com/*/skype':
+https://github.com/ds9-extras-packaging/skype:
   '*':
     upstream_scm:
 
-'https://github.com/*/steam':
+https://github.com/ds9-extras-packaging/steam:
   '*':
     upstream_scm:
       type: uscan
