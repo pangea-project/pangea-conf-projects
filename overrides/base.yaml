@@ -542,6 +542,12 @@ https://github.com/ds9-extras-packaging/steam:
     upstream_scm:
       type: uscan
 
+https://github.com/ds9-extras-packaging/samba-mounter:
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/samba-mounter.git
+      branch: master
+
 'https://github.com/ds9-extras-packaging/{plasma,kcm,ice}-*':
   '*':
     upstream_scm:
