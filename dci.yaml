@@ -62,6 +62,8 @@ anongit.neon.kde.org:
         branch: Neon/release
 git.debian.org:
   - python-modules/packages:
+    - sip4:
+        branch: master
     - pyqt5:
         branch: master
   - pkg-gnome/ubuntu:
