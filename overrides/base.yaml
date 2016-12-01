@@ -533,16 +533,6 @@ https://github.com/rpi2-stuff/mesa:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-'https://github.com/ds9-extras-packaging/skype':
-  '*':
-    upstream_scm:
-
-'https://github.com/ds9-extras-packaging/steam':
-  '*':
-    upstream_scm:
-      type: uscan
-
-
 'https://github.com/ds9-extras-packaging/{plasma,kcm,ice}-*':
   '*':
     upstream_scm:
@@ -626,3 +616,12 @@ https://github.com/shadeslayer/kde-l10n-common:
   '*':
     upstream_scm:
       type: kde-l10n
+
+'https://github.com/*/skype':
+  '*':
+    upstream_scm:
+
+'https://github.com/*/steam':
+  '*':
+    upstream_scm:
+      type: uscan
