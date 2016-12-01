@@ -1,7 +1,7 @@
 # UScan releases
 
 '*anongit.neon*':
-  'Neon/release':
+  '{Neon/release,Neon/release-lts}':
     upstream_scm:
       type: uscan
 
