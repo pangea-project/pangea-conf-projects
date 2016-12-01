@@ -61,6 +61,9 @@ anongit.neon.kde.org:
     - kdevplatform:
         branch: Neon/release
 git.debian.org:
+  - python-modules/packages:
+    - pyqt5:
+        branch: master
   - pkg-gnome/ubuntu:
     - gsettings-desktop-schemas:
         branch: master
