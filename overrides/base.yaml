@@ -578,6 +578,11 @@ https://github.com/ds9-extras-packaging/simplemenu:
     upstream_scm:
       url: git://anongit.kde.org/scratch/hein/simplemenu.git
 
+https://github.com/ds9-extras-packaging/kcm-kernel-config:
+  '*':
+    upstream_scm:
+      url: https://github.com/plasma-extensions/kernel-kcm
+
 https://github.com/plasmazilla/mozilla-kde-support:
   'master':
     upstream_scm:
