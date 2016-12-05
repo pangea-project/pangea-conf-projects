@@ -1,3 +1,7 @@
+anongit.neon.kde.org:
+  - kde-extras:
+    - kpmcore:
+        branch: Neon/release
 github.com:
   - netrunner-common:
     - '*':
@@ -7,9 +11,6 @@ github.com:
         branch: master
   - plasmazilla:
     - mozilla-kde-support:
-        branch: master
-  - netrunner-nextcloud:
-    - '*':
         branch: master
   - netrunner-artwork:
     - '{artwork,netrunner,plymouth}-*':
