@@ -38,6 +38,11 @@
 
 # Calligra
 
+'*{anonscm.debian,anongit.neon}*/calligra/calligra*':
+  '{kubuntu_stable,Neon/stable}':
+    upstream_scm:
+      branch: master
+
 '*{anonscm.debian,anongit.neon}*/calligra/{kdb,kreport,kproperty,kexi}*':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
