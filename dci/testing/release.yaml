@@ -1,3 +1,8 @@
+git.debian.org:
+  - kde-extras:
+    - kamoso:
+        branch: master
+
 github.com:
   - netrunner-common:
     - '*':
