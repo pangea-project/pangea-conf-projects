@@ -41,7 +41,5 @@ github.com:
     - '{netrunner,calamares,base}*':
         branch: 'master'
 launchpad.net:
-  - ~mozillateam/firefox/firefox.xenial
-  - ~mozillateam/thunderbird/thunderbird.xenial
-  - ubuntu/wily/hunspell-en-us
-  - pkgbinarymangler
+  - ~mozillateam/firefox/firefox.yakkety
+  - ~mozillateam/thunderbird/thunderbird.yakkety
