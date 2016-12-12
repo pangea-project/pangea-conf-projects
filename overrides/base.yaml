@@ -529,12 +529,12 @@ https://github.com/*/*calamares*:
       type: uscan
 
 https://github.com/netrunner-odroid/xserver-xorg-video-mali:
-  '{kubuntu_unstable,Neon/unstable}':
+  '*':
     upstream_scm:
       url: https://github.com/mdrjr/c1_mali_ddx
 
 https://github.com/netrunner-odroid/mali-x11:
-  '{kubuntu_unstable,Neon/unstable}':
+  '*':
     upstream_scm:
       url: https://github.com/mdrjr/c1_mali_libs
 
