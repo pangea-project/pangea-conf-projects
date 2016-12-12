@@ -1,4 +1,7 @@
 git.debian.org:
+  - pkg-kde/frameworks:
+    - purpose:
+        branch: master
   - pkg-kde/kde-extras:
     - kamoso:
         branch: master
