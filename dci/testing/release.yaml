@@ -1,4 +1,4 @@
-anongit.neon.kde.org:
+git.debian.org:
   - pkg-kde/kde-extras:
     - kamoso:
         branch: master
