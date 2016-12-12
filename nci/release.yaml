@@ -200,6 +200,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - python-apt:
         branch: master
+    - libinput:
+        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon
