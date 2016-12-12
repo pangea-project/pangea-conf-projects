@@ -1,5 +1,5 @@
-git.debian.org:
-  - kde-extras:
+anongit.neon.kde.org:
+  - pkg-kde/kde-extras:
     - kamoso:
         branch: master
 
