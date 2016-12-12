@@ -62,7 +62,7 @@
 
 # Neon-packaging
 
-'*{anonscm.debian,anongit.neon}*/neon-packaging/kphotoalbum':
+'*anongit.neon*/neon-packaging/kphotoalbum':
   'Neon/stable':
     upstream_scm:
       branch: 5.x
