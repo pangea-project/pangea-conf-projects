@@ -73,6 +73,12 @@
       type: git
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
+'*anongit.neon*/neon-packaging/plymouthkcm':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/scratch/mart/plymouthkcm.git
+
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
     upstream_scm:
