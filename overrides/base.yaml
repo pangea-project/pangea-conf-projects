@@ -641,6 +641,13 @@ https://github.com/netrunner-odroid/c1-bootini:
       type: git
       url: https://github.com/mdrjr/c1_bootini
 
+https://github.com/netrunner-odroid/c1-linux:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/hardkernel/linux
+      branch: odroidc-3.10.y
+
 https://github.com/shadeslayer/kde-l10n-common:
   '*':
     upstream_scm:
