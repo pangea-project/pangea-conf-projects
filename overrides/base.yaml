@@ -381,8 +381,7 @@
 '*anongit.neon*/forks/avogadro':
   'Neon/unstable':
     upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+files/avogadro_1.2.0.orig.tar.gz
+      type: uscan
 
 '*anonscm.debian*/krap/libindi':
   'master':
