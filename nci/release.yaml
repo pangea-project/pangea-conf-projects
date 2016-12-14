@@ -175,6 +175,7 @@ anongit.neon.kde.org:
     - svgpart
     - libkcddb
     - libkcompactdisc
+    - audiocd-kio
   - kde-extras:
     - '*'
   - neon-packaging:
