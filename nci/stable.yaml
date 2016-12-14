@@ -169,6 +169,7 @@ anongit.neon.kde.org:
     - kdegraphics-mobipocket
     - kwalletmanager
     - ktouch
+    - svgpart
   - kde-extras:
     - '*'
   - neon-packaging:
