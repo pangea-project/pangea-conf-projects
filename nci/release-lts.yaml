@@ -205,6 +205,8 @@ anongit.neon.kde.org:
         branch: master
     - drumstick:
         branch: master
+    - gpgme:
+        branch: Neon/release-lts
     - gcompris:
         branch: Neon/release
     - libarchive:
