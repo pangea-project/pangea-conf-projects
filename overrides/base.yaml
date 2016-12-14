@@ -256,6 +256,11 @@
       type: tarball
       url: http://weegie.edinburghlinux.co.uk/~tittiatcoke/prison-kf5_5.25~git20161107.orig.tar.gz
 
+'*{anonscm.debian,anongit.neon}*/frameworks/purpose':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 '*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
