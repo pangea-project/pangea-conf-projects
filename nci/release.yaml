@@ -171,6 +171,7 @@ anongit.neon.kde.org:
     - konqueror
     - kdegraphics-mobipocket
     - kwalletmanager
+    - ktouch
   - kde-extras:
     - '*'
   - neon-packaging:
