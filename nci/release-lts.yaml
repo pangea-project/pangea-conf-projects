@@ -24,7 +24,6 @@ anongit.neon.kde.org:
     - ktimer
     - kcron
     - ksystemlog
-    - kuser
     - khelpcenter
     - analitza
     - artikulate
@@ -98,6 +97,7 @@ anongit.neon.kde.org:
     - libkomparediff2
     - lokalize
     - okteta
+    - okular
     - poxml
     - umbrello
     - kdenetwork-filesharing
@@ -113,7 +113,6 @@ anongit.neon.kde.org:
     - akonadi-search
     - calendarsupport
     - eventviews
-    - gpgmepp
     - grantleetheme
     - incidenceeditor
     - kalarmcal
@@ -123,7 +122,6 @@ anongit.neon.kde.org:
     - kcontacts
     - kdepim-addons
     - kdepim-apps-libs
-    - kdgantt2
     - kidentitymanagement
     - kimap
     - kldap
@@ -144,11 +142,34 @@ anongit.neon.kde.org:
     - pimcommon
     - syndication
     - kdepim-runtime
-    - kdepim
     - akonadi-contacts
     - akonadi-mime
     - akonadi-notes
     - ktp-common-internals
+    - akonadi-calendar-tools
+    - akonadiconsole
+    - akonadi-import-wizard
+    - akregator
+    - blogilo
+    - grantlee-editor
+    - kaddressbook
+    - kalarm
+    - kmail
+    - kmail-account-wizard
+    - knotes
+    - kontact
+    - korganizer
+    - mbox-importer
+    - pim-data-exporter
+    - pim-sieve-editor
+    - pim-storage-service-manager
+    - kgpg
+    - ktp-common-internals
+    - kdialog
+    - keditbookmarks
+    - kfind
+    - konqueror
+    - kdegraphics-mobipocket
     - kwalletmanager
   - kde-extras:
     - '*'
