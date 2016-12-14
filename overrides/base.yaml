@@ -235,6 +235,9 @@
   master:
     upstream_scm:
       type: uscan
+  debian-unstable:
+    upstream_scm:
+      type: uscan
 
 '*anongit.neon*/forks/gpgme':
   'Neon/{stable,unstable}':
