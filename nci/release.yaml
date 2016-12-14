@@ -173,6 +173,7 @@ anongit.neon.kde.org:
     - kwalletmanager
     - ktouch
     - svgpart
+    - libkcddb
   - kde-extras:
     - '*'
   - neon-packaging:
