@@ -548,6 +548,11 @@ https://github.com/rpi2-stuff/mesa:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
+https://github.com/ds9-extras-packaging/krita:
+  '*':
+    upstream_scm:
+      type: uscan
+
 https://github.com/ds9-extras-packaging/skype:
   '*':
     upstream_scm:
