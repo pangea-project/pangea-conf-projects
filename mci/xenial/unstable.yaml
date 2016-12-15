@@ -172,6 +172,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - packagekit:
         branch: master
+    - libinput:
+        branch: Neon/release
 
 launchpad.net:
   - ubuntu-ui-toolkit
