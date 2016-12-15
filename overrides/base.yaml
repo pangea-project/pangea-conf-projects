@@ -458,10 +458,6 @@ https://github.com/plasma-phone-packaging/plasma-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: git://anongit.kde.org/plasma-settings
-https://github.com/plasma-phone-packaging/plasma-phone-dev-setup-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
-    upstream_scm:
-      url: git://anongit.kde.org/plasma-phone-dev-setup.git
 https://github.com/plasma-phone-packaging/plasma-maliit-plugins-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
