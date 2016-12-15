@@ -5,6 +5,9 @@ git.debian.org:
   - pkg-kde/kde-extras:
     - kamoso:
         branch: master
+  - pkg-virtualbox:
+    - virtualbox:
+        branch: master
 
 github.com:
   - netrunner-common:
@@ -35,7 +38,7 @@ github.com:
     - '*':
         branch: master
   - ds9-artwork:
-    - '*':
+    - '*':tt
         branch: master
   - ds9-debian-frameworks:
     - kcmutils:
