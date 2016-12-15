@@ -38,7 +38,7 @@ github.com:
     - '*':
         branch: master
   - ds9-artwork:
-    - '*':tt
+    - '*':
         branch: master
   - ds9-debian-frameworks:
     - kcmutils:
