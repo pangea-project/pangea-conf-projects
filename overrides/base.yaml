@@ -623,6 +623,11 @@ https://github.com/ds9-common/sortinglaunchers:
       type: git
       url: git://anongit.kde.org/scratch/hein/sortinglaunchers.git
 
+https://github.com/ds9-common/anttoolbar:
+  'master':
+    upstream_scm:
+      type: uscan
+
 'https://github.com/ds9-debian-packaging-backports/*':
   '*':
     upstream_scm:
