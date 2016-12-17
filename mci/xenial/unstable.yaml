@@ -173,11 +173,3 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: Neon/release
-
-launchpad.net:
-  - ubuntu-ui-toolkit
-  - ubuntu-filemanager-app
-  - music-app
-  - ubuntu-calculator-app
-  - ubuntu-docviewer-app
-  - ubuntu-weather-app
