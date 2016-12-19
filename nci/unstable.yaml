@@ -220,7 +220,7 @@ anongit.neon.kde.org:
     - libinput:
         branch: master
     - libxkbcommon:
-        branch: debian-unstable
+        branch: Neon/unstable
     - avogrado:
         branch: Neon/unstable
   - qt:
