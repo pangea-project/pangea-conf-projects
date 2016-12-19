@@ -222,7 +222,7 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/unstable
     - avogrado:
-        branch: Neon/unstable
+        branch: master
   - qt:
     - '*':
         branch: Neon/release
