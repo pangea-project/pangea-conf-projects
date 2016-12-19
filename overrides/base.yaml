@@ -67,6 +67,11 @@
     upstream_scm:
       branch: 5.x
 
+'*anongit.neon*/neon-packaging/kirigami2':
+  'Neon/unstable':
+    upstream_scm:
+      branch: mart/Kirigami2
+
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
