@@ -1,7 +1,7 @@
 anongit.neon.kde.org:
   - neon-packaging:
     - plymouthkcm:
-        branch: master
+        branch: Neon/unstable
 
 git.debian.org:
   - pkg-kde/frameworks:
