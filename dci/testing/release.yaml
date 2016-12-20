@@ -1,3 +1,8 @@
+anongit.neon.kde.org:
+  - neon-packaging:
+    - plymouthkcm:
+        branch: master
+
 git.debian.org:
   - pkg-kde/frameworks:
     - purpose:
