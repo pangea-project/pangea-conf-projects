@@ -84,7 +84,7 @@
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/scratch/mart/plymouthkcm.git
+      url: git://anongit.kde.org/plymouthkcm.git
 
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
