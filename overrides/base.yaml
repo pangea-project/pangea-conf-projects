@@ -348,10 +348,7 @@
       branch: libkolabxml-1.1
 
 '*anongit.neon*/forks/libarchive':
-  'Neon/*':
-    upstream_scm:
-      type: uscan
-  'Neon/unstable':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
 
