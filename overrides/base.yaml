@@ -351,6 +351,9 @@
   'Neon/*':
     upstream_scm:
       type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
 
 '*anongit.neon*/forks/gcompris':
   'Neon/stable':
