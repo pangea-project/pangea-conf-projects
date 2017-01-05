@@ -68,11 +68,11 @@
       branch: 5.x
 
 '*anongit.neon*/neon-packaging/kirigami2':
-  'Neon/unstable':
+  '{Neon/stable,Neon/unstable}':
     upstream_scm:
       type: git
       url: git://anongit.kde.org/kirigami.git
-      branch: mart/Kirigami2
+      branch: master
 
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
