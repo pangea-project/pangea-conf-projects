@@ -110,12 +110,12 @@
 '*anongit.neon*/kde-std/kdevelop':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevplatform':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevelop-pg-qt':
   '{Neon/stable,Neon/release}':
@@ -128,7 +128,7 @@
       url: git://anongit.kde.org/kdev-python.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevelop-php':
   '*':
@@ -136,7 +136,7 @@
       url: git://anongit.kde.org/kdev-php.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/sddm':
   '{Neon/mobile}':
