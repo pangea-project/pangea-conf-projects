@@ -218,6 +218,8 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: master
+    - libxkbcommon:
+        branch: Neon/stable
 
 launchpad.net:
   - livecd-rootfs-neon
