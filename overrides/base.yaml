@@ -68,17 +68,23 @@
       branch: 5.x
 
 '*anongit.neon*/neon-packaging/kirigami2':
-  '{Neon/stable,Neon/unstable}':
+  'Neon/unstable':
     upstream_scm:
       type: git
       url: git://anongit.kde.org/kirigami.git
-      branch: master
+      branch: mart/Kirigami2
 
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
       type: git
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
+
+'*anongit.neon*/neon-packaging/plymouthkcm':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/scratch/mart/plymouthkcm.git
 
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
@@ -110,12 +116,12 @@
 '*anongit.neon*/kde-std/kdevelop':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.1
+      branch: 5.0
 
 '*anongit.neon*/kde-std/kdevplatform':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.1
+      branch: 5.0
 
 '*anongit.neon*/kde-std/kdevelop-pg-qt':
   '{Neon/stable,Neon/release}':
@@ -128,7 +134,7 @@
       url: git://anongit.kde.org/kdev-python.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.1
+      branch: 5.0
 
 '*anongit.neon*/kde-std/kdevelop-php':
   '*':
@@ -136,7 +142,7 @@
       url: git://anongit.kde.org/kdev-php.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.1
+      branch: 5.0
 
 '*anongit.neon*/kde-std/sddm':
   '{Neon/mobile}':
@@ -251,11 +257,6 @@
       type: tarball
       url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.1.0/drumstick-1.1.0.tar.bz2
 
-'*anongit.neon*/forks/libxkbcommon':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
     upstream_scm:
@@ -347,7 +348,7 @@
       branch: libkolabxml-1.1
 
 '*anongit.neon*/forks/libarchive':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+  'Neon/*':
     upstream_scm:
       type: uscan
 
@@ -617,6 +618,12 @@ https://github.com/plasmazilla/mozilla-kde-support:
   'master':
     upstream_scm:
       url: https://github.com/openSUSE/kmozillahelper
+
+https://github.com/plasmazilla/firefox:
+  'release/kde':
+    upstream_scm:
+      type: tarball
+      url: http://deb.debian.org/debian/pool/main/f/firefox/firefox_50.1.0.orig.tar.xz
 
 'https://github.com/ds9-debian-frameworks/*':
   'Neon/release':
