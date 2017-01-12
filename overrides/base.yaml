@@ -622,7 +622,7 @@ https://github.com/plasmazilla/mozilla-kde-support:
 https://github.com/plasmazilla/firefox:
   'release/kde':
     upstream_scm:
-      type: tarball
+      type: firefox
       url: http://deb.debian.org/debian/pool/main/f/firefox/firefox_50.1.0.orig.tar.xz
 
 'https://github.com/ds9-debian-frameworks/*':
