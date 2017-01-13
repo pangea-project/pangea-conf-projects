@@ -559,6 +559,12 @@ https://github.com/rpi2-stuff/mesa:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
+https://github.com/ds9-extras-packaging/groupingplasmoid:
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
+      type: git
+
 https://github.com/ds9-extras-packaging/krita:
   '*':
     upstream_scm:
