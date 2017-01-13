@@ -24,7 +24,7 @@
 '*{anonscm.debian,anongit.neon}*/plasma/*':
   '{kubuntu_stable,Neon/stable}':
     upstream_scm:
-      branch: Plasma/5.8
+      branch: Plasma/5.9
 
 '*{anonscm.debian,anongit.neon}*/plasma/plasma-discover':
   '*':
