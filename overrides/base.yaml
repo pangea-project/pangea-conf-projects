@@ -72,7 +72,7 @@
     upstream_scm:
       type: git
       url: git://anongit.kde.org/kirigami.git
-      branch: mart/Kirigami2
+      branch: master
 
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
