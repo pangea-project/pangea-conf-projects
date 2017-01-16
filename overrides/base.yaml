@@ -74,10 +74,18 @@
       url: git://anongit.kde.org/kirigami.git
       branch: master
 
+'*anongit.neon*/neon-packaging/calamares':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/calamares/calamares.git
+      branch: master
+
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
       type: git
+      branch: 2.4.x-stable
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
 '*anongit.neon*/neon-packaging/plymouthkcm':
