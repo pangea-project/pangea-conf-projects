@@ -24,8 +24,6 @@ github.com:
   - plasmazilla:
     - mozilla-kde-support:
         branch: master
-    - firefox:
-        branch: release/kde
   - netrunner-nextcloud:
     - '*':
         branch: master
@@ -54,4 +52,5 @@ github.com:
     - '{netrunner,calamares,base}*':
         branch: 'master'
 launchpad.net:
+  - ~mozillateam/firefox/firefox.yakkety
   - ~mozillateam/thunderbird/thunderbird.yakkety

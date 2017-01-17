@@ -68,7 +68,7 @@
       branch: 5.x
 
 '*anongit.neon*/neon-packaging/kirigami2':
-  'Neon/unstable':
+  '{Neon/stable,Neon/unstable}':
     upstream_scm:
       type: git
       url: git://anongit.kde.org/kirigami.git
@@ -87,12 +87,6 @@
       type: git
       branch: 2.4.x-stable
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
-
-'*anongit.neon*/neon-packaging/plymouthkcm':
-  '*':
-    upstream_scm:
-      type: git
-      url: git://anongit.kde.org/scratch/mart/plymouthkcm.git
 
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
@@ -124,12 +118,12 @@
 '*anongit.neon*/kde-std/kdevelop':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevplatform':
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevelop-pg-qt':
   '{Neon/stable,Neon/release}':
@@ -142,7 +136,7 @@
       url: git://anongit.kde.org/kdev-python.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevelop-php':
   '*':
@@ -150,7 +144,7 @@
       url: git://anongit.kde.org/kdev-php.git
   '{Neon/stable,Neon/release}':
     upstream_scm:
-      branch: 5.0
+      branch: 5.1
 
 '*anongit.neon*/kde-std/sddm':
   '{Neon/mobile}':
@@ -361,7 +355,7 @@
       branch: libkolabxml-1.1
 
 '*anongit.neon*/forks/libarchive':
-  'Neon/*':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
 
