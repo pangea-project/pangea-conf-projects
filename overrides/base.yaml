@@ -265,6 +265,11 @@
       type: tarball
       url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.1.0/drumstick-1.1.0.tar.bz2
 
+'*anongit.neon*/forks/libxkbcommon':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
     upstream_scm:
