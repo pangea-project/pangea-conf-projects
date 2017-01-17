@@ -173,3 +173,5 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: Neon/release
+    - libxkbcommon:
+        branch: Neon/unstable
