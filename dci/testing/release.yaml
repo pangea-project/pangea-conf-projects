@@ -55,3 +55,8 @@ github.com:
         branch: 'master'
 launchpad.net:
   - ~mozillateam/thunderbird/thunderbird.yakkety
+
+gitlab.com:
+  - highvoltage:
+    - kpmcore-packaging:
+        branch: 'master'

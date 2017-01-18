@@ -698,3 +698,8 @@ https://github.com/shadeslayer/kde-l10n-common:
     upstream_scm:
       type: tarball
       url: 'http://deb.debian.org/debian/pool/contrib/v/virtualbox/virtualbox_5.1.10-dfsg.orig.tar.xz'
+
+https://gitlab.com/highvoltage/kpmcore-packaging:
+  '*':
+    upstream_scm:
+      type: uscan
