@@ -53,10 +53,9 @@ github.com:
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
         branch: 'master'
+  - ds9-debian-packaging-backports:
+    - 'kpmcore':
+        branch: 'master'
+
 launchpad.net:
   - ~mozillateam/thunderbird/thunderbird.yakkety
-
-gitlab.com:
-  - highvoltage:
-    - kpmcore-packaging:
-        branch: 'master'
