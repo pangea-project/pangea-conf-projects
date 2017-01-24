@@ -176,6 +176,7 @@ anongit.neon.kde.org:
     - libkcompactdisc
     - audiocd-kio
     - kwave
+    - kdav
   - kde-extras:
     - '*'
   - neon-packaging:
@@ -223,6 +224,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - avogrado:
         branch: master
+    - libarchive:
+        branch: Neon/unstable
   - qt:
     - '*':
         branch: Neon/release

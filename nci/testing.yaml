@@ -1,0 +1,18 @@
+anongit.neon.kde.org:
+  - qt:
+    - '*'
+  - frameworks:
+    - plasma-framework:
+        branch: Neon/unstable
+  - forks:
+    - pyqt5:
+        branch: master
+    - sip4:
+        branch: master
+  - plasma:
+    - breeze:
+        branch: Neon/unstable
+    - kwin:
+        branch: Neon/unstable
+    - kwayland:
+        branch: Neon/unstable
