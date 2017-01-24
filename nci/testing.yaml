@@ -3,7 +3,7 @@ anongit.neon.kde.org:
     - '*'
   - frameworks:
     - plasma-framework:
-      - branch: Neon/unstable
+        branch: Neon/unstable
   - forks:
     - pyqt5:
         branch: master
@@ -11,8 +11,8 @@ anongit.neon.kde.org:
         branch: master
   - plasma:
     - breeze:
-      - branch: Neon/unstable
+        branch: Neon/unstable
     - kwin:
-      - branch: Neon/unstable
+        branch: Neon/unstable
     - kwayland:
-      - branch: Neon/unstable
+        branch: Neon/unstable
