@@ -621,6 +621,7 @@ https://github.com/ds9-extras-packaging/simplemenu:
   '*':
     upstream_scm:
       url: git://anongit.kde.org/scratch/hein/simplemenu.git
+      branch: 5.8
 
 https://github.com/ds9-extras-packaging/kcm-kernel-config:
   '*':
