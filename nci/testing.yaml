@@ -1,7 +1,49 @@
 anongit.neon.kde.org:
   - qt:
-    - '*':
-        branch: Neon/testing
+    - qt5webkit:
+      - branch: Neon/testing
+    - qtbase:
+      - branch: Neon/testing
+    - qtchooser:
+      - branch: Neon/testing
+    - qtdeclarative:
+      - branch: Neon/testing
+    - qtgraphicaleffects:
+      - branch: Neon/testing
+    - qtlocation:
+      - branch: Neon/testing
+    - qtmultimedia:
+      - branch: Neon/testing
+    - qtquickcontrols2:
+      - branch: Neon/testing
+    - qtquickcontrols:
+      - branch: Neon/testing
+    - qtscript:
+      - branch: Neon/testing
+    - qtsensors:
+      - branch: Neon/testing
+    - qtserialport:
+      - branch: Neon/testing
+    - qtsvg:
+      - branch: Neon/testing
+    - qttools:
+      - branch: Neon/testing
+    - qttranslations:
+      - branch: Neon/testing
+    - qtvirtualkeyboard:
+      - branch: Neon/testing
+    - qtwayland:
+      - branch: Neon/testing
+    - qtwebchannel:
+      - branch: Neon/testing
+    - qtwebengine:
+      - branch: Neon/testing
+    - qtwebsockets:
+      - branch: Neon/testing
+    - qtx11extras:
+      - branch: Neon/testing
+    - qtxmlpatterns:
+      - branch: Neon/testing
   - frameworks:
     - plasma-framework:
       - branch: Neon/unstable
