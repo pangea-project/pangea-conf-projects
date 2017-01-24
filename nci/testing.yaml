@@ -1,0 +1,4 @@
+anongit.neon.kde.org:
+  - qt:
+    - '*':
+        branch: Neon/testing
