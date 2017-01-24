@@ -207,6 +207,9 @@
   Neon/release:
     upstream_scm:
       type: uscan
+  Neon/testing:
+    upstream_scm:
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/qt/qtchooser':
   Neon/release:
