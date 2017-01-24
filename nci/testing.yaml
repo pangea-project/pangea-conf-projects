@@ -2,3 +2,14 @@ anongit.neon.kde.org:
   - qt:
     - '*':
         branch: Neon/testing
+  - frameworks:
+    - plasma-framework
+  - forks:
+    - pyqt5:
+        branch: master
+    - sip4:
+        branch: master
+  - plasma:
+    - breeze
+    - kwin
+    - kwayland
