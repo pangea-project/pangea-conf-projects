@@ -4,6 +4,7 @@ anongit.neon.kde.org:
         branch: Neon/testing
   - frameworks:
     - plasma-framework
+      - branch: Neon/unstable
   - forks:
     - pyqt5:
         branch: master
@@ -11,5 +12,8 @@ anongit.neon.kde.org:
         branch: master
   - plasma:
     - breeze
+      - branch: Neon/unstable
     - kwin
+      - branch: Neon/unstable
     - kwayland
+      - branch: Neon/unstable
