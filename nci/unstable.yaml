@@ -226,6 +226,8 @@ anongit.neon.kde.org:
         branch: master
     - libarchive:
         branch: Neon/unstable
+    - k3b:
+        branch: Neon/unstable
   - qt:
     - '*':
         branch: Neon/release
