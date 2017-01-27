@@ -67,13 +67,6 @@
     upstream_scm:
       branch: 5.x
 
-'*anongit.neon*/neon-packaging/kirigami2':
-  '{Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: git
-      url: git://anongit.kde.org/kirigami.git
-      branch: master
-
 '*anongit.neon*/neon-packaging/calamares':
   'Neon/unstable':
     upstream_scm:
@@ -330,6 +323,13 @@
   '{kubuntu_stable,Neon/stable,Neon/unstable}':
     upstream_scm:
       branch: Kirigami/1.1
+
+'*anongit.neon*/kde-extras/kirigami2':
+  '{Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/kirigami.git
+      branch: master
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/peruse':
   '{Neon/stable}':
