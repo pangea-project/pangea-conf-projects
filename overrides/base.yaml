@@ -691,6 +691,14 @@ https://github.com/netrunner-odroid/c1-linux:
       url: https://github.com/hardkernel/linux
       branch: odroidc-3.10.y
 
+https://github.com/netrunner-odroid/c2-linux:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/hardkernel/linux
+      branch: odroidc2-3.14.y
+
+
 https://github.com/shadeslayer/kde-l10n-common:
   '*':
     upstream_scm:
