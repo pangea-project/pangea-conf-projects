@@ -33,7 +33,7 @@ github.com:
     - '{artwork,netrunner,plymouth}-*':
         branch: master
   - netrunner-odroid:
-    - '{c1,odroid,xserver,mali}-*':
+    - '{c1,c2,odroid,xserver,mali}-*':
         branch: master
   - ds9-extras-packaging:
     - '*':
