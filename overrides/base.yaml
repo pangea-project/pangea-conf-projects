@@ -566,6 +566,11 @@ https://github.com/netrunner-odroid/c2-mali-x11:
     upstream_scm:
       url: https://github.com/mdrjr/c2_mali
 
+https://github.com/netrunner-odroid/xserver-xorg-video-mali-450:
+  '*':
+    upstream_scm:
+      url: https://github.com/mdrjr/c2_mali_ddx
+
 https://github.com/rpi2-stuff/mesa:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
