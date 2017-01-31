@@ -682,11 +682,11 @@ https://github.com/ds9-common/anttoolbar:
       type: tarball
       url: http://xkbcommon.org/download/libxkbcommon-0.6.1.tar.xz
 
-https://github.com/netrunner-odroid/c1-uboot:
+https://github.com/netrunner-odroid/*-uboot:
   '*':
     upstream_scm:
       type: git
-      url: https://github.com/mdrjr/c1_uboot_binaries
+      url: https://github.com/mdrjr/<%= name %>
 
 https://github.com/netrunner-odroid/c1-bootini:
   '*':
