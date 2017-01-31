@@ -692,7 +692,7 @@ https://github.com/netrunner-odroid/c2-uboot:
   '*':
     upstream_scm:
       type: git
-      url: https://github.com/mdrjr/c2s_uboot_binaries
+      url: https://github.com/mdrjr/c2_uboot_binaries
 
 https://github.com/netrunner-odroid/c1-bootini:
   '*':
