@@ -196,7 +196,7 @@ anongit.neon.kde.org:
     - appstream:
         branch: Neon/release
     - base-files:
-        branch: Neon/release
+        branch: Neon/release-lts
     - libkolab:
         branch: Neon/release
     - libkolabxml:
