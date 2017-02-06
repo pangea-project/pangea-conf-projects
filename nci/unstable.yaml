@@ -228,6 +228,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - k3b:
         branch: Neon/unstable
+    - libalkimia:
+        branch: Neon/unstable
   - qt:
     - '*':
         branch: Neon/release

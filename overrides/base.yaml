@@ -86,6 +86,11 @@
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
 
+'*anongit.neon*/neon-packaging/vc':
+  '*':
+    upstream_scm:
+      type: uscan
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
