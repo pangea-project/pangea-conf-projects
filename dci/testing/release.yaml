@@ -1,7 +1,7 @@
 anongit.neon.kde.org:
   - frameworks:
     - '*':
-      branch: Neon/release
+        branch: Neon/release
   - neon-packaging:
     - plymouthkcm:
         branch: Neon/unstable
