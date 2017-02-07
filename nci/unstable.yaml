@@ -231,7 +231,7 @@ anongit.neon.kde.org:
     - libalkimia:
         branch: Neon/unstable
     - fcitx-qt5:
-        branch: Neon/release
+        branch: Neon/unstable
 
   - qt:
     - '*':
