@@ -216,7 +216,7 @@
   Neon/release:
     upstream_scm:
       type: tarball
-      url: http://http.debian.net/debian/pool/main/q/qtchooser/qtchooser_58-gfab25f1.orig.tar.xz
+      url: http://http.debian.net/debian/pool/main/q/qtchooser/qtchooser_63-g13a3d08.orig.tar.xz
 
 '*{anonscm.debian,anongit.neon}*/qt/qtpim':
   Neon/mobile:
