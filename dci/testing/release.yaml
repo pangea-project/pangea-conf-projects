@@ -5,6 +5,11 @@ anongit.neon.kde.org:
   - plasma:
     - '*':
         branch: Neon/release
+  - kde-extras:
+    - 'kirigami':
+        branch: Neon/release
+    - 'kirigami2':
+        branch: Neon/release
   - neon-packaging:
     - plymouthkcm:
         branch: Neon/unstable
