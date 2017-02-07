@@ -67,9 +67,6 @@ github.com:
   - ds9-debian-packaging-backports:
     - 'kpmcore':
         branch: 'master'
-  - plasma-phone-packaging:
-    - 'libhybris':
-        branch: 'kubuntu_unstable'
 
 launchpad.net:
   - ~mozillateam/thunderbird/thunderbird.yakkety
