@@ -269,9 +269,9 @@
       type: uscan
 
 '*anongit.neon*/forks/libalkimia':
-  'unstable':
+  'Neon/unstable':
     upstream_scm:
-      url: http://anongit.kde.org/alkimia.git
+      url: git://anongit.kde.org/alkimia.git
 
 '*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
