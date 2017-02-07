@@ -592,6 +592,12 @@ https://github.com/rpi2-stuff/mesa:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
+'https://github.com/ds9-extras-packaging/mint-common':
+  '*':
+    upstream_scm:
+      url: https://github.com/linuxmint/mint-common
+      type: git
+
 https://github.com/ds9-extras-packaging/groupingplasmoid:
   '*':
     upstream_scm:
