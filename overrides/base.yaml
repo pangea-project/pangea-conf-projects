@@ -533,7 +533,7 @@ https://github.com/plasma-phone-packaging/inputcontext-gtk:
       branch: tags/0.99.0
 
 https://github.com/plasma-phone-packaging/libhybris:
-  '{kubuntu_unstable,Neon/unstable}':
+  '*':
     upstream_scm:
       url: https://github.com/libhybris/libhybris.git
 
