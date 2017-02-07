@@ -2,6 +2,14 @@ anongit.neon.kde.org:
   - frameworks:
     - '*':
         branch: Neon/release
+  - plasma:
+    - '*':
+        branch: Neon/release
+  - kde-extras:
+    - 'kirigami':
+        branch: Neon/release
+    - 'kirigami2':
+        branch: Neon/release
   - neon-packaging:
     - plymouthkcm:
         branch: Neon/unstable

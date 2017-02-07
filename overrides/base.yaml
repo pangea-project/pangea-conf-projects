@@ -533,7 +533,7 @@ https://github.com/plasma-phone-packaging/inputcontext-gtk:
       branch: tags/0.99.0
 
 https://github.com/plasma-phone-packaging/libhybris:
-  '{kubuntu_unstable,Neon/unstable}':
+  '*':
     upstream_scm:
       url: https://github.com/libhybris/libhybris.git
 
@@ -591,6 +591,12 @@ https://github.com/rpi2-stuff/mesa:
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
+
+'https://github.com/ds9-extras-packaging/mint-common':
+  '*':
+    upstream_scm:
+      url: https://github.com/linuxmint/mint-common
+      type: git
 
 https://github.com/ds9-extras-packaging/groupingplasmoid:
   '*':
