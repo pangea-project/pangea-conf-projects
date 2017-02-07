@@ -69,7 +69,7 @@ github.com:
         branch: 'master'
   - plasma-phone-packaging:
     - 'libhybris':
-        branch: 'master'
+        branch: 'kubuntu_unstable'
 
 launchpad.net:
   - ~mozillateam/thunderbird/thunderbird.yakkety
