@@ -222,6 +222,8 @@ anongit.neon.kde.org:
         branch: Neon/stable
     - libarchive:
         branch: Neon/stable
+    - fcitx-qt5:
+        branch: Neon/stable
 
 launchpad.net:
   - livecd-rootfs-neon

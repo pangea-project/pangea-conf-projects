@@ -213,8 +213,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - gcompris:
         branch: Neon/release
-    - libarchive:
-        branch: Neon/release
     - ldc:
         branch: Neon/release
     - lmdb:
@@ -234,6 +232,8 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/release
     - libarchive:
+        branch: Neon/release
+    - fcitx-qt5:
         branch: Neon/release
 
 launchpad.net:
