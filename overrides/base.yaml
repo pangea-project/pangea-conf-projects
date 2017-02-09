@@ -386,6 +386,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/kde-extras/gammaray':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/gcompris':
   'Neon/stable':
     upstream_scm:
