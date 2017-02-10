@@ -230,6 +230,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - libalkimia:
         branch: Neon/unstable
+    - libgwenhywfar:
+        branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
 

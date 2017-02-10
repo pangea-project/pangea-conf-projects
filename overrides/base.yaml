@@ -278,6 +278,12 @@
     upstream_scm:
       url: git://anongit.kde.org/alkimia.git
 
+'*anongit.neon*/forks/libgwenhywfar':
+  'Neon/unstable':
+    upstream_scm:
+      type: tarball
+      url: https://launchpad.net/ubuntu/+archive/primary/+files/libgwenhywfar_4.15.3.orig.tar.gz
+
 '*{anonscm.debian,anongit.neon}*/frameworks/prison':
   'Neon/{release}':
     upstream_scm:
@@ -376,6 +382,11 @@
       branch: libkolabxml-1.1
 
 '*anongit.neon*/forks/libarchive':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/kde-extras/gammaray':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
