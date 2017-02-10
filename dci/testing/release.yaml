@@ -10,6 +10,7 @@ anongit.neon.kde.org:
         branch: Neon/release
   - kde-extras:
     - 'kirigami*':
+        branch: Neon/release
   - neon-packaging:
     - plymouthkcm:
         branch: Neon/unstable
