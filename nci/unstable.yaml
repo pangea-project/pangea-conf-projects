@@ -232,6 +232,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - libgwenhywfar:
         branch: Neon/unstable
+    - libaqbanking:
+        branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
 
