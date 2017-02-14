@@ -17,9 +17,6 @@ anongit.neon.kde.org:
   - applications:
     - '*':
         branch: Neon/release
-  - forks:
-    - gpgme:
-        branch: Neon/release
 
 git.debian.org:
   - pkg-kde/frameworks:
