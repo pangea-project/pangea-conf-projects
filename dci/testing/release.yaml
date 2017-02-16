@@ -19,14 +19,14 @@ anongit.neon.kde.org:
         branch: Neon/release
 
 git.debian.org:
-  - pkg-kde/frameworks:
-    - purpose:
-        branch: master
   - pkg-kde/kde-extras:
     - kamoso:
         branch: master
   - pkg-virtualbox:
     - virtualbox:
+        branch: master
+  - pkg-kde/kde-extras/kde-telepathy:
+    - telepathy-qt4:
         branch: master
 
 github.com:
