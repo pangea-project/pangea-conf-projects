@@ -12,7 +12,7 @@ anongit.neon.kde.org:
     - 'kirigami*':
         branch: Neon/release
   - neon-packaging:
-    - plymouthkcm:
+    - plymouth-kcm:
         branch: Neon/unstable
   - applications:
     - '*':
