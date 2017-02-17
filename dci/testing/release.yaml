@@ -8,12 +8,12 @@ anongit.neon.kde.org:
   - plasma:
     - '*':
         branch: Neon/release
+    - plymouth-kcm:
+        branch: Neon/unstable
+
   - kde-extras:
     - 'kirigami*':
         branch: Neon/release
-  - neon-packaging:
-    - plymouth-kcm:
-        branch: Neon/unstable
   - applications:
     - '*':
         branch: Neon/release
