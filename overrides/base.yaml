@@ -635,7 +635,7 @@ https://github.com/ds9-extras-packaging/skype:
   '*':
     upstream_scm:
 
-https://github.com/ds9-extras-packaging/plasma-widgets-volumewin7mixer:
+https://github.com/ds9-extras-packaging/plasma-widget-volumewin7mixer:
   '*':
     upstream_scm:
       type: uscan
