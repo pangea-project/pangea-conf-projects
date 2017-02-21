@@ -50,6 +50,9 @@ github.com:
   - netrunner-odroid:
     - '{c1,c2,odroid,xserver,mali}-*':
         branch: master
+  - netrunner-pine64:
+    - '*':
+        branch: master
   - ds9-extras-packaging:
     - '*':
         branch: master
