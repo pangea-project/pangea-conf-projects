@@ -101,7 +101,7 @@
     upstream_scm:
       branch: 1.x
 
-'*{anonscm.debian,anongit.neon}*/*/libkgapi':
+'*{anonscm.debian,anongit.neon}*/kde-extras/libkgapi':
   '{kubuntu_stable,Neon/stable,Neon/release}':
     upstream_scm:
       branch: LibKGAPI/5.3
