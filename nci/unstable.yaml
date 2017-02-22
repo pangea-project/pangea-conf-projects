@@ -236,6 +236,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
+    - apt:
+        branch: master
 
   - qt:
     - '*':
