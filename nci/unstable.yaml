@@ -177,6 +177,7 @@ anongit.neon.kde.org:
     - audiocd-kio
     - kwave
     - kdav
+    - libkgapi
   - kde-extras:
     - '*'
   - neon-packaging:
