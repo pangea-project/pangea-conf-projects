@@ -237,6 +237,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - apt:
         branch: master
+    - kdesvn:
+        branch: Neon/release-lts
 
 launchpad.net:
   - livecd-rootfs-neon

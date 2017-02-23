@@ -239,6 +239,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - apt:
         branch: master
+    - kdesvn:
+        branch: Neon/unstable
 
   - qt:
     - '*':
