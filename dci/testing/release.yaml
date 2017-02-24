@@ -28,6 +28,9 @@ git.debian.org:
   - pkg-kde/kde-extras/kde-telepathy:
     - telepathy-qt4:
         branch: master
+  - pkg-kde/qt:
+    - qtwebengine:
+        branch: master
 
 github.com:
   - netrunner-common:
