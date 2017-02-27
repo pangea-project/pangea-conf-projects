@@ -228,6 +228,7 @@ anongit.neon.kde.org:
         branch: master
     - kdesvn:
         branch: Neon/stable
+    - rsibreak
 
 launchpad.net:
   - livecd-rootfs-neon
