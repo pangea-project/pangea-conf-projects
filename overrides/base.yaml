@@ -775,3 +775,10 @@ https://github.com/netrunner-pine64/pine64-linux:
       type: git
       url: https://github.com/longsleep/linux-pine64
       branch: pine64-hacks-1.2-drm
+
+https://github.com/netrunner-pine64/xf86-video-armsoc:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/shadeslayer/xf86-video-armsoc
+      branch: master
