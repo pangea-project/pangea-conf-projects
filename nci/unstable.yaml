@@ -178,6 +178,7 @@ anongit.neon.kde.org:
     - kwave
     - kdav
     - libkgapi
+    - kalzium
   - kde-extras:
     - '*'
   - neon-packaging:

@@ -177,6 +177,7 @@ anongit.neon.kde.org:
     - libkcompactdisc
     - audiocd-kio
     - kwave
+    - kalzium
   - kde-extras:
     - '*'
   - neon-packaging:
