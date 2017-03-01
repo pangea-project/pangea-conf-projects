@@ -238,7 +238,7 @@ launchpad.net:
 git.debian.org:
   - pkg-kde/krap:
     - libindi:
-        branch: master
+        branch: Neon/stable
     - grantlee:
         branch: master
     - libnova:

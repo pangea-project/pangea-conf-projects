@@ -460,10 +460,9 @@
       type: uscan
 
 '*anonscm.debian*/krap/libindi':
-  'master':
+  '{Neon/release-lts,release,stable,unstable}':
     upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/libi/libindi/libindi_1.2.0.orig.tar.gz
+      type: uscan
 
 '*anonscm.debian*/krap/libnova':
   'master':
