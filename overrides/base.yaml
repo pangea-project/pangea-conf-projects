@@ -730,6 +730,13 @@ https://github.com/ds9-common/anttoolbar:
     upstream_scm:
       type: uscan
 
+https://github.com/ds9-debian-packaging-backports/libwlocate:
+  '*':
+    upstream_scm:
+      type: tarball
+      url: 'https://launchpad.net/ubuntu/+archive/primary/+files/libwlocate_0.0git20130108.orig.tar.gz'
+
+
 '*anonscm.debian.org/pkg-xorg/lib/libxkbcommon':
   '*':
     upstream_scm:
