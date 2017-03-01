@@ -2,6 +2,8 @@ anongit.neon.kde.org:
   - qt:
     - qtvirtualkeyboard:
         branch: Neon/release
+    - qtserialport:
+        branch: Neon/release
   - frameworks:
     - '*':
         branch: Neon/release
