@@ -201,8 +201,7 @@ anongit.neon.kde.org:
         branch: Neon/stable
     - live-build:
         branch: master
-    - packagekit:
-        branch: master
+    - packagekit
     - aptdaemon:
         branch: master
     - drumstick:
