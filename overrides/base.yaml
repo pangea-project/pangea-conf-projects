@@ -292,12 +292,7 @@
 
 
 '*anongit.neon*/forks/packagekit':
-  '{Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: git
-      url: https://github.com/hughsie/PackageKit.git
-      branch: master
-  '{Neon/release,Neon/release-lts}':
+  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
       type: uscan
 
