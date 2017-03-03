@@ -242,6 +242,13 @@ anongit.neon.kde.org:
     - kdesvn:
         branch: Neon/unstable
     - rsibreak
+  - krap:
+    - libindi:
+        branch: Neon/release-lts
+    - grantlee:
+        branch: master
+    - libnova:
+        branch: master
 
   - qt:
     - '*':
@@ -253,12 +260,3 @@ anongit.neon.kde.org:
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
-
-git.debian.org:
-  - pkg-kde/krap:
-    - libindi:
-        branch: Neon/unstable
-    - grantlee:
-        branch: master
-    - libnova:
-        branch: master
