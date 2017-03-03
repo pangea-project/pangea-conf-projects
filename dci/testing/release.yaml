@@ -1,25 +1,3 @@
-anongit.neon.kde.org:
-  - qt:
-    - qtvirtualkeyboard:
-        branch: Neon/release
-    - qtserialport:
-        branch: Neon/release
-  - frameworks:
-    - '*':
-        branch: Neon/release
-  - plasma:
-    - '*':
-        branch: Neon/release
-    - plymouth-kcm:
-        branch: Neon/unstable
-
-  - kde-extras:
-    - 'kirigami*':
-        branch: Neon/release
-  - applications:
-    - '*':
-        branch: Neon/release
-
 git.debian.org:
   - pkg-kde/kde-extras:
     - kamoso:
@@ -35,6 +13,27 @@ git.debian.org:
         branch: master
 
 github.com:
+  - ds9-debian-qt:
+    - qtvirtualkeyboard:
+        branch: Netrunner/17.03
+    - qtserialport:
+        branch: Netrunner/17.03
+  - ds9-debian-frameworks:
+    - '*':
+        branch: Netrunner/17.03
+  - ds9-debian-plasma:
+    - '*':
+        branch: Netrunner/17.03
+    - plymouth-kcm:
+        branch: Neon/unstable
+
+  - ds9-debian-kde-extras:
+    - 'kirigami*':
+        branch: Netrunner/17.03
+  - ds9-debian-kde-applications:
+    - '*':
+        branch: Netrunner/17.03
+
   - netrunner-common:
     - '*':
         branch: master
