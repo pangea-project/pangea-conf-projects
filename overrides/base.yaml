@@ -655,7 +655,7 @@ https://github.com/ds9-extras-packaging/samba-mounter:
     upstream_scm:
       url: https://github.com/plasma-extensions/<%= name %>
 
-'https://github.com/ds9-extras-packaging/kcm-{plasma-services,about-extended}':
+'https://github.com/ds9-extras-packaging/kcm-{plasma-services,about-extended,repo-toggle}':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
