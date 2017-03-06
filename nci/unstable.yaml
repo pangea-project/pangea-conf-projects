@@ -235,6 +235,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - libaqbanking:
         branch: Neon/unstable
+    - kmymoney:
+        branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
     - apt:
