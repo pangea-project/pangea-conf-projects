@@ -273,6 +273,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/mlt':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/libalkimia':
   'Neon/unstable':
     upstream_scm:

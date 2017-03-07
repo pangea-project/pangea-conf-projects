@@ -226,6 +226,8 @@ anongit.neon.kde.org:
         branch: Neon/stable
     - apt:
         branch: master
+    - mlt:
+        branch: master
     - kdesvn:
         branch: Neon/stable
     - rsibreak
