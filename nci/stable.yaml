@@ -1,3 +1,5 @@
+origin: stable
+
 anongit.neon.kde.org:
   - plasma:
     - '*'

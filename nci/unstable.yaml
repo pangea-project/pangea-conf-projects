@@ -1,3 +1,5 @@
+origin: unstable
+
 anongit.neon.kde.org:
   - frameworks:
     - '*'

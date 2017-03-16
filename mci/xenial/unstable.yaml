@@ -1,3 +1,5 @@
+origin: unstable
+
 git.debian.org:
   - pkg-kde/kde-extras:
     - debconf-kde
