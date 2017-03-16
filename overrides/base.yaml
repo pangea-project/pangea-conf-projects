@@ -144,17 +144,13 @@
       branch: 5.1
 
 '*anongit.neon*/kde-std/sddm':
-  '{Neon/mobile}':
+  'Neon/mobile':
     upstream_scm:
       type: uscan
-
-'*anongit.neon*/kde-std/sddm':
-  '{Neon/stable}':
+  'Neon/stable':
     upstream_scm:
       branch: master
-
-'*anongit.neon*/kde-std/sddm':
-  '{Neon/unstable}':
+  'Neon/unstable':
     upstream_scm:
       branch: develop
 
