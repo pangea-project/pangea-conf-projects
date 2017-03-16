@@ -69,6 +69,11 @@
     upstream_scm:
       url: git://anongit.kde.org/kdeconnect-kde.git
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/kio-gdrive':
+  'Neon/stable':
+    upstream_scm:
+      branch: 1.1
+
 '*{anonscm.debian,anongit.neon}*/applications/ktp-common-internals':
   kubuntu_unstable:
     upstream_scm:

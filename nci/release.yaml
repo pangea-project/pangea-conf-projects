@@ -244,7 +244,7 @@ anongit.neon.kde.org:
     - rsibreak
   - krap:
     - libindi:
-        branch: Neon/release-lts
+        branch: Neon/release
     - grantlee:
         branch: master
     - libnova:
