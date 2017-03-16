@@ -78,7 +78,6 @@
   '*':
     upstream_scm:
       type: git
-      branch: 2.4.x-stable
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
 '*anongit.neon*/neon-packaging/qoauth':
