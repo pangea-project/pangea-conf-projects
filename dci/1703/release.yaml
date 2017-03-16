@@ -45,6 +45,8 @@ github.com:
         branch: master
     - firefox:
         branch: release/kde
+    - firefox-esr:
+        branch: esr/kde
   - netrunner-nextcloud:
     - '*':
         branch: master
