@@ -296,11 +296,6 @@
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/frameworks/purpose':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
 '*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
