@@ -102,6 +102,11 @@
     upstream_scm:
       branch: 5.1
 
+'*anongit.neon*/kde-std/kdevelop-pg-qt':
+  'Neon/stable':
+    upstream_scm:
+      branch: 2.0
+
 '*anongit.neon*/kde-std/sddm':
   'Neon/mobile':
     upstream_scm:
