@@ -163,7 +163,6 @@ anongit.neon.kde.org:
     - mbox-importer
     - pim-data-exporter
     - pim-sieve-editor
-    - pim-storage-service-manager
     - kgpg
     - ktp-common-internals
     - kdialog
