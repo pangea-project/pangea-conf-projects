@@ -215,8 +215,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - libarchive:
         branch: Neon/release
-    - ldc:
-        branch: Neon/release
     - lmdb:
         branch: Neon/release
     - meson:

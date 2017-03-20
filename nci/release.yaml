@@ -213,8 +213,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - gcompris:
         branch: Neon/release
-    - ldc:
-        branch: Neon/release
     - lmdb:
         branch: Neon/release
     - meson:
