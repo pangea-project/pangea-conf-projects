@@ -567,7 +567,7 @@ https://github.com/ds9-extras-packaging/groupingplasmoid:
       url: git://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
-'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,ring-kde}':
+'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,ring*}':
   '*':
     upstream_scm:
       type: uscan
