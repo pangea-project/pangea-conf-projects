@@ -247,6 +247,7 @@ anongit.neon.kde.org:
     - kdesvn:
         branch: Neon/unstable
     - rsibreak
+    - libunwind
   - krap:
     - libindi:
         branch: Neon/unstable

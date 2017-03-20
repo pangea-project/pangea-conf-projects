@@ -242,6 +242,7 @@ anongit.neon.kde.org:
     - kdesvn:
         branch: Neon/release-lts
     - rsibreak
+    - libunwind
   - krap:
     - libindi:
         branch: Neon/release-lts
