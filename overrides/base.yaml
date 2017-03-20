@@ -550,7 +550,7 @@ https://github.com/rpi2-stuff/mesa:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-'https://github.com/ds9-extras-packaging/mint-common':
+https://github.com/ds9-extras-packaging/mint-common:
   '*':
     upstream_scm:
       url: https://github.com/linuxmint/mint-common
@@ -562,7 +562,7 @@ https://github.com/ds9-extras-packaging/groupingplasmoid:
       url: git://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
-'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}':
+'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,ring-kde}':
   '*':
     upstream_scm:
       type: uscan
