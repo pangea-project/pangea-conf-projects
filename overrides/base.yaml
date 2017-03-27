@@ -249,6 +249,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/libunwind':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/mlt':
   '*':
     upstream_scm:
