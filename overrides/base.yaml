@@ -589,10 +589,22 @@ https://github.com/ds9-extras-packaging/groupingplasmoid:
       url: git://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
-'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,ring*}':
+'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}*':
   '*':
     upstream_scm:
       type: uscan
+
+https://github.com/ds9-extras-packaging/ring:
+  '*':
+    upstream_scm:
+      type: tarball
+      url: http://people.ubuntu.com/~rohangarg/ring_20170322.2.ec25f0f~dfsg1.orig.tar.gz
+
+https://github.com/ds9-extras-packaging/ring-kde:
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/ring-kde
 
 https://github.com/ds9-extras-packaging/skype:
   '*':
