@@ -33,7 +33,9 @@ github.com:
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/17.03
-
+  - linuxmint:
+    - mintinstall:
+        branch: master
   - netrunner-common:
     - '*':
         branch: master
