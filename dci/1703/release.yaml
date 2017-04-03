@@ -8,9 +8,6 @@ git.debian.org:
   - pkg-kde/kde-extras/kde-telepathy:
     - telepathy-qt4:
         branch: master
-  - pkg-kde/qt:
-    - qtwebengine:
-        branch: master
 
 github.com:
   - ds9-debian-qt:
@@ -18,6 +15,9 @@ github.com:
         branch: Netrunner/17.03
     - qtserialport:
         branch: Netrunner/17.03
+    - qtwebengine:
+        branch: master
+
   - ds9-debian-frameworks:
     - '*':
         branch: Netrunner/17.03
