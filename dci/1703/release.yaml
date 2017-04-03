@@ -78,7 +78,7 @@ github.com:
         branch: 'Neon/release'
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
-        branch: 'master'
+        branch: 'Netrunner/17.03'
   - ds9-debian-packaging-backports:
     - libwlocate:
         branch: 'master'
