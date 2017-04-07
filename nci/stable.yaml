@@ -178,6 +178,8 @@ anongit.neon.kde.org:
     - audiocd-kio
     - kwave
     - kalzium
+    - kde-dev-utils
+    - kcachegrind
   - kde-extras:
     - '*'
   - neon-packaging:

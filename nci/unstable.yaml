@@ -181,6 +181,8 @@ anongit.neon.kde.org:
     - kdav
     - libkgapi
     - kalzium
+    - kde-dev-utils
+    - kcachegrind
   - kde-extras:
     - '*'
   - neon-packaging:
