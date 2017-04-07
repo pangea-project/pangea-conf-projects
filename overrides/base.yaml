@@ -69,6 +69,12 @@
       type: git
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
+'*anongit.neon*/neon/docker-neon':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/docker-neon.git
+
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
     upstream_scm:
