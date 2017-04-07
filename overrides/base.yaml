@@ -56,13 +56,6 @@
     upstream_scm:
       branch: 5.x
 
-'*anongit.neon*/neon-packaging/calamares':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://github.com/calamares/calamares.git
-      branch: master
-
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
@@ -249,6 +242,18 @@
     upstream_scm:
       type: tarball
       url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.1.0/drumstick-1.1.0.tar.bz2
+
+'*anongit.neon*/forks/icemon':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/calamares/calamares.git
+      branch: master
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://github.com/calamares/calamares.git
+      branch: 3.1
 
 '*anongit.neon*/forks/libxkbcommon':
   '*':

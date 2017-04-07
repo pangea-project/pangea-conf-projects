@@ -241,6 +241,7 @@ anongit.neon.kde.org:
         branch: Neon/release-lts
     - rsibreak
     - libunwind
+    - icemon
   - krap:
     - libindi:
         branch: Neon/release-lts

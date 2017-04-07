@@ -251,6 +251,7 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - rsibreak
     - libunwind
+    - icemon
   - krap:
     - libindi:
         branch: Neon/unstable
