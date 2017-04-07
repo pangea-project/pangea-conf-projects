@@ -43,6 +43,11 @@
     upstream_scm:
       branch: 3.0
 
+'*{anonscm.debian,anongit.neon}*/calligra/kexi':
+  'Neon/stable':
+    upstream_scm:
+      branch: 3.0
+
 ## This isn't actually plasma...
 '*{anonscm.debian,anongit.neon}*/plasma/plasma-mediacenter':
   '*':
