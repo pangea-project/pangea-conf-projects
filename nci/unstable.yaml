@@ -95,6 +95,7 @@ anongit.neon.kde.org:
     - kapptemplate
     - kde-dev-scripts
     - kdesdk-thumbnailers
+    - kdesdk-kioslaves
     - kompare
     - libkomparediff2
     - lokalize
