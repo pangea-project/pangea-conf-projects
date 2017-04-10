@@ -1,0 +1,24 @@
+github.com:
+  - ds9-debian-qt:
+    - qtvirtualkeyboard:
+        branch: Netrunner/backports
+    - qtserialport:
+        branch: Netrunner/backports
+    - qtwebengine:
+        branch: master
+
+  - ds9-debian-frameworks:
+    - '*':
+        branch: Netrunner/backports
+  - ds9-debian-plasma:
+    - '*':
+        branch: Netrunner/backports
+    - plymouth-kcm:
+        branch: Neon/unstable
+
+  - ds9-debian-kde-extras:
+    - 'kirigami*':
+        branch: Netrunner/backports
+  - ds9-debian-kde-applications:
+    - '*':
+        branch: Netrunner/backports
