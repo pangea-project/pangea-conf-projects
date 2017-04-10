@@ -354,6 +354,11 @@
       url: git://anongit.kde.org/kirigami.git
       branch: master
 
+'*anongit.neon*/kde-extras/labplot':
+  '{Neon/stable,Neon/unstable}':
+    upstream_scm:
+      branch: frameworks
+
 '*{anonscm.debian,anongit.neon}*/forks/libkolab':
   'Neon/unstable':
     upstream_scm:
