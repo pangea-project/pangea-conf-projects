@@ -177,6 +177,7 @@ anongit.neon.kde.org:
     - libkcompactdisc
     - audiocd-kio
     - kwave
+    - libkgapi
     - kalzium
     - kde-dev-utils
     - kcachegrind
