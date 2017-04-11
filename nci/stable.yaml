@@ -162,7 +162,6 @@ anongit.neon.kde.org:
     - mbox-importer
     - pim-data-exporter
     - pim-sieve-editor
-    - pim-storage-service-manager
     - kgpg
     - ktp-common-internals
     - kdialog
@@ -177,6 +176,7 @@ anongit.neon.kde.org:
     - libkcompactdisc
     - audiocd-kio
     - kwave
+    - kdav
     - libkgapi
     - kalzium
     - kde-dev-utils
