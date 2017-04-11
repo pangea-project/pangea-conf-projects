@@ -183,6 +183,7 @@ anongit.neon.kde.org:
     - kalzium
     - kde-dev-utils
     - kcachegrind
+    - kolourpaint
   - kde-extras:
     - '*'
   - neon-packaging:
