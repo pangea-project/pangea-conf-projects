@@ -698,6 +698,11 @@ https://github.com/plasmazilla/firefox:
   '*':
     upstream_scm:
       type: uscan
+'https://github.com/ds9-debian-qt/qtwebengine':
+  '*':
+  upstream_scm:
+    type: tarball
+    url: http://deb.debian.org/debian/pool/main/q/qtwebengine-opensource-src/qtwebengine-opensource-src_5.7.1+dfsg.orig.tar.xz
 
 https://github.com/ds9-common/sortinglaunchers:
   'master':
