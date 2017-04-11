@@ -694,7 +694,7 @@ https://github.com/plasmazilla/firefox:
       type: firefox
       url: http://deb.debian.org/debian/pool/main/f/firefox/firefox_50.1.0.orig.tar.xz
 
-'https://github.com/ds9-debian-{frameworks,plasma,kde-applications,kde-extras}/*':
+'https://github.com/ds9-debian-{qt,frameworks,plasma,kde-applications,kde-extras}/*':
   '*':
     upstream_scm:
       type: uscan
