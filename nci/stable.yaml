@@ -226,6 +226,8 @@ anongit.neon.kde.org:
         branch: master
     - libxkbcommon:
         branch: Neon/stable
+    - k3b:
+        branch: Neon/stable
     - libarchive:
         branch: Neon/stable
     - fcitx-qt5:
