@@ -22,3 +22,8 @@ github.com:
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/backports
+  - ds9-extras-packaging:
+    - ring:
+        branch: Netrunner/backports
+    - ring-kde:
+        branch: Netrunner/backportss
