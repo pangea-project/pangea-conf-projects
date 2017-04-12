@@ -26,4 +26,4 @@ github.com:
     - ring:
         branch: Netrunner/backports
     - ring-kde:
-        branch: Netrunner/backportss
+        branch: Netrunner/backports
