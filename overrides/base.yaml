@@ -713,7 +713,7 @@ https://github.com/ds9-debian-plasma/plymouth-kcm:
   '*':
     upstream_scm:
       type: git
-      url: https://cgit.kde.org/plymouth-kcm.git
+      url: git://anongit.kde.org/plymouth-kcm.git
 
 'https://github.com/ds9-debian-qt/qtwebengine':
   '*':
