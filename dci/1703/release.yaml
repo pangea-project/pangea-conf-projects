@@ -25,7 +25,7 @@ github.com:
     - '*':
         branch: Netrunner/17.03
     - plymouth-kcm:
-        branch: Neon/unstable
+        branch: master
 
   - ds9-debian-kde-extras:
     - 'kirigami*':

@@ -14,7 +14,7 @@ github.com:
     - '*':
         branch: Netrunner/backports
     - plymouth-kcm:
-        branch: Neon/unstable
+        branch: Netrunner/backports
 
   - ds9-debian-kde-extras:
     - 'kirigami*':
@@ -27,3 +27,5 @@ github.com:
         branch: Netrunner/backports
     - ring-kde:
         branch: Netrunner/backports
+    - kcm-about-extended:
+        branch: master
