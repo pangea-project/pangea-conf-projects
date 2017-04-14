@@ -89,7 +89,7 @@ anongit.neon.kde.org:
         branch: Neon/release
   - '':
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
-        branch: kubuntu_xenial_archive
+        branch: Neon/release
 
 launchpad.net:
   - livecd-rootfs-neon
