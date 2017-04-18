@@ -6,7 +6,15 @@ github.com:
         branch: Netrunner/backports
     - qtwebengine:
         branch: master
-
+  - plasmazilla:
+    - mozilla-kde-support:
+        branch: master
+    - firefox:
+        branch: release/kde
+    - firefox-esr:
+        branch: esr/kde
+    - thunderbird:
+        branch: release/kde
   - ds9-debian-frameworks:
     - '*':
         branch: Netrunner/backports
@@ -15,7 +23,6 @@ github.com:
         branch: Netrunner/backports
     - plymouth-kcm:
         branch: Netrunner/backports
-
   - ds9-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/backports
