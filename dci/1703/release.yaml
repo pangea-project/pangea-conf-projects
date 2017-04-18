@@ -49,6 +49,8 @@ github.com:
         branch: release/kde
     - firefox-esr:
         branch: esr/kde
+    - thunderbird:
+        branch: release/kde
   - netrunner-nextcloud:
     - '*':
         branch: master
@@ -84,5 +86,3 @@ github.com:
         branch: 'master'
     - libkolab:
         branch: 'master'
-launchpad.net:
-  - ~mozillateam/thunderbird/thunderbird.yakkety
