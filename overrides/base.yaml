@@ -83,6 +83,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/flatbuffers':
+  '*':
+    upstream_scm:
+      type: uscan
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
