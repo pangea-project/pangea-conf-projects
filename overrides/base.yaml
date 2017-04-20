@@ -56,6 +56,14 @@
 
 # Neon-packaging
 
+'*anongit.neon*/neon-packaging/calamares':
+  '{kubuntu_unstable,Neon/unstable}':
+    upstream_scm:
+      url: https://github.com/calamares/calamares
+  'master':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/neon-packaging/kphotoalbum':
   'Neon/stable':
     upstream_scm:
