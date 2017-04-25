@@ -644,6 +644,12 @@ https://github.com/ds9-extras-packaging/ring:
       url: http://people.ubuntu.com/~rohangarg/ring_20170405.1.d0ef363~dfsg1.orig.tar.gz
 
 
+https://github.com/ds9-extras-packaging/ring-lrc:
+  '*':
+    upstream_scm:
+      url: https://github.com/Elv13/ring-lrc/
+      branch: work5
+
 https://github.com/ds9-extras-packaging/ring-kde:
   '*':
     upstream_scm:
