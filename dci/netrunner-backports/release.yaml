@@ -34,5 +34,7 @@ github.com:
         branch: Netrunner/backports
     - ring-kde:
         branch: Netrunner/backports
+    - ring-lrc:
+        branch: master
     - kcm-about-extended:
         branch: master
