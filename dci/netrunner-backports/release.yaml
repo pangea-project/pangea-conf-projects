@@ -43,5 +43,7 @@ github.com:
     - kcm-about-extended:
         branch: master
   - ds9-debian-packaging-backports:
+    - libwlocate:
+        branch: 'master'
     - libkolab:
         branch: 'master'
