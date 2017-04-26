@@ -26,6 +26,8 @@ github.com:
   - ds9-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/backports
+    # Moved to applications starting KDE Apps 17.03,
+    # remove for next round of updates
     - 'libkgapi':
         branch: Netrunner/backports
   - ds9-debian-kde-applications:
