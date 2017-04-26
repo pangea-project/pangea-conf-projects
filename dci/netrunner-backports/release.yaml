@@ -40,3 +40,6 @@ github.com:
         branch: Netrunner/backports
     - kcm-about-extended:
         branch: master
+  - ds9-debian-packaging-backports:
+    - libkolab:
+        branch: 'master'
