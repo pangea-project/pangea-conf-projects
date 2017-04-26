@@ -26,6 +26,8 @@ github.com:
   - ds9-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/backports
+    - 'libkgapi':
+        branch: Netrunner/backports
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/backports
