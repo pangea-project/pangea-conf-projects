@@ -21,11 +21,6 @@
 
 # Plasma
 
-'*{anonscm.debian,anongit.neon}*/plasma/plasma-browser-integration':
-  'Neon/unstable':
-    upstream_scm:
-      url: git://anongit.kde.org/scratch/davidedmundson/plasma-browser-integration.git
-
 '*{anonscm.debian,anongit.neon}*/plasma/plasma-discover':
   '*':
     upstream_scm:
