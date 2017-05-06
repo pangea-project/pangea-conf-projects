@@ -250,6 +250,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/flatpak':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/xorg-server':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
