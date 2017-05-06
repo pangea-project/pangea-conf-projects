@@ -78,6 +78,7 @@ anongit.neon.kde.org:
     - icemon
     - wayland
     - xorg-server
+    - taglib
   - krap:
     - libindi:
         branch: Neon/unstable
