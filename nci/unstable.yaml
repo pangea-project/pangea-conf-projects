@@ -76,6 +76,7 @@ anongit.neon.kde.org:
     - rsibreak
     - libunwind
     - icemon
+    - wayland
   - krap:
     - libindi:
         branch: Neon/unstable
