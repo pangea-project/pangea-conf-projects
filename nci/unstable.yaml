@@ -79,6 +79,7 @@ anongit.neon.kde.org:
     - wayland
     - xorg-server
     - taglib
+    - flatpak
   - krap:
     - libindi:
         branch: Neon/unstable
