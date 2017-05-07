@@ -80,6 +80,7 @@ anongit.neon.kde.org:
     - xorg-server
     - taglib
     - flatpak
+    - ostree
   - krap:
     - libindi:
         branch: Neon/unstable
