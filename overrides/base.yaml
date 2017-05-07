@@ -260,6 +260,21 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/ostree':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/x11proto-core':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/libxfont':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 ## Misc
 
 '*anongit.neon*/forks/*':
