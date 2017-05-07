@@ -81,6 +81,8 @@ anongit.neon.kde.org:
     - taglib
     - flatpak
     - ostree
+    - x11proto-core
+    - libxfont
   - krap:
     - libindi:
         branch: Neon/unstable
