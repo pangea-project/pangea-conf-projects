@@ -275,6 +275,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/smb4k':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 ## Misc
 
 '*anongit.neon*/forks/*':
