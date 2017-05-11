@@ -63,7 +63,6 @@ anongit.neon.kde.org:
     - kdesvn:
         branch: Neon/stable
     - rsibreak
-    - libunwind
     - icemon
     - smb4k
   - krap:

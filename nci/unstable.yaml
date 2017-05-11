@@ -76,7 +76,6 @@ anongit.neon.kde.org:
     - kdesvn:
         branch: Neon/unstable
     - rsibreak
-    - libunwind
     - icemon
     - wayland
     - xorg-server
