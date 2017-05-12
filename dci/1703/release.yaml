@@ -71,7 +71,7 @@ github.com:
         branch: master
   - ds9-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.03
   - ds9-artwork:
     - '*':
         branch: master
