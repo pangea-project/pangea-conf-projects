@@ -70,6 +70,7 @@ anongit.neon.kde.org:
     - icemon
     - smb4k
     - wayland
+    - ostree
     - flatpak
   - krap:
     - libindi:
