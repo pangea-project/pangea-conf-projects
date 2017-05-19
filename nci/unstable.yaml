@@ -52,7 +52,7 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/unstable
     - avogrado:
-        branch: master
+        branch: Neon/unstable
     - libarchive:
         branch: Neon/unstable
     - k3b:
