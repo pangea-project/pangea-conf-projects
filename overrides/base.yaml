@@ -286,6 +286,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/openbabel':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 ## Misc
 
 '*anongit.neon*/forks/*':
