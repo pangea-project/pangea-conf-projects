@@ -401,7 +401,7 @@
     upstream_scm:
       url: https://gitlab.com/accounts-sso/libaccounts-glib.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/kirigami':
+'*{anonscm.debian,anongit.neon}*/kde-extras/kirigami$':
   '{kubuntu_stable,Neon/stable,Neon/unstable}':
     upstream_scm:
       branch: Kirigami/1.1
