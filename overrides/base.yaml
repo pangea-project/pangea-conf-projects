@@ -866,3 +866,10 @@ https://github.com/netrunner-pine64/pine64-linux:
       type: git
       url: https://github.com/shadeslayer/<%= name %>
       branch: master
+
+https://github.com/ds9-debian-kde-extras/qtcurve:
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/qtcurve.git
+      branch: master

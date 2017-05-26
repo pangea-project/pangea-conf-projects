@@ -30,6 +30,9 @@ github.com:
     # remove for next round of updates
     - 'libkgapi':
         branch: Netrunner/backports
+    # Patched version of qtcurve
+    - qtcurve:
+        branch: Netrunner/backports
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/backports
