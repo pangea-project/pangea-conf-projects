@@ -1,0 +1,4 @@
+github.com:
+  - halium-packaging:
+    - android-headers:
+        branch: halium-5.1
