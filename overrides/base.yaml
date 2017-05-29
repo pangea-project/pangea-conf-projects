@@ -873,3 +873,17 @@ https://github.com/ds9-debian-kde-extras/qtcurve:
       type: git
       url: git://anongit.kde.org/qtcurve.git
       branch: master
+
+https://github.com/halium-packaging/android-headers:
+  halium-5.1:
+    upstream_scm:
+      type: git
+      url: https://github.com/halium/android-headers
+      branch: master
+
+https://github.com/halium-packaging/libhybris:
+  halium-5.1:
+    upstream_scm:
+      type: git
+      url: https://github.com/halium/libhybris
+      branch: halium-5.1

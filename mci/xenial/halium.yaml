@@ -2,3 +2,5 @@ github.com:
   - halium-packaging:
     - android-headers:
         branch: halium-5.1
+    - libhybris:
+        branch: halium-5.1
