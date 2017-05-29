@@ -50,3 +50,5 @@ github.com:
         branch: 'master'
     - libkolab:
         branch: 'master'
+    - gnutls:
+        branch: 'experimental'
