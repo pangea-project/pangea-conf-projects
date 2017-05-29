@@ -176,3 +176,5 @@ anongit.neon.kde.org:
         branch: Neon/release
     - libxkbcommon:
         branch: Neon/unstable
+    - gpgme:
+        branch: Neon/unstable
