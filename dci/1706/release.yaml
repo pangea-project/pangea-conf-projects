@@ -1,0 +1,12 @@
+github.com:
+  - ds9-debian-qt:
+    - qtvirtualkeyboard:
+        branch: Netrunner/17.06
+    - qtserialport:
+        branch: Netrunner/17.06
+    - qtwebengine:
+        branch: master
+
+  - ds9-debian-frameworks:
+    - '*':
+        branch: Netrunner/17.06
