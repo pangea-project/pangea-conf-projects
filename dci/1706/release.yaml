@@ -4,8 +4,6 @@ github.com:
         branch: Netrunner/17.06
     - qtserialport:
         branch: Netrunner/17.06
-    - qtwebengine:
-        branch: master
 
   - ds9-debian-frameworks:
     - '*':
