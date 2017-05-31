@@ -8,3 +8,7 @@ github.com:
   - ds9-debian-frameworks:
     - '*':
         branch: Netrunner/17.06
+
+  - ds9-debian-plasma:
+    - '*':
+        branch: Netrunner/17.03
