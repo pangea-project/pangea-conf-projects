@@ -72,6 +72,7 @@ anongit.neon.kde.org:
     - wayland
     - ostree
     - flatpak
+    - libunwind
   - krap:
     - libindi:
         branch: Neon/release-lts
