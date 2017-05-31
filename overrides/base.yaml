@@ -487,18 +487,18 @@
     upstream_scm:
       type: uscan
 
-'*anonscm.debian*/krap/libindi':
+'*{anonscm.debian,anongit.neon}*/krap/libindi':
   '{Neon/release-lts,release,stable,unstable}':
     upstream_scm:
       type: uscan
 
-'*anonscm.debian*/krap/libnova':
+'*{anonscm.debian,anongit.neon}*/krap/libnova':
   'master':
     upstream_scm:
       type: tarball
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
-'*anonscm.debian*/krap/grantlee':
+'*{anonscm.debian,anongit.neon}*/krap/grantlee':
   'master':
     upstream_scm:
       type: tarball
