@@ -887,3 +887,10 @@ https://github.com/halium-packaging/libhybris:
       type: git
       url: https://github.com/halium/libhybris
       branch: halium-5.1
+
+https://github.com/halium-packaging/lxc-android:
+  master:
+    upstream_scm:
+      type: git
+      url: https://github.com/halium/lxc-android
+      branch: master

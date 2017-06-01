@@ -4,3 +4,5 @@ github.com:
         branch: halium-5.1
     - libhybris:
         branch: halium-5.1
+    - lxc-android:
+        branch: master
