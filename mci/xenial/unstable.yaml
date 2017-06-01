@@ -177,3 +177,7 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - flatpak:
         branch: Neon/unstable
+    - ostree:
+        branch: Neon/unstable
+    - libarchive:
+        branch: Neon/unstable
