@@ -11,4 +11,4 @@ github.com:
 
   - ds9-debian-plasma:
     - '*':
-        branch: Netrunner/17.03
+        branch: Netrunner/17.06
