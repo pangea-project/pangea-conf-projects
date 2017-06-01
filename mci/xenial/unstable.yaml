@@ -36,8 +36,6 @@ github.com:
     - libhybris
     - peruse
     - videoPlayer-packaging
-    - qtvirtualkeyboard:
-        branch: Neon/mobile
 
 anongit.neon.kde.org:
   - qt:
@@ -76,6 +74,8 @@ anongit.neon.kde.org:
     - qtserialport:
         branch: Neon/release
     - qtquickcontrols2:
+        branch: Neon/release
+    - qtvirtualkeyboard:
         branch: Neon/release
   - frameworks:
     - '*':
