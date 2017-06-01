@@ -113,7 +113,7 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - kio-extras:
         branch: Neon/unstable
-    - gpgmepp:
+    - gpgme:
         branch: Neon/unstable
     - kcalcore:
         branch: Neon/unstable
