@@ -770,7 +770,7 @@ https://github.com/plasmazilla/firefox:
       type: uscan
 
 https://github.com/ds9-debian-plasma/plymouth-kcm:
-  '*':
+  'Netrunner/17.03':
     upstream_scm:
       type: git
       url: git://anongit.kde.org/plymouth-kcm.git
