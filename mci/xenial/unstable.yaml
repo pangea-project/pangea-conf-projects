@@ -92,6 +92,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - libkgapi:
         branch: Neon/unstable
+    - kirigami2:
+        branch: Neon/unstable
   - kde-std:
     - sddm:
         branch: Neon/mobile
@@ -177,4 +179,6 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/unstable
     - gpgme:
+        branch: Neon/unstable
+    - flatpak:
         branch: Neon/unstable
