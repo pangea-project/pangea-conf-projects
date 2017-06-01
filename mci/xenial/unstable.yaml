@@ -12,11 +12,6 @@ git.debian.org:
   - pkg-xorg/xserver:
     - xorg-server:
         branch: debian-experimental
-  - pkg-xorg/proto:
-    - x11proto-core:
-        branch: debian-unstable
-    - x11proto-randr:
-        branch: debian_unstable
   - pkg-xorg/wayland:
     - wayland:
         branch: debian-experimental
