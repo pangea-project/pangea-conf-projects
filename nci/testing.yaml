@@ -4,6 +4,8 @@ anongit.neon.kde.org:
   - frameworks:
     - plasma-framework:
         branch: Neon/unstable
+    - kwayland:
+        branch: Neon/unstable
   - plasma:
     - plasma-integration:
         branch: Neon/unstable
@@ -16,6 +18,4 @@ anongit.neon.kde.org:
     - breeze:
         branch: Neon/unstable
     - kwin:
-        branch: Neon/unstable
-    - kwayland:
         branch: Neon/unstable
