@@ -38,7 +38,7 @@ github.com:
         branch: master
   - netrunner-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.03
   - calamares:
     - calamares-debian:
         branch: master
@@ -56,33 +56,30 @@ github.com:
         branch: master
   - netrunner-artwork:
     - '{artwork,netrunner,plymouth}-*':
-        branch: master
+        branch: Netrunner/17.03
   - netrunner-odroid:
     - '{c1,c2,odroid,xserver,mali}-*':
-        branch: master
+        branch: Netrunner/17.03
   - netrunner-pine64:
     - '*':
-        branch: master
+        branch: Netrunner/17.03
   - ds9-extras-packaging:
     - '*':
-        branch: master
+        branch: Netrunner/17.03
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
-        branch: master
+        branch: Netrunner/17.03
   - ds9-common:
     - '*':
         branch: Netrunner/17.03
   - ds9-artwork:
     - '*':
-        branch: master
-  - ds9-debian-frameworks:
-    - kcmutils:
-        branch: 'Neon/release'
+        branch: Netrunner/17.03
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
         branch: 'Netrunner/17.03'
   - ds9-debian-packaging-backports:
     - libwlocate:
-        branch: 'master'
+        branch: Netrunner/17.03
     - libkolab:
-        branch: 'master'
+        branch: Netrunner/17.03
