@@ -15,3 +15,6 @@ github.com:
   - ds9-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/17.06
+  - ds9-debian-kde-applications:
+    - '*':
+        branch: Netrunner/17.06
