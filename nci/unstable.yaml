@@ -47,6 +47,8 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
+    - pykde4:
+        branch: master
     - python-apt:
         branch: master
     - libinput:

@@ -245,9 +245,11 @@
       type: uscan
 
 '*anongit.neon*/forks/python-qt4':
-  Neon/release:
+  master:
     upstream_scm:
       type: uscan
+
+'*anongit.neon*/forks/pykde4':
   master:
     upstream_scm:
       type: uscan
