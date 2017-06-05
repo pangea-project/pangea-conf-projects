@@ -45,6 +45,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - sip4:
         branch: master
+    - python-qt4:
+        branch: master
     - python-apt:
         branch: master
     - libinput:

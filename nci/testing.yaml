@@ -14,6 +14,8 @@ anongit.neon.kde.org:
         branch: master
     - sip4:
         branch: master
+    - python-qt4:
+        branch: master
   - plasma:
     - breeze:
         branch: Neon/unstable
