@@ -21,13 +21,16 @@ github.com:
   - linuxmint:
     - mintinstall:
         branch: master
-  - netrunner-common:
-    - '*':
-        branch: master
   - calamares:
     - calamares-debian:
         branch: master
   - ds9-artwork:
+    - '*':
+        branch: master
+  - netrunner-common:
+    - '*':
+        branch: master
+  - netrunner-artwork:
     - '*':
         branch: master
   - netrunner-desktop:
