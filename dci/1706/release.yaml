@@ -18,18 +18,25 @@ github.com:
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/17.06
+
   - linuxmint:
     - mintinstall:
         branch: master
   - calamares:
     - calamares-debian:
         branch: master
+
   - ds9-debian-packaging-backports:
     - libkolab:
         branch: Netrunner/17.06
+
+  - ds9-common:
+    - '*':
+        branch: master
   - ds9-artwork:
     - '*':
         branch: master
+
   - netrunner-common:
     - '*':
         branch: master
