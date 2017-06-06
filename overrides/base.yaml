@@ -703,7 +703,7 @@ https://github.com/ds9-extras-packaging/ring:
   'Netrunner/backports':
     upstream_scm:
       type: tarball
-      url: http://people.ubuntu.com/~rohangarg/ring/ring_20170524.2.745efce~dfsg1.orig.tar.gz
+      url: http://people.ubuntu.com/~rohangarg/ring/ring_20170601.1.79f748e~dfsg1.orig.tar.gz
 
 
 https://github.com/ds9-extras-packaging/ring-lrc:
