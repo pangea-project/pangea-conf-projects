@@ -24,6 +24,9 @@ github.com:
   - calamares:
     - calamares-debian:
         branch: master
+  - ds9-debian-packaging-backports:
+    - libkolab:
+        branch: Netrunner/17.03
   - ds9-artwork:
     - '*':
         branch: master
