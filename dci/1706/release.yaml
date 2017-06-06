@@ -26,6 +26,16 @@ github.com:
     - calamares-debian:
         branch: master
 
+  - plasmazilla:
+    - mozilla-kde-support:
+        branch: master
+    - firefox:
+        branch: release/kde
+    - firefox-esr:
+        branch: esr/kde
+    - thunderbird:
+        branch: release/kde
+
   - ds9-debian-packaging-backports:
     - libkolab:
         branch: Netrunner/17.06
