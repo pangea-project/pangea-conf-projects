@@ -41,8 +41,6 @@ github.com:
         branch: Netrunner/backports
     - ring-kde:
         branch: Netrunner/backports
-    - ring-lrc:
-        branch: Netrunner/backports
     - kcm-about-extended:
         branch: master
   - ds9-debian-packaging-backports:
