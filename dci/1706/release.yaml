@@ -29,6 +29,8 @@ github.com:
   - ds9-debian-packaging-backports:
     - libkolab:
         branch: Netrunner/17.06
+    - libwlocate:
+        branch: Netrunner/17.06
 
   - ds9-common:
     - '*':
