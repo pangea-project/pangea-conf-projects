@@ -15,6 +15,10 @@ github.com:
   - ds9-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/17.06
+    - 'telepathy-qt4':
+        branch: Netrunner/17.06
+    - 'kamoso':
+        branch: Netrunner/17.06
   - ds9-debian-kde-applications:
     - '*':
         branch: Netrunner/17.06
