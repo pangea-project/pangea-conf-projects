@@ -766,7 +766,8 @@ https://github.com/ds9-extras-packaging/{xdgurl,telepathy-,telegram-}*:
 https://github.com/ds9-extras-packaging/simplemenu:
   '*':
     upstream_scm:
-      type: uscan
+      url: git://anongit.kde.org/scratch/hein/simplemenu.git
+      branch: master
   'Netrunner/17.03':
     upstream_scm:
       url: git://anongit.kde.org/scratch/hein/simplemenu.git
