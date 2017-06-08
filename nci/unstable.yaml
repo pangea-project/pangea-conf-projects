@@ -32,7 +32,7 @@ anongit.neon.kde.org:
         branch: master
     - packagekit
     - pyqt5:
-        branch: master
+        branch: Neon/unstable
     - aptdaemon:
         branch: master
     - drumstick:

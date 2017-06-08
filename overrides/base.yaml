@@ -255,10 +255,10 @@
       type: uscan
 
 '*anongit.neon*/forks/pyqt5':
-  Neon/release:
+  Neon/testing:
     upstream_scm:
       type: uscan
-  master:
+  Neon/unstable:
     upstream_scm:
       type: uscan
 
