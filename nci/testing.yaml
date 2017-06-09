@@ -5,7 +5,7 @@ anongit.neon.kde.org:
     - plasma-framework:
         branch: Neon/unstable
     - kwayland:
-        branch: Neon/unstable
+        branch: Neon/testing
   - plasma:
     - plasma-integration:
         branch: Neon/unstable
