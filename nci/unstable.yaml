@@ -89,6 +89,7 @@ anongit.neon.kde.org:
     - x11proto-core
     - libxfont
     - openbabel
+    - libzip
   - krap:
     - libindi:
         branch: Neon/unstable

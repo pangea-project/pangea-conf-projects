@@ -73,6 +73,7 @@ anongit.neon.kde.org:
     - ostree
     - flatpak
     - libunwind
+    - libzip
   - krap:
     - libindi:
         branch: Neon/stable
