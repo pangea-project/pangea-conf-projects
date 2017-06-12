@@ -403,8 +403,7 @@
 '*anongit.neon*/forks/libzip':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+files/libzip_1.1.2.orig.tar.gz
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
