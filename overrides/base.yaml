@@ -330,6 +330,11 @@
       type: uscan
       branch: master
 
+'*anongit.neon*/forks/libunwind':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 ## Misc
 
 '*anongit.neon*/forks/*':
