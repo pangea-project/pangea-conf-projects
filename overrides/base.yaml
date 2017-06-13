@@ -532,6 +532,12 @@
       type: git
       url: https://github.com/OpenChemistry/avogadrolibs
 
+'*anongit.neon*/neon-packaging/molequeue':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/OpenChemistry/molequeue
+
 '*{anonscm.debian,anongit.neon}*/krap/libindi':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
