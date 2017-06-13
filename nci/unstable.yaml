@@ -90,6 +90,12 @@ anongit.neon.kde.org:
     - libxfont
     - openbabel
     - libzip
+    - encfs:
+        branch: master
+    - fuse:
+        branch: master
+    - cryfs:
+        branch: master
   - krap:
     - libindi:
         branch: Neon/unstable

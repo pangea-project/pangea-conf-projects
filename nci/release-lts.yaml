@@ -78,6 +78,12 @@ anongit.neon.kde.org:
     - flatpak
     - libunwind
     - libzip
+    - encfs:
+        branch: master
+    - fuse:
+        branch: master
+    - cryfs:
+        branch: master
   - krap:
     - libindi:
         branch: Neon/release-lts
