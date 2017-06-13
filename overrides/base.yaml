@@ -541,8 +541,7 @@
 '*anongit.neon*/neon-packaging/kdsoap':
   'Neon/unstable':
     upstream_scm:
-      type: git
-      url: https://github.com/KDAB/KDSoap
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/krap/libindi':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
