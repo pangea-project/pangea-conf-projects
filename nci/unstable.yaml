@@ -96,6 +96,7 @@ anongit.neon.kde.org:
         branch: master
     - cryfs:
         branch: master
+    - kbibtex
   - krap:
     - libindi:
         branch: Neon/unstable
