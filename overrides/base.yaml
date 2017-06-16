@@ -405,7 +405,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/libzip':
+'*anongit.neon*/forks/libzip4':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
       type: tar
