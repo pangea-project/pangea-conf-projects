@@ -90,6 +90,7 @@ anongit.neon.kde.org:
     - libxfont
     - openbabel
     - libzip
+    - libzip4
     - encfs:
         branch: master
     - fuse:

@@ -74,6 +74,7 @@ anongit.neon.kde.org:
     - flatpak
     - libunwind
     - libzip
+    - libzip4
     - encfs:
         branch: master
     - fuse:

@@ -408,6 +408,12 @@
 '*anongit.neon*/forks/libzip':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
+      type: tar
+      url: https://launchpad.net/ubuntu/+archive/primary/+files/libzip_1.0.1.orig.tar.gz
+
+'*anongit.neon*/forks/libzip':
+  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
+    upstream_scm:
       type: uscan
 
 '*anongit.neon*/forks/kile':
