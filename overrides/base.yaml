@@ -408,7 +408,7 @@
 '*anongit.neon*/forks/libzip4':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
-      type: tar
+      type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/libzip_1.0.1.orig.tar.gz
 
 '*anongit.neon*/forks/libzip':
