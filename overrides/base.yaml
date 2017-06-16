@@ -410,6 +410,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/kile':
+  'Neon/unstable':
+    upstream_scm:
+      url: git://anongit.kde.org/kile.git
+
 '*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
