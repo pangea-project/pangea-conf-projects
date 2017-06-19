@@ -65,3 +65,11 @@ github.com:
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
         branch: master
+  - netrunner-core:
+    - '{netrunner,calamares,base-files}*':
+        branch: master
+  - netrunner-odroid:
+    - '{odroid,xserver,mali}-*':
+        branch: master
+    - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}'
+        branch: master
