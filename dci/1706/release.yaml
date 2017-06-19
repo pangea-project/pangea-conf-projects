@@ -71,5 +71,5 @@ github.com:
   - netrunner-odroid:
     - '{odroid,xserver,mali}-*':
         branch: master
-    - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}'
+    - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
         branch: master
