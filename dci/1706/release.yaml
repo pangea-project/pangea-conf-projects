@@ -69,7 +69,9 @@ github.com:
     - '{netrunner,calamares,base-files}*':
         branch: master
   - netrunner-odroid:
-    - '{odroid,xserver,mali}-*':
+    - '{odroid,mali}-*':
+        branch: master
+    - xserver-xorg-video-mali:
         branch: master
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
         branch: master
