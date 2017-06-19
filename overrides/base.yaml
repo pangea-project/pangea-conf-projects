@@ -559,6 +559,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/libmsym':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*{anonscm.debian,anongit.neon}*/krap/libindi':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
