@@ -52,6 +52,8 @@ github.com:
   - ds9-common:
     - '*':
         branch: master
+    - transmission:
+        branch: Common/17.06
   - ds9-artwork:
     - '*':
         branch: master
