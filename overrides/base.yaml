@@ -267,6 +267,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/muon':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/wayland':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:

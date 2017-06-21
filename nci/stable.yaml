@@ -75,6 +75,7 @@ anongit.neon.kde.org:
     - libunwind
     - libzip
     - libzip4
+    - muon
     - encfs:
         branch: master
     - fuse:

@@ -91,6 +91,7 @@ anongit.neon.kde.org:
     - openbabel
     - libzip
     - libzip4
+    - muon
     - encfs:
         branch: master
     - fuse:
