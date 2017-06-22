@@ -1,7 +1,3 @@
-anongit.neon.kde.org:
-  - kde-extras:
-    - isoimagewriter:
-        branch: Neon/unstable
 github.com:
   - ds9-debian-qt:
     - qtvirtualkeyboard:
@@ -54,7 +50,8 @@ github.com:
   - ds9-extras-packaging:
     - '*':
         branch: master
-
+    - isoimagewrier:
+        branch: Netrunner/17.06
   - ds9-common:
     - '*':
         branch: master
