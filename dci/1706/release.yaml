@@ -45,6 +45,8 @@ github.com:
         branch: Netrunner/17.06
     - libwlocate:
         branch: Netrunner/17.06
+    - mlt:
+        branch: Netrunner/17.06
   - ds9-extras-packaging:
     - '*':
         branch: master
