@@ -1,3 +1,7 @@
+anongit.neon.kde.org:
+  - kde-extras:
+    - isoimagewriter:
+        branch: Neon/unstable
 github.com:
   - ds9-debian-qt:
     - qtvirtualkeyboard:
