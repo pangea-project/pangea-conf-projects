@@ -1,3 +1,8 @@
+git.debian.org:
+  - pkg-virtualbox:
+    - virtualbox:
+        branch: master
+
 github.com:
   - ds9-debian-qt:
     - qtvirtualkeyboard:
