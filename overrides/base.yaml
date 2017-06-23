@@ -54,6 +54,20 @@
     upstream_scm:
       branch: Plasma/5.7
 
+# Neon natives
+
+'*anongit.neon*/neon/docker-neon':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/docker-neon.git
+
+'*anongit.neon*/neon/ubiquity-slideshow':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/ubiquity-slideshow-neon.git
+
 # Neon-packaging
 
 '*anongit.neon*/neon-packaging/calamares':
@@ -75,12 +89,6 @@
       type: git
       url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
 
-'*anongit.neon*/neon/docker-neon':
-  '*':
-    upstream_scm:
-      type: git
-      url: git://anongit.kde.org/docker-neon.git
-
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
     upstream_scm:
@@ -100,13 +108,6 @@
   '*':
     upstream_scm:
       type: uscan
-
-'*anongit.neon*/neon-packaging/ubiquity-slideshow':
-  '*':
-    upstream_scm:
-      type: git
-      url: git://anongit.kde.org/ubiquity-slideshow-neon.git
-
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
