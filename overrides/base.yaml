@@ -101,6 +101,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/ubiquity-slideshow':
+  '*':
+    upstream_scm:
+      type: git
+      url: git://anongit.kde.org/ubiquity-slideshow-neon.git
 
 # Extras
 
