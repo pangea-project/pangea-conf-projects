@@ -279,6 +279,11 @@
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/muon_5.7.0.orig.tar.xz
 
+'*anongit.neon*/forks/libqapt':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/wayland':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
