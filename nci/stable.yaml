@@ -76,7 +76,6 @@ anongit.neon.kde.org:
     - libzip
     - libzip4
     - muon
-    - libqapt
     - encfs:
         branch: master
     - fuse:
