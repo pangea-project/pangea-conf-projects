@@ -444,12 +444,12 @@
       url: git://anongit.kde.org/kdeconnect-kde.git
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/qapt':
-  '{kubuntu_unstable,Neon/unstable}':
+  '{kubuntu_unstable}':
     upstream_scm:
       url: git://anongit.kde.org/libqapt.git
 
 '*{anongit.neon}*/kde-extras/qapt':
-  '{Neon/release,Neon/release-lts,Neon/stable}':
+  '{Neon/release,Neon/release-lts,Neon/stable,Neon/unstable}':
     upstream_scm:
      type: uscan 
 
