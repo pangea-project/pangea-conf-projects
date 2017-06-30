@@ -5,13 +5,13 @@ anongit.neon.kde.org:
     - plasma-framework:
         branch: Neon/unstable
     - kwayland:
-        branch: Neon/testing
+        branch: Neon/unstable
   - plasma:
     - plasma-integration:
         branch: Neon/unstable
   - forks:
     - pyqt5:
-        branch: Neon/testing
+        branch: Neon/unstable
     - sip4:
         branch: master
     - python-qt4:
