@@ -481,7 +481,7 @@
     upstream_scm:
       branch: Kirigami/1.1
 
-'*anongit.neon*/kde-extras/kirigami2':
+'*anongit.neon*/frameworks/kirigami2':
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
       type: git
