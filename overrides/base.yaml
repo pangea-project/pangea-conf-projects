@@ -360,6 +360,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/gpgme':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/drumstick':
   master:
     upstream_scm:

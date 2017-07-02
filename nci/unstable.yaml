@@ -90,6 +90,7 @@ anongit.neon.kde.org:
     - libzip
     - libzip4
     - muon
+    - exiv2
     - encfs:
         branch: master
     - fuse:
