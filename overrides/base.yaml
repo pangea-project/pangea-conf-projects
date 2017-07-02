@@ -360,7 +360,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/gpgme':
+'*anongit.neon*/forks/exiv2':
   'Neon/unstable':
     upstream_scm:
       type: uscan
