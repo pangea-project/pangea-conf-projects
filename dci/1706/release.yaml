@@ -54,27 +54,27 @@ github.com:
         branch: Netrunner/17.06
   - ds9-extras-packaging:
     - '*':
-        branch: master
+        branch: Netrunner/17.06
     - isoimagewrier:
         branch: Netrunner/17.06
   - ds9-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.06
     - transmission:
         branch: Common/17.06
   - ds9-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/17.06
 
   - netrunner-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.06
   - netrunner-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/17.06
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
-        branch: master
+        branch: Netrunner/17.06
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
         branch: master
