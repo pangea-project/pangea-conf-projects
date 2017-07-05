@@ -2,6 +2,8 @@ anongit.neon.kde.org:
   - qt:
     - '*'
   - frameworks:
+    - extra-cmake-modules:
+        branch: Neon/testing
     - plasma-framework:
         branch: Neon/unstable
     - kwayland:
