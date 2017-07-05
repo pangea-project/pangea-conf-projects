@@ -6,6 +6,8 @@ anongit.neon.kde.org:
         branch: Neon/testing
     - kactivities:
         branch: Neon/unstable
+    - kconfig:
+        branch: Neon/unstable
     - plasma-framework:
         branch: Neon/unstable
     - kwayland:
