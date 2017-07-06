@@ -78,6 +78,10 @@ anongit.neon.kde.org:
         branch: master
     - harfbuzz:
         branch: master
+    - snapd-glib:
+        branch: master
+    - json-glib:
+        branch: master
     - fuse:
         branch: master
     - cryfs:

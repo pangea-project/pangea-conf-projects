@@ -332,7 +332,16 @@
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
-      branch: master
+
+'*anongit.neon*/forks/json-glib':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/snapd-glib':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
 
 '*anongit.neon*/forks/fuse':
   Neon/{release-lts,release,stable,unstable}:
