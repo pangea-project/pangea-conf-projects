@@ -80,6 +80,8 @@ anongit.neon.kde.org:
     - muon
     - encfs:
         branch: master
+    - harfbuzz:
+        branch: master
     - fuse:
         branch: master
     - cryfs:

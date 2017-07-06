@@ -93,6 +93,8 @@ anongit.neon.kde.org:
     - exiv2
     - encfs:
         branch: master
+    - harfbuzz:
+        branch: master
     - fuse:
         branch: master
     - cryfs:
