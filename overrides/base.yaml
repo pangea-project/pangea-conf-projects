@@ -376,7 +376,7 @@
       type: uscan
 
 '*anongit.neon*/forks/exiv2':
-  'Neon/unstable':
+  'Neon/{release,release-lts,stable,unstable}':
     upstream_scm:
       type: uscan
 
