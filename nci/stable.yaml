@@ -52,6 +52,7 @@ anongit.neon.kde.org:
         branch: master
     - libxkbcommon:
         branch: Neon/stable
+    - avogadro
     - k3b:
         branch: Neon/stable
     - libarchive:
@@ -71,6 +72,7 @@ anongit.neon.kde.org:
     - ostree
     - flatpak
     - libunwind
+    - openbabel
     - libzip
     - libzip4
     - muon

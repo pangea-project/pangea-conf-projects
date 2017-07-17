@@ -58,6 +58,7 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: Neon/release
+    - avogadro
     - libarchive:
         branch: Neon/release
     - fcitx-qt5:
@@ -75,6 +76,7 @@ anongit.neon.kde.org:
     - ostree
     - flatpak
     - libunwind
+    - openbabel
     - libzip
     - libzip4
     - muon
