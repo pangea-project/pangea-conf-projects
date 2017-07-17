@@ -578,13 +578,13 @@
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
 
 '*anongit.neon*/forks/avogadro':
-  'Neon/unstable':
+  'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
       type: git
       url: https://github.com/OpenChemistry/avogadrolibs
 
 '*anongit.neon*/neon-packaging/molequeue':
-  'Neon/unstable':
+  'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
       type: git
       url: https://github.com/OpenChemistry/molequeue
