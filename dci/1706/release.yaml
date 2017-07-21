@@ -85,3 +85,6 @@ github.com:
         branch: master
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
         branch: master
+  - netrunner-pine64:
+    - pine64-linux:
+        branch: master
