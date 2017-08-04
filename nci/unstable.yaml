@@ -104,6 +104,7 @@ anongit.neon.kde.org:
         branch: master
     - kbibtex
     - kile
+    - lmdb
   - krap:
     - libindi:
         branch: Neon/unstable
