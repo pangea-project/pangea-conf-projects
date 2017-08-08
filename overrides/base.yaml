@@ -469,7 +469,7 @@
 '*{anongit.neon}*/kde-extras/qapt':
   '{Neon/release,Neon/release-lts,Neon/stable}':
     upstream_scm:
-     type: uscan 
+     type: uscan
 
 '*{anonscm.debian,anongit.neon}*/kde-req/qca-qt5':
   '{kubuntu_unstable,Neon/unstable}':
@@ -548,31 +548,31 @@
       type: uscan
 
 '*anongit.neon*/forks/ldc':
-  'Neon/release':
+  '{Neon/release,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ldc_1.1.0+b3.orig.tar.gz
 
 '*anongit.neon*/forks/meson':
-  'Neon/release':
+  '{Neon/release,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/meson_0.35.0.orig.tar.gz
 
 '*anongit.neon*/forks/lmdb':
-  'Neon/release':
+  '{Neon/release,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/lmdb_0.9.18.orig.tar.gz
 
 '*anongit.neon*/forks/mustache-d':
-  'Neon/release':
+  '{Neon/release,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/mustache-d_0.1.1.orig.tar.gz
 
 '*anongit.neon*/forks/ninja-build':
-  'Neon/release':
+  '{Neon/release,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
