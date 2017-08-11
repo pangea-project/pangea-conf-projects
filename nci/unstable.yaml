@@ -90,6 +90,7 @@ anongit.neon.kde.org:
     - libzip4
     - muon
     - exiv2
+    - libqalculate
     - encfs:
         branch: master
     - harfbuzz:

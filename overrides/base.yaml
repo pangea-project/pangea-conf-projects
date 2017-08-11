@@ -547,6 +547,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/libqalculate':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/ldc':
   '{Neon/release,Neon/unstable}':
     upstream_scm:
