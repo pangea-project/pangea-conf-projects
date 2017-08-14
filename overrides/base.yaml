@@ -552,6 +552,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/opencv3':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/ldc':
   '{Neon/release,Neon/unstable}':
     upstream_scm:

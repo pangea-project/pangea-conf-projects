@@ -91,6 +91,7 @@ anongit.neon.kde.org:
     - muon
     - exiv2
     - libqalculate
+    - opencv3
     - encfs:
         branch: master
     - harfbuzz:
