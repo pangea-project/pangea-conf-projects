@@ -53,6 +53,7 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/stable
     - avogadro
+    - molequeue
     - k3b:
         branch: Neon/stable
     - libarchive:

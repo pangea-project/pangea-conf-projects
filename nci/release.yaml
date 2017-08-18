@@ -59,6 +59,7 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/release
     - avogadro
+    - molequeue
     - libarchive:
         branch: Neon/release
     - fcitx-qt5:

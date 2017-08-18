@@ -588,7 +588,7 @@
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
 
 '*anongit.neon*/forks/avogadro':
-  'Neon/{release-lts,release,stable,unstable}':
+  'Neon/{release,stable,unstable}':
     upstream_scm:
       type: git
       url: https://github.com/OpenChemistry/avogadrolibs
