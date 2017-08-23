@@ -187,17 +187,6 @@
     upstream_scm:
       branch: 4.9
 
-# umbrello set to frameworks in repo-metadata but that's not a useful branch
-'*{anonscm.debian,anongit.neon}*/applications/umbrello':
-  'Neon/stable':
-    upstream_scm:
-      branch: Applications/17.04
-
-'*{anonscm.debian,anongit.neon}*/applications/umbrello':
-  'Neon/unstable':
-    upstream_scm:
-      branch: master
-
 ## Qt
 
 '*{anonscm.debian,anongit.neon,gitlab.com}*/{qt,netrunner-debian-qt}/*':
