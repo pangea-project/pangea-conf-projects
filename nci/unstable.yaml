@@ -54,7 +54,6 @@ anongit.neon.kde.org:
     - libxkbcommon:
         branch: Neon/unstable
     - avogadro
-    - molequeue
     - libarchive:
         branch: Neon/unstable
     - k3b:
