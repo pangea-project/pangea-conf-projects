@@ -58,7 +58,6 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: Neon/release
-    - avogadro
     - libarchive:
         branch: Neon/release
     - fcitx-qt5:

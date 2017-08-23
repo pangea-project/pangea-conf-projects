@@ -58,7 +58,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - libxkbcommon:
         branch: Neon/release
-    - avogadro
     - molequeue
     - libarchive:
         branch: Neon/release
