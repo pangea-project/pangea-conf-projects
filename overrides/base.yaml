@@ -467,7 +467,7 @@
      type: uscan
 
 '*{anongit.neon}*/kde-extras/exiv2':
-  '{Neon/release,Neon/release-lts,Neon/stable}':
+  '{Neon/release,Neon/release-lts,Neon/stable,Neon/unstable}':
     upstream_scm:
      type: uscan
 
