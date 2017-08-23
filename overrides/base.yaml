@@ -466,6 +466,11 @@
     upstream_scm:
      type: uscan
 
+'*{anongit.neon}*/kde-extras/exiv2':
+  '{Neon/release,Neon/release-lts,Neon/stable}':
+    upstream_scm:
+     type: uscan
+
 '*{anonscm.debian,anongit.neon}*/kde-req/qca-qt5':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
