@@ -588,16 +588,16 @@
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
 
 '*anongit.neon*/forks/avogadro':
-  'Neon/{release,stable,unstable}':
+  'Neon/{stable,unstable}':
     upstream_scm:
-      type: git
-      url: https://github.com/OpenChemistry/avogadrolibs
+    upstream_scm:
+      type: uscan
 
 '*anongit.neon*/neon-packaging/molequeue':
-  'Neon/{release-lts,release,stable,unstable}':
+  'Neon/{stable,unstable}':
     upstream_scm:
-      type: git
-      url: https://github.com/OpenChemistry/molequeue
+    upstream_scm:
+      type: uscan
 
 '*anongit.neon*/neon-packaging/kdsoap':
   'Neon/{release-lts,release,stable,unstable}':
