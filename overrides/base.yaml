@@ -581,6 +581,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/molequeue':
+  'Neon/{release-lts,release,stable,unstable}':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/neon-packaging/kdsoap':
   'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
