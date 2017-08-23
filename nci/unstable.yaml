@@ -90,7 +90,6 @@ anongit.neon.kde.org:
     - libzip
     - libzip4
     - muon
-    - exiv2
     - libqalculate
     - opencv3
     - encfs:
