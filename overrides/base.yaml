@@ -70,7 +70,7 @@
 
 # Neon-packaging
 
-'*anongit.neon*/neon-packaging/calamares':
+'*anongit.neon*/kde-extras/calamares':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
