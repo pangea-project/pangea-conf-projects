@@ -266,6 +266,12 @@
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/muon_5.7.0.orig.tar.xz
 
+'*anongit.neon*/forks/ddcutil':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: tarball
+      url: https://launchpad.net/~rockowitz/+archive/ubuntu/ddcutil/+files/ddcutil_0.8.4.orig.tar.gz
+
 '*anongit.neon*/forks/wayland':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
