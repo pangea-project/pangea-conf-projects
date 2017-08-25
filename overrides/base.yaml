@@ -130,6 +130,11 @@
     upstream_scm:
       branch: master
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/libktorrent':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 # STD
 
 '*anongit.neon*/kde-std/kdevelop-python':
