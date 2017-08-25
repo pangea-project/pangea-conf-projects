@@ -125,6 +125,11 @@
     upstream_scm:
       branch: mklapetek/SpaceBar
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/ktorrent':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 # STD
 
 '*anongit.neon*/kde-std/kdevelop-python':
