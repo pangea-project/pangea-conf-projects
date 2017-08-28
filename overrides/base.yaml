@@ -446,7 +446,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/kde-extras/kile':
+'*anongit.neon*/forks/kile':
   'Neon/unstable':
     upstream_scm:
       url: git://anongit.kde.org/kile.git

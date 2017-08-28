@@ -104,6 +104,7 @@ anongit.neon.kde.org:
     - cryfs:
         branch: master
     - kbibtex
+    - kile
     - lmdb
     - ddcutil:
         branch: master
