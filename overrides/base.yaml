@@ -612,6 +612,11 @@
     upstream_scm:
       type: uscan
 
+'*{anonscm.debian,anongit.neon}*/krap/mlt':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
 '*{anonscm.debian,anongit.neon}*/krap/libnova':
   'master':
     upstream_scm:
