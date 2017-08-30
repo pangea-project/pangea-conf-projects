@@ -72,8 +72,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - apt:
         branch: master
-    - mlt:
-        branch: master
     - kdesvn:
         branch: Neon/unstable
     - rsibreak
@@ -114,6 +112,7 @@ anongit.neon.kde.org:
         branch: master
     - libnova:
         branch: master
+    - mlt
 
   - qt:
     - '*':
