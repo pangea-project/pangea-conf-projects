@@ -380,6 +380,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/kde-extras/drumstick':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/icemon':
   'Neon/unstable':
     upstream_scm:
