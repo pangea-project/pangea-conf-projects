@@ -38,6 +38,8 @@ anongit.neon.kde.org:
         branch: Neon/release-lts
     - gcompris:
         branch: Neon/release
+    - k3b:
+        branch: Neon/stable
     - libarchive:
         branch: Neon/release
     - lmdb:
