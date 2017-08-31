@@ -58,6 +58,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - libxkbcommon:
         branch: Neon/release
+    - k3b:
+        branch: Neon/stable
     - libarchive:
         branch: Neon/release
     - fcitx-qt5:
