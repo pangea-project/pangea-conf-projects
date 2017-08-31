@@ -34,8 +34,6 @@ anongit.neon.kde.org:
     - packagekit
     - aptdaemon:
         branch: master
-    - drumstick:
-        branch: master
     - gpgme:
         branch: Neon/release-lts
     - gcompris:
@@ -98,7 +96,7 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
-    
+
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

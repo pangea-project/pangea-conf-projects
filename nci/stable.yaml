@@ -34,8 +34,6 @@ anongit.neon.kde.org:
     - packagekit
     - aptdaemon:
         branch: master
-    - drumstick:
-        branch: master
     - gpgme:
         branch: Neon/stable
     - digikam:

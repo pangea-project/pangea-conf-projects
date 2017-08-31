@@ -35,8 +35,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - aptdaemon:
         branch: master
-    - drumstick:
-        branch: master
     - gpgme:
         branch: Neon/unstable
     - gcompris:
@@ -113,7 +111,7 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - libzip
-    
+
   - qt:
     - '*':
         branch: Neon/release

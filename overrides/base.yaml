@@ -380,12 +380,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/drumstick':
-  master:
-    upstream_scm:
-      type: tarball
-      url: http://sourceforge.mirrorservice.org/d/dr/drumstick/1.1.0/drumstick-1.1.0.tar.bz2
-
 '*anongit.neon*/forks/icemon':
   'Neon/unstable':
     upstream_scm:
