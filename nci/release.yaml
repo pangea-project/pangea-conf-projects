@@ -76,7 +76,6 @@ anongit.neon.kde.org:
     - flatpak
     - libunwind
     - openbabel
-    - libzip
     - libzip4
     - muon
     - encfs:
@@ -98,6 +97,7 @@ anongit.neon.kde.org:
         branch: master
     - libnova:
         branch: master
+    - libzip
 
 launchpad.net:
   - livecd-rootfs-neon

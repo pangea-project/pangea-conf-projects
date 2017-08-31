@@ -84,7 +84,6 @@ anongit.neon.kde.org:
     - x11proto-core
     - libxfont
     - openbabel
-    - libzip
     - libzip4
     - muon
     - libqalculate
@@ -113,7 +112,8 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - mlt
-
+    - libzip
+    
   - qt:
     - '*':
         branch: Neon/release
