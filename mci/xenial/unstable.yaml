@@ -5,7 +5,6 @@ git.debian.org:
     - debconf-kde
     - kdeconnect-plasma
     - koko
-    - qapt
     - telepathy-accounts-signon
 
 github.com:
@@ -37,36 +36,6 @@ anongit.neon.kde.org:
     - kirigami:
         branch: Neon/unstable
     - libkgapi:
-        branch: Neon/unstable
-  - kde-std:
-    - sddm:
-        branch: Neon/mobile
-  - applications:
-    - kholidays:
-        branch: Neon/unstable
-    - ktp-common-internals:
-        branch: Neon/unstable
-    - libkdegames:
-        branch: Neon/unstable
-    - libkmahjongg:
-        branch: Neon/unstable
-    - kmahjongg:
-        branch: Neon/unstable
-    - marble:
-        branch: Neon/unstable
-    - kaccounts-providers:
-        branch: Neon/unstable
-    - kaccounts-integration:
-        branch: Neon/unstable
-    - signon-kwallet-extension:
-        branch: Neon/unstable
-    - kio-extras:
-        branch: Neon/unstable
-    - gpgme:
-        branch: Neon/unstable
-    - kcalcore:
-        branch: Neon/unstable
-    - kcontacts:
         branch: Neon/unstable
   - plasma:
     - kwin:
