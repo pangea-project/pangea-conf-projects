@@ -38,8 +38,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - libkgapi:
         branch: Neon/unstable
-    - kirigami2:
-        branch: Neon/unstable
   - kde-std:
     - sddm:
         branch: Neon/mobile
