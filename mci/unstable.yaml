@@ -1,0 +1,57 @@
+origin: unstable
+
+git.debian.org:
+  - pkg-kde/kde-extras:
+    - koko:
+        branch: kubuntu_unstable
+    - telepathy-accounts-signon:
+        branch: kubuntu_unstable
+
+github.com:
+  - plasma-phone-packaging:
+    - plasma-phone-components-packaging:
+        branch: kubuntu_unstable
+    - plasma-phone-settings-packaging:
+        branch: kubuntu_unstable
+    - plasma-camera-packaging:
+        branch: kubuntu_unstable
+    - plasma-mobile-packaging:
+        branch: kubuntu_unstable
+    - plasma-settings-packaging:
+        branch: kubuntu_unstable
+    - plasma-maliit-framework-packaging:
+        branch: kubuntu_unstable
+    - plasma-maliit-plugins-packaging:
+        branch: kubuntu_unstable
+    - plasma-samegame-packaging:
+        branch: kubuntu_unstable
+    - okular:
+        branch: kubuntu_unstable
+    - mtp-server:
+        branch: kubuntu_unstable
+    - plasma-phone-meta:
+        branch: kubuntu_unstable
+    - kpeoplevcard:
+        branch: kubuntu_unstable
+    - screenshotapp:
+        branch: kubuntu_unstable
+    - spacebar:
+        branch: kubuntu_unstable
+    - inputcontext-gtk:
+        branch: kubuntu_unstable
+    - peruse:
+        branch: kubuntu_unstable
+    - videoPlayer-packaging:
+        branch: kubuntu_unstable
+
+anongit.neon.kde.org:
+  - kde-extras:
+    - libaccounts-glib:
+        branch: Neon/mobile
+    - kirigami:
+        branch: Neon/unstable
+    - libkgapi:
+        branch: Neon/unstable
+  - plasma:
+    - kwin:
+        branch: Neon/unstable

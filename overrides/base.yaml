@@ -1007,7 +1007,7 @@ https://github.com/halium-packaging/android-headers:
     upstream_scm:
       type: git
       url: https://github.com/halium/android-headers
-      branch: master
+      branch: halium-7.1
 
 https://github.com/halium-packaging/libhybris:
   halium-5.1:
