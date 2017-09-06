@@ -24,7 +24,7 @@
 '*{anonscm.debian,anongit.neon}*/plasma/plasma-discover':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/discover.git
+      url: https://anongit.kde.org/discover.git
 
 # Calligra
 
@@ -60,13 +60,13 @@
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/docker-neon.git
+      url: https://anongit.kde.org/docker-neon.git
 
 '*anongit.neon*/neon/ubiquity-slideshow':
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/ubiquity-slideshow-neon.git
+      url: https://anongit.kde.org/ubiquity-slideshow-neon.git
 
 # Neon-packaging
 
@@ -87,7 +87,7 @@
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/kdesdk-devenv-dependencies.git
+      url: https://anongit.kde.org/kdesdk-devenv-dependencies.git
 
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
@@ -113,7 +113,7 @@
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/kdeconnect-kde.git
+      url: https://anongit.kde.org/kdeconnect-kde.git
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/kio-gdrive':
   'Neon/stable':
@@ -140,7 +140,7 @@
 '*anongit.neon*/kde-std/kdevelop-python':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/kdev-python.git
+      url: https://anongit.kde.org/kdev-python.git
   'Neon/stable':
     upstream_scm:
       branch: 5.1
@@ -148,7 +148,7 @@
 '*anongit.neon*/kde-std/kdevelop-php':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/kdev-php.git
+      url: https://anongit.kde.org/kdev-php.git
   'Neon/stable':
     upstream_scm:
       branch: 5.1
@@ -183,7 +183,7 @@
 '*anongit.neon*/kde-std/phonon-backend-vlc':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/phonon-vlc.git
+      url: https://anongit.kde.org/phonon-vlc.git
   '{Neon/stable}':
     upstream_scm:
       branch: 0.9
@@ -191,7 +191,7 @@
 '*anongit.neon*/kde-std/phonon-backend-gstreamer':
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/phonon-gstreamer.git
+      url: https://anongit.kde.org/phonon-gstreamer.git
   '{Neon/stable}':
     upstream_scm:
       branch: 4.9
@@ -411,7 +411,7 @@
 '*anongit.neon*/forks/libalkimia':
   'Neon/unstable':
     upstream_scm:
-      url: git://anongit.kde.org/alkimia.git
+      url: https://anongit.kde.org/alkimia.git
 
 '*anongit.neon*/forks/libgwenhywfar':
   'Neon/unstable':
@@ -449,22 +449,22 @@
 '*anongit.neon*/kde-extras/kile':
   'Neon/unstable':
     upstream_scm:
-      url: git://anongit.kde.org/kile.git
+      url: https://anongit.kde.org/kile.git
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/libdebconf-kde.git
+      url: https://anongit.kde.org/libdebconf-kde.git
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/kdeconnect-plasma':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/kdeconnect-kde.git
+      url: https://anongit.kde.org/kdeconnect-kde.git
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/qapt':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/libqapt.git
+      url: https://anongit.kde.org/libqapt.git
 
 '*{anongit.neon}*/kde-extras/qapt':
   '{Neon/release,Neon/release-lts,Neon/stable}':
@@ -479,7 +479,7 @@
 '*{anonscm.debian,anongit.neon}*/kde-req/qca-qt5':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/qca.git
+      url: https://anongit.kde.org/qca.git
 
 '*{anonscm.debian,anongit.neon}*/kde-std/sddm':
   '{kubuntu_unstable,Neon/stable,Neon/unstable}':
@@ -510,7 +510,7 @@
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/kirigami.git
+      url: https://anongit.kde.org/kirigami.git
       branch: master
 
 '*{anonscm.debian,anongit.neon}*/forks/libkolab':
@@ -658,7 +658,7 @@
 https://github.com/plasma-phone-packaging/simplelogin-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/scratch/davidedmundson/simplelogin.git
+      url: https://anongit.kde.org/scratch/davidedmundson/simplelogin.git
 https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
   Neon/mobile:
     upstream_scm:
@@ -666,46 +666,46 @@ https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
 https://github.com/plasma-phone-packaging/plasma-phone-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-phone-settings.git
+      url: https://anongit.kde.org/plasma-phone-settings.git
 https://github.com/plasma-phone-packaging/plasma-camera-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-camera
+      url: https://anongit.kde.org/plasma-camera
 https://github.com/plasma-phone-packaging/plasma-phone-components-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-phone-components.git
+      url: https://anongit.kde.org/plasma-phone-components.git
 https://github.com/plasma-phone-packaging/plasma-mobile-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-mobile
+      url: https://anongit.kde.org/plasma-mobile
 https://github.com/plasma-phone-packaging/plasma-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-settings
+      url: https://anongit.kde.org/plasma-settings
 https://github.com/plasma-phone-packaging/plasma-maliit-plugins-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-maliit-plugins.git
+      url: https://anongit.kde.org/plasma-maliit-plugins.git
 https://github.com/plasma-phone-packaging/plasma-samegame-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-samegame
+      url: https://anongit.kde.org/plasma-samegame
 https://github.com/plasma-phone-packaging/mtp-server:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/mtp-server.git
+      url: https://anongit.kde.org/mtp-server.git
 https://github.com/plasma-phone-packaging/okular:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/okular
+      url: https://anongit.kde.org/okular
     upstream_scm:
       branch: frameworks
 
 https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: git://anongit.kde.org/plasma-maliit-framework.git
+      url: https://anongit.kde.org/plasma-maliit-framework.git
 https://github.com/plasma-phone-packaging/libepoxy:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
@@ -796,7 +796,7 @@ https://github.com/ds9-extras-packaging/mint-common:
 https://github.com/ds9-extras-packaging/groupingplasmoid:
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
+      url: https://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
 'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}*':
@@ -825,11 +825,11 @@ https://github.com/ds9-extras-packaging/ring-kde:
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/ring-kde
+      url: https://anongit.kde.org/ring-kde
   'Netrunner/backports':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/ring-kde
+      url: https://anongit.kde.org/ring-kde
       branch: next
 
 https://github.com/ds9-extras-packaging/skype:
@@ -844,7 +844,7 @@ https://github.com/ds9-extras-packaging/plasma-widget-volumewin7mixer:
 https://github.com/ds9-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/samba-mounter.git
+      url: https://anongit.kde.org/samba-mounter.git
       branch: master
 
 'https://github.com/ds9-extras-packaging/{plasma,kcm,ice}-*':
@@ -875,11 +875,11 @@ https://github.com/ds9-extras-packaging/{xdgurl,telepathy-,telegram-}*:
 https://github.com/ds9-extras-packaging/simplemenu:
   '*':
     upstream_scm:
-      url: git://anongit.kde.org/scratch/hein/simplemenu.git
+      url: https://anongit.kde.org/scratch/hein/simplemenu.git
       branch: master
   'Netrunner/17.03':
     upstream_scm:
-      url: git://anongit.kde.org/scratch/hein/simplemenu.git
+      url: https://anongit.kde.org/scratch/hein/simplemenu.git
       branch: 5.8
 
 https://github.com/ds9-extras-packaging/kcm-kernel-config:
@@ -907,7 +907,7 @@ https://github.com/ds9-debian-plasma/plymouth-kcm:
   'Netrunner/17.03':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/plymouth-kcm.git
+      url: https://anongit.kde.org/plymouth-kcm.git
 
 'https://github.com/ds9-debian-qt/qtwebengine':
   '*':
@@ -919,7 +919,7 @@ https://github.com/ds9-common/sortinglaunchers:
   'master':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/scratch/hein/sortinglaunchers.git
+      url: https://anongit.kde.org/scratch/hein/sortinglaunchers.git
 
 https://github.com/ds9-common/anttoolbar:
   'master':
@@ -1005,7 +1005,7 @@ https://github.com/ds9-debian-kde-extras/qtcurve:
   '*':
     upstream_scm:
       type: git
-      url: git://anongit.kde.org/qtcurve.git
+      url: https://anongit.kde.org/qtcurve.git
       branch: master
 
 https://github.com/halium-packaging/android-headers:
