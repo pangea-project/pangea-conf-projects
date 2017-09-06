@@ -77,14 +77,14 @@ github.com:
         branch: Netrunner/17.06
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
-        branch: master
+        branch: Netrunner/17.06
   - netrunner-odroid:
     - '{odroid,mali}-*':
-        branch: master
+        branch: Netrunner/17.06
     - xserver-xorg-video-mali:
-        branch: master
+        branch: Netrunner/17.06
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
-        branch: master
+        branch: Netrunner/17.06
   - netrunner-pine64:
     - '{pine64,xf86-video-armsoc,rtl8723ds-bt}*':
-        branch: master
+        branch: Netrunner/17.06
