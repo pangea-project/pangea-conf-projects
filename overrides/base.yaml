@@ -153,6 +153,12 @@
     upstream_scm:
       branch: 5.1
 
+# it's not considered kf5
+'*anongit.neon*/applications/kde-dev-scripts':
+  'Neon/stable':
+    upstream_scm:
+      branch: Applications/17.08
+
 '*anongit.neon*/kde-std/kdevelop':
   'Neon/stable':
     upstream_scm:
