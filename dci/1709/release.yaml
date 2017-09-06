@@ -13,9 +13,9 @@ github.com:
 #         branch: Netrunner/17.06
     - 'kamoso':
         branch: Netrunner/17.09
-#   - ds9-debian-kde-applications:
-#     - '*':
-#         branch: Netrunner/17.06
+  - ds9-debian-kde-applications:
+    - '*':
+        branch: Netrunner/17.09
 
   - linuxmint:
     - mintinstall:
