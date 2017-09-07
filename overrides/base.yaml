@@ -513,7 +513,7 @@
       url: https://anongit.kde.org/kirigami.git
       branch: master
 
-'*anongit.neon*/frameworks/qqc2-desktop-style':
+'*anongit.neon*/plasma/qqc2-desktop-style':
   '{Neon/unstable,Neon/stable}':
     upstream_scm:
       type: git
