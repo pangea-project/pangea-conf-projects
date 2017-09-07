@@ -4,3 +4,8 @@ github.com:
         branch: halium-7.1
     - libhybris:
         branch: halium-7.1
+
+anongit.neon.kde.org:
+  - plasma:
+    - kwin:
+        branch: Neon/unstable
