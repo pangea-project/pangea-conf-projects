@@ -8,4 +8,4 @@ github.com:
 anongit.neon.kde.org:
   - plasma:
     - kwin:
-        branch: Neon/unstable
+        branch: Neon/mobile
