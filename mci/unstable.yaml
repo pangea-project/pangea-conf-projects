@@ -45,6 +45,9 @@ github.com:
         branch: kubuntu_unstable
 
 anongit.neon.kde.org:
+  - plasma:
+    - kaccounts-mobile:
+        branch: kubuntu_unstable
   - kde-extras:
     - libaccounts-glib:
         branch: Neon/mobile
