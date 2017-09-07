@@ -39,6 +39,9 @@ github.com:
         branch: master
     - mlt:
         branch: Netrunner/17.09
+    - libkolab:
+        branch: Netrunner/17.09
+
   - ds9-extras-packaging:
     - '*':
         branch: master
