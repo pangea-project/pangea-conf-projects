@@ -1009,18 +1009,18 @@ https://github.com/ds9-debian-kde-extras/qtcurve:
       branch: master
 
 https://github.com/halium-packaging/android-headers:
-  halium-5.1:
+  halium-7.1:
     upstream_scm:
       type: git
       url: https://github.com/halium/android-headers
       branch: halium-7.1
 
 https://github.com/halium-packaging/libhybris:
-  halium-5.1:
+  halium-7.1:
     upstream_scm:
       type: git
       url: https://github.com/halium/libhybris
-      branch: halium-5.1
+      branch: halium-7.1
 
 https://github.com/halium-packaging/lxc-android:
   master:
