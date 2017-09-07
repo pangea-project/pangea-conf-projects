@@ -43,6 +43,8 @@ github.com:
         branch: kubuntu_unstable
     - videoPlayer-packaging:
         branch: kubuntu_unstable
+    - simplelogin-packaging:
+        branch: kubuntu_unstable
 
 anongit.neon.kde.org:
   - plasma:
