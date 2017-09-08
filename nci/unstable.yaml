@@ -30,6 +30,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - live-build:
         branch: master
+    - util-linux:
+        branch: master
     - packagekit
     - pyqt5:
         branch: Neon/unstable
