@@ -2,8 +2,6 @@ origin: unstable
 
 git.debian.org:
   - pkg-kde/kde-extras:
-    - koko:
-        branch: kubuntu_unstable
     - telepathy-accounts-signon:
         branch: kubuntu_unstable
 
@@ -37,8 +35,6 @@ github.com:
         branch: kubuntu_unstable
     - inputcontext-gtk:
         branch: kubuntu_unstable
-    - peruse:
-        branch: kubuntu_unstable
     - videoPlayer-packaging:
         branch: kubuntu_unstable
     - simplelogin-packaging:
@@ -54,4 +50,8 @@ anongit.neon.kde.org:
     - kirigami:
         branch: Neon/unstable
     - libkgapi:
+        branch: Neon/unstable
+    - koko:
+        branch: Neon/unstable
+    - peruse:
         branch: Neon/unstable
