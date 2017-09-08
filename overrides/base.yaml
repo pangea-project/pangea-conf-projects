@@ -708,6 +708,11 @@ https://github.com/plasma-phone-packaging/mtp-server:
     upstream_scm:
       url: https://anongit.kde.org/mtp-server.git
 
+https://github.com/plasma-phone-packaging/spacebar:
+  '{kubuntu_unstable,Neon/unstable}':
+    upstream_scm:
+      url: https://anongit.kde.org/spacebar.git
+
 https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
