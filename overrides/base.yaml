@@ -707,12 +707,6 @@ https://github.com/plasma-phone-packaging/mtp-server:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/mtp-server.git
-https://github.com/plasma-phone-packaging/okular:
-  '{kubuntu_unstable,Neon/unstable}':
-    upstream_scm:
-      url: https://anongit.kde.org/okular
-    upstream_scm:
-      branch: frameworks
 
 https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
   '{kubuntu_unstable,Neon/unstable}':
