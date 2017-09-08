@@ -1,4 +1,8 @@
 github.com:
+  - ds9-debian-qt:
+    - qtvirtualkeyboard:
+        branch: Netrunner/17.09
+
   - ds9-debian-frameworks:
     - '*':
         branch: Netrunner/17.09
