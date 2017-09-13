@@ -159,11 +159,6 @@
     upstream_scm:
       branch: Applications/17.08
 
-'*anongit.neon*/kde-std/kdevelop':
-  'Neon/stable':
-    upstream_scm:
-      branch: 5.1
-
 '*anongit.neon*/kde-std/kdevelop-pg-qt':
   'Neon/stable':
     upstream_scm:
@@ -522,7 +517,7 @@
   '{Neon/release,Neon/release-lts}':
     upstream_scm:
       type: tarball
-      url: https://download.kde.org/unstable/qqc2-desktop-style/qqc2-desktop-style-5.10.95.tar.xz
+      url: http://ftp.gwdg.de/pub/linux/kde/unstable/qqc2-desktop-style/qqc2-desktop-style-5.10.95.tar.xz
 
 '*{anonscm.debian,anongit.neon}*/forks/libkolab':
   'Neon/unstable':
