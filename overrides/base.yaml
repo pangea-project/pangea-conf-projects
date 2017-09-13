@@ -141,28 +141,17 @@
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-python.git
-  'Neon/stable':
-    upstream_scm:
-      branch: 5.1
 
 '*anongit.neon*/kde-std/kdevelop-php':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-php.git
-  'Neon/stable':
-    upstream_scm:
-      branch: 5.1
 
 # it's not considered kf5
 '*anongit.neon*/applications/kde-dev-scripts':
   'Neon/stable':
     upstream_scm:
       branch: Applications/17.08
-
-'*anongit.neon*/kde-std/kdevelop-pg-qt':
-  'Neon/stable':
-    upstream_scm:
-      branch: 2.0
 
 '*anongit.neon*/kde-std/sddm':
   'Neon/mobile':
