@@ -1,25 +1,25 @@
 github.com:
   - ds9-debian-qt:
     - qtvirtualkeyboard:
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
 
   - ds9-debian-frameworks:
     - '*':
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
 
   - ds9-debian-plasma:
     - '*':
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
   - ds9-debian-kde-extras:
     - 'kirigami*':
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
 #     - 'telepathy-qt4':
 #         branch: Netrunner/17.06
     - 'kamoso':
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
   - ds9-debian-kde-applications:
     - '*':
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
 
   - linuxmint:
     - mintinstall:
@@ -42,9 +42,9 @@ github.com:
     - libwlocate:
         branch: master
     - mlt:
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
     - libkolab:
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
 
   - ds9-extras-packaging:
     - '*':
@@ -55,7 +55,7 @@ github.com:
     - '*':
         branch: master
     - transmission:
-        branch: Netrunner/17.09
+        branch: Netrunner/17.10
   - ds9-artwork:
     - '*':
         branch: master
