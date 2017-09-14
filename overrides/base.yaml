@@ -54,6 +54,11 @@
     upstream_scm:
       branch: Plasma/5.7
 
+'*{anonscm.debian,anongit.neon}*/plasma/*':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.11
+
 # Neon natives
 
 '*anongit.neon*/neon/docker-neon':
