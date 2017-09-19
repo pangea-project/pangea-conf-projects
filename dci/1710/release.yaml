@@ -47,6 +47,8 @@ github.com:
         branch: Netrunner/17.10
     - ddcutil:
         branch: master
+    - snapd-glib:
+        branch: master
 
   - ds9-extras-packaging:
     - '*':
