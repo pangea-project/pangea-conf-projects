@@ -6,6 +6,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - kwayland:
         branch: Neon/unstable
+    - kdeclarative:
+        branch: Neon/unstable
   - plasma:
     - plasma-integration:
         branch: Neon/unstable
