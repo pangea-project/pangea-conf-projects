@@ -23,3 +23,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - kwin:
         branch: Neon/unstable
+  - applications:
+    - akonadi:
+        branch: Neon/unstable
