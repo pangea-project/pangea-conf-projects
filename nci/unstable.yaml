@@ -87,7 +87,6 @@ anongit.neon.kde.org:
     - libzip4
     - muon
     - libqalculate
-    - opencv
     - encfs:
         branch: master
     - harfbuzz:
