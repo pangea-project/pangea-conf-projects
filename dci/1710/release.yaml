@@ -86,3 +86,6 @@ github.com:
   - netrunner-pine64:
     - '{pine64,xf86-video-armsoc,rtl8723ds-bt}*':
         branch: master
+  - nomad-desktop:
+    - '*':
+        branch: master
