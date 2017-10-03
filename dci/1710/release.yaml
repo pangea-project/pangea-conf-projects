@@ -91,3 +91,6 @@ github.com:
   - nomad-artwork:
     - '*':
         branch: master
+  - netrunner-nomad-desktop:
+    - '*':
+        branch: master
