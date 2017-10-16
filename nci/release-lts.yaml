@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
+    - doxygen
 
 launchpad.net:
   - livecd-rootfs-neon
