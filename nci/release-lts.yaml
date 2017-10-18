@@ -90,6 +90,7 @@ anongit.neon.kde.org:
         branch: master
     - cryfs:
         branch: master
+    - doxygen
   - krap:
     - libindi:
         branch: Neon/release-lts
@@ -98,7 +99,6 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
-    - doxygen
 
 launchpad.net:
   - livecd-rootfs-neon
