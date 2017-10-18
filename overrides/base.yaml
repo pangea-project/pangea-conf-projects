@@ -285,6 +285,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/doxygen':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/taglib':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
