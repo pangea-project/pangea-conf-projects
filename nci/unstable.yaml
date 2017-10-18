@@ -113,7 +113,6 @@ anongit.neon.kde.org:
     - mlt
     - libzip
     - doxygen
-
   - qt:
     - '*':
         branch: Neon/release
