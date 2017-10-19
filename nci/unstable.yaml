@@ -103,7 +103,6 @@ anongit.neon.kde.org:
     - lmdb
     - ddcutil:
         branch: master
-    - doxygen
   - krap:
     - libindi:
         branch: Neon/unstable
