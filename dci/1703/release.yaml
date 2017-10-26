@@ -10,7 +10,7 @@ git.debian.org:
         branch: master
 
 github.com:
-  - ds9-debian-qt:
+  - dci-debian-qt:
     - qtvirtualkeyboard:
         branch: Netrunner/17.03
     - qtserialport:
@@ -18,19 +18,19 @@ github.com:
     - qtwebengine:
         branch: master
 
-  - ds9-debian-frameworks:
+  - dci-debian-frameworks:
     - '*':
         branch: Netrunner/17.03
-  - ds9-debian-plasma:
+  - dci-debian-plasma:
     - '*':
         branch: Netrunner/17.03
     - plymouth-kcm:
         branch: master
 
-  - ds9-debian-kde-extras:
+  - dci-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/17.03
-  - ds9-debian-kde-applications:
+  - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/17.03
   - linuxmint:
@@ -63,7 +63,7 @@ github.com:
   - netrunner-pine64:
     - '*':
         branch: Netrunner/17.03
-  - ds9-extras-packaging:
+  - dci-extras-packaging:
     - '*':
         branch: Netrunner/17.03
   - netrunner-core:
@@ -78,7 +78,7 @@ github.com:
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
         branch: 'Netrunner/17.03'
-  - ds9-debian-packaging-backports:
+  - dci-debian-packaging-backports:
     - libwlocate:
         branch: Netrunner/17.03
     - libkolab:

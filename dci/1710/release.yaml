@@ -1,16 +1,16 @@
 github.com:
-  - ds9-debian-qt:
+  - dci-debian-qt:
     - qtvirtualkeyboard:
         branch: Netrunner/17.10
 
-  - ds9-debian-frameworks:
+  - dci-debian-frameworks:
     - '*':
         branch: Netrunner/17.10
 
-  - ds9-debian-plasma:
+  - dci-debian-plasma:
     - '*':
         branch: Netrunner/17.10
-  - ds9-debian-kde-extras:
+  - dci-debian-kde-extras:
     - 'latte-dock':
         branch: Netrunner/17.10
     - 'kirigami*':
@@ -19,7 +19,7 @@ github.com:
 #         branch: Netrunner/17.06
     - 'kamoso':
         branch: Netrunner/17.10
-  - ds9-debian-kde-applications:
+  - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/17.10
 
@@ -40,7 +40,7 @@ github.com:
     - thunderbird:
         branch: release/kde
 
-  - ds9-debian-packaging-backports:
+  - dci-debian-packaging-backports:
     - libwlocate:
         branch: master
     - mlt:
@@ -52,7 +52,7 @@ github.com:
     - snapd-glib:
         branch: master
 
-  - ds9-extras-packaging:
+  - dci-extras-packaging:
     - '*':
         branch: master
     - isoimagewrier:

@@ -4,27 +4,27 @@ git.debian.org:
         branch: master
 
 github.com:
-  - ds9-debian-qt:
+  - dci-debian-qt:
     - qtvirtualkeyboard:
         branch: Netrunner/17.06
     - qtserialport:
         branch: Netrunner/17.06
 
-  - ds9-debian-frameworks:
+  - dci-debian-frameworks:
     - '*':
         branch: Netrunner/17.06
 
-  - ds9-debian-plasma:
+  - dci-debian-plasma:
     - '*':
         branch: Netrunner/17.06
-  - ds9-debian-kde-extras:
+  - dci-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/17.06
     - 'telepathy-qt4':
         branch: Netrunner/17.06
     - 'kamoso':
         branch: Netrunner/17.06
-  - ds9-debian-kde-applications:
+  - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/17.06
 
@@ -45,14 +45,14 @@ github.com:
     - thunderbird:
         branch: release/kde
 
-  - ds9-debian-packaging-backports:
+  - dci-debian-packaging-backports:
     - libkolab:
         branch: Netrunner/17.06
     - libwlocate:
         branch: Netrunner/17.06
     - mlt:
         branch: Netrunner/17.06
-  - ds9-extras-packaging:
+  - dci-extras-packaging:
     - '*':
         branch: Netrunner/17.06
     - isoimagewrier:

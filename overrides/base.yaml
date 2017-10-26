@@ -790,29 +790,29 @@ https://github.com/rpi2-stuff/mesa:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
 
-'https://github.com/ds9-extras-packaging/*':
+'https://github.com/dci-extras-packaging/*':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-https://github.com/ds9-extras-packaging/mint-common:
+https://github.com/dci-extras-packaging/mint-common:
   '*':
     upstream_scm:
       url: https://github.com/linuxmint/mint-common
       type: git
 
-https://github.com/ds9-extras-packaging/groupingplasmoid:
+https://github.com/dci-extras-packaging/groupingplasmoid:
   '*':
     upstream_scm:
       url: https://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
-'https://github.com/ds9-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}*':
+'https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}*':
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-extras-packaging/ring:
+https://github.com/dci-extras-packaging/ring:
   '*':
     upstream_scm:
       type: tarball
@@ -823,13 +823,13 @@ https://github.com/ds9-extras-packaging/ring:
       url: http://people.ubuntu.com/~rohangarg/ring/ring_20170601.1.79f748e~dfsg1.orig.tar.gz
 
 
-https://github.com/ds9-extras-packaging/ring-lrc:
+https://github.com/dci-extras-packaging/ring-lrc:
   '*':
     upstream_scm:
       url: https://github.com/Elv13/ring-lrc/
       branch: work5
 
-https://github.com/ds9-extras-packaging/ring-kde:
+https://github.com/dci-extras-packaging/ring-kde:
   '*':
     upstream_scm:
       type: git
@@ -840,47 +840,47 @@ https://github.com/ds9-extras-packaging/ring-kde:
       url: https://anongit.kde.org/ring-kde
       branch: next
 
-https://github.com/ds9-extras-packaging/skype:
+https://github.com/dci-extras-packaging/skype:
   '*':
     upstream_scm:
 
-https://github.com/ds9-extras-packaging/plasma-widget-volumewin7mixer:
+https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer:
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-extras-packaging/samba-mounter:
+https://github.com/dci-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
       url: https://anongit.kde.org/samba-mounter.git
       branch: master
 
-'https://github.com/ds9-extras-packaging/{plasma,kcm,ice}-*':
+'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/<%= name %>
 
-'https://github.com/ds9-extras-packaging/kcm-{plasma-services,about-extended,repo-toggle}':
+'https://github.com/dci-extras-packaging/kcm-{plasma-services,about-extended,repo-toggle}':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-https://github.com/ds9-extras-packaging/imagewriter:
+https://github.com/dci-extras-packaging/imagewriter:
   '*':
     upstream_scm:
       url: https://github.com/openSUSE/imagewriter
 
-https://github.com/ds9-extras-packaging/ksuperkey:
+https://github.com/dci-extras-packaging/ksuperkey:
   '*':
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
-https://github.com/ds9-extras-packaging/{xdgurl,telepathy-,telegram-}*:
+https://github.com/dci-extras-packaging/{xdgurl,telepathy-,telegram-}*:
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-extras-packaging/simplemenu:
+https://github.com/dci-extras-packaging/simplemenu:
   '*':
     upstream_scm:
       url: https://anongit.kde.org/scratch/hein/simplemenu.git
@@ -890,7 +890,7 @@ https://github.com/ds9-extras-packaging/simplemenu:
       url: https://anongit.kde.org/scratch/hein/simplemenu.git
       branch: 5.8
 
-https://github.com/ds9-extras-packaging/kcm-kernel-config:
+https://github.com/dci-extras-packaging/kcm-kernel-config:
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
@@ -906,18 +906,18 @@ https://github.com/plasmazilla/firefox:
       type: firefox
       url: http://deb.debian.org/debian/pool/main/f/firefox/firefox_50.1.0.orig.tar.xz
 
-'https://github.com/ds9-debian-{qt,frameworks,plasma,kde-applications,kde-extras}/*':
+'https://github.com/dci-debian-{qt,frameworks,plasma,kde-applications,kde-extras}/*':
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-debian-plasma/plymouth-kcm:
+https://github.com/dci-debian-plasma/plymouth-kcm:
   'Netrunner/17.03':
     upstream_scm:
       type: git
       url: https://anongit.kde.org/plymouth-kcm.git
 
-'https://github.com/ds9-debian-qt/qtwebengine':
+'https://github.com/dci-debian-qt/qtwebengine':
   '*':
   upstream_scm:
     type: tarball
@@ -934,12 +934,12 @@ https://github.com/ds9-common/anttoolbar:
     upstream_scm:
       type: uscan
 
-'https://github.com/ds9-debian-packaging-backports/*':
+'https://github.com/dci-debian-packaging-backports/*':
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/ds9-debian-packaging-backports/libwlocate:
+https://github.com/dci-debian-packaging-backports/libwlocate:
   '*':
     upstream_scm:
       type: tarball
@@ -1009,7 +1009,7 @@ https://github.com/netrunner-pine64/pine64-linux:
       url: https://github.com/shadeslayer/<%= name %>
       branch: master
 
-https://github.com/ds9-debian-kde-extras/qtcurve:
+https://github.com/dci-debian-kde-extras/qtcurve:
   '*':
     upstream_scm:
       type: git
