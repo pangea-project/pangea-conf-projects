@@ -1,5 +1,5 @@
 github.com:
-  - ds9-debian-qt:
+  - dci-debian-qt:
     - qtvirtualkeyboard:
         branch: Netrunner/backports
     - qtserialport:
@@ -15,15 +15,15 @@ github.com:
         branch: esr/kde
     - thunderbird:
         branch: release/kde
-  - ds9-debian-frameworks:
+  - dci-debian-frameworks:
     - '*':
         branch: Netrunner/backports
-  - ds9-debian-plasma:
+  - dci-debian-plasma:
     - '*':
         branch: Netrunner/backports
     - plymouth-kcm:
         branch: Netrunner/backports
-  - ds9-debian-kde-extras:
+  - dci-debian-kde-extras:
     - 'kirigami*':
         branch: Netrunner/backports
     # Moved to applications starting KDE Apps 17.03,
@@ -33,17 +33,17 @@ github.com:
     # Patched version of qtcurve
     - qtcurve:
         branch: Netrunner/backports
-  - ds9-debian-kde-applications:
+  - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/backports
-  - ds9-extras-packaging:
+  - dci-extras-packaging:
     - ring:
         branch: Netrunner/backports
     - ring-kde:
         branch: Netrunner/backports
     - kcm-about-extended:
         branch: master
-  - ds9-debian-packaging-backports:
+  - dci-debian-packaging-backports:
     - libwlocate:
         branch: 'master'
     - libkolab:
