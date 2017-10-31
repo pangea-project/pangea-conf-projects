@@ -51,6 +51,8 @@ github.com:
         branch: master
     - snapd-glib:
         branch: master
+    - fontconfig:
+        branch: master
 
   - dci-extras-packaging:
     - '*':
