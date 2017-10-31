@@ -102,6 +102,7 @@
 '*anongit.neon*/neon-packaging/vc':
   '*':
     upstream_scm:
+      type: git
       url: https://github.com/VcDevel/Vc.git
 
 '*anongit.neon*/neon-packaging/flatbuffers':
