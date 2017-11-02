@@ -511,17 +511,6 @@
       url: https://anongit.kde.org/kirigami.git
       branch: master
 
-'*anongit.neon*/frameworks/qqc2-desktop-style':
-  '{Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: git
-      url: https://anongit.kde.org/qqc2-desktop-style.git
-      branch: master
-  '{Neon/release,Neon/release-lts}':
-    upstream_scm:
-      type: tarball
-      url: http://ftp.gwdg.de/pub/linux/kde/unstable/qqc2-desktop-style/qqc2-desktop-style-5.10.95.tar.xz
-
 '*{anonscm.debian,anongit.neon}*/forks/libkolab':
   'Neon/unstable':
     upstream_scm:
