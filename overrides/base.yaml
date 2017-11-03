@@ -880,6 +880,11 @@ https://github.com/dci-extras-packaging/kcm-kernel-config:
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
 
+https://github.com/dci-extras-packaging/isoimagewriter-neon:
+  '*':
+    upstream_scm:
+      url: git://anongit.kde.org/isoimagewriter.git
+
 https://github.com/plasmazilla/mozilla-kde-support:
   'master':
     upstream_scm:
