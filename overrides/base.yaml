@@ -114,6 +114,12 @@
   '*':
     upstream_scm:
       type: uscan
+
+'*anongit.neon*/kde-extras/hotspot':
+  '{Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
