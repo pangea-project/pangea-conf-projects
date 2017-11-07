@@ -120,6 +120,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/perfparser':
+  '{Neon/unstable}':
+    upstream_scm:
+      url: https://github.com/KDAB/perfparser
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
