@@ -116,14 +116,15 @@
       type: uscan
 
 '*anongit.neon*/kde-extras/hotspot':
-  '{Neon/unstable}':
+  '*':
     upstream_scm:
       type: uscan
 
 '*anongit.neon*/neon-packaging/perfparser':
-  '{Neon/unstable}':
+  '*':
     upstream_scm:
-      url: https://github.com/KDAB/perfparser
+      type: git
+      url: https://github.com/KDAB/perfparser.git
 
 # Extras
 
