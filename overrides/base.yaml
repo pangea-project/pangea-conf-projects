@@ -222,6 +222,9 @@
   Neon/testing:
     upstream_scm:
       type: uscan
+  Neon/testing-qt:
+    upstream_scm:
+      type: uscan
   Netrunner/stable:
     upstream_scm:
       type: tarball
@@ -236,6 +239,9 @@
     upstream_scm:
       type: uscan
   Neon/testing:
+    upstream_scm:
+      type: uscan
+  Neon/testing-qt:
     upstream_scm:
       type: uscan
 
@@ -271,6 +277,9 @@
 
 '*anongit.neon*/forks/pyqt5':
   Neon/testing:
+    upstream_scm:
+      type: uscan
+  Neon/testing-qt:
     upstream_scm:
       type: uscan
   Neon/unstable:
