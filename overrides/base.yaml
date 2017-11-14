@@ -170,10 +170,6 @@
       branch: master
 
 # it's not considered kf5
-'*anongit.neon*/applications/kde-dev-scripts':
-  'Neon/stable':
-    upstream_scm:
-      branch: Applications/17.08
 
 '*anongit.neon*/kde-std/sddm':
   'Neon/mobile':
