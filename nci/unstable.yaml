@@ -68,8 +68,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - smb4k:
         branch: Neon/unstable
-    - apt:
-        branch: master
     - kdesvn:
         branch: Neon/unstable
     - rsibreak

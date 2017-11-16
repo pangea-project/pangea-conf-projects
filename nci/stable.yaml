@@ -56,8 +56,6 @@ anongit.neon.kde.org:
         branch: Neon/stable
     - fcitx-qt5:
         branch: Neon/stable
-    - apt:
-        branch: master
     - mlt:
         branch: master
     - kdesvn:
