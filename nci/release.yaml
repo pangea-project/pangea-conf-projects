@@ -52,8 +52,6 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
-    - libinput:
-        branch: Neon/release
     - libxkbcommon:
         branch: Neon/release
     - k3b:

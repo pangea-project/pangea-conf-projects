@@ -47,8 +47,6 @@ anongit.neon.kde.org:
         branch: master
     - python-apt:
         branch: master
-    - libinput:
-        branch: master
     - libxkbcommon:
         branch: Neon/unstable
     - avogadro

@@ -3,14 +3,14 @@ anongit.neon.kde.org:
     - '*'
   - frameworks:
     - plasma-framework:
-        branch: Neon/testing
+        branch: Neon/unstable
     - kwayland:
-        branch: Neon/testing
+        branch: Neon/unstable
     - kdeclarative:
-        branch: Neon/testing
+        branch: Neon/unstable
   - plasma:
     - plasma-integration:
-        branch: Neon/testing
+        branch: Neon/unstable
   - applications:
     - kio-extras:
         branch: Neon/unstable

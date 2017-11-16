@@ -56,8 +56,6 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
-    - libinput:
-        branch: Neon/release
     - libarchive:
         branch: Neon/release
     - fcitx-qt5:
