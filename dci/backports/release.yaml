@@ -48,3 +48,5 @@ github.com:
         branch: 'master'
     - libkolab:
         branch: 'master'
+    - snapd-glib:
+        branch: master
