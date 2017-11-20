@@ -100,6 +100,8 @@ anongit.neon.kde.org:
     - twisted
     - automat
     - constantly
+    - hyperlink
+    - incremental
   - krap:
     - libindi:
         branch: Neon/unstable

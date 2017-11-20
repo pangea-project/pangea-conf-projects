@@ -296,6 +296,16 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/hyperlink':
+  Neon/unstable:
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/incremental':
+  Neon/unstable:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/fcitx-qt5':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
