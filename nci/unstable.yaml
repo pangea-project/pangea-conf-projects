@@ -99,6 +99,7 @@ anongit.neon.kde.org:
         branch: master
     - twisted
     - automat
+    - constantly
   - krap:
     - libindi:
         branch: Neon/unstable
