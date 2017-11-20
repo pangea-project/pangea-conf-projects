@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - ddcutil:
         branch: master
     - twisted
+    - automat
   - krap:
     - libindi:
         branch: Neon/unstable
