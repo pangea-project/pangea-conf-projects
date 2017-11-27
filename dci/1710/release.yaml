@@ -1,6 +1,6 @@
 github.com:
   - dci-debian-qt:
-    - *:
+    - '*':
         branch: Netrunner/17.10
 
   - dci-debian-frameworks:
