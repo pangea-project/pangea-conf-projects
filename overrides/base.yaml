@@ -609,12 +609,6 @@
       type: tarball
       url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/lmdb_0.9.18.orig.tar.gz
 
-'*anongit.neon*/forks/mustache-d':
-  '{Neon/release,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/mustache-d_0.1.1.orig.tar.gz
-
 '*anongit.neon*/forks/ninja-build':
   '{Neon/release,Neon/unstable}':
     upstream_scm:
