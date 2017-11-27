@@ -92,6 +92,12 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
+   - xenial-backports:
+    - automat
+    - twisted
+    - constantly
+    - hyperlink
+    - incremental
 
 launchpad.net:
   - livecd-rootfs-neon

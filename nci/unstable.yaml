@@ -97,11 +97,6 @@ anongit.neon.kde.org:
     - lmdb
     - ddcutil:
         branch: master
-    - twisted
-    - automat
-    - constantly
-    - hyperlink
-    - incremental
   - krap:
     - libindi:
         branch: Neon/unstable
@@ -111,6 +106,12 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - libzip
+   - xenial-backports:
+    - automat
+    - twisted
+    - constantly
+    - hyperlink
+    - incremental
   - qt:
     - '*':
         branch: Neon/release
