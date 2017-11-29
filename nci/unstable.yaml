@@ -106,7 +106,7 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - libzip
-   - xenial-backports:
+   - backports-xenial:
     - automat
     - twisted
     - constantly

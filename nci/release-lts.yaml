@@ -44,8 +44,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - lmdb:
         branch: Neon/release
-    - meson:
-        branch: Neon/release
     - ninja-build:
         branch: Neon/release
     - qt5keychain:
@@ -92,13 +90,13 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
-   - xenial-backports:
+   - backports-xenial:
     - automat
     - twisted
     - constantly
     - hyperlink
     - incremental
-    
+
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
