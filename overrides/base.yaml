@@ -977,7 +977,7 @@ https://github.com/netrunner-odroid/c1-uboot:
       type: git
       url: https://github.com/mdrjr/c1_uboot_binaries
 
-https://github.com/netrunner-odroid/pine64-uboot:
+https://github.com/netrunner-pine64/pine64-uboot:
   '*':
     upstream_scm:
       type: git
