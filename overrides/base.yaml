@@ -1021,13 +1021,6 @@ https://github.com/shadeslayer/kde-l10n-common:
       type: tarball
       url: 'https://deb.debian.org/debian/pool/contrib/v/virtualbox/virtualbox_5.1.14-dfsg.orig.tar.xz'
 
-https://github.com/netrunner-pine64/pine64-linux:
-  'Netrunner/17.03':
-    upstream_scm:
-      type: git
-      url: https://github.com/longsleep/linux-pine64
-      branch: pine64-hacks-1.2-drm
-
 'https://github.com/netrunner-pine64/{xf86-video-armsoc,pine64-mali-x11}*':
   '*':
     upstream_scm:
