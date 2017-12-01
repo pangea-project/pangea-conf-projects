@@ -97,6 +97,7 @@ anongit.neon.kde.org:
     - lmdb
     - ddcutil:
         branch: master
+    - krename
   - krap:
     - libindi:
         branch: Neon/unstable
