@@ -90,6 +90,9 @@ github.com:
   - netrunner-pine64:
     - '{pine64,xf86-video-armsoc,rtl8723ds-bt}*':
         branch: master
+- netrunner-pine64:
+    - '*':
+        branch: master
   - nomad-artwork:
     - '*':
         branch: master
