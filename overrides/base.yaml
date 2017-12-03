@@ -905,6 +905,11 @@ https://github.com/dci-extras-packaging/ksystraycmd5:
       url: https://anongit.kde.org/scratch/hein/ksystraycmd.git
       branch: master
 
+https://github.com/dci-extras-packaging/lookandfeeltool:
+  '*':
+    upstream_scm:
+      type: uscan
+
 https://github.com/dci-extras-packaging/kcm-kernel-config:
   '*':
     upstream_scm:
