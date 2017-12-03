@@ -838,12 +838,6 @@ https://github.com/dci-extras-packaging/ring-lrc:
       url: https://github.com/Elv13/ring-lrc/
       branch: work5
 
-https://github.com/dci-extras-packaging/calamares-plasmalnf:
-  '*':
-    upstream_scm:
-      url: https://github.com/calamares/calamares
-      branch: master
-
 https://github.com/dci-extras-packaging/ring-kde:
   '*':
     upstream_scm:
