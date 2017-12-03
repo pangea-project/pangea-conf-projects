@@ -765,7 +765,7 @@ https://github.com/debian-packaging/*mint*:
     upstream_scm:
       url: https://github.com/linuxmint/<%= name %>
 
-https://github.com/*/*calamares*:
+https://github.com/calamares/calamares-debian:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
