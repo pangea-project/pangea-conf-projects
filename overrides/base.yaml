@@ -1086,6 +1086,13 @@ https://github.com/netrunner-pine64/rtl8723ds-bt:
       url: https://github.com/NextThingCo/rtl8723ds_bt
       branch: master
 
+https://github.com/netrunner-pine64/rtl8723ds-bt-firmware:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/ayufan-pine64/linux-build
+      branch: master
+
 'https://github.com/nomad-artwork/*':
   '*':
     upstream_scm:
