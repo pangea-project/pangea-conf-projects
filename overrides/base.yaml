@@ -275,27 +275,27 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/twisted':
+'*anongit.neon*/backports-xenial/twisted':
   Neon/unstable:
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/automat':
+'*anongit.neon*/backports-xenial/automat':
   Neon/unstable:
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/constantly':
+'*anongit.neon*/backports-xenial/constantly':
   Neon/unstable:
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/hyperlink':
+'*anongit.neon*/backports-xenial/hyperlink':
   Neon/unstable:
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/incremental':
+'*anongit.neon*/backports-xenial/incremental':
   Neon/unstable:
     upstream_scm:
       type: uscan
