@@ -64,12 +64,12 @@ anongit.neon.kde.org:
     - icemon
     - smb4k
     - wayland
-    - ostree
     - flatpak
     - libunwind
     - openbabel
     - libzip4
     - muon
+    - taglib
     - encfs:
         branch: master
     - harfbuzz:
@@ -90,7 +90,6 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
-    - taglib
   - backports-xenial:
     - automat
     - twisted
