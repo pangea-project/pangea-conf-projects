@@ -90,6 +90,7 @@ anongit.neon.kde.org:
     - libnova:
         branch: master
     - libzip
+    - taglib
   - backports-xenial:
     - automat
     - twisted

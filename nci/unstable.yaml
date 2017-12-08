@@ -74,7 +74,6 @@ anongit.neon.kde.org:
     - xorg-server
     - taglib
     - flatpak
-    - ostree
     - x11proto-core
     - libxfont
     - openbabel
@@ -114,6 +113,7 @@ anongit.neon.kde.org:
     - hyperlink
     - incremental
     - debhelper
+    - ostree
   - qt:
     - '*':
         branch: Neon/release
