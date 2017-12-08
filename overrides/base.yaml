@@ -300,6 +300,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/ostree':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/fcitx-qt5':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
@@ -338,11 +343,6 @@
       type: uscan
 
 '*anongit.neon*/forks/xorg-server':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/forks/ostree':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
