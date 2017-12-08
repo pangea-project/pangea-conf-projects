@@ -95,6 +95,9 @@ github.com:
   - netrunner-pinebook:
     - '*':
         branch: master
+  - netrunner-zeronet:
+    - '*':
+        branch: master
   - nomad-artwork:
     - '*':
         branch: master
