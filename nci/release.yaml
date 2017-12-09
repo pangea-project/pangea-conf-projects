@@ -64,7 +64,6 @@ anongit.neon.kde.org:
     - icemon
     - smb4k
     - wayland
-    - ostree
     - flatpak
     - libunwind
     - openbabel
@@ -95,6 +94,7 @@ anongit.neon.kde.org:
     - constantly
     - hyperlink
     - incremental
+    - ostree
     - fuse:
         branch: master
 launchpad.net:
