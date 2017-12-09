@@ -305,6 +305,12 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/fuse':
+  '*':
+    upstream_scm:
+      type: uscan
+      branch: master
+
 '*anongit.neon*/forks/fcitx-qt5':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
@@ -387,12 +393,6 @@
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
-
-'*anongit.neon*/backports-xenial/fuse':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-      branch: master
 
 '*anongit.neon*/forks/cryfs':
   Neon/{release-lts,release,stable,unstable}:
