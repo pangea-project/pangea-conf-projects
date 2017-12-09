@@ -92,7 +92,6 @@ anongit.neon.kde.org:
     - constantly
     - hyperlink
     - incremental
-    - ostree
     - fuse:
         branch: master
 launchpad.net:
