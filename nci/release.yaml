@@ -79,8 +79,6 @@ anongit.neon.kde.org:
         branch: master
     - json-glib:
         branch: master
-    - fuse:
-        branch: master
     - cryfs:
         branch: master
   - krap:
@@ -97,7 +95,8 @@ anongit.neon.kde.org:
     - constantly
     - hyperlink
     - incremental
-
+    - fuse:
+        branch: master
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

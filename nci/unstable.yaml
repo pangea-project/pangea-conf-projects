@@ -88,8 +88,6 @@ anongit.neon.kde.org:
         branch: master
     - json-glib:
         branch: master
-    - fuse:
-        branch: master
     - cryfs:
         branch: master
     - kbibtex
@@ -114,6 +112,8 @@ anongit.neon.kde.org:
     - incremental
     - debhelper
     - ostree
+    - fuse:
+        branch: master
   - qt:
     - '*':
         branch: Neon/release

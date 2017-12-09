@@ -388,7 +388,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/fuse':
+'*anongit.neon*/backports-xenial/fuse':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
