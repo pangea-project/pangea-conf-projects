@@ -97,6 +97,7 @@ anongit.neon.kde.org:
         branch: master
     - gpgme
     - gnupg
+    - libgpg-error
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

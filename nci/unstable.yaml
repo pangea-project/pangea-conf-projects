@@ -114,6 +114,7 @@ anongit.neon.kde.org:
         branch: master
     - gpgme
     - gnupg
+    - libgpg-error
   - qt:
     - '*':
         branch: Neon/release
