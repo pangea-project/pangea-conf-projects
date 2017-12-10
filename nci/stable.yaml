@@ -97,6 +97,8 @@ anongit.neon.kde.org:
     - gnupg
     - libgpg-error
     - libgcrypt20
+    - libassuan
+    - libksba
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
