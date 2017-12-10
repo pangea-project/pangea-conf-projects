@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - gpgme
     - gnupg
     - libgpg-error
+    - libgcrypt20
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

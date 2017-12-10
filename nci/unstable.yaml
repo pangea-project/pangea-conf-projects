@@ -115,6 +115,7 @@ anongit.neon.kde.org:
     - gpgme
     - gnupg
     - libgpg-error
+    - libgcrypt20
   - qt:
     - '*':
         branch: Neon/release
