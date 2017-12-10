@@ -34,8 +34,6 @@ anongit.neon.kde.org:
     - packagekit
     - aptdaemon:
         branch: master
-    - gpgme:
-        branch: Neon/stable
     - digikam:
         branch: Neon/unstable
     - gcompris:
@@ -95,6 +93,7 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
+    - gpgme
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

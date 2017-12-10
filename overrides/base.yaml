@@ -311,6 +311,11 @@
       type: tarball
       url: https://github.com/libfuse/libfuse/releases/download/fuse-2.9.7/fuse-2.9.7.tar.gz
 
+'*anongit.neon*/backports-xenial/gpgme':
+  '*':
+    upstream_scm:
+      type: uscan
+      
 '*anongit.neon*/forks/fcitx-qt5':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
@@ -412,11 +417,6 @@
     upstream_scm:
       type: uscan
   debian-unstable:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/forks/gpgme':
-  'Neon/{stable,unstable}':
     upstream_scm:
       type: uscan
 

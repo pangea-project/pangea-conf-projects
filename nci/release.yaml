@@ -34,8 +34,6 @@ anongit.neon.kde.org:
     - packagekit
     - aptdaemon:
         branch: master
-    - gpgme:
-        branch: Neon/release
     - gcompris:
         branch: Neon/release
     - lmdb:
@@ -97,6 +95,7 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
+    - gpgme
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

@@ -35,8 +35,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - aptdaemon:
         branch: master
-    - gpgme:
-        branch: Neon/unstable
     - gcompris:
         branch: Neon/unstable
     - qt5keychain:
@@ -114,6 +112,7 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
+    - gpgme
   - qt:
     - '*':
         branch: Neon/release
