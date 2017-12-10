@@ -94,6 +94,7 @@ anongit.neon.kde.org:
     - fuse:
         branch: master
     - gpgme
+    - gnupg
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

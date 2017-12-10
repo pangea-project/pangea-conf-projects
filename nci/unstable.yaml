@@ -113,6 +113,7 @@ anongit.neon.kde.org:
     - fuse:
         branch: master
     - gpgme
+    - gnupg
   - qt:
     - '*':
         branch: Neon/release
