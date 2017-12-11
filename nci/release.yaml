@@ -42,8 +42,6 @@ anongit.neon.kde.org:
         branch: Neon/release
     - qt5keychain:
         branch: Neon/release
-    - python-apt:
-        branch: master
     - python-qt4:
         branch: master
     - libxkbcommon:
@@ -100,6 +98,8 @@ anongit.neon.kde.org:
     - libassuan
     - libksba
     - snapd-glib
+    - python-apt:
+        branch: master
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

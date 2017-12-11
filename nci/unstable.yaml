@@ -43,8 +43,6 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
-    - python-apt:
-        branch: master
     - libxkbcommon:
         branch: Neon/unstable
     - avogadro
@@ -117,6 +115,8 @@ anongit.neon.kde.org:
     - libassuan
     - libksba
     - snapd-glib
+    - python-apt:
+        branch: master
   - qt:
     - '*':
         branch: Neon/release
