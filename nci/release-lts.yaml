@@ -72,8 +72,6 @@ anongit.neon.kde.org:
         branch: master
     - harfbuzz:
         branch: master
-    - snapd-glib:
-        branch: master
     - json-glib:
         branch: master
     - cryfs:
@@ -101,6 +99,7 @@ anongit.neon.kde.org:
     - libgcrypt20
     - libassuan
     - libksba
+    - snapd-glib
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
