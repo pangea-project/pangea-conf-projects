@@ -2,3 +2,5 @@ github.com:
   - halium-packaging:
     - lxc-android:
         branch: master
+    - hybris-usb-packaging:
+        branch: master
