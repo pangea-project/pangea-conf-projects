@@ -89,7 +89,6 @@ anongit.neon.kde.org:
     - ddcutil:
         branch: master
     - krename
-    - gpgme
   - krap:
     - libindi:
         branch: Neon/unstable
@@ -109,7 +108,15 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
+    - gpgme
+    - gnupg
+    - libgpg-error
+    - libgcrypt20
+    - libassuan
+    - libksba
     - snapd-glib
+    - python-apt:
+        branch: master
   - qt:
     - '*':
         branch: Neon/release
