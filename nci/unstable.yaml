@@ -98,6 +98,7 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - libzip
+    - gpgme
   - backports-xenial:
     - automat
     - twisted
@@ -108,7 +109,6 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
-    - gpgme
     - gnupg
     - libgpg-error
     - libgcrypt20
