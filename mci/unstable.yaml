@@ -1,10 +1,5 @@
 origin: unstable
 
-git.debian.org:
-  - pkg-kde/kde-extras:
-    - telepathy-accounts-signon:
-        branch: kubuntu_unstable
-
 github.com:
   - plasma-phone-packaging:
     - plasma-phone-components-packaging:
@@ -39,6 +34,7 @@ github.com:
         branch: kubuntu_unstable
     - simplelogin-packaging:
         branch: kubuntu_unstable
+    - qmlkonsole
 
 anongit.neon.kde.org:
   - plasma:
