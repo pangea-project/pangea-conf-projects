@@ -89,6 +89,7 @@ anongit.neon.kde.org:
     - ddcutil:
         branch: master
     - krename
+    - gpgme
   - krap:
     - libindi:
         branch: Neon/unstable
@@ -98,7 +99,6 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - libzip
-    - gpgme
   - backports-xenial:
     - automat
     - twisted
