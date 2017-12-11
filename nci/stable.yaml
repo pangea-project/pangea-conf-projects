@@ -72,6 +72,7 @@ anongit.neon.kde.org:
         branch: master
     - cryfs:
         branch: master
+    - gpgme
   - krap:
     - libindi:
         branch: Neon/stable
@@ -89,15 +90,7 @@ anongit.neon.kde.org:
     - ostree
     - fuse:
         branch: master
-    - gpgme
-    - gnupg
-    - libgpg-error
-    - libgcrypt20
-    - libassuan
-    - libksba
     - snapd-glib
-    - python-apt:
-        branch: master
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

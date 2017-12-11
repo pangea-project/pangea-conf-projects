@@ -311,7 +311,7 @@
       type: tarball
       url: https://github.com/libfuse/libfuse/releases/download/fuse-2.9.7/fuse-2.9.7.tar.gz
 
-'*anongit.neon*/backports-xenial/gpgme':
+'*anongit.neon*/forks/gpgme':
   '*':
     upstream_scm:
       type: uscan
@@ -342,6 +342,11 @@
       type: uscan
 
 '*anongit.neon*/backports-xenial/snapd-glib':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/backports-xenial/apt':
   '*':
     upstream_scm:
       type: uscan
