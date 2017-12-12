@@ -110,7 +110,6 @@ anongit.neon.kde.org:
     - fuse:
         branch: master
     - gnupg
-    - libgpg-error
     - libassuan
     - libksba
     - snapd-glib

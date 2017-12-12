@@ -321,16 +321,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/libgpg-error':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libgcrypt20':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-xenial/libassuan':
   '*':
     upstream_scm:
