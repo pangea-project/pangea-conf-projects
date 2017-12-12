@@ -1,7 +1,7 @@
 github.com:
   - dci-debian-qt:
     - '*':
-        branch: Netrunner/17.10
+        branch: Netrunner/18.01
 
   - dci-debian-frameworks:
     - '*':
@@ -9,7 +9,7 @@ github.com:
 
   - dci-debian-plasma:
     - '*':
-        branch: Netrunner/17.10
+        branch: Netrunner/18.01
   - dci-debian-kde-extras:
     - 'latte-dock':
         branch: Netrunner/17.10
