@@ -42,65 +42,65 @@ github.com:
 
   - dci-debian-packaging-backports:
     - libwlocate:
-        branch: master
+        branch: Netrunner/17.10
     - mlt:
         branch: Netrunner/17.10
     - libkolab:
         branch: Netrunner/17.10
     - ddcutil:
-        branch: master
+        branch: Netrunner/17.10
     - snapd-glib:
-        branch: master
+        branch: Netrunner/17.10
     - fontconfig:
-        branch: master
+        branch: Netrunner/17.10
 
   - dci-extras-packaging:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
     - isoimagewrier-neon:
         branch: Netrunner/17.10
     - lookandfeeltool:
         branch: Netrunner/17.10
   - ds9-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
     - transmission:
         branch: Netrunner/17.10
   - ds9-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
 
   - netrunner-common:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-odroid:
     - '{odroid,mali}-*':
-        branch: master
+        branch: Netrunner/17.10
     - xserver-xorg-video-mali:
-        branch: master
+        branch: Netrunner/17.10
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-pine64:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-pinebook:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-zeronet:
     - '*':
         branch: master
   - nomad-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - netrunner-nomad-desktop:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
