@@ -5,7 +5,7 @@ github.com:
 
   - dci-debian-frameworks:
     - '*':
-        branch: Netrunner/17.10
+        branch: Netrunner/18.01
 
   - dci-debian-plasma:
     - '*':
