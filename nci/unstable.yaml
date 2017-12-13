@@ -106,7 +106,6 @@ anongit.neon.kde.org:
     - hyperlink
     - incremental
     - ostree
-    - debhelper
     - fuse:
         branch: master
     - snapd-glib
