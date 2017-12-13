@@ -89,12 +89,8 @@ anongit.neon.kde.org:
     - constantly
     - hyperlink
     - incremental
-    - ostree
     - fuse:
         branch: master
-    - gnupg
-    - libassuan
-    - libksba
     - snapd-glib
     - python-apt:
         branch: master

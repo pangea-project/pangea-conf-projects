@@ -316,21 +316,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/gnupg':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libassuan':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libksba':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-xenial/snapd-glib':
   '*':
     upstream_scm:
