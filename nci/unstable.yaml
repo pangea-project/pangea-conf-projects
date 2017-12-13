@@ -105,6 +105,7 @@ anongit.neon.kde.org:
     - constantly
     - hyperlink
     - incremental
+    - ostree
     - debhelper
     - fuse:
         branch: master
