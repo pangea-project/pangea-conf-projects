@@ -21,7 +21,7 @@ github.com:
         branch: Netrunner/17.10
   - dci-debian-kde-applications:
     - '*':
-        branch: Netrunner/17.10
+        branch: Netrunner/18.01
 
   - linuxmint:
     - mintinstall:
