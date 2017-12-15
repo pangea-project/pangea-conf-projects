@@ -45,8 +45,6 @@ github.com:
         branch: master
     - mlt:
         branch: Netrunner/17.10
-    - libkolab:
-        branch: Netrunner/17.10
     - ddcutil:
         branch: master
     - snapd-glib:
