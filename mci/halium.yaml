@@ -8,3 +8,5 @@ github.com:
         branch: master
     - droidmedia:
         branch: master
+    - gst-droid:
+        branch: master
