@@ -90,6 +90,8 @@ anongit.neon.kde.org:
         branch: master
     - krename
     - gpgme
+    - live-config
+    - xf86-video-armsoc
   - krap:
     - libindi:
         branch: Neon/unstable
