@@ -4,3 +4,5 @@ github.com:
         branch: master
     - hybris-usb-packaging:
         branch: master
+    - nemo-gst-interfaces:
+        branch: master
