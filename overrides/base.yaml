@@ -1090,6 +1090,12 @@ https://github.com/halium-packaging/nemo-gst-interfaces:
       type: git
       url: https://git.merproject.org/mer-core/nemo-gst-interfaces.git
 
+https://github.com/halium-packaging/droidmedia:
+  master:
+    upstream_scm:
+      type: git
+      url: https://github.com/sailfishos/droidmedia
+
 https://github.com/netrunner-pine64/rtl8723ds-bt:
   '*':
     upstream_scm:

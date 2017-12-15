@@ -6,3 +6,5 @@ github.com:
         branch: master
     - nemo-gst-interfaces:
         branch: master
+    - droidmedia
+        branch: master
