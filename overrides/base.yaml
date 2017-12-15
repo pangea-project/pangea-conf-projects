@@ -425,6 +425,13 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/xf86-video-armsoc':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/shadeslayer/xf86-video-armsoc.git
+      branch: master
+
 '*anongit.neon*/forks/icemon':
   'Neon/unstable':
     upstream_scm:
