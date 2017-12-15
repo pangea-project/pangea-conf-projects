@@ -1084,7 +1084,7 @@ https://github.com/halium-packaging/lxc-android:
       url: https://github.com/halium/lxc-android
       branch: master
 
-https://github.com/halium-packaging/nemo-gst-interfaces
+https://github.com/halium-packaging/nemo-gst-interfaces:
   master:
     upstream_scm:
       type: git
