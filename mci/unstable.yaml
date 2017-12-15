@@ -37,6 +37,9 @@ github.com:
     - qmlkonsole
 
 anongit.neon.kde.org:
+  - frameworks:
+    - plasma-framework:
+        branch: Neon/mobile
   - plasma:
     - kaccounts-mobile:
         branch: Neon/mobile
