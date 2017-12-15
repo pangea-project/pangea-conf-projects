@@ -1099,7 +1099,8 @@ https://github.com/halium-packaging/nemo-gst-interfaces:
 https://github.com/halium-packaging/gst-omx:
   master:
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: https://gstreamer.freedesktop.org/src/gst-omx/gst-omx-1.10.4.tar.xz
 
 https://github.com/netrunner-pine64/rtl8723ds-bt:
   '*':
