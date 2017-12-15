@@ -1096,6 +1096,11 @@ https://github.com/halium-packaging/nemo-gst-interfaces:
       type: git
       url: https://github.com/sailfishos/<%= name %>
 
+https://github.com/halium-packaging/gst-omx:
+  master:
+    upstream_scm:
+      type: uscan
+
 https://github.com/netrunner-pine64/rtl8723ds-bt:
   '*':
     upstream_scm:
