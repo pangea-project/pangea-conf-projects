@@ -214,6 +214,9 @@
   Neon/release:
     upstream_scm:
       type: uscan
+  Neon/mobile:
+    upstream_scm:
+      type: uscan
   Neon/testing:
     upstream_scm:
       type: uscan
