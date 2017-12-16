@@ -92,6 +92,7 @@ anongit.neon.kde.org:
     - gpgme
     - live-config
     - xf86-video-armsoc
+    - kdiagram
   - krap:
     - libindi:
         branch: Neon/unstable
