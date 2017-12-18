@@ -59,6 +59,7 @@ anongit.neon.kde.org:
     - smb4k
     - wayland
     - flatpak
+    - flatpak-builder
     - libunwind
     - openbabel
     - libzip4

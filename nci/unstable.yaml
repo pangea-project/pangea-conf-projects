@@ -70,6 +70,7 @@ anongit.neon.kde.org:
     - xorg-server
     - taglib
     - flatpak
+    - flatpak-builder
     - x11proto-core
     - libxfont
     - openbabel
