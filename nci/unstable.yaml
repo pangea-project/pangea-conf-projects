@@ -94,6 +94,7 @@ anongit.neon.kde.org:
     - live-config
     - xf86-video-armsoc
     - kdiagram
+    - rtl8723ds-bt
   - krap:
     - libindi:
         branch: Neon/unstable
