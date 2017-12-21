@@ -356,6 +356,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/heaptrack':
+  Neon/{release-lts,release,stable,unstable}:
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/flatpak':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:

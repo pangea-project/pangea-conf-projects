@@ -69,6 +69,7 @@ anongit.neon.kde.org:
     - wayland
     - xorg-server
     - taglib
+    - heaptrack
     - flatpak
     - flatpak-builder
     - x11proto-core

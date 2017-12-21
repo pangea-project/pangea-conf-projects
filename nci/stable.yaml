@@ -60,6 +60,7 @@ anongit.neon.kde.org:
     - wayland
     - flatpak
     - flatpak-builder
+    - heaptrack
     - libunwind
     - openbabel
     - libzip4
