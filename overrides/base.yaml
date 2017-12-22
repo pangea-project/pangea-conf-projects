@@ -560,7 +560,7 @@
 '*{anonscm.debian,anongit.neon}*/kde-extras/libaccounts-glib':
   '*':
     upstream_scm:
-      url: https://gitlab.com/accounts-sso/libaccounts-glib.git
+      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/kirigami':
   '{kubuntu_stable,Neon/stable,Neon/unstable}':
