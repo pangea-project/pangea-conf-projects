@@ -26,8 +26,6 @@ github.com:
         branch: kubuntu_unstable
     - screenshotapp:
         branch: kubuntu_unstable
-    - spacebar:
-        branch: kubuntu_unstable
     - inputcontext-gtk:
         branch: kubuntu_unstable
     - videoPlayer-packaging:
