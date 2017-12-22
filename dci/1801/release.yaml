@@ -17,6 +17,8 @@ github.com:
 #         branch: Netrunner/17.06
     - 'kamoso':
         branch: Netrunner/17.10
+    - 'yakuake':
+        branch: Netrunner/18.01
   - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/18.01
