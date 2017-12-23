@@ -33,6 +33,11 @@ github.com:
     - simplelogin-packaging:
         branch: kubuntu_unstable
     - qmlkonsole
+  - KaidanIM:
+    - gloox-packaging:
+        branch: master
+    - kaidan-packaging-deb:
+        branch: master
 
 anongit.neon.kde.org:
   - qt:

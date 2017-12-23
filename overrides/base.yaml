@@ -787,6 +787,17 @@ https://github.com/plasma-phone-packaging/videoPlayer-packaging:
       url: https://github.com/plasma-apps/videoPlayer.git
       branch: plasma
 
+https://github.com/KaidanIM/gloox-packaging:
+  'master':
+    upstream_scm:
+      type: uscan
+
+https://github.com/KaidanIM/kaidan-packaging-deb:
+  'master':
+    upstream_scm:
+      url: https://github.com/KaidanIM/Kaidan
+      branch: master
+
 https://github.com/debian-packaging/mintupdate:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
