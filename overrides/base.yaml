@@ -517,6 +517,11 @@
     upstream_scm:
       url: https://anongit.kde.org/libdebconf-kde.git
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/kcm-tablet':
+  '*':
+    upstream_scm:
+      url: https://anongit.kde.org/wacomtablet.git
+
 '*{anonscm.debian,anongit.neon}*/kde-extras/kdeconnect-plasma':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
