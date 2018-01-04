@@ -117,6 +117,7 @@ anongit.neon.kde.org:
     - snapd-glib
     - python-apt:
         branch: master
+    - kdenlive
   - qt:
     - '*':
         branch: Neon/release

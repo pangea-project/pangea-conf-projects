@@ -97,6 +97,8 @@ anongit.neon.kde.org:
     - snapd-glib
     - python-apt:
         branch: master
+    - kdenlive
+    
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
