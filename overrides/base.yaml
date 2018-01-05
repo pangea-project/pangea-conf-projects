@@ -722,7 +722,7 @@ https://github.com/plasma-phone-packaging/plasma-phone-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/plasma-phone-settings.git
-https://github.com/plasma-phone-packaging/kpeoplevcard
+https://github.com/plasma-phone-packaging/kpeoplevcard:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/kpeoplevcard
