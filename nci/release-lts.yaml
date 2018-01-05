@@ -77,6 +77,7 @@ anongit.neon.kde.org:
     - cryfs:
         branch: master
     - gpgme
+    - skrooge
   - krap:
     - libindi:
         branch: Neon/release-lts
@@ -98,7 +99,7 @@ anongit.neon.kde.org:
     - python-apt:
         branch: master
     - kdenlive
-    
+
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
