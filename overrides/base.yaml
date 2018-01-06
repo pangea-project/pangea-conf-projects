@@ -308,6 +308,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/kdenlive':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/fuse':
   '*':
     upstream_scm:
@@ -492,6 +497,11 @@
       type: uscan
 
 '*anongit.neon*/forks/flatbuffers':
+  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/skrooge':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
       type: uscan
