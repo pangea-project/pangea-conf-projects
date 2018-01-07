@@ -20,6 +20,8 @@ anongit.neon.kde.org:
   - neon:
     - '*'
   - forks:
+    - skrooge:
+        branch: Neon/unstable
     - appstream:
         branch: Neon/release
     - base-files:
@@ -96,7 +98,6 @@ anongit.neon.kde.org:
     - xf86-video-armsoc
     - kdiagram
     - rtl8723ds-bt
-    - skrooge
   - krap:
     - libindi:
         branch: Neon/unstable
