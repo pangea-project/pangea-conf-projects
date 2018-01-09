@@ -79,6 +79,7 @@ anongit.neon.kde.org:
     - gpgme
     - skrooge:
         branch: Neon/release-lts
+    - kdiagram
   - krap:
     - libindi:
         branch: Neon/release-lts
