@@ -129,6 +129,7 @@
 '*anongit.neon*/neon-packaging/ksystraycmd':
   '*':
     upstream_scm:
+      type: git
       url: https://anongit.kde.org/scratch/hein/ksystraycmd.git
       branch: master
 
