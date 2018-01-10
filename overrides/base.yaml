@@ -126,6 +126,12 @@
       url: https://github.com/KDAB/perfparser.git
       branch: hotspot
 
+'*anongit.neon*/neon-packaging/ksystraycmd:
+  '*':
+    upstream_scm:
+      url: https://anongit.kde.org/scratch/hein/ksystraycmd.git
+      branch: master
+
 # Extras
 
 '*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
