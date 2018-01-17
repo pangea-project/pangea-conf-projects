@@ -28,6 +28,11 @@
 
 # Calligra
 
+'*{anonscm.debian,anongit.neon}*/calligra/krita':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 '*{anonscm.debian,anongit.neon}*/calligra/kreport':
   'Neon/stable':
     upstream_scm:

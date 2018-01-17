@@ -80,6 +80,8 @@ anongit.neon.kde.org:
     - skrooge:
         branch: Neon/release
     - kdiagram
+    - ddcutil:
+        branch: master
   - krap:
     - libindi:
         branch: Neon/release
