@@ -122,6 +122,9 @@ anongit.neon.kde.org:
     - kdenlive
     - libinput:
         branch: Neon/unstable
+    - debhelper:
+        branch: master
+
   - qt:
     - '*':
         branch: Neon/release
