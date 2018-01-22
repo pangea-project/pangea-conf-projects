@@ -120,6 +120,8 @@ anongit.neon.kde.org:
     - python-apt:
         branch: master
     - kdenlive
+    - libinput:
+        branch: Neon/unstable
   - qt:
     - '*':
         branch: Neon/release

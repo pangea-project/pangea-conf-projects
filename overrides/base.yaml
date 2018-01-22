@@ -318,6 +318,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/libinput':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/fuse':
   '*':
     upstream_scm:
