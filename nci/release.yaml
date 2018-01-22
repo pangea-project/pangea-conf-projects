@@ -103,8 +103,6 @@ anongit.neon.kde.org:
     - python-apt:
         branch: master
     - kdenlive
-    - debhelper:
-        branch: master
 
 launchpad.net:
   - livecd-rootfs-neon
