@@ -40,6 +40,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - ninja-build:
         branch: Neon/release
+    - meson:
+        branch: Neon/release
     - qt5keychain:
         branch: Neon/release
     - python-qt4:
