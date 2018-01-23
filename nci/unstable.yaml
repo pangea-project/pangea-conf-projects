@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - xf86-video-armsoc
     - kdiagram
     - rtl8723ds-bt
+    - kdenlive
   - krap:
     - libindi:
         branch: Neon/unstable
@@ -119,7 +120,6 @@ anongit.neon.kde.org:
     - snapd-glib
     - python-apt:
         branch: master
-    - kdenlive
     - libinput:
         branch: Neon/unstable
   - qt:

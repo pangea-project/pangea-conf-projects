@@ -78,6 +78,7 @@ anongit.neon.kde.org:
     - skrooge:
         branch: Neon/stable
     - kdiagram
+    - kdenlive
     - ddcutil:
         branch: master
   - krap:
@@ -100,7 +101,6 @@ anongit.neon.kde.org:
     - snapd-glib
     - python-apt:
         branch: master
-    - kdenlive
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
