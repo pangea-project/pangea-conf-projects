@@ -1196,21 +1196,21 @@ https://github.com/netrunner-pine64/rtl8723ds-bt-firmware:
       url: https://github.com/nomad-desktop/<%= name %>
       branch: master
 
-https://github.com/netrunner-pine64/linux-kernel:
+https://github.com/netrunner-rock64/linux-kernel:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/ayufan-rock64/linux-kernel
       branch: release-4.4
 
-https://github.com/netrunner-pine64/xf86-video-armsoc:
+https://github.com/netrunner-rock64/xf86-video-armsoc:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/ayufan-rock64/xf86-video-armsoc
       branch: devel/generic
 
-https://github.com/netrunner-pine64/libmali:
+https://github.com/netrunner-rock64/libmali:
   '*':
     upstream_scm:
       type: git
