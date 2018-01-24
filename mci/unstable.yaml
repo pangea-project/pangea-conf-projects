@@ -43,9 +43,6 @@ anongit.neon.kde.org:
   - qt:
     - qtmultimedia:
         branch: Neon/mobile
-  - frameworks:
-    - plasma-framework:
-        branch: Neon/mobile
   - plasma:
     - kaccounts-mobile:
         branch: Neon/mobile
