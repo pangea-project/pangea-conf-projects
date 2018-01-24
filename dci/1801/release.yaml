@@ -102,3 +102,6 @@ github.com:
   - netrunner-nomad-desktop:
     - '*':
         branch: master
+  - netrunner-rock64:
+    - '*':
+        branch: master
