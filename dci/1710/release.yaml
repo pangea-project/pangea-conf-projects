@@ -97,7 +97,7 @@ github.com:
         branch: Netrunner/17.10
   - netrunner-zeronet:
     - '*':
-        branch: master
+        branch: Netrunner/17.10
   - nomad-artwork:
     - '*':
         branch: Netrunner/17.10
