@@ -29,8 +29,7 @@ anongit.neon.kde.org:
         branch: Neon/stable
     - libkolabxml:
         branch: Neon/stable
-    - live-build:
-        branch: master
+    - live-build
     - packagekit
     - aptdaemon:
         branch: master
