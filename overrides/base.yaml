@@ -647,7 +647,7 @@
   '{Neon/release,Neon/unstable}':
     upstream_scm:
         type: tarball
-        url: http://http.debian.net/debian/pool/main/l/ldc/ldc_1.2.0.orig.tar.gz
+        url: http://http.debian.net/debian/pool/main/l/ldc/ldc_1.2.0.orig-bootstrap.tar.gz
 
 '*anongit.neon*/forks/lmdb':
   '{Neon/release,Neon/unstable}':
