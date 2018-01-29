@@ -646,8 +646,8 @@
 '*anongit.neon*/forks/ldc':
   '{Neon/release,Neon/unstable}':
     upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ldc_1.1.0+b3.orig.tar.gz
+        type: tarball
+        url: http://http.debian.net/debian/pool/main/l/ldc/ldc_1.2.0.orig.tar.gz
 
 '*anongit.neon*/forks/lmdb':
   '{Neon/release,Neon/unstable}':

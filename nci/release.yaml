@@ -41,6 +41,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - meson:
         branch: Neon/release
+    - ldc:
+        branch: Neon/release
     - qt5keychain:
         branch: Neon/release
     - python-qt4:
