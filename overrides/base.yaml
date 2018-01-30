@@ -1207,8 +1207,8 @@ https://github.com/netrunner-rock64/xf86-video-armsoc:
   '*':
     upstream_scm:
       type: git
-      url: https://github.com/ayufan-rock64/xf86-video-armsoc
-      branch: devel/generic
+      url: https://github.com/shadeslayer/xf86-video-armsoc
+      branch: devel/rockchip
 
 https://github.com/netrunner-rock64/libmali:
   '*':
