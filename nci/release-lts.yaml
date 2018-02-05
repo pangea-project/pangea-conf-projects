@@ -36,6 +36,8 @@ anongit.neon.kde.org:
         branch: master
     - gcompris:
         branch: Neon/release
+    - libxkbcommon:
+        branch: Neon/release-lts
     - k3b:
         branch: Neon/stable
     - libarchive:
