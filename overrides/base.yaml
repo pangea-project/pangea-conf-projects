@@ -113,7 +113,7 @@
 
 # Extras
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/libalkimia':
+'*{anonscm.debian,anongit.neon}*/forks/libalkimia':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/alkimia.git
