@@ -81,6 +81,8 @@ anongit.neon.kde.org:
     - ddcutil:
         branch: master
     - massif-visualizer
+    - libalkimia
+    - kmymoney
   - krap:
     - libindi:
         branch: Neon/stable

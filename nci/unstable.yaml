@@ -51,13 +51,9 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - k3b:
         branch: Neon/unstable
-    - libalkimia:
-        branch: Neon/unstable
     - libgwenhywfar:
         branch: Neon/unstable
     - libaqbanking:
-        branch: Neon/unstable
-    - kmymoney:
         branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
@@ -99,6 +95,8 @@ anongit.neon.kde.org:
     - rtl8723ds-bt
     - kdenlive
     - massif-visualizer
+    - libalkimia
+    - kmymoney
   - krap:
     - libindi:
         branch: Neon/unstable

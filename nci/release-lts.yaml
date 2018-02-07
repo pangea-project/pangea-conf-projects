@@ -84,6 +84,8 @@ anongit.neon.kde.org:
     - kdiagram
     - kdenlive
     - massif-visualizer
+    - libalkimia
+    - kmymoney
   - krap:
     - libindi:
         branch: Neon/release-lts
