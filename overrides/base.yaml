@@ -113,7 +113,12 @@
 
 # Extras
 
-'*{anonscm.debian,anongit.neon}*/*/{kdeconnect,kdeconnect-plasma}':
+'*{anonscm.debian,anongit.neon}*/kde-extras/libalkimia':
+  '*':
+    upstream_scm:
+      url: https://anongit.kde.org/alkimia.git
+
+'*{anonscm.debian,anongit.neon}*/*/kdeconnect':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdeconnect-kde.git
