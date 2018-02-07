@@ -80,6 +80,7 @@ anongit.neon.kde.org:
     - kdenlive
     - ddcutil:
         branch: master
+    - massif-visualizer
   - krap:
     - libindi:
         branch: Neon/stable

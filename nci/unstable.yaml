@@ -98,6 +98,7 @@ anongit.neon.kde.org:
     - kdiagram
     - rtl8723ds-bt
     - kdenlive
+    - massif-visualizer
   - krap:
     - libindi:
         branch: Neon/unstable
