@@ -82,6 +82,7 @@ anongit.neon.kde.org:
         branch: master
     - massif-visualizer
     - libalkimia
+    - libaqbanking
     - kmymoney
   - krap:
     - libindi:

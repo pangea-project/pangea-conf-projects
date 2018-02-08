@@ -85,6 +85,7 @@ anongit.neon.kde.org:
     - kdenlive
     - massif-visualizer
     - libalkimia
+    - libaqbanking
     - kmymoney
   - krap:
     - libindi:
