@@ -481,7 +481,7 @@
       url: https://launchpad.net/ubuntu/+archive/primary/+files/libgwenhywfar_4.15.3.orig.tar.gz
 
 '*anongit.neon*/forks/libaqbanking':
-  'Neon/unstable':
+  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/libaqbanking_5.6.12.orig.tar.gz
