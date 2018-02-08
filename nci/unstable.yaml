@@ -51,8 +51,6 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - k3b:
         branch: Neon/unstable
-    - libgwenhywfar:
-        branch: Neon/unstable
     - fcitx-qt5:
         branch: Neon/unstable
     - smb4k:
@@ -95,6 +93,7 @@ anongit.neon.kde.org:
     - massif-visualizer
     - libalkimia
     - libaqbanking
+    - libgwenhywfar
     - kmymoney
   - krap:
     - libindi:

@@ -83,6 +83,7 @@ anongit.neon.kde.org:
     - massif-visualizer
     - libalkimia
     - libaqbanking
+    - libgwenhywfar
     - kmymoney
   - krap:
     - libindi:

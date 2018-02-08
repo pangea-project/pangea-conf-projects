@@ -475,7 +475,7 @@
       url: https://anongit.kde.org/alkimia.git
 
 '*anongit.neon*/forks/libgwenhywfar':
-  'Neon/unstable':
+  '*':
     upstream_scm:
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/libgwenhywfar_4.15.3.orig.tar.gz
