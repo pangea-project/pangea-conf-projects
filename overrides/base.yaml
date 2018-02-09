@@ -807,6 +807,12 @@ https://github.com/plasma-phone-packaging/videoPlayer-packaging:
       url: https://github.com/plasma-apps/videoPlayer.git
       branch: plasma
 
+https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins.git:
+  master:
+    upstream_scm:
+      type: git
+      url: https://git.merproject.org/mer-core/nemo-qtmultimedia-plugins.git
+
 https://github.com/KaidanIM/gloox-packaging:
   'master':
     upstream_scm:
