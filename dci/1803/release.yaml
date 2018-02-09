@@ -1,7 +1,7 @@
 github.com:
   - dci-debian-qt:
     - '*':
-        branch: Netrunner/18.01
+        branch: Netrunner/18.03
 
   - dci-debian-frameworks:
     - '*':
