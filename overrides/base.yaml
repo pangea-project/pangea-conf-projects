@@ -807,7 +807,7 @@ https://github.com/plasma-phone-packaging/videoPlayer-packaging:
       url: https://github.com/plasma-apps/videoPlayer.git
       branch: plasma
 
-https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins.git:
+https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins:
   master:
     upstream_scm:
       type: git
