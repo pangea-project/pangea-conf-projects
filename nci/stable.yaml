@@ -73,6 +73,7 @@ anongit.neon.kde.org:
         branch: master
     - cryfs:
         branch: master
+    - krename
     - gpgme
     - skrooge:
         branch: Neon/stable
