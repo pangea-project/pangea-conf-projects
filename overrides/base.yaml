@@ -502,7 +502,7 @@
       type: uscan
 
 '*anongit.neon*/forks/skrooge':
-  '*':
+  '{Neon/release,Neon/release-lts}':
     upstream_scm:
       type: uscan
 
