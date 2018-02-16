@@ -23,16 +23,16 @@ github.com:
         branch: Netrunner/backports
     - plymouth-kcm:
         branch: Netrunner/backports
-  - dci-debian-kde-extras:
-    - 'kirigami*':
-        branch: Netrunner/backports
-    # Moved to applications starting KDE Apps 17.03,
-    # remove for next round of updates
-    - 'libkgapi':
-        branch: Netrunner/backports
-    # Patched version of qtcurve
-    - qtcurve:
-        branch: Netrunner/backports
+  # - dci-debian-kde-extras:
+  #   - 'kirigami*':
+  #       branch: Netrunner/backports
+  #   # Moved to applications starting KDE Apps 17.03,
+  #   # remove for next round of updates
+  #   - 'libkgapi':
+  #       branch: Netrunner/backports
+  #   # Patched version of qtcurve
+  #   - qtcurve:
+  #       branch: Netrunner/backports
   - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/backports
