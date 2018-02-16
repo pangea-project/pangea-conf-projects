@@ -13,11 +13,7 @@ github.com:
   - dci-debian-kde-extras:
     - 'latte-dock':
         branch: Netrunner/18.03
-#     - 'telepathy-qt4':
-#         branch: Netrunner/17.06
     - 'kamoso':
-        branch: Netrunner/18.03
-    - 'yakuake':
         branch: Netrunner/18.03
   - dci-debian-kde-applications:
     - '*':
