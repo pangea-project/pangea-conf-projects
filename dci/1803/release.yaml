@@ -60,8 +60,6 @@ github.com:
   - ds9-common:
     - '*':
         branch: master
-    - transmission:
-        branch: Netrunner/17.10
   - ds9-artwork:
     - '*':
         branch: master
