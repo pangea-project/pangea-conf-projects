@@ -47,7 +47,7 @@ github.com:
         branch: master
     - fontconfig:
         branch: master
-    - libzip5:
+    - libzip:
         branch: master
 
   - dci-extras-packaging:
