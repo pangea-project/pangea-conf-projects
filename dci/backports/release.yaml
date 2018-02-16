@@ -50,3 +50,5 @@ github.com:
         branch: 'master'
     - snapd-glib:
         branch: master
+    - libzip5:
+        branch: master
