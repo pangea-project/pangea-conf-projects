@@ -27,9 +27,9 @@ github.com:
     - plymouth-kcm:
         branch: master
 
-  - dci-debian-kde-extras:
-    - 'kirigami*':
-        branch: Netrunner/17.03
+  # - dci-debian-kde-extras:
+  #   - 'kirigami*':
+  #       branch: Netrunner/17.03
   - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/17.03

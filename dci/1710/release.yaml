@@ -10,15 +10,15 @@ github.com:
   - dci-debian-plasma:
     - '*':
         branch: Netrunner/17.10
-  - dci-debian-kde-extras:
-    - 'latte-dock':
-        branch: Netrunner/17.10
-    - 'kirigami*':
-        branch: Netrunner/17.10
-#     - 'telepathy-qt4':
-#         branch: Netrunner/17.06
-    - 'kamoso':
-        branch: Netrunner/17.10
+#   - dci-debian-kde-extras:
+#     - 'latte-dock':
+#         branch: Netrunner/17.10
+#     - 'kirigami*':
+#         branch: Netrunner/17.10
+# #     - 'telepathy-qt4':
+# #         branch: Netrunner/17.06
+#     - 'kamoso':
+#         branch: Netrunner/17.10
   - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/17.10
