@@ -38,8 +38,7 @@ anongit.neon.kde.org:
         branch: Neon/release-lts
     - libxkbcommon:
         branch: Neon/release-lts
-    - k3b:
-        branch: Neon/stable
+    - k3b
     - libarchive:
         branch: Neon/release
     - lmdb:
