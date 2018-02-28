@@ -73,6 +73,11 @@
     upstream_scm:
       branch: 5.x
 
+'*anongit.neon*/neon-packaging/falkon':
+  'Neon/stable':
+    upstream_scm:
+      branch: Falkon/3.0
+
 '*anongit.neon*/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
