@@ -1,21 +1,11 @@
 origin: unstable
 
 anongit.neon.kde.org:
-  - frameworks:
-    - '*'
-  - plasma:
-    - '*'
-  - applications:
+  - kde:
     - '*'
   - kde-extras:
     - '*'
   - neon-packaging:
-    - '*'
-  - kde-std:
-    - '*'
-  - calligra:
-    - '*'
-  - kde-req:
     - '*'
   - neon:
     - '*'
@@ -95,7 +85,7 @@ anongit.neon.kde.org:
     - libaqbanking
     - libgwenhywfar
     - kmymoney
-  - krap:
+  - 3rdparty:
     - libindi:
         branch: Neon/unstable
     - grantlee:
@@ -121,6 +111,8 @@ anongit.neon.kde.org:
   - qt:
     - '*':
         branch: Neon/release
+  - qt-extras:
+    - '*'
   - '':
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: Neon/release

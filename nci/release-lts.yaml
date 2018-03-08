@@ -1,19 +1,9 @@
 anongit.neon.kde.org:
-  - frameworks:
-    - '*'
-  - plasma:
-    - '*'
-  - applications:
+  - kde:
     - '*'
   - kde-extras:
     - '*'
   - neon-packaging:
-    - '*'
-  - kde-std:
-    - '*'
-  - kde-req:
-    - '*'
-  - calligra:
     - '*'
   - neon:
     - '*'
@@ -88,14 +78,10 @@ anongit.neon.kde.org:
     - libaqbanking
     - libgwenhywfar
     - kmymoney
-  - krap:
-    - libindi:
-        branch: Neon/release-lts
-    - grantlee:
-        branch: master
-    - libnova:
-        branch: master
-    - libzip
+  - qt-extras:
+    - '*'
+  - 3rdparty:
+    - '*'
   - backports-xenial:
     - automat
     - twisted
