@@ -1,18 +1,22 @@
 anongit.neon.kde.org:
   - qt:
     - '*'
-  - frameworks:
+  - kde:
     - plasma-framework:
         branch: Neon/unstable
     - kwayland:
         branch: Neon/unstable
     - kdeclarative:
         branch: Neon/unstable
-  - plasma:
     - plasma-integration:
         branch: Neon/unstable
-  - applications:
     - kio-extras:
+        branch: Neon/unstable
+    - breeze:
+        branch: Neon/unstable
+    - kwin:
+        branch: Neon/unstable
+    - akonadi:
         branch: Neon/unstable
   - forks:
     - pyqt5:
@@ -21,11 +25,3 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
-  - plasma:
-    - breeze:
-        branch: Neon/unstable
-    - kwin:
-        branch: Neon/unstable
-  - applications:
-    - akonadi:
-        branch: Neon/unstable
