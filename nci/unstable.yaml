@@ -88,8 +88,6 @@ anongit.neon.kde.org:
   - 3rdparty:
     - libindi:
         branch: Neon/unstable
-    - grantlee:
-        branch: master
     - libnova:
         branch: master
     - mlt

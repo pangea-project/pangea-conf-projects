@@ -699,7 +699,7 @@
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
 '*{anonscm.debian,anongit.neon}*/qt-extras/grantlee':
-  'master':
+  '*':
     upstream_scm:
       type: tarball
       url: http://mirror.sucs.swan.ac.uk/pub/linux/debian/pool/main/g/grantlee5/grantlee5_5.1.0.orig.tar.gz
