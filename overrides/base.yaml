@@ -109,7 +109,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/kde-extras/hotspot':
+'*anongit.neon*/neon-packaging/hotspot':
   '*':
     upstream_scm:
       type: uscan
