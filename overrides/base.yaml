@@ -618,7 +618,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/kde-extras/gammaray':
+'*anongit.neon*/qt-extras/gammaray':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
