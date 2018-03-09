@@ -26,6 +26,11 @@
     upstream_scm:
       url: https://anongit.kde.org/discover.git
 
+'*{anonscm.debian,anongit.neon}*/kde/kirigami2':
+  '*':
+    upstream_scm:
+      url: https://anongit.kde.org/kirigami.git
+
 # Calligra
 
 '*{anonscm.debian,anongit.neon}*/kde-extras/krita':
