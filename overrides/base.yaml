@@ -166,13 +166,13 @@
 # STD
 
 # <Riddell> chicos: kdev-python/php both have  find_package(KDevPlatform ${KDEVPLATFORM_VERSION} REQUIRED) in their stable branch, but kdevplatform doesn't exist in a stable branch now
-'*anongit.neon*/kde-std/kdevelop-python':
+'*anongit.neon*/kde-extras/kdevelop-python':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-python.git
       branch: master
 
-'*anongit.neon*/kde-std/kdevelop-php':
+'*anongit.neon*/kde-extras/kdevelop-php':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-php.git
@@ -180,7 +180,7 @@
 
 # it's not considered kf5
 
-'*anongit.neon*/kde-std/sddm':
+'*anongit.neon*/3rdparty/sddm':
   'Neon/mobile':
     upstream_scm:
       type: uscan
@@ -191,7 +191,7 @@
     upstream_scm:
       branch: develop
 
-'*anongit.neon*/kde-std/phonon-backend-vlc':
+'*anongit.neon*/kde-extras/phonon-backend-vlc':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/phonon-vlc.git
@@ -199,7 +199,7 @@
     upstream_scm:
       branch: 0.9
 
-'*anongit.neon*/kde-std/phonon-backend-gstreamer':
+'*anongit.neon*/kde-extras/phonon-backend-gstreamer':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/phonon-gstreamer.git
@@ -209,7 +209,7 @@
 
 # Other stuff
 
-'*anongit.neon*/kde-req/phonon':
+'*anongit.neon*/kde-extras/phonon':
   '{Neon/stable}':
     upstream_scm:
       branch: 4.9
