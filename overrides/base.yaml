@@ -89,6 +89,10 @@
       type: git
       url: https://anongit.kde.org/kdesdk-devenv-dependencies.git
 
+'*anongit.neon*/neon-packaging/kde-development-environment':
+  '*':
+    upstream_scm:
+
 '*anongit.neon*/neon-packaging/qoauth':
   '*':
     upstream_scm:
