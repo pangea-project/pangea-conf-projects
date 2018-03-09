@@ -138,7 +138,7 @@
     upstream_scm:
       branch: 1.1
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/kcm-tablet':
+'*{anonscm.debian,anongit.neon}*/neon-packaging/kcm-tablet':
   'Neon/stable':
     upstream_scm:
       branch: master
