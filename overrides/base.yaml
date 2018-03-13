@@ -93,7 +93,7 @@
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
 
-'*anongit.neon*/neon-packaging/vc':
+'*anongit.neon*/qt-extras/vc':
   '*':
     upstream_scm:
       type: uscan
