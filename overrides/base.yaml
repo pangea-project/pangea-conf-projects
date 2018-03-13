@@ -132,11 +132,6 @@
     upstream_scm:
       url: https://anongit.kde.org/kdeconnect-kde.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/kio-gdrive':
-  'Neon/stable':
-    upstream_scm:
-      branch: 1.1
-
 '*{anonscm.debian,anongit.neon}*/neon-packaging/kcm-tablet':
   '*':
     upstream_scm:
