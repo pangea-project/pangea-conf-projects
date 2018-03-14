@@ -86,12 +86,7 @@ anongit.neon.kde.org:
     - libgwenhywfar
     - kmymoney
   - 3rdparty:
-    - libindi:
-        branch: Neon/unstable
-    - libnova:
-        branch: master
-    - mlt
-    - libzip
+    - '*'
   - backports-xenial:
     - automat
     - twisted
