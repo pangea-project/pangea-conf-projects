@@ -683,7 +683,7 @@
       type: uscan
 
 '*{anonscm.debian,anongit.neon}*/3rdparty/libnova':
-  'master':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: tarball
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
