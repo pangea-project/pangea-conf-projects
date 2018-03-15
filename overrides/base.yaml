@@ -672,7 +672,7 @@
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/neon-packaging/libindi':
+'*{anonscm.debian,anongit.neon}*/3rdparty/indi':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
