@@ -1050,6 +1050,11 @@ https://github.com/dci-debian-packaging-backports/libwlocate:
       type: tarball
       url: 'https://launchpad.net/ubuntu/+archive/primary/+files/libwlocate_0.0git20130108.orig.tar.gz'
 
+https://github.com/dci-debian-packaging-backports/libyuv:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://chromium.googlesource.com/libyuv/libyuv/
 
 '*anonscm.debian.org/pkg-xorg/lib/libxkbcommon':
   '*':
@@ -1068,6 +1073,13 @@ https://github.com/netrunner-pine64/pine64-uboot:
     upstream_scm:
       type: git
       url: https://github.com/ayufan-pine64/boot-tools
+
+https://github.com/netrunner-pine64/libvdpau-sunxi:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/davidedmundson/libvdpau-sunxi
+      branch: wpackaging
 
 https://github.com/netrunner-odroid/c2-uboot:
   '*':
