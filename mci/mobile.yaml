@@ -6,6 +6,6 @@ github.com:
         branch: halium-7.1
 
 anongit.neon.kde.org:
-  - plasma:
+  - kde:
     - kwin:
         branch: Neon/mobile
