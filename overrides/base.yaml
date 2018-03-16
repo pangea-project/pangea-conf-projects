@@ -285,6 +285,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/libical':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/twisted':
   '*':
     upstream_scm:
@@ -523,6 +528,12 @@
     upstream_scm:
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+files/libzip_1.0.1.orig.tar.gz
+
+'*anongit.neon*/forks/libzip':
+  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
+    upstream_scm:
+      type: tarball
+      url: http://http.debian.net/debian/pool/main/libz/libzip/libzip_1.3.2.orig.tar.gz
 
 '*anongit.neon*/kde-extras/kile':
   'Neon/unstable':
