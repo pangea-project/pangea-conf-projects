@@ -10,9 +10,6 @@ github.com:
   - dci-debian-plasma:
     - '*':
         branch: Netrunner/18.03
-  # - dci-debian-kde-extras:
-  #   - 'latte-dock':
-  #       branch: Netrunner/18.03
   - dci-debian-kde-applications:
     - '*':
         branch: Netrunner/18.03
