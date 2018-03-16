@@ -59,6 +59,7 @@ anongit.neon.kde.org:
     - libxfont
     - openbabel
     - libzip4
+    - libzip
     - muon
     - libqalculate
     - encfs:
@@ -88,6 +89,7 @@ anongit.neon.kde.org:
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - libical
     - automat
     - twisted
     - constantly
