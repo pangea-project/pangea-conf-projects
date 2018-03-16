@@ -47,14 +47,12 @@ github.com:
         branch: master
     - libzip:
         branch: master
+    - libyuv:
+        branch: master
 
   - dci-extras-packaging:
     - '*':
         branch: master
-    - isoimagewrier-neon:
-        branch: Netrunner/17.10
-    - lookandfeeltool:
-        branch: Netrunner/17.10
   - ds9-common:
     - '*':
         branch: master
