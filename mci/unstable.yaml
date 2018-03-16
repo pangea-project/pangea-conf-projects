@@ -45,7 +45,7 @@ anongit.neon.kde.org:
   - qt:
     - qtmultimedia:
         branch: Neon/mobile
-  - plasma:
+  - kde:
     - kaccounts-mobile:
         branch: Neon/mobile
   - kde-extras:
