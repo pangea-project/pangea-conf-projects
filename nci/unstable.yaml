@@ -26,8 +26,7 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - aptdaemon:
         branch: master
-    - gcompris:
-        branch: Neon/unstable
+    - gcompris
     - qt5keychain:
         branch: Neon/unstable
     - sip4:

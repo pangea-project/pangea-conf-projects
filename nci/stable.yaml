@@ -27,8 +27,7 @@ anongit.neon.kde.org:
         branch: master
     - digikam:
         branch: Neon/unstable
-    - gcompris:
-        branch: Neon/stable
+    - gcompris
     - qt5keychain:
         branch: Neon/stable
     - python-qt4:

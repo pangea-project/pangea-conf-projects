@@ -23,8 +23,7 @@ anongit.neon.kde.org:
     - packagekit
     - aptdaemon:
         branch: master
-    - gcompris:
-        branch: Neon/release
+    - gcompris
     - lmdb:
         branch: Neon/release
     - ninja-build:
