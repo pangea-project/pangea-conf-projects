@@ -986,20 +986,10 @@ https://github.com/dci-extras-packaging/ksystraycmd5:
       url: https://anongit.kde.org/scratch/hein/ksystraycmd.git
       branch: master
 
-https://github.com/dci-extras-packaging/lookandfeeltool:
-  '*':
-    upstream_scm:
-      type: uscan
-
 https://github.com/dci-extras-packaging/kcm-kernel-config:
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
-
-https://github.com/dci-extras-packaging/isoimagewriter-neon:
-  '*':
-    upstream_scm:
-      url: git://anongit.kde.org/isoimagewriter.git
 
 https://github.com/dci-extras-packaging/isowriter:
   '*':
