@@ -960,7 +960,12 @@ https://github.com/dci-extras-packaging/ksuperkey:
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
-https://github.com/dci-extras-packaging/{plasma-widget-volumewin7mixer,yarock,xdgurl,telepathy-,telegram-}*:
+https://github.com/dci-extras-packaging/{yarock,xdgurl,telepathy-,telegram-}*:
+  '*':
+    upstream_scm:
+      type: uscan
+
+https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer:
   '*':
     upstream_scm:
       type: uscan
