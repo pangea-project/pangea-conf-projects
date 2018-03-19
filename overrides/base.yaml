@@ -934,11 +934,6 @@ https://github.com/dci-extras-packaging/skype:
   '*':
     upstream_scm:
 
-https://github.com/dci-extras-packaging/{plasma-widget-volumewin7mixer,yarock}:
-  '*':
-    upstream_scm:
-      type: uscan
-
 https://github.com/dci-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
@@ -949,6 +944,11 @@ https://github.com/dci-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/<%= name %>
+
+'https://github.com/dci-extras-packaging/{plasma-widget-volumewin7mixer,yarock}':
+  '*':
+    upstream_scm:
+      type: uscan
 
 'https://github.com/dci-extras-packaging/kcm-{plasma-services,about-extended,repo-toggle}':
   '*':
