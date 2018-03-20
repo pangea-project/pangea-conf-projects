@@ -991,10 +991,10 @@ https://github.com/dci-extras-packaging/kcm-kernel-config:
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
 
-https://github.com/dci-extras-packaging/isowriter:
+https://github.com/dci-extras-packaging/libump:
   '*':
     upstream_scm:
-      url: https://github.com/KaOSx/isowriter
+      url: https://github.com/libv/libump
 
 https://github.com/plasmazilla/mozilla-kde-support:
   'master':
