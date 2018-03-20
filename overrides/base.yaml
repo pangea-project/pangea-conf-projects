@@ -1077,6 +1077,13 @@ https://github.com/netrunner-pine64/libvdpau-sunxi:
       url: https://github.com/davidedmundson/libvdpau-sunxi
       branch: wpackaging
 
+https://github.com/netrunner-pine64/libcedrus:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/linux-sunxi/libcedrus
+      branch: master
+
 https://github.com/netrunner-odroid/c2-uboot:
   '*':
     upstream_scm:
