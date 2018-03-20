@@ -346,12 +346,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/muon':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+files/muon_5.7.0.orig.tar.xz
-
 '*anongit.neon*/forks/ddcutil':
   master:
     upstream_scm:
@@ -545,13 +539,19 @@
     upstream_scm:
       url: https://anongit.kde.org/kdeconnect-kde.git
 
+'*{anonscm.debian,anongit.neon}*/kde-extras/muon':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 '*{anonscm.debian,anongit.neon}*/kde-extras/qapt':
-  '{kubuntu_unstable,Neon/unstable}':
+  '{kubuntu_unstable,Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/libqapt.git
+      branch: master
 
 '*{anongit.neon}*/kde-extras/qapt':
-  '{Neon/release,Neon/release-lts,Neon/stable}':
+  '{Neon/release,Neon/release-lts}':
     upstream_scm:
      type: uscan
 
