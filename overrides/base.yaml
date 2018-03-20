@@ -33,11 +33,6 @@
 
 # Calligra
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/krita':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
 ## This isn't actually plasma...
 '*{anonscm.debian,anongit.neon}*/kde/plasma-mediacenter':
   '*':
