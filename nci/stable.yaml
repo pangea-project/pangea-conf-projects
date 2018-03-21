@@ -83,6 +83,7 @@ anongit.neon.kde.org:
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - libical
     - automat
     - twisted
     - constantly
