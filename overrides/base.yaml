@@ -135,7 +135,7 @@
     upstream_scm:
       branch: master
 
-'*anongit.neon*/neon-packaging/qoauth':
+'*anongit.neon*/kde-extras/qcompris-qt':
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/gcompris.git
