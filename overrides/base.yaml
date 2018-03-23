@@ -31,8 +31,6 @@
     upstream_scm:
       url: https://anongit.kde.org/kirigami.git
 
-# Calligra
-
 ## This isn't actually plasma...
 '*{anonscm.debian,anongit.neon}*/kde/plasma-mediacenter':
   '*':
@@ -206,10 +204,10 @@
 
 # Other stuff
 
-'*anongit.neon*/kde-extras/phonon':
+'*anongit.neon*/kde/okteta':
   '{Neon/stable}':
     upstream_scm:
-      branch: 4.9
+      branch: Applications/17.12
 
 ## Qt
 
