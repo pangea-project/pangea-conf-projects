@@ -133,7 +133,7 @@
     upstream_scm:
       branch: master
 
-'*anongit.neon*/kde-extras/qcompris-qt':
+'*anongit.neon*/kde-extras/gcompris-qt':
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/gcompris.git
