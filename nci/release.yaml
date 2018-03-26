@@ -85,6 +85,7 @@ anongit.neon.kde.org:
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - opencv
     - automat
     - twisted
     - constantly
