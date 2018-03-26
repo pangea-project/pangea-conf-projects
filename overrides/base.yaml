@@ -283,6 +283,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-xenial/opencv':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/libical':
   '*':
     upstream_scm:
