@@ -98,6 +98,8 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: master
+    - debhelper-ninja:
+        branch: master
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon

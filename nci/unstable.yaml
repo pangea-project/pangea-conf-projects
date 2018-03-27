@@ -103,6 +103,8 @@ anongit.neon.kde.org:
         branch: master
     - libinput:
         branch: master
+    - debhelper-ninja:
+        branch: master
   - qt:
     - '*':
         branch: Neon/release
