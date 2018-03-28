@@ -55,6 +55,7 @@ anongit.neon.kde.org:
     - openbabel
     - libzip
     - muon
+    - libqalculate
     - taglib
     - encfs:
         branch: master
