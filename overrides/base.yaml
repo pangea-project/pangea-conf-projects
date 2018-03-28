@@ -634,7 +634,7 @@
       type: uscan
 
 '*anongit.neon*/forks/libqalculate':
-  'Neon/unstable':
+  '*':
     upstream_scm:
       type: uscan
 
