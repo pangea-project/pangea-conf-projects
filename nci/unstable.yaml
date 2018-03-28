@@ -57,7 +57,6 @@ anongit.neon.kde.org:
     - x11proto-core
     - libxfont
     - openbabel
-    - libzip4
     - libzip
     - muon
     - libqalculate

@@ -55,7 +55,7 @@ anongit.neon.kde.org:
     - heaptrack
     - libunwind
     - openbabel
-    - libzip4
+    - libzip
     - muon
     - taglib
     - encfs:
