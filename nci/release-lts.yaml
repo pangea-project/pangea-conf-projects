@@ -84,7 +84,7 @@ anongit.neon.kde.org:
     - '*'
   - backports-xenial:
     - opencv
-    - libcal
+    - libical
     - automat
     - twisted
     - constantly
