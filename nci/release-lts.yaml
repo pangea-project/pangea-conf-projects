@@ -21,6 +21,8 @@ anongit.neon.kde.org:
         branch: Neon/release
     - live-build:
         branch: Neon/release
+    - util-linux:
+        branch: master
     - packagekit
     - aptdaemon:
         branch: master
