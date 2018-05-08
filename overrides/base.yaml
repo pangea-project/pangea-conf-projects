@@ -61,7 +61,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/neon-packaging/kphotoalbum':
+'*anongit.neon*/kde-extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
       branch: 5.x
@@ -472,7 +472,7 @@
       url: https://github.com/NextThingCo/rtl8723ds_bt.git
       branch: master
 
-'*anongit.neon*/forks/icemon':
+'*anongit.neon*/3rdparty/icemon':
   'Neon/unstable':
     upstream_scm:
       type: git
@@ -513,11 +513,6 @@
 
 '*anongit.neon*/forks/flatbuffers':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/forks/skrooge':
-  '{Neon/release,Neon/release-lts}':
     upstream_scm:
       type: uscan
 
