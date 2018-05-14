@@ -16,14 +16,14 @@ github.com:
 
   - linuxmint:
     - mintinstall:
-        branch: master
+        branch: Netrunner/18.03
   - calamares:
     - calamares-debian:
-        branch: master
+        branch: Netrunner/18.03
 
   - plasmazilla:
     - mozilla-kde-support:
-        branch: master
+        branch: Netrunner/18.03
     - firefox:
         branch: release/kde
     - firefox-esr:
@@ -33,64 +33,64 @@ github.com:
 
   - dci-debian-packaging-backports:
     - libwlocate:
-        branch: master
+        branch: Netrunner/18.03
     - mlt:
         branch: Netrunner/17.10
     - ddcutil:
-        branch: master
+        branch: Netrunner/18.03
     - snapd-glib:
-        branch: master
+        branch: Netrunner/18.03
     - fontconfig:
-        branch: master
+        branch: Netrunner/18.03
     - libzip:
-        branch: master
+        branch: Netrunner/18.03
     - libyuv:
-        branch: master
+        branch: Netrunner/18.03
 
   - dci-extras-packaging:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - ds9-common:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - ds9-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
 
   - netrunner-common:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-odroid:
     - '{odroid,mali}-*':
-        branch: master
+        branch: Netrunner/18.03
     - xserver-xorg-video-mali:
-        branch: master
+        branch: Netrunner/18.03
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-pine64:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-pinebook:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-zeronet:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - nomad-artwork:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-nomad-desktop:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
   - netrunner-rock64:
     - '*':
-        branch: master
+        branch: Netrunner/18.03
