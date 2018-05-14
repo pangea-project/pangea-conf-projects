@@ -23,13 +23,7 @@ github.com:
   - dci-debian-packaging-backports:
     - libwlocate:
         branch: master
-    - ddcutil:
-        branch: master
-    - snapd-glib:
-        branch: master
     - fontconfig:
-        branch: master
-    - libzip:
         branch: master
     - libyuv:
         branch: master
