@@ -16,10 +16,10 @@ github.com:
 
   - linuxmint:
     - mintinstall:
-        branch: Netrunner/18.03
+        branch: master
   - calamares:
     - calamares-debian:
-        branch: Netrunner/18.03
+        branch: master
 
   - plasmazilla:
     - mozilla-kde-support:
