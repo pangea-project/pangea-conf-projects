@@ -23,7 +23,7 @@ github.com:
 
   - plasmazilla:
     - mozilla-kde-support:
-        branch: Netrunner/18.03
+        branch: master
     - firefox:
         branch: release/kde
     - firefox-esr:
