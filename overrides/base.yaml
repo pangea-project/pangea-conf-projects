@@ -890,7 +890,7 @@ https://github.com/dci-extras-packaging/groupingplasmoid:
       url: https://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
       type: git
 
-'https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer}*':
+'https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,latte-dock}*':
   '*':
     upstream_scm:
       type: uscan
