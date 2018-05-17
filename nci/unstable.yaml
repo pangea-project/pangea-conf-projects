@@ -117,3 +117,4 @@ anongit.neon.kde.org:
 launchpad.net:
   - livecd-rootfs-neon
   - ubiquity-neon
+  - ubuntu-release-upgrader-neon
