@@ -53,7 +53,7 @@
 
 # Neon-packaging
 
-'*anongit.neon*/kde-extras/calamares':
+'*anongit.neon*/extras/calamares':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
@@ -61,7 +61,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/kde-extras/kphotoalbum':
+'*anongit.neon*/extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
       branch: 5.x
@@ -86,7 +86,7 @@
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
 
-'*anongit.neon*/qt-extras/vc':
+'*anongit.neon*/extras/vc':
   '*':
     upstream_scm:
       type: uscan
@@ -133,12 +133,12 @@
     upstream_scm:
       branch: master
 
-'*anongit.neon*/kde-extras/gcompris-qt':
+'*anongit.neon*/extras/gcompris-qt':
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/gcompris.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/krename':
+'*{anonscm.debian,anongit.neon}*/extras/krename':
   'Neon/stable':
     upstream_scm:
       branch: master
@@ -148,12 +148,12 @@
     upstream_scm:
       branch: mklapetek/SpaceBar
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/ktorrent':
+'*{anonscm.debian,anongit.neon}*/extras/ktorrent':
   'Neon/stable':
     upstream_scm:
       branch: master
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/libktorrent':
+'*{anonscm.debian,anongit.neon}*/extras/libktorrent':
   'Neon/stable':
     upstream_scm:
       branch: master
@@ -161,13 +161,13 @@
 # STD
 
 # <Riddell> chicos: kdev-python/php both have  find_package(KDevPlatform ${KDEVPLATFORM_VERSION} REQUIRED) in their stable branch, but kdevplatform doesn't exist in a stable branch now
-'*anongit.neon*/kde-extras/kdevelop-python':
+'*anongit.neon*/extras/kdevelop-python':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-python.git
       branch: master
 
-'*anongit.neon*/kde-extras/kdevelop-php':
+'*anongit.neon*/extras/kdevelop-php':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdev-php.git
@@ -186,7 +186,7 @@
     upstream_scm:
       branch: develop
 
-'*anongit.neon*/kde-extras/phonon-backend-vlc':
+'*anongit.neon*/extras/phonon-backend-vlc':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/phonon-vlc.git
@@ -194,7 +194,7 @@
     upstream_scm:
       branch: 0.9
 
-'*anongit.neon*/kde-extras/phonon-backend-gstreamer':
+'*anongit.neon*/extras/phonon-backend-gstreamer':
   '*':
     upstream_scm:
       url: https://anongit.kde.org/phonon-gstreamer.git
@@ -453,7 +453,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/kde-extras/drumstick':
+'*anongit.neon*/extras/drumstick':
   'Neon/unstable':
     upstream_scm:
       type: uscan
@@ -528,38 +528,38 @@
       type: tarball
       url: http://http.debian.net/debian/pool/main/libz/libzip/libzip_1.3.2.orig.tar.gz
 
-'*anongit.neon*/kde-extras/kile':
+'*anongit.neon*/extras/kile':
   'Neon/unstable':
     upstream_scm:
       url: https://anongit.kde.org/kile.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/debconf-kde':
+'*{anonscm.debian,anongit.neon}*/extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/libdebconf-kde.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/kdeconnect-plasma':
+'*{anonscm.debian,anongit.neon}*/extras/kdeconnect-plasma':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/kdeconnect-kde.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/muon':
+'*{anonscm.debian,anongit.neon}*/extras/muon':
   'Neon/stable':
     upstream_scm:
       branch: master
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/qapt':
+'*{anonscm.debian,anongit.neon}*/extras/qapt':
   '{kubuntu_unstable,Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://anongit.kde.org/libqapt.git
       branch: master
 
-'*{anongit.neon}*/kde-extras/qapt':
+'*{anongit.neon}*/extras/qapt':
   '{Neon/release,Neon/release-lts}':
     upstream_scm:
      type: uscan
 
-'*{anongit.neon}*/kde-extras/exiv2':
+'*{anongit.neon}*/extras/exiv2':
   '{Neon/release,Neon/release-lts,Neon/stable,Neon/unstable}':
     upstream_scm:
      type: uscan
@@ -574,22 +574,22 @@
     upstream_scm:
       url: https://github.com/sddm/sddm.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/qt-gstreamer':
+'*{anonscm.debian,anongit.neon}*/extras/qt-gstreamer':
   '*':
     upstream_scm:
       url: git://anongit.freedesktop.org/gstreamer/qt-gstreamer
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/telepathy-accounts-signon':
+'*{anonscm.debian,anongit.neon}*/extras/telepathy-accounts-signon':
   '*':
     upstream_scm:
       url: https://gitlab.com/accounts-sso/telepathy-accounts-signon.git
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/libaccounts-glib':
+'*{anonscm.debian,anongit.neon}*/extras/libaccounts-glib':
   '*':
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/kde-extras/kirigami':
+'*{anonscm.debian,anongit.neon}*/extras/kirigami':
   '{kubuntu_stable,Neon/stable,Neon/unstable}':
     upstream_scm:
       branch: Kirigami/1.1
@@ -618,7 +618,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/qt-extras/gammaray':
+'*anongit.neon*/extras/gammaray':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
@@ -693,7 +693,7 @@
       type: tarball
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
-'*{anonscm.debian,anongit.neon}*/qt-extras/grantlee':
+'*{anonscm.debian,anongit.neon}*/extras/grantlee':
   '*':
     upstream_scm:
       type: tarball

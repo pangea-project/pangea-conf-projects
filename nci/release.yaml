@@ -1,7 +1,7 @@
 anongit.neon.kde.org:
   - kde:
     - '*'
-  - kde-extras:
+  - extras:
     - '*'
   - neon-packaging:
     - '*'
@@ -81,8 +81,6 @@ anongit.neon.kde.org:
     - libaqbanking
     - libgwenhywfar
     - kmymoney
-  - qt-extras:
-    - '*'
   - 3rdparty:
     - '*'
   - backports-xenial:

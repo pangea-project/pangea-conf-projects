@@ -3,7 +3,7 @@ origin: unstable
 anongit.neon.kde.org:
   - kde:
     - '*'
-  - kde-extras:
+  - extras:
     - '*'
   - neon-packaging:
     - '*'
@@ -108,8 +108,6 @@ anongit.neon.kde.org:
   - qt:
     - '*':
         branch: Neon/release
-  - qt-extras:
-    - '*'
   - '':
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: Neon/release

@@ -48,7 +48,7 @@ anongit.neon.kde.org:
   - kde:
     - kaccounts-mobile:
         branch: Neon/mobile
-  - kde-extras:
+  - extras:
     - libaccounts-glib:
         branch: Neon/mobile
     - kirigami:
