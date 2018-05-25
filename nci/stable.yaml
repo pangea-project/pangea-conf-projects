@@ -94,8 +94,6 @@ anongit.neon.kde.org:
     - fuse:
         branch: master
     - snapd-glib
-    - python-apt:
-        branch: master
     - libinput:
         branch: master
     - debhelper-ninja:
