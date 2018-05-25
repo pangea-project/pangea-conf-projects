@@ -657,6 +657,12 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/distro-release-notifier':
+  '*':
+    upstream_scm:
+      url: https://anongit.kde.org/scratch/jriddell/distro-release-notifier.git
+      type: git
+
 '*anongit.neon*/neon-packaging/molequeue':
   'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
