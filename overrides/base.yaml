@@ -657,6 +657,12 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/distro-release-notifier':
+  '*':
+    upstream_scm:
+      branch: master
+      type: git
+
 '*anongit.neon*/neon-packaging/molequeue':
   'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
