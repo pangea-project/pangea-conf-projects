@@ -80,6 +80,7 @@ anongit.neon.kde.org:
     - libaqbanking
     - libgwenhywfar
     - kmymoney
+    - ubiquity
   - 3rdparty:
     - '*'
   - backports-xenial:
