@@ -25,5 +25,6 @@ anongit.neon.kde.org:
         branch: master
     - python-qt4:
         branch: master
+  - extras:
     - skrooge:
         branch: Neon/release
