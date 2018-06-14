@@ -120,6 +120,20 @@
       url: https://anongit.kde.org/scratch/hein/ksystraycmd.git
       branch: master
 
+'*anongit.neon*/neon-packaging/libvdpau-sunxi':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/davidedmundson/libvdpau-sunxi
+      branch: wpackaging
+
+'*anongit.neon*/neon-packaging/libcedrus':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/linux-sunxi/libcedrus
+      branch: master
+
 
 # Extras
 
