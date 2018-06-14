@@ -134,6 +134,16 @@
       url: https://github.com/linux-sunxi/libcedrus
       branch: master
 
+'*anongit.neon*/neon-packaging/libyuv':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://chromium.googlesource.com/libyuv/libyuv/
+
+'*anongit.neon*/neon-packaging/libump':
+  '*':
+    upstream_scm:
+      url: https://github.com/libv/libump
 
 # Extras
 
