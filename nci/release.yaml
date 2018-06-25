@@ -68,6 +68,7 @@ anongit.neon.kde.org:
         branch: master
     - cryfs:
         branch: master
+    - kbibtex
     - krename
     - gpgme
     - skrooge:
