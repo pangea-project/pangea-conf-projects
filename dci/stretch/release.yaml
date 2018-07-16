@@ -1,0 +1,77 @@
+github.com:
+  - dci-debian-qt:
+    - '*':
+        branch: Netrunner/next
+
+  - linuxmint:
+    - mintinstall:
+        branch: master
+  - calamares:
+    - calamares-debian:
+        branch: master
+
+  - plasmazilla:
+    - mozilla-kde-support:
+        branch: master
+    - firefox:
+        branch: release/kde
+    - firefox-esr:
+        branch: esr/kde
+    - thunderbird:
+        branch: release/kde
+
+  - dci-debian-packaging-backports:
+    - libwlocate:
+        branch: master
+    - fontconfig:
+        branch: master
+    - libyuv:
+        branch: master
+
+  - dci-extras-packaging:
+    - '*':
+        branch: master
+  - ds9-common:
+    - '*':
+        branch: master
+  - ds9-artwork:
+    - '*':
+        branch: master
+
+  - netrunner-common:
+    - '*':
+        branch: master
+  - netrunner-artwork:
+    - '*':
+        branch: master
+  - netrunner-desktop:
+    - '{netrunner,calamares,base}*':
+        branch: master
+  - netrunner-core:
+    - '{netrunner,calamares,base-files}*':
+        branch: master
+  - netrunner-odroid:
+    - '{odroid,mali}-*':
+        branch: master
+    - xserver-xorg-video-mali:
+        branch: master
+    - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
+        branch: master
+  - netrunner-pine64:
+    - '*':
+        branch: master
+  - netrunner-pinebook:
+    - '*':
+        branch: master
+  - netrunner-zeronet:
+    - '*':
+        branch: master
+  - nomad-artwork:
+    - '*':
+        branch: master
+  - netrunner-nomad-desktop:
+    - '*':
+        branch: master
+  - netrunner-rock64:
+    - '*':
+        branch: master
