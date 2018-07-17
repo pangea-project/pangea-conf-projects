@@ -1,7 +1,7 @@
 github.com:
   - dci-debian-qt:
     - '*':
-        branch: Netrunner/next
+        branch: Netrunner/stretch
 
   - linuxmint:
     - mintinstall:
