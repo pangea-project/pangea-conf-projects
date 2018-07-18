@@ -34,6 +34,8 @@ github.com:
   - ds9-common:
     - '*':
         branch: master
+    - default-settings-kdeapps:
+        branch: Netrunner/stretch
   - ds9-artwork:
     - '*':
         branch: master
