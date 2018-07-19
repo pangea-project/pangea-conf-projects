@@ -27,6 +27,8 @@ github.com:
         branch: master
     - libyuv:
         branch: master
+    - kpmcore:
+        branch: master
 
   - dci-extras-packaging:
     - '*':
