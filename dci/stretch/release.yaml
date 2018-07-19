@@ -29,6 +29,8 @@ github.com:
         branch: master
     - kpmcore:
         branch: master
+    - util-linux:
+        branch: master
 
   - dci-extras-packaging:
     - '*':
