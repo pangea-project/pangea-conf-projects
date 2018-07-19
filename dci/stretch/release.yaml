@@ -31,6 +31,8 @@ github.com:
         branch: master
     - util-linux:
         branch: master
+    - partitionmanager:
+        branch: master
 
   - dci-extras-packaging:
     - '*':
