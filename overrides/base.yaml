@@ -234,13 +234,6 @@
     upstream_scm:
       branch: 4.9
 
-# Other stuff
-
-'*anongit.neon*/kde/okteta':
-  '{Neon/stable}':
-    upstream_scm:
-      branch: Applications/17.12
-
 ## Qt
 
 '*{anonscm.debian,anongit.neon,gitlab.com}*/{qt,netrunner-debian-qt}/*':
