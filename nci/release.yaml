@@ -83,6 +83,7 @@ anongit.neon.kde.org:
     - libgwenhywfar
     - kmymoney
     - ubiquity
+    - xf86-video-armsoc
   - 3rdparty:
     - '*'
   - backports-xenial:
