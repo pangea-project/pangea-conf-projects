@@ -98,6 +98,7 @@ anongit.neon.kde.org:
         branch: master
     - debhelper-ninja:
         branch: master
+  - backports-bionic:
     - util-linux:
         branch: master
 
