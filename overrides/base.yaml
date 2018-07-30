@@ -366,6 +366,11 @@
       type: tarball
       url: https://github.com/libfuse/libfuse/releases/download/fuse-2.9.7/fuse-2.9.7.tar.gz
 
+'*anongit.neon*/backports-bionic/util-linux':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/forks/gpgme':
   '*':
     upstream_scm:
