@@ -19,8 +19,6 @@ anongit.neon.kde.org:
     - libkolabxml:
         branch: Neon/unstable
     - live-build
-    - util-linux:
-        branch: master
     - packagekit
     - pyqt5:
         branch: Neon/unstable
@@ -102,6 +100,9 @@ anongit.neon.kde.org:
     - libinput:
         branch: master
     - debhelper-ninja:
+        branch: master
+  - backports-bionic:
+    - util-linux:
         branch: master
   - qt:
     - '*':
