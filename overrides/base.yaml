@@ -143,6 +143,7 @@
 '*anongit.neon*/neon-packaging/libump':
   '*':
     upstream_scm:
+      type: git
       url: https://github.com/libv/libump
 
 # Extras
