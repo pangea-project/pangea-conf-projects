@@ -102,7 +102,7 @@ anongit.neon.kde.org:
     - debhelper-ninja:
         branch: master
   - backports-bionic:
-    - util-linux:
+    - util-linux-bionic:
         branch: master
   - qt:
     - '*':
