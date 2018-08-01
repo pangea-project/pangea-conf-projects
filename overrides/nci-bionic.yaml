@@ -1,0 +1,5 @@
+# Restrict all bionic backports to only build on bionic.
+'*anongit.neon*/backports-bionic/*':
+  '*':
+    series_restrictions:
+      - bionic

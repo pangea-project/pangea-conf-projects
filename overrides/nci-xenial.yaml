@@ -1,0 +1,13 @@
+# Restrict all xenial backports to only build on xenial.
+'*anongit.neon*/backports-xenial/*':
+  '*':
+    series_restrictions:
+      - xenial
+
+# This is effectively built as a backport. In bionic onwards we need no delta
+# at the time of writing.
+# https://phabricator.kde.org/T9284
+'*anongit.neon*/pkg-kde-tools':
+  '*':
+    series_restrictions:
+      - xenial
