@@ -61,6 +61,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/extras/kpmcore':
+  '{kubuntu_unstable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
