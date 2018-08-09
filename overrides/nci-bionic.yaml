@@ -1,5 +1,16 @@
+# NB: global_restriction is defined as an anchor setting all branches to
+#   restricted for the series!
+
 # Restrict all bionic backports to only build on bionic.
-'*anongit.neon*/backports-bionic/*':
-  '*':
+'*anongit.neon*/backports-bionic/*': &global_restriction
+  '*': &series_restriction
     series_restrictions:
       - bionic
+
+# Bazaar repos are branches, so each repo is by default locked to a version
+# as they cannot support multiple series.
+'lp:livecd-rootfs-neon-bionic':
+  '*':
+    <<: *series_restriction
+    packaging_scm:
+      url: lp:~kdeneon/livecd-rootfs-neon/bionic
