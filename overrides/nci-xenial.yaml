@@ -1,6 +1,9 @@
+# NB: global_restriction is defined as an anchor setting all branches to
+#   restricted for the series!
+
 # Restrict all xenial backports to only build on xenial.
-'*anongit.neon*/backports-xenial/*':
-  '*':
+'*anongit.neon*/backports-xenial/*': &global_restriction
+  '*': &series_restriction
     series_restrictions:
       - xenial
 
@@ -8,6 +11,15 @@
 # at the time of writing.
 # https://phabricator.kde.org/T9284
 '*anongit.neon*/pkg-kde-tools':
-  '*':
-    series_restrictions:
-      - xenial
+  <<: *global_restriction
+
+# Bazaar repos are branches, so each repo is by default locked to a version
+# as they cannot support multiple series.
+'lp:livecd-rootfs-neon':
+  <<: *global_restriction
+
+'lp:ubiquity-neon':
+  <<: *global_restriction
+
+'lp:ubuntu-release-upgrader-neon':
+  <<: *global_restriction
