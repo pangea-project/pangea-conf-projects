@@ -11,82 +11,53 @@ anongit.neon.kde.org:
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: Neon/release
   - forks:
-    - appstream:
-        branch: Neon/release
-    - base-files:
-        branch: Neon/release
-    - libkolab:
-        branch: Neon/release
-    - libkolabxml:
-        branch: Neon/release
+    - skrooge
+    - base-files
     - live-build
-    - packagekit
+    - pyqt5
     - aptdaemon:
         branch: master
     - gcompris
-    - lmdb:
-        branch: Neon/release
-    - ninja-build:
-        branch: Neon/release
-    - meson:
-        branch: Neon/release
-    - ldc:
-        branch: Neon/release
-    - qt5keychain:
-        branch: Neon/release
+    - sip4:
+        branch: master
     - python-qt4:
         branch: master
-    - libxkbcommon:
-        branch: Neon/release
+    - libarchive
     - k3b
-    - libarchive:
-        branch: Neon/release
-    - fcitx-qt5:
-        branch: Neon/release
-    - mlt:
-        branch: master
-    - kdesvn:
-        branch: Neon/release
+    - fcitx-qt5
+    - smb4k
+    - kdesvn
     - rsibreak
     - icemon
-    - smb4k
-    - wayland
-    - flatpak
-    - flatpak-builder
     - heaptrack
-    - libunwind
-    - openbabel
-    - libzip
     - muon
     - libqalculate
-    - taglib
-    - encfs:
-        branch: master
-    - harfbuzz:
-        branch: master
-    - json-glib:
-        branch: master
-    - cryfs:
-        branch: master
     - kbibtex
     - krename
-    - gpgme
-    - skrooge:
-        branch: Neon/release
+    - live-config
+    - xf86-video-armsoc
     - kdiagram
+    - rtl8723ds-bt
     - kdenlive
-    - ddcutil:
-        branch: master
     - massif-visualizer
-    - libalkimia
-    - libaqbanking
-    - libgwenhywfar
     - kmymoney
     - ubiquity
     - xf86-video-armsoc
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - json-glib:
+        branch: master
+    - harfbuzz:
+        branch: master
+    - encfs:
+        branch: master
+    - ddcutil:
+        branch: master
+    - cryfs:
+        branch: master
+    - appstream:
+        branch: Neon/release
     - opencv
     - libical
     - automat

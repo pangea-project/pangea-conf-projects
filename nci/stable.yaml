@@ -13,76 +13,52 @@ anongit.neon.kde.org:
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: Neon/release
   - forks:
-    - appstream:
-        branch: Neon/release
-    - base-files:
-        branch: Neon/stable
-    - libkolab:
-        branch: Neon/stable
-    - libkolabxml:
-        branch: Neon/stable
+    - skrooge
+    - base-files
     - live-build
-    - packagekit
+    - pyqt5
     - aptdaemon:
         branch: master
-    - digikam:
-        branch: Neon/unstable
     - gcompris
-    - qt5keychain:
-        branch: Neon/stable
+    - sip4:
+        branch: master
     - python-qt4:
         branch: master
-    - libxkbcommon:
-        branch: Neon/stable
-    - k3b:
-        branch: Neon/stable
-    - libarchive:
-        branch: Neon/stable
-    - fcitx-qt5:
-        branch: Neon/stable
-    - mlt:
-        branch: master
-    - kdesvn:
-        branch: Neon/stable
+    - libarchive
+    - k3b
+    - fcitx-qt5
+    - smb4k
+    - kdesvn
     - rsibreak
     - icemon
-    - smb4k
-    - wayland
-    - flatpak
-    - flatpak-builder
     - heaptrack
-    - libunwind
-    - openbabel
-    - libzip
     - muon
     - libqalculate
-    - taglib
-    - encfs:
-        branch: master
-    - harfbuzz:
-        branch: master
-    - json-glib:
-        branch: master
-    - cryfs:
-        branch: master
     - kbibtex
     - krename
-    - gpgme
-    - skrooge:
-        branch: Neon/stable
+    - live-config
+    - xf86-video-armsoc
     - kdiagram
+    - rtl8723ds-bt
     - kdenlive
-    - ddcutil:
-        branch: master
     - massif-visualizer
-    - libalkimia
-    - libaqbanking
-    - libgwenhywfar
     - kmymoney
     - ubiquity
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - json-glib:
+        branch: master
+    - harfbuzz:
+        branch: master
+    - encfs:
+        branch: master
+    - ddcutil:
+        branch: master
+    - cryfs:
+        branch: master
+    - appstream:
+        branch: Neon/release
     - opencv
     - libical
     - automat

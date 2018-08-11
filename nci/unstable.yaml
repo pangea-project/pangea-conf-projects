@@ -10,82 +10,52 @@ anongit.neon.kde.org:
   - neon:
     - '*'
   - forks:
-    - skrooge:
-        branch: Neon/unstable
-    - appstream:
-        branch: Neon/release
-    - base-files:
-        branch: Neon/unstable
-    - libkolabxml:
-        branch: Neon/unstable
+    - skrooge
+    - base-files
     - live-build
-    - packagekit
-    - pyqt5:
-        branch: Neon/unstable
+    - pyqt5
     - aptdaemon:
         branch: master
     - gcompris
-    - qt5keychain:
-        branch: Neon/unstable
     - sip4:
         branch: master
     - python-qt4:
         branch: master
-    - libxkbcommon:
-        branch: Neon/unstable
-    - avogadro
-    - libarchive:
-        branch: Neon/unstable
-    - k3b:
-        branch: Neon/unstable
-    - fcitx-qt5:
-        branch: Neon/unstable
-    - smb4k:
-        branch: Neon/unstable
-    - kdesvn:
-        branch: Neon/unstable
+    - libarchive
+    - k3b
+    - fcitx-qt5
+    - smb4k
+    - kdesvn
     - rsibreak
     - icemon
-    - wayland
-    - xorg-server
-    - taglib
     - heaptrack
-    - flatpak
-    - flatpak-builder
-    - x11proto-core
-    - libxfont
-    - openbabel
-    - libzip
     - muon
     - libqalculate
-    - encfs:
-        branch: master
-    - harfbuzz:
-        branch: master
-    - json-glib:
-        branch: master
-    - cryfs:
-        branch: master
     - kbibtex
-    - lmdb
-    - ddcutil:
-        branch: master
     - krename
-    - gpgme
     - live-config
     - xf86-video-armsoc
     - kdiagram
     - rtl8723ds-bt
     - kdenlive
     - massif-visualizer
-    - libalkimia
-    - libaqbanking
-    - libgwenhywfar
     - kmymoney
     - ubiquity
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - json-glib:
+        branch: master
+    - harfbuzz:
+        branch: master
+    - encfs:
+        branch: master
+    - ddcutil:
+        branch: master
+    - cryfs:
+        branch: master
+    - appstream:
+        branch: Neon/release
     - opencv
     - libical
     - automat
