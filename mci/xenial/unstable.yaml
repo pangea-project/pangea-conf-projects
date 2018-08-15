@@ -35,7 +35,9 @@ github.com:
     - qmlkonsole
     - nemo-qtmultimedia-plugins:
         branch: master
-  - KaidanIM:
+
+git.kaidan.im:
+  - kaidan:
     - gloox-packaging:
         branch: master
     - kaidan-packaging-deb:
