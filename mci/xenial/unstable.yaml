@@ -60,5 +60,5 @@ anongit.neon.kde.org:
 
 gitlab.com:
   - debian-pm:
-    - angelfish:
+    - plasma-angelfish:
         branch: master
