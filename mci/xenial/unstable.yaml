@@ -57,3 +57,8 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - peruse:
         branch: Neon/unstable
+
+gitlab.com:
+  - debian-pm:
+    - plasma-angelfish:
+        branch: master
