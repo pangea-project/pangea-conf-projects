@@ -52,8 +52,7 @@ anongit.neon.kde.org:
         branch: master
     - ddcutil:
         branch: master
-    - cryfs:
-        branch: master
+    - cryfs
     - appstream:
         branch: Neon/release
     - opencv

@@ -454,10 +454,9 @@
       type: uscan
 
 '*anongit.neon*/backports-xenial/cryfs':
-  Neon/unstable,master:
+  '*':
     upstream_scm:
       type: uscan
-      branch: master
 
 '*anongit.neon*/backports-xenial/libunwind':
   Neon/{release-lts,release,stable,unstable}:
