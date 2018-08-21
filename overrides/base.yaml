@@ -480,7 +480,7 @@
       branch: master
 
 '*anongit.neon*/forks/rtl8723ds-bt':
-  'Neon/unstable':
+  '*':
     upstream_scm:
       type: git
       url: https://github.com/NextThingCo/rtl8723ds_bt.git
