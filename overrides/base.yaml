@@ -438,18 +438,18 @@
       type: uscan
 
 '*anongit.neon*/backports-xenial/encfs':
-  master:
+  'master':
     upstream_scm:
       type: uscan
       branch: master
 
 '*anongit.neon*/backports-xenial/harfbuzz':
-  master:
+  'master':
     upstream_scm:
       type: uscan
 
 '*anongit.neon*/backports-xenial/json-glib':
-  master:
+  'master':
     upstream_scm:
       type: uscan
 
