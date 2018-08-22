@@ -1,0 +1,8 @@
+gitlab.com:
+  - debian-pm:
+    - lxc-android:
+        branch: master
+    - hybris-usb:
+        branch: master
+    - gst-droid:
+        branch: master

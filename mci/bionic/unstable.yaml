@@ -1,0 +1,6 @@
+origin: unstable
+
+gitlab.com:
+  - debian-pm:
+    - plasma-angelfish:
+        branch: master
