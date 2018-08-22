@@ -1,0 +1,11 @@
+gitlab.com:
+  - debian-pm:
+    - android-headers:
+        branch: halium-7.1
+    - libhybris:
+        branch: halium-7.1
+
+anongit.neon.kde.org:
+  - kde:
+    - kwin:
+        branch: Neon/mobile
