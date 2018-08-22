@@ -1165,21 +1165,21 @@ https://github.com/dci-debian-kde-extras/qtcurve:
       url: https://anongit.kde.org/qtcurve.git
       branch: master
 
-https://github.com/halium-packaging/android-headers:
+'{https://github.com/halium-packaging/,https://gitlab.com/debian-pm/}android-headers':
   halium-7.1:
     upstream_scm:
       type: git
       url: https://github.com/halium/android-headers
       branch: halium-7.1
 
-https://github.com/halium-packaging/libhybris:
+'{https://github.com/halium-packaging/,https://gitlab.com/debian-pm/}/libhybris':
   halium-7.1:
     upstream_scm:
       type: git
       url: https://github.com/halium/libhybris
       branch: halium-7.1
 
-https://github.com/halium-packaging/lxc-android:
+'{https://github.com/halium-packaging/,https://gitlab.com/debian-pm/}/lxc-android':
   master:
     upstream_scm:
       type: git
@@ -1192,7 +1192,7 @@ https://github.com/halium-packaging/nemo-gst-interfaces:
       type: git
       url: https://git.merproject.org/mer-core/nemo-gst-interfaces.git
 
-'https://github.com/halium-packaging/{droidmedia,gst-droid}*':
+'{https://github.com/halium-packaging/,https://gitlab.com/debian-pm/}{droidmedia,gst-droid}*':
   master:
     upstream_scm:
       type: git
