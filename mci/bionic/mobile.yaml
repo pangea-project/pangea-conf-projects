@@ -3,7 +3,7 @@ gitlab.com:
     - android-headers:
         branch: halium-7.1
     - libhybris:
-        branch: halium-7.1
+        branch: master
 
 anongit.neon.kde.org:
   - kde:

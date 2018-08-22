@@ -1173,7 +1173,7 @@ https://github.com/dci-debian-kde-extras/qtcurve:
       branch: halium-7.1
 
 '*{github.com/halium-packaging,gitlab.com/debian-pm}*/libhybris':
-  halium-7.1:
+  '{master,halium-7.1}':
     upstream_scm:
       type: git
       url: https://github.com/halium/libhybris
