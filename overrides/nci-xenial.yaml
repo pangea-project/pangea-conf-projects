@@ -13,6 +13,13 @@
 '*anongit.neon*/pkg-kde-tools':
   <<: *global_restriction
 
+# This is a xenial exclusive hack build. In bionic this is replaced by
+# neon-masks which uses a less invasive approach to solve the problem of
+# adwaita getting pulled in. The bionic approach is not backwards compatible
+# as in xenial adwaita is being pulled in as a versioned depends.
+'*anongit.neon*/neon/adwaita-icon-theme':
+  <<: *global_restriction
+
 # Bazaar repos are branches, so each repo is by default locked to a version
 # as they cannot support multiple series.
 'lp:livecd-rootfs-neon':
