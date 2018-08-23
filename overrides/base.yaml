@@ -277,7 +277,7 @@
 
 ### Bindings
 
-'*anongit.neon*/forks/sip4':
+'*anongit.neon*/backports-xenial/sip4':
   Neon/release:
     upstream_scm:
       type: uscan
@@ -285,7 +285,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/python-qt4':
+'*anongit.neon*/backports-xenial/python-qt4':
   Neon/release:
     upstream_scm:
       type: uscan
@@ -293,7 +293,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/forks/pyqt5':
+'*anongit.neon*/backports-xenial/pyqt5':
   '*':
     upstream_scm:
       type: uscan

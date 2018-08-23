@@ -14,14 +14,9 @@ anongit.neon.kde.org:
     - skrooge
     - base-files
     - live-build
-    - pyqt5
     - aptdaemon:
         branch: master
     - gcompris
-    - sip4:
-        branch: master
-    - python-qt4:
-        branch: master
     - libarchive
     - k3b
     - fcitx-qt5
@@ -46,6 +41,11 @@ anongit.neon.kde.org:
   - 3rdparty:
     - '*'
   - backports-xenial:
+    - pyqt5
+    - sip4:
+        branch: master
+    - python-qt4:
+        branch: master
     - json-glib:
         branch: master
     - harfbuzz:
