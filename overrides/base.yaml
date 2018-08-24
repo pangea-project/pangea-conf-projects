@@ -81,7 +81,7 @@
   '*':
     upstream_scm:
 
-'*anongit.neon*/neon-packaging/qoauth':
+'*anongit.neon*/backports-xenial/qoauth':
   '*':
     upstream_scm:
       url: https://github.com/ayoy/qoauth.git
@@ -91,7 +91,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/neon-packaging/spglib':
+'*anongit.neon*/backports-xenial/spglib':
   '*':
     upstream_scm:
       type: uscan
@@ -671,7 +671,7 @@
       branch: master
       type: git
 
-'*anongit.neon*/neon-packaging/molequeue':
+'*anongit.neon*/backports-xenial/molequeue':
   'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
       type: uscan
