@@ -19,7 +19,6 @@ anongit.neon.kde.org:
     - libarchive
     - k3b
     - fcitx-qt5
-    - smb4k
     - kdesvn
     - rsibreak
     - icemon

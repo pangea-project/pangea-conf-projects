@@ -360,11 +360,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/gpgme':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-xenial/snapd-glib':
   '*':
     upstream_scm:
@@ -382,11 +377,6 @@
       url: https://launchpad.net/~rockowitz/+archive/ubuntu/ddcutil/+files/ddcutil_0.8.4.orig.tar.gz
 
 '*anongit.neon*/backports-xenial/wayland':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/forks/doxygen':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
@@ -417,11 +407,6 @@
       type: uscan
 
 '*anongit.neon*/backports-xenial/libxfont':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/forks/smb4k':
   Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
