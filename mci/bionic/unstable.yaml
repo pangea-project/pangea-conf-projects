@@ -1,5 +1,11 @@
 origin: unstable
 
+github.com:
+  - plasma-phone-packaging:
+    - mycroft-core:
+        branch: master
+    - plasma-mycroft-mobile
+
 gitlab.com:
   - debian-pm:
     - plasma-angelfish:
