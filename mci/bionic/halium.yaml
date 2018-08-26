@@ -6,3 +6,5 @@ gitlab.com:
         branch: master
     - gst-droid:
         branch: master
+    - pulseaudio:
+        branch: Neon/mobile

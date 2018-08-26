@@ -1177,6 +1177,11 @@ https://github.com/dci-debian-kde-extras/qtcurve:
       url: https://github.com/halium/lxc-android
       branch: master
 
+'*gitlab.com/debian-pm/pulseaudio':
+  '*':
+    upstream_scm:
+      type: uscan
+
 https://github.com/halium-packaging/nemo-gst-interfaces:
   master:
     upstream_scm:
