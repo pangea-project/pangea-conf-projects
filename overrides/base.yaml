@@ -827,12 +827,6 @@ https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins:
       type: git
       url: https://git.merproject.org/mer-core/nemo-qtmultimedia-plugins.git
 
-https://github.com/plasma-phone-packaging/plasma-mycroft-mobile:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://anongit.kde.org/scratch/adityam/plasma-mycroft-mobile.git
-
 https://github.com/KaidanIM/gloox-packaging:
   'master':
     upstream_scm:
