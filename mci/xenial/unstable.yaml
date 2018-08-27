@@ -48,15 +48,6 @@ anongit.neon.kde.org:
   - kde:
     - kaccounts-mobile:
         branch: Neon/mobile
-  - extras:
-    - libaccounts-glib:
-        branch: Neon/mobile
-    - kirigami:
-        branch: Neon/unstable
-    - libkgapi:
-        branch: Neon/unstable
-    - peruse:
-        branch: Neon/unstable
 
 gitlab.com:
   - debian-pm:
