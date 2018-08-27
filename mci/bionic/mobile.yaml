@@ -4,6 +4,8 @@ gitlab.com:
         branch: halium-7.1
     - libhybris:
         branch: master
+    - pulseaudio-modules-droid:
+        branch: master
 
 anongit.neon.kde.org:
   - kde:

@@ -1177,7 +1177,7 @@ https://github.com/dci-debian-kde-extras/qtcurve:
       url: https://github.com/halium/lxc-android
       branch: master
 
-'*gitlab.com/debian-pm/pulseaudio':
+'*gitlab.com/debian-pm/pulseaudio*':
   '*':
     upstream_scm:
       type: uscan
