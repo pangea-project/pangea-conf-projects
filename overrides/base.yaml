@@ -729,7 +729,7 @@
       type: tarball
       url: http://http.debian.net/debian/pool/main/x/x11proto-randr/x11proto-randr_1.5.0.orig.tar.gz
 
-https://github.com/plasma-phone-packaging/simplelogin-packaging:
+'*{github.com/plasma-phone-packaging,gitlab.com/debian-pm}/simplelogin*:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/bhush9/simplelogin

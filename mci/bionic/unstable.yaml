@@ -9,6 +9,8 @@ gitlab.com:
   - debian-pm:
     - plasma-angelfish:
         branch: master
+    - simplelogin:
+        branch: master
 
 anongit.neon.kde.org:
   - mobile:
