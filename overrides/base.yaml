@@ -735,7 +735,7 @@ https://github.com/plasma-phone-packaging/simplelogin-packaging:
       url: https://github.com/bhush9/simplelogin
 
 '*gitlab.com/debian-pm/simplelogin':
-  Neon/unstable:
+  '*':
     upstream_scm:
       url: https://github.com/bhush9/simplelogin
 
