@@ -34,5 +34,8 @@
 'lp:ubiquity-neon':
   <<: *global_restriction
 
-'lp:ubuntu-release-upgrader-neon':
-  <<: *global_restriction
+# NB: this release upgrader branch is technically xenial only BUT because we
+#   need it built for bionic as well, so we get the bionic.tar.gz generated for
+#   actually doing the upgrade, this restriction is not active.
+# 'lp:ubuntu-release-upgrader-neon':
+#   <<: *global_restriction
