@@ -75,6 +75,7 @@ anongit.neon.kde.org:
         branch: master
     - mlt
     - flatbuffers
+    - libalkimia
   - qt:
     - '*':
         branch: Neon/release
