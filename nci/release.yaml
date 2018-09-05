@@ -75,6 +75,8 @@ anongit.neon.kde.org:
   - backports-bionic:
     - util-linux-bionic:
         branch: master
+    - mlt
+    - flatbuffers
 
 launchpad.net:
   - livecd-rootfs-neon
