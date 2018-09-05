@@ -691,11 +691,6 @@
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/backports-xenial/mlt-xenial':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
 '*{anonscm.debian,anongit.neon}*/backports-bionic/mlt':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
