@@ -19,7 +19,8 @@ anongit.neon.kde.org:
     - gcompris
     - libarchive
     - k3b
-    - fcitx-qt5
+    - fcitx-qt5:
+        branch: Neon/release-lts_xenial
     - kdesvn
     - rsibreak
     - icemon

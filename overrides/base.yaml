@@ -366,7 +366,7 @@
       type: uscan
 
 '*anongit.neon*/forks/fcitx-qt5':
-  Neon/{release-lts,release,stable,unstable}:
+  Neon/{release-lts_xenial,release_xenial,stable_xenial,unstable_xenial}:
     upstream_scm:
       type: uscan
 
