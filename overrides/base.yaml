@@ -489,7 +489,7 @@
       type: uscan
 
 '*anongit.neon*/backports-bionic/libalkimia':
-  'Neon/unstable':
+  'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
       url: https://anongit.kde.org/alkimia.git
 
