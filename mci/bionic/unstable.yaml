@@ -5,6 +5,7 @@ github.com:
     - mycroft-core:
         branch: master
     - plasma-mycroft-gui:
+        branch: Neon/unstable
 
 gitlab.com:
   - debian-pm:
