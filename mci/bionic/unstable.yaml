@@ -4,6 +4,8 @@ github.com:
   - plasma-phone-packaging:
     - mycroft-core:
         branch: master
+    - plasma-mycroft-gui
+        branch: master
 
 gitlab.com:
   - debian-pm:
