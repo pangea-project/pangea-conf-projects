@@ -744,6 +744,11 @@ https://github.com/plasma-phone-packaging/qmlkonsole:
     upstream_scm:
       url: https://github.com/notmart/qmltermwidget
 
+https://github.com/plasma-phone-packaging/mycroft-skill-installer:
+  '*':
+    upstream_scm:
+      url: https://github.com/AIIX/MycroftSkillInstaller
+
 https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
   Neon/mobile:
     upstream_scm:
