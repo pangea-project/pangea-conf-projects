@@ -1,7 +1,7 @@
 origin: unstable
 
 github.com:
-  - plasma-phone-packaging:
+  - mycroft-packaging:
     - mycroft-core:
         branch: master
     - mycroft-gui:
