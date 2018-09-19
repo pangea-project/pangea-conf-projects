@@ -841,7 +841,7 @@ https://github.com/plasma-phone-packaging/mycroft-gui:
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/scratch/davidedmundson/mycroftng.git
+      url: https://anongit.kde.org/scratch/mart/mycroft-gui.git
 
 https://github.com/KaidanIM/gloox-packaging:
   'master':
