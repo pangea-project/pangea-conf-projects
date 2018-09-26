@@ -1,0 +1,12 @@
+origin: unstable
+
+github.com:
+  - mycroft-packaging:
+    - mycroft-core:
+        branch: master
+    - mycroft-gui:
+        branch: Neon/unstable
+    - plasma-minishell:
+        branch: Neon/unstable
+    - mycroft-skill-installer:
+        branch: master
