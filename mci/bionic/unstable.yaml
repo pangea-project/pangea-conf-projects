@@ -17,6 +17,18 @@ gitlab.com:
         branch: master
     - simplelogin:
         branch: master
+    - mauikit:
+        branch: master
+    - qmltermwidget:
+        branch: master
+    - vvave:
+        branch: master
+    - index:
+        branch: master
+    - pix:
+        branch: master
+    - glosbit:
+        branch: master
 
 anongit.neon.kde.org:
   - mobile:
