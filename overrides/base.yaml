@@ -122,6 +122,12 @@
       url: https://github.com/davidedmundson/libvdpau-sunxi
       branch: wpackaging
 
+'*anongit.neon*/neon-packaging/qmltermwidget':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/Swordfish90/qmltermwidget
+
 '*anongit.neon*/neon-packaging/libcedrus':
   '*':
     upstream_scm:
