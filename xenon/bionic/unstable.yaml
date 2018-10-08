@@ -12,3 +12,5 @@ github.com:
         branch: master
     - mycroft-settings:
         branch: master
+    - calamares-settings-mycroft:
+        branch: master
