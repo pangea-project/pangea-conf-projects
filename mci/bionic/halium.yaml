@@ -15,6 +15,5 @@ github.com:
         branch: master
     - gst-omx:
         branch: master
-  - plasma-phone-packaging:
     - gst-droid:
         branch: master
