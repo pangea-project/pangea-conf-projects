@@ -10,6 +10,9 @@ github.com:
         branch: Neon/unstable
     - mycroft-skill-installer:
         branch: master
+  - plasma-phone-packaging:
+    - nemo-qtmultimedia-plugins:
+        branch: master
 
 gitlab.com:
   - debian-pm:

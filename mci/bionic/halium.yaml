@@ -8,3 +8,12 @@ gitlab.com:
         branch: master
     - pulseaudio:
         branch: Neon/mobile
+
+github.com:
+  - halium-packaging:
+    - nemo-gst-interfaces:
+        branch: master
+    - droidmedia:
+        branch: master
+    - gst-omx:
+        branch: master
