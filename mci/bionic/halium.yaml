@@ -4,8 +4,6 @@ gitlab.com:
         branch: master
     - hybris-usb:
         branch: master
-    - gst-droid:
-        branch: master
     - pulseaudio:
         branch: Neon/mobile
 
@@ -16,4 +14,7 @@ github.com:
     - droidmedia:
         branch: master
     - gst-omx:
+        branch: master
+  - plasma-phone-packaging:
+    - gst-droid:
         branch: master
