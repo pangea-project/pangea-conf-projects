@@ -1262,3 +1262,21 @@ https://github.com/netrunner-rock64/libmali:
       type: git
       url: https://github.com/ayufan-rock64/libmali
       branch: rockchip
+
+https://github.com/xenon-packaging/rkbin-bsp-rock64:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/ayufan-rock64/rkbin
+
+https://github.com/xenon-packaging/u-boot-bsp-rock64:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/ayufan-rock64/linux-u-boot
+
+https://github.com/xenon-packaging/linux-bsp-rock64:
+  '*'
+    upstream_scm:
+      type: git
+      url: https://github.com/ayufan-rock64/linux-kernel
