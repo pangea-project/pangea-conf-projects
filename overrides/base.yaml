@@ -1279,5 +1279,6 @@ https://github.com/xenon-packaging/u-boot-bsp-rock64:
 https://github.com/xenon-packaging/linux-bsp-rock64:
   '*':
     upstream_scm:
-      type: tarball
-      url: https://github.com/ayufan-rock64/linux-kernel/archive/release-4.4.zip
+      type: git
+      url: https://github.com/ayufan-rock64/linux-kernel
+      branch: release-4.4
