@@ -13,6 +13,8 @@ github.com:
   - plasma-phone-packaging:
     - nemo-qtmultimedia-plugins:
         branch: master
+    - videoPlayer-packaging:
+        branch: master
 
 gitlab.com:
   - debian-pm:
