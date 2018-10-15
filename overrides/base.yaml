@@ -1274,9 +1274,11 @@ https://github.com/xenon-packaging/u-boot-bsp-rock64:
     upstream_scm:
       type: git
       url: https://github.com/ayufan-rock64/linux-u-boot
+      branch: rockchip-master
 
 https://github.com/xenon-packaging/linux-bsp-rock64:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/ayufan-rock64/linux-kernel
+      branch: release-4.4
