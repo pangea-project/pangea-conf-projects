@@ -24,3 +24,6 @@ gitlab.com:
 anongit.neon.kde.org:
   - mobile:
     - '*'
+  - qt:
+    - qtmultimedia:
+        branch: Neon/mobile
