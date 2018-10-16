@@ -1250,7 +1250,7 @@ https://github.com/netrunner-rock64/linux-kernel:
       url: https://github.com/ayufan-rock64/linux-kernel
       branch: release-4.4
 
-https://github.com/{netrunner-rock64/xf86-video-armsoc,netrunner-rock64/xf86-video-armsoc}:
+https://github.com/{netrunner-rock64/xf86-video-armsoc,xenon-packaging/xf86-video-armsoc-bsp-rock64}:
   '*':
     upstream_scm:
       type: git
