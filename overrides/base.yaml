@@ -1250,14 +1250,14 @@ https://github.com/netrunner-rock64/linux-kernel:
       url: https://github.com/ayufan-rock64/linux-kernel
       branch: release-4.4
 
-https://github.com/netrunner-rock64/xf86-video-armsoc:
+https://github.com/{netrunner-rock64/xf86-video-armsoc,netrunner-rock64/xf86-video-armsoc}:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/shadeslayer/xf86-video-armsoc
       branch: devel/rockchip
 
-https://github.com/netrunner-rock64/libmali:
+'https://github.com/{netrunner-rock64/libmali,xenon-packaging/libmali-bsp-rock64}':
   '*':
     upstream_scm:
       type: git
