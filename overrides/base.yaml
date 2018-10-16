@@ -830,6 +830,7 @@ https://github.com/plasma-phone-packaging/videoPlayer-packaging:
   '*':
     upstream_scm:
       url: https://github.com/JBBgameich/kirigami-videoplayer
+      branch: kirigami-2
 
 https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins:
   master:
