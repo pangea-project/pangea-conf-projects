@@ -1280,4 +1280,4 @@ https://github.com/xenon-packaging/linux-bsp-rock64:
   '*':
     upstream_scm:
       type: tarball
-      url: https://github.com/ayufan-rock64/linux-kernel/archive/release-4.4.zip
+      url: https://github.com/ayufan-rock64/linux-kernel/archive/release-4.4.tar.gz
