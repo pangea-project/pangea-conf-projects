@@ -17,3 +17,8 @@ github.com:
   - xenon-packaging:
     - '*':
         branch: master
+
+salsa.github.com:
+    - live-team:
+        - live-*:
+            branch: master
