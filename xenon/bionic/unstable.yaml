@@ -17,4 +17,6 @@ github.com:
   - xenon-packaging:
     - '*':
         branch: master
+    - live-images:
+        branch: debian
 
