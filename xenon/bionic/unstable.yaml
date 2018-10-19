@@ -18,7 +18,3 @@ github.com:
     - '*':
         branch: master
 
-salsa.debian.org:
-    - live-team:
-        - live-*:
-            branch: master
