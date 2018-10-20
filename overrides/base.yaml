@@ -299,7 +299,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/pyqt5':
+'*anongit.neon*/backports-bionic/pyqt5':
   '*':
     upstream_scm:
       type: uscan
