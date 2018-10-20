@@ -76,6 +76,7 @@ anongit.neon.kde.org:
     - mlt
     - flatbuffers
     - libalkimia
+    - pyqt5
 
 launchpad.net:
   - livecd-rootfs-neon

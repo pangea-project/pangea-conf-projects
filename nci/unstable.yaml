@@ -74,6 +74,7 @@ anongit.neon.kde.org:
     - mlt
     - flatbuffers
     - libalkimia
+    - pyqt5
   - qt:
     - '*':
         branch: Neon/release
