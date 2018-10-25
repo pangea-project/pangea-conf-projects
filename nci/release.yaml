@@ -72,11 +72,7 @@ anongit.neon.kde.org:
     - debhelper-ninja:
         branch: master
   - backports-bionic:
-    - util-linux-bionic
-    - mlt
-    - flatbuffers
-    - libalkimia
-    - pyqt5
+    - '*'
 
 launchpad.net:
   - livecd-rootfs-neon
