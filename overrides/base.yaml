@@ -283,7 +283,7 @@
 
 ### Backports
 
-'*anongit.neon*/backports-bionic/appstream':
+'*anongit.neon*/backports-bionic/appstream-bionic':
   '*':
     upstream_scm:
       type: uscan
