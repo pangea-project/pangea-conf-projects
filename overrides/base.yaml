@@ -192,23 +192,6 @@
     upstream_scm:
       branch: master
 
-# STD
-
-# <Riddell> chicos: kdev-python/php both have  find_package(KDevPlatform ${KDEVPLATFORM_VERSION} REQUIRED) in their stable branch, but kdevplatform doesn't exist in a stable branch now
-'*anongit.neon*/extras/kdevelop-python':
-  '*':
-    upstream_scm:
-      url: https://anongit.kde.org/kdev-python.git
-      branch: master
-
-'*anongit.neon*/extras/kdevelop-php':
-  '*':
-    upstream_scm:
-      url: https://anongit.kde.org/kdev-php.git
-      branch: master
-
-# it's not considered kf5
-
 '*anongit.neon*/3rdparty/sddm':
   'Neon/mobile':
     upstream_scm:
