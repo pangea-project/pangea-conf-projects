@@ -22,6 +22,8 @@ gitlab.com:
         branch: master
     - simplelogin:
         branch: master
+    - flatpak-extension-libhybris:
+        branch: master
 
 anongit.neon.kde.org:
   - mobile:
