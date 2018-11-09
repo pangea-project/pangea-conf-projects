@@ -18,14 +18,11 @@ github.com:
 
 gitlab.com:
   - debian-pm:
-    - apps:
-      - plasma-angelfish:
+    - apps/plasma-angelfish:
           branch: master
-    - plasma-mobile:
-      - simplelogin:
+    - plasma-mobile/simplelogin:
           branch: master
-    - halium:
-      - flatpak-extension-libhybris:
+    - halium/flatpak-extension-libhybris:
           branch: master
 
 anongit.neon.kde.org:
