@@ -1,10 +1,10 @@
 gitlab.com:
   - debian-pm:
-    - android-headers:
+    - halium/android-headers:
         branch: halium-7.1
-    - libhybris:
+    - halium/libhybris:
         branch: master
-    - pulseaudio-modules-droid:
+    - halium/pulseaudio-modules-droid:
         branch: master
 
 anongit.neon.kde.org:

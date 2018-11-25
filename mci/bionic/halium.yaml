@@ -1,10 +1,10 @@
 gitlab.com:
   - debian-pm:
-    - lxc-android:
+    - halium/lxc-android:
         branch: master
-    - hybris-usb:
+    - halium/hybris-usb:
         branch: master
-    - pulseaudio:
+    - halium/pulseaudio:
         branch: Neon/mobile
 
 github.com:
