@@ -746,7 +746,7 @@ https://github.com/plasma-phone-packaging/simplelogin-packaging:
     upstream_scm:
       url: https://github.com/bhush9/simplelogin
 
-'*gitlab.com/debian-pm/simplelogin':
+'*gitlab.com/debian-pm/plasma-mobile/simplelogin':
   '*':
     upstream_scm:
       url: https://github.com/bhush9/simplelogin
@@ -1205,7 +1205,7 @@ https://github.com/dci-debian-kde-extras/qtcurve:
       url: https://github.com/halium/lxc-android
       branch: master
 
-'*gitlab.com/debian-pm/pulseaudio*':
+'*gitlab.com/debian-pm/halium/pulseaudio*':
   '*':
     upstream_scm:
       type: uscan
