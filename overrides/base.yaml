@@ -698,6 +698,18 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/kube':
+  'Neon/unstable':
+    upstream_scm:
+      branch: develop
+      type: git
+
+'*anongit.neon*/neon-packaging/sink':
+  'Neon/unstable':
+    upstream_scm:
+      branch: develop
+      type: git
+
 '*{anonscm.debian,anongit.neon}*/3rdparty/indi':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
