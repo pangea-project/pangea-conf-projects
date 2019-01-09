@@ -604,11 +604,6 @@
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/extras/kirigami':
-  '{kubuntu_stable,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      branch: Kirigami/1.1
-
 '*{anonscm.debian,anongit.neon}*/backports-xenial/libkolab':
   'Neon/unstable':
     upstream_scm:
