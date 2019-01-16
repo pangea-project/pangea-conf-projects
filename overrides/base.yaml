@@ -158,9 +158,6 @@
   '*':
     upstream_scm:
       url: https://anongit.kde.org/kdeconnect-kde.git
-  'Neon/stable':
-    upstream_scm:
-      branch: 1.3
 
 '*{anonscm.debian,anongit.neon}*/neon-packaging/kcm-tablet':
   '*':
