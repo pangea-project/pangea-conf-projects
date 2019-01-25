@@ -4,8 +4,8 @@ github.com:
   - mycroft-packaging:
     - mycroft-core:
         branch: master
-    - mycroft-gui:
-        branch: Neon/unstable
+    - mycroft-ui:
+        branch: master
     - plasma-minishell:
         branch: Neon/unstable
     - mycroft-skill-installer:
