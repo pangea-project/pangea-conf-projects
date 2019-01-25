@@ -1065,7 +1065,8 @@ https://github.com/mycroft-packaging/mycroft-gui:
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/scratch/mart/mycroft-gui.git
+      url: https://github.com/MycroftAI/mycroft-gui.git
+      branch: master
 
 https://github.com/mycroft-packaging/mycroft-skill-installer:
   '*':
