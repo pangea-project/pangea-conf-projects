@@ -85,12 +85,6 @@ github.com:
   - netrunner-zeronet:
     - '*':
         branch: Netrunner/18.03
-  - nomad-artwork:
-    - '*':
-        branch: Netrunner/18.03
-  - netrunner-nomad-desktop:
-    - '*':
-        branch: Netrunner/18.03
   - netrunner-rock64:
     - '*':
         branch: Netrunner/18.03

@@ -66,12 +66,6 @@ github.com:
   - netrunner-zeronet:
     - '*':
         branch: master
-  - nomad-artwork:
-    - '*':
-        branch: master
-  - netrunner-nomad-desktop:
-    - '*':
-        branch: master
   - netrunner-rock64:
     - '*':
         branch: master
