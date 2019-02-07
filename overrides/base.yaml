@@ -693,7 +693,7 @@
       url: https://github.com/NextThingCo/rtl8723ds_bt.git
       branch: master
 
-'*anongit.neon*/3rdparty/icemon':
+'*anongit.neon*/extras/icemon':
   'Neon/unstable':
     upstream_scm:
       type: git
