@@ -967,7 +967,7 @@
   '*':
     upstream_scm:
       url: https://github.com/ubports/telepathy-ofono
-
+      branch: xenial
 
 https://github.com/plasma-phone-packaging/qmlkonsole:
   '{kubuntu_unstable,Neon/unstable}':
