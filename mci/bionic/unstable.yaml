@@ -24,6 +24,8 @@ gitlab.com:
           branch: master
     - halium/flatpak-extension-libhybris:
           branch: master
+    - libs/telepathy-ofono:
+          branch: master
 
 anongit.neon.kde.org:
   - mobile:
