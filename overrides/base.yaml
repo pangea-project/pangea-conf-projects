@@ -1080,6 +1080,12 @@ https://github.com/mycroft-packaging/plasma-minishell:
       type: git
       url: https://anongit.kde.org/scratch/mart/plasma-minishell.git
 
+https://github.com/mycroft-packaging/lottie-qml:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/kbroulik/lottie-qml
+
 https://github.com/KaidanIM/gloox-packaging:
   'master':
     upstream_scm:

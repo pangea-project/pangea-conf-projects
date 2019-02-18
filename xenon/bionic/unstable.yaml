@@ -14,6 +14,8 @@ github.com:
         branch: master
     - calamares-settings-mycroft:
         branch: master
+    - lottie-qml:
+        branch: master
   - xenon-packaging:
     - '*':
         branch: master
