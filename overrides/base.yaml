@@ -697,13 +697,13 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://github.com/icecc/icemon.git
+      url: https://github.com/icecc/icecream.git
       branch: master
   'Neon/stable':
     upstream_scm:
       type: git
-      url: https://github.com/icecc/icemon.git
-      branch: 3.1
+      url: https://github.com/icecc/icecream.git
+      branch: master
 
 '*anongit.neon*/backports-xenial/libxkbcommon':
   '*':
