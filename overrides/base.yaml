@@ -703,7 +703,7 @@
     upstream_scm:
       type: git
       url: https://github.com/icecc/icemon.git
-      branch: master
+      branch: 3.1
 
 '*anongit.neon*/extras/icecc':
   'Neon/unstable':
