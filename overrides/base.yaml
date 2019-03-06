@@ -290,6 +290,12 @@
       type: git
       url: https://anongit.kde.org/kdesdk-devenv-dependencies.git
 
+'*anongit.neon*/neon-packaging/kpublictransport':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://anongit.kde.org/kpublictransport.git
+
 '*anongit.neon*/neon-packaging/kde-development-environment':
   '*':
     upstream_scm:
