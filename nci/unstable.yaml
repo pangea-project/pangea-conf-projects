@@ -79,7 +79,4 @@ anongit.neon.kde.org:
         branch: Neon/release
 
 launchpad.net:
-  - livecd-rootfs-neon
-  - ubiquity-neon
   - ubuntu-release-upgrader-neon
-  - livecd-rootfs-neon-bionic # !!! this only works because the bionic override set the correct url

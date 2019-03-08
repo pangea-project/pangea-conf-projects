@@ -74,5 +74,4 @@ anongit.neon.kde.org:
     - '*'
 
 launchpad.net:
-  - ubiquity-neon
   - ubuntu-release-upgrader-neon
