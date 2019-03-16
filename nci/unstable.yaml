@@ -35,6 +35,7 @@ anongit.neon.kde.org:
     - massif-visualizer
     - kmymoney
     - ubiquity
+    - kdiff3
   - 3rdparty:
     - '*'
   - backports-xenial:
