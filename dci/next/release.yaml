@@ -69,3 +69,18 @@ github.com:
   - netrunner-rock64:
     - '*':
         branch: master
+  - mycroft-packaging:
+    - mycroft-core:
+        branch: master
+    - mycroft-gui:
+        branch: master
+    - plasma-minishell:
+        branch: Neon/unstable
+    - mycroft-skill-installer:
+        branch: master
+    - mycroft-settings:
+        branch: master
+    - calamares-settings-mycroft:
+        branch: master
+    - lottie-qml:
+        branch: master
