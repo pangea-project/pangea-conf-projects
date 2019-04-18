@@ -270,9 +270,11 @@
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
-  'master':
+      branch: master
+  'Neon/stable':
     upstream_scm:
-      type: uscan
+      url: https://github.com/calamares/calamares
+      branch: master
 
 '*anongit.neon*/extras/kphotoalbum':
   'Neon/stable':
