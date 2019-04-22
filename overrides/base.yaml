@@ -497,6 +497,16 @@
 
 ### Backports
 
+'*anongit.neon*/backports-bionic/libappimage':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/backports-bionic/squashfuse':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-bionic/libheif':
   '*':
     upstream_scm:
