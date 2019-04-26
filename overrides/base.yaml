@@ -820,7 +820,7 @@
      type: uscan
 
 '*{anonscm.debian,anongit.neon}*/extras/qca2':
-  '{kubuntu_unstable,Neon/unstable}':
+  '*':
     upstream_scm:
       url: https://anongit.kde.org/qca.git
 
