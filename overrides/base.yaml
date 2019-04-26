@@ -1090,11 +1090,12 @@ https://github.com/plasma-phone-packaging/libhybris:
     upstream_scm:
       url: https://github.com/libhybris/libhybris.git
 
-https://github.com/plasma-phone-packaging/videoPlayer-packaging:
+https://gitlab.com/debian-pm/apps/llsvplayer:
   '*':
     upstream_scm:
-      url: https://github.com/JBBgameich/kirigami-videoplayer
-      branch: kirigami-2
+      type: git
+      url: https://invent.kde.org/jbbgameich/videoplayer
+      branch: master
 
 https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins:
   master:

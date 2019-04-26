@@ -13,8 +13,6 @@ github.com:
   - plasma-phone-packaging:
     - nemo-qtmultimedia-plugins:
         branch: master
-    - videoPlayer-packaging:
-        branch: master
 
 gitlab.com:
   - debian-pm:
@@ -25,6 +23,8 @@ gitlab.com:
     - halium/flatpak-extension-libhybris:
           branch: master
     - libs/telepathy-ofono:
+          branch: master
+    - apps/llsvplayer:
           branch: master
 
 anongit.neon.kde.org:
