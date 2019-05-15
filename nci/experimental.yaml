@@ -1,6 +1,6 @@
 anongit.neon.kde.org:
   - qt:
-    - '*'
+    - '*':
         branch: Neon/testing
   - kde:
     - plasma-framework:
