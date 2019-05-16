@@ -37,6 +37,7 @@ anongit.neon.kde.org:
     - kmymoney
     - ubiquity
     - xf86-video-armsoc
+    - kdiff3
   - 3rdparty:
     - '*'
   - backports-xenial:
