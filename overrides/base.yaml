@@ -26,7 +26,7 @@
     upstream_scm:
       url: https://anongit.kde.org/discover.git
   'Neon/stable':
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kirigami2':
   '*':
@@ -43,212 +43,212 @@
 '*{anonscm.debian,anongit.neon}*/kde/bluedevil':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/breeze':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/breeze-grub':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/breeze-gtk':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/breeze-plymouth':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/drkonqi':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kactivitymanagerd':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kde-cli-tools':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kde-gtk-config':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kdecoration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kdeplasma-addons':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kgamma5':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/khotkeys':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kinfocenter':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kmenuedit':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kscreen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kscreenlocker':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/ksshaskpass':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/ksysguard':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kwallet-pam':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kwayland-integration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kwin':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/kwrited':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/libkscreen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/libksysguard':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/milou':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/oxygen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-desktop':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-integration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-nm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-pa':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-sdk':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-vault':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-workspace':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plasma-workspace-wallpapers':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/plymouth-kcm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/polkit-kde-agent-1':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/powerdevil':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/sddm-kcm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/systemsettings':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/user-manager':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 '*{anonscm.debian,anongit.neon}*/kde/xdg-desktop-portal-kde':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.15
+      branch: Plasma/5.16
 
 # Neon natives
 
