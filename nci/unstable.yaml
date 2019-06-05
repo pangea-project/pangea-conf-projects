@@ -40,8 +40,6 @@ anongit.neon.kde.org:
     - '*'
   - backports-xenial:
     - pyqt5
-    - sip4:
-        branch: master
     - python-qt4:
         branch: master
     - json-glib:
@@ -72,6 +70,8 @@ anongit.neon.kde.org:
         branch: master
   - backports-bionic:
     - '*'
+    - sip4:
+        branch: master
   - qt:
     - '*':
         branch: Neon/release

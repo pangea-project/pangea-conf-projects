@@ -532,7 +532,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/sip4':
+'*anongit.neon*/backports-bionic/sip4':
   Neon/release:
     upstream_scm:
       type: uscan

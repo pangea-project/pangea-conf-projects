@@ -21,7 +21,5 @@ anongit.neon.kde.org:
   - forks:
     - pyqt5:
         branch: Neon/unstable
-    - sip4:
-        branch: master
     - python-qt4:
         branch: master
