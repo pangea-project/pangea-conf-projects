@@ -56,7 +56,7 @@ github.com:
     - xserver-xorg-video-mali:
         branch: master
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
-        branch: Netrunner/19.01
+        branch: master
   - netrunner-pine64:
     - '*':
         branch: Netrunner/19.01
