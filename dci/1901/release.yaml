@@ -54,7 +54,7 @@ github.com:
     - '{odroid,mali}-*':
         branch: Netrunner/19.01
     - xserver-xorg-video-mali:
-        branch: Netrunner/19.01
+        branch: master
     - 'c1-{bootini,calamares-core,linux,uboot,netrunner-core-meta,netrunner-core-settings}':
         branch: Netrunner/19.01
   - netrunner-pine64:
