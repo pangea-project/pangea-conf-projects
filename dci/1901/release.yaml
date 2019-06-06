@@ -62,10 +62,10 @@ github.com:
         branch: Netrunner/19.01
   - netrunner-pinebook:
     - '*':
-        branch: Netrunner/19.01
+        branch: master
   - netrunner-zeronet:
     - '*':
         branch: Netrunner/19.01
   - netrunner-rock64:
     - '*':
-        branch: Netrunner/19.01
+        branch: master
