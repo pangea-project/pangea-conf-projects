@@ -31,7 +31,31 @@ github.com:
         branch: master
 
   - netrunner-artwork:
-    - '*':
+    - artwork-lnf-theme-netrunner-black:
+        branch: master
+    - artwork-lnf-theme-netrunner-desktop:
+        branch: master
+    - artwork-plymouth-theme-netrunner-neo:
+        branch: master
+    - artwork-sddm-theme-netrunner-neo:
+        branch: master
+    - artwork-lnf-theme-netrunner-core:
+        branch: master
+    - artwork-grub-theme-netrunner-neo:
+        branch: master
+    - artwork-netrunner-icons:
+        branch: master
+    - artwork-plymouth-theme-netrunner-black:
+        branch: master
+    - netrunner-artwork:
+        branch: master
+    - artwork-grub-theme-netrunner-black:
+        branch: master
+    - netrunner-artwork-sounds:
+        branch: master
+    - artwork-lnf-netrunner-core:
+        branch: master
+    - plymouth-theme-netrunner-classic:
         branch: master
 
   - netrunner-desktop:
