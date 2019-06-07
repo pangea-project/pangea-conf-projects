@@ -1,8 +1,4 @@
 github.com:
-  - dci-debian-qt:
-    - '*':
-        branch: Netrunner/next
-
   - linuxmint:
     - mintinstall:
         branch: master
@@ -45,7 +41,7 @@ github.com:
   - netrunner-core:
     - '{netrunner,calamares,base-files}*':
         branch: master
-        
+
   - mycroft-packaging:
     - mycroft-core:
         branch: master
