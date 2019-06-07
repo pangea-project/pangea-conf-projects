@@ -15,17 +15,6 @@ github.com:
         branch: esr/kde
     - thunderbird:
         branch: release/kde
-  - dci-debian-frameworks:
-    - '*':
-        branch: Netrunner/backports
-  - dci-debian-plasma:
-    - '*':
-        branch: Netrunner/backports
-    - plymouth-kcm:
-        branch: Netrunner/backports
-  - dci-debian-kde-applications:
-    - '*':
-        branch: Netrunner/backports
   - dci-extras-packaging:
     - ring:
         branch: Netrunner/backports
