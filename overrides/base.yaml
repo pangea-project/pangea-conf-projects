@@ -1286,12 +1286,8 @@ https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer:
 https://github.com/dci-extras-packaging/simplemenu:
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/scratch/hein/simplemenu.git
+      url: https://anongit.kde.org/plasma-simplemenu.git
       branch: master
-  'Netrunner/17.03':
-    upstream_scm:
-      url: https://anongit.kde.org/scratch/hein/simplemenu.git
-      branch: 5.8
 
 https://github.com/dci-extras-packaging/ksystraycmd5:
   '*':
