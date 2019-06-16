@@ -62,10 +62,6 @@ github.com:
     - '{netrunner,calamares,base}*':
         branch: master
 
-  - netrunner-core:
-    - '{netrunner,calamares,base-files}*':
-        branch: master
-
   - mycroft-packaging:
     - mycroft-core:
         branch: master
