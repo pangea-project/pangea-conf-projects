@@ -37,8 +37,6 @@ github.com:
         branch: master
     - netrunner-settings-theming:
         branch: master
-    - netrunner-desktop-containment:
-        branch: master
 
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-black:
