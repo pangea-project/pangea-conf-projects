@@ -953,6 +953,16 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/neon-packaging/symboleditor':
+  'Neon/release':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/neon-packaging/symboleditor':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+
 '*anongit.neon*/neon-packaging/kube':
   'Neon/unstable':
     upstream_scm:
