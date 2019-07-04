@@ -1,0 +1,10 @@
+github.com:
+  - dci-debian-packaging-backports:
+    - libwlocate:
+        branch: 'master'
+    - libkolab:
+        branch: 'master'
+    - snapd-glib:
+        branch: master
+    - libzip:
+        branch: master
