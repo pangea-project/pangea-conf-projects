@@ -1029,6 +1029,12 @@
       url: https://github.com/ubports/telepathy-ofono
       branch: xenial
 
+'*gitlab.com/debian-pm/libs/ofono-qt':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
+
 https://github.com/plasma-phone-packaging/qmlkonsole:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
