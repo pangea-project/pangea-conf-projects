@@ -2,9 +2,6 @@ github.com:
   - linuxmint:
     - mintinstall:
         branch: master
-  - calamares:
-    - calamares-debian:
-        branch: master
 
   - dci-extras-packaging:
     - '*':
