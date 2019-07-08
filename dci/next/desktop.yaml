@@ -9,7 +9,7 @@ github.com:
   - ds9-common:
     - '*':
         branch: master
-        
+
   - ds9-artwork:
     - artwork-flattr-icons:
         branch: master
@@ -133,7 +133,9 @@ github.com:
         branch: master
     - plymouth-theme-netrunner-classic:
         branch: master
-
+    - artwork-wallpapers-netrunner-1908-desktop:
+        branch: master
+        
   - netrunner-desktop:
     - '{netrunner,calamares,base}*':
         branch: master
