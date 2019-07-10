@@ -497,6 +497,11 @@
 
 ### Backports
 
+'*anongit.neon*/backports-bionic/qxmpp':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-bionic/poppler':
   '*':
     upstream_scm:
