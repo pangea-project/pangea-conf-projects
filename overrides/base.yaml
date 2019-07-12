@@ -497,6 +497,11 @@
 
 ### Backports
 
+'*anongit.neon*/backports-bionic/wayland-protocols':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-bionic/s3fs-fuse':
   '*':
     upstream_scm:
