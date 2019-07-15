@@ -10,6 +10,7 @@ anongit.neon.kde.org:
   - neon:
     - '*'
   - forks:
+    - kaidan
     - skrooge
     - base-files
     - live-build
