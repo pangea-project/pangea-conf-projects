@@ -645,6 +645,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/kaidan':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/ddcutil':
   master:
     upstream_scm:
