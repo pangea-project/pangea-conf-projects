@@ -23,6 +23,8 @@ github.com:
         branch: master
     - aurorae-theme-gnome3:
         branch: master
+    - aurorae-theme-indigo:
+        branch: master
     - aurorae-theme-metrodark:
         branch: master
     - aurorae-theme-win7:
@@ -67,6 +69,8 @@ github.com:
         branch: master
     - artwork-icons-breeze-classic:
         branch: master
+    - artwork-red-modern-cursor:
+        branch: master
     - lnf-theme-united:
         branch: master
     - lnf-theme-cupertine:
@@ -110,6 +114,8 @@ github.com:
     - artwork-lnf-theme-netrunner-black:
         branch: master
     - artwork-lnf-theme-netrunner-desktop:
+        branch: master
+    - artwork-lnf-theme-netrunner-indigo:
         branch: master
     - artwork-plymouth-theme-netrunner-neo:
         branch: master
