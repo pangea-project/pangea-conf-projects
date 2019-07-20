@@ -5,128 +5,74 @@ github.com:
 
   - dci-extras-packaging:
     - '*':
-        branch: master
+        branch: Netrunner/19.08
   - ds9-common:
     - '*':
-        branch: master
+        branch: Netrunner/19.08
 
   - ds9-artwork:
     - artwork-flattr-icons:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-moka-icons:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-windows-cursor:
-        branch: master
-    - aurorae-theme-carbon:
-        branch: master
-    - aurorae-theme-forman:
-        branch: master
-    - aurorae-theme-gnome3:
-        branch: master
+        branch: Netrunner/19.08
     - aurorae-theme-indigo:
-        branch: master
-    - aurorae-theme-metrodark:
-        branch: master
-    - aurorae-theme-win7:
-        branch: master
-    - desktop-theme-diamond:
-        branch: master
-    - desktop-theme-eclipse:
-        branch: master
-    - desktop-theme-enlightenment:
-        branch: master
+        branch: Netrunner/19.08
     - desktop-theme-gnome-shell-kde:
-        branch: master
-    - desktop-theme-orange-lightening:
-        branch: master
-    - desktop-theme-sevenified:
-        branch: master
+        branch: Netrunner/19.08
     - desktop-whiteclassicia-cursor:
-        branch: master
+        branch: Netrunner/19.08
     - desktop-theme-bluex:
-        branch: master
+        branch: Netrunner/19.08
     - lnf-theme-bluex:
-        branch: master
-    - wallpapers-extra-pack-1:
-        branch: master
-    - artwork-audacious:
-        branch: master
-    - wallpapers-extra-pack-2:
-        branch: master
-    - lnf-theme-blackx:
-        branch: master
-    - artwork-color-scheme-carbon:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-sddm-breeze-new:
-        branch: master
+        branch: Netrunner/19.08
     - desktop-theme-chromeo:
-        branch: master
+        branch: Netrunner/19.08
     - aurorae-theme-simplicityblu:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-sddm-simple:
-        branch: master
+        branch: Netrunner/19.08
     - sddm-theme-pss:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-icons-breeze-classic:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-red-modern-cursor:
-        branch: master
-    - lnf-theme-united:
-        branch: master
-    - lnf-theme-cupertine:
-        branch: master
-    - desktop-theme-breeze-alphablack:
-        branch: master
-    - artwork-icons-obsidian:
-        branch: master
-    - artwork-sddm-sugar-dark:
-        branch: master
-    - lnf-theme-redmond:
-        branch: master
-    - wallpapers-extra-pack-3:
-        branch: master
-    - wallpapers-extra-pack-4:
-        branch: master
+        branch: Netrunner/19.08
 
   - netrunner-common:
-    - netrunner-settings-cockpit:
-        branch: master
-    - netrunner-settings-firefox-pinebook:
-        branch: master
     - netrunner-settings-python-apt:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-autostart:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-kcmabout:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-default-settings:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-grub:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-sddm:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-firefox:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-settings-theming:
-        branch: master
+        branch: Netrunner/19.08
 
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
-        branch: master
-    - artwork-netrunner-icons:
-        branch: master
+        branch: Netrunner/19.08
     - netrunner-artwork:
-        branch: master
-    - netrunner-artwork-sounds:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-lnf-netrunner-core:
-        branch: master
+        branch: Netrunner/19.08
     - artwork-wallpapers-netrunner-1908-desktop:
-        branch: master
+        branch: Netrunner/19.08
 
-  - netrunner-desktop:
-    - '{netrunner,calamares,base}*':
-        branch: master
+  - netrunner-core:
+    - '{netrunner,calamares,base-files}*':
+        branch: Netrunner/19.08
 
   - mycroft-packaging:
     - mycroft-core:
