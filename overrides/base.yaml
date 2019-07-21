@@ -1238,6 +1238,11 @@ https://github.com/dci-extras-packaging/appimagelauncher:
     upstream_scm:
       type: uscan
 
+https://github.com/dci-extras-packaging/plasma-browser-integration:
+  '*':
+    upstream_scm:
+      type: uscan
+
 https://github.com/dci-extras-packaging/mint-common:
   '*':
     upstream_scm:
