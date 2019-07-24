@@ -532,7 +532,7 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-bionic/libappimage':
+'*anongit.neon*/3rdparty/libappimage':
   '*':
     upstream_scm:
       type: uscan
