@@ -10,6 +10,7 @@ anongit.neon.kde.org:
   - neon:
     - '*'
   - forks:
+    - qml-box2d
     - ktrip
     - kpeoplevcard
     - kaidan

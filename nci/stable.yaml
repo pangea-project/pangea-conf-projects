@@ -13,6 +13,7 @@ anongit.neon.kde.org:
     - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
         branch: Neon/release
   - forks:
+    - qml-box2d
     - kaidan
     - skrooge
     - base-files
