@@ -650,6 +650,12 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/qml-box2d':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: http://embra.edinburghlinux.co.uk/~jr/qml-box2d_2.0.0+git20190729.orig.tar.gz
+
 '*anongit.neon*/forks/fcitx-qt5':
   '*':
     upstream_scm:
