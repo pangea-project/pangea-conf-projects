@@ -125,10 +125,8 @@ github.com:
         branch: master
     - artwork-lnf-netrunner-core:
         branch: master
-    - artwork-wallpapers-netrunner-1908-desktop:
-        branch: master
 
-  - netrunner-desktop:
+  - netrunner-core:
     - '{netrunner,calamares,base}*':
         branch: master
 
