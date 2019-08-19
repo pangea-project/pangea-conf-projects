@@ -111,15 +111,9 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-artwork:
-    - artwork-lnf-theme-netrunner-black:
-        branch: Netrunner/19.08
-    - artwork-plymouth-theme-netrunner-neo:
-        branch: Netrunner/19.08
-    - artwork-sddm-theme-netrunner-neo:
-        branch: Netrunner/19.08
     - artwork-lnf-theme-netrunner-core:
         branch: Netrunner/19.08
-    - artwork-grub-theme-netrunner-neo:
+    - artwork-wallpapers-netrunner-1808-core:
         branch: Netrunner/19.08
     - artwork-netrunner-icons:
         branch: Netrunner/19.08
@@ -132,8 +126,6 @@ github.com:
     - netrunner-artwork-sounds:
         branch: Netrunner/19.08
     - artwork-lnf-netrunner-core:
-        branch: Netrunner/19.08
-    - plymouth-theme-netrunner-classic:
         branch: Netrunner/19.08
 
   - netrunner-core:

@@ -111,6 +111,8 @@ github.com:
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: master
+    - artwork-wallpapers-netrunner-1808-core:
+        branch: master
     - artwork-netrunner-icons:
         branch: master
     - netrunner-artwork:
