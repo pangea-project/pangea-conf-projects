@@ -505,7 +505,8 @@
 '*anongit.neon*/backports-bionic/libaqbanking':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: https://www.aquamaniac.de/rdm/attachments/download/105/aqbanking-5.8.1.tar.gz
 
 '*anongit.neon*/backports-bionic/fuse3':
   '*':
