@@ -27,8 +27,6 @@ github.com:
         branch: master
     - aurorae-theme-gnome3:
         branch: master
-    - aurorae-theme-indigo:
-        branch: master
     - aurorae-theme-metrodark:
         branch: master
     - aurorae-theme-win7:

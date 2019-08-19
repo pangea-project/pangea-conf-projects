@@ -6,7 +6,7 @@ github.com:
   - dci-debian-plasma:
     - plasma-workspace:
         branch: Netrunner/19.08
-        
+
   - dci-extras-packaging:
     - '*':
         branch: Netrunner/19.08
@@ -117,10 +117,6 @@ github.com:
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-black:
         branch: Netrunner/19.08
-    - artwork-lnf-theme-netrunner-desktop:
-        branch: Netrunner/19.08
-    - artwork-lnf-theme-netrunner-indigo:
-        branch: Netrunner/19.08
     - artwork-plymouth-theme-netrunner-neo:
         branch: Netrunner/19.08
     - artwork-sddm-theme-netrunner-neo:
@@ -142,8 +138,6 @@ github.com:
     - artwork-lnf-netrunner-core:
         branch: Netrunner/19.08
     - plymouth-theme-netrunner-classic:
-        branch: Netrunner/19.08
-    - artwork-wallpapers-netrunner-1908-desktop:
         branch: Netrunner/19.08
 
   - netrunner-core:
