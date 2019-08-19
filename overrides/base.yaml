@@ -502,6 +502,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-bionic/libaqbanking':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-bionic/fuse3':
   '*':
     upstream_scm:
