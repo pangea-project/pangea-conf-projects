@@ -1,0 +1,57 @@
+github.com:
+  - linuxmint:
+    - mintinstall:
+        branch: master
+
+  - dci-extras-packaging:
+    - '*':
+        branch: master
+  - ds9-common:
+    - '*':
+        branch: master
+
+  - netrunner-common:
+    - netrunner-settings-cockpit:
+        branch: master
+    - netrunner-settings-firefox-pinebook:
+        branch: master
+    - netrunner-settings-python-apt:
+        branch: master
+    - netrunner-settings-autostart:
+        branch: master
+    - netrunner-settings-kcmabout:
+        branch: master
+    - netrunner-default-settings:
+        branch: master
+    - netrunner-settings-grub:
+        branch: master
+    - netrunner-settings-sddm:
+        branch: master
+    - netrunner-settings-firefox:
+        branch: master
+    - netrunner-settings-theming:
+        branch: master
+
+  - netrunner-artwork:
+    - artwork-lnf-theme-netrunner-core:
+      branch: master
+    - netrunner-artwork:
+        branch: master
+    - artwork-lnf-netrunner-core:
+        branch: master
+
+  - netrunner-core:
+    - '{netrunner,calamares,base}*':
+        branch: master
+
+  - netrunner-odroid:
+    - '{c1}*':
+        branch: master
+    - mali-x11:
+        branch: master
+    - odroid-boot-services:
+        branch: master
+    - xserver-xorg-video-mali:
+        branch: master
+    - arm-image-generator:
+        branch: master
