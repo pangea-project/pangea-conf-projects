@@ -3,10 +3,6 @@ github.com:
     - mintinstall:
         branch: master
 
-  - dci-debian-plasma:
-    - plasma-workspace:
-        branch: Netrunner/19.08
-
   - dci-extras-packaging:
     - '*':
         branch: Netrunner/19.08
