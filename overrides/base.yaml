@@ -506,7 +506,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: https://www.aquamaniac.de/rdm/attachments/download/105/aqbanking-5.8.1.tar.gz
+      url: http://embra.edinburghlinux.co.uk/~jr/libaqbanking_5.8.1.orig.tar.gz
 
 '*anongit.neon*/backports-bionic/fuse3':
   '*':
