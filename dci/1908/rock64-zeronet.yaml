@@ -65,22 +65,22 @@ github.com:
 
   - netrunner-zeronet:
     - c1-calamares-zeronet:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - c1-netrunner-zeronet-packages:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-desktop-settings:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-tor-settings:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - rock64-netrunner-zeronet-packages:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - rock64-calamares-zeronet:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-iptable-settings:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-cockpit-module:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-manual-cockpit-module:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
     - netrunner-zeronet-manual:
-      branch: Netrunner/19.08
+        branch: Netrunner/19.08
