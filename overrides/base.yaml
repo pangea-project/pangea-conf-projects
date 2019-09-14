@@ -312,6 +312,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/extras/qtav':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/spglib':
   '*':
     upstream_scm:
