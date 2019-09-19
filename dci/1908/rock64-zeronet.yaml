@@ -63,6 +63,10 @@ github.com:
     - '{netrunner,calamares,base}*':
         branch: Netrunner/19.08
 
+  - netrunner-rock64:
+    - '*':
+        branch: Netrunner/19.08
+
   - netrunner-zeronet:
     - c1-calamares-zeronet:
         branch: Netrunner/19.08
