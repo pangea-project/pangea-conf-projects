@@ -834,12 +834,6 @@
     upstream_scm:
       url: https://anongit.kde.org/alkimia.git
 
-'*anongit.neon*/backports-xenial/libaqbanking':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+files/libaqbanking_5.6.12.orig.tar.gz
-
 '*anongit.neon*/backports-xenial/packagekit':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
