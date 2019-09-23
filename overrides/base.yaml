@@ -522,7 +522,13 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/libaqbanking_5.8.1.orig.tar.gz
+      url: http://embra.edinburghlinux.co.uk/~jr/libaqbanking_5.99.33.orig.tar.gz
+
+'*anongit.neon*/backports-bionic/libgwenhywfar':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: http://embra.edinburghlinux.co.uk/~jr/libgwenhywfar_4.99.16.orig.tar.gz
 
 '*anongit.neon*/backports-bionic/fuse3':
   '*':
