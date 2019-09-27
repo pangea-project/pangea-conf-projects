@@ -509,7 +509,7 @@
 ### Backports
 
 '*anongit.neon*/backports-bionic/ddcutil':
-  master:
+  '*':
     upstream_scm:
       type: tarball
       type: uscan
