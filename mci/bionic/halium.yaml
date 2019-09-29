@@ -6,6 +6,8 @@ gitlab.com:
         branch: master
     - halium/pulseaudio:
         branch: Neon/mobile
+    - halium/sensorfw:
+        branch: master
 
 github.com:
   - halium-packaging:
