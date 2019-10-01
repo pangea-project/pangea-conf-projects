@@ -622,6 +622,11 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-bionic/libical3':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*anongit.neon*/backports-xenial/opencv':
   '*':
     upstream_scm:
