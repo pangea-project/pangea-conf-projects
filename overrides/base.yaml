@@ -518,6 +518,12 @@
 
 ### Backports
 
+'*anongit.neon*/backports-bionic/pipewire':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
 '*anongit.neon*/backports-bionic/ddcutil':
   '*':
     upstream_scm:
