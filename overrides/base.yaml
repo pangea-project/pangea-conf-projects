@@ -1270,7 +1270,7 @@ https://github.com/calamares/calamares-debian:
 https://github.com/netrunner-zeronet/netrunner-zeronet-manual-cockpit-module:
   '*':
     upstream_scm:
-      url: https://github.com/ScarlettGatelyMoore/netrunner-zeronet-manual
+      url: https://github.com/netrunner-zeronet/netrunner-zeronet-manual
 
 https://github.com/netrunner-odroid/xserver-xorg-video-mali:
   '*':
