@@ -1326,39 +1326,11 @@ https://github.com/dci-extras-packaging/groupingplasmoid:
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/ring:
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://people.ubuntu.com/~rohangarg/ring/ring_20170322.2.ec25f0f~dfsg1.orig.tar.gz
-  'Netrunner/backports':
-    upstream_scm:
-      type: tarball
-      url: http://people.ubuntu.com/~rohangarg/ring/ring_20170601.1.79f748e~dfsg1.orig.tar.gz
-
-
-https://github.com/dci-extras-packaging/ring-lrc:
-  '*':
-    upstream_scm:
-      url: https://github.com/Elv13/ring-lrc/
-      branch: work5
-
 https://github.com/dci-extras-packaging/calamares-plasmalnf:
   '*':
     upstream_scm:
       url: https://github.com/calamares/calamares
       branch: master
-
-https://github.com/dci-extras-packaging/ring-kde:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://anongit.kde.org/ring-kde
-  'Netrunner/backports':
-    upstream_scm:
-      type: git
-      url: https://anongit.kde.org/ring-kde
-      branch: next
 
 https://github.com/dci-extras-packaging/skype:
   '*':
@@ -1422,17 +1394,6 @@ https://github.com/dci-extras-packaging/libump:
     upstream_scm:
       url: https://github.com/libv/libump
 
-https://github.com/plasmazilla/mozilla-kde-support:
-  'master':
-    upstream_scm:
-      url: https://github.com/openSUSE/kmozillahelper
-
-https://github.com/plasmazilla/firefox:
-  'release/kde':
-    upstream_scm:
-      type: firefox
-      url: http://deb.debian.org/debian/pool/main/f/firefox/firefox_50.1.0.orig.tar.xz
-
 'https://github.com/dci-debian-{qt,frameworks,plasma,kde-applications,kde-extras}/*':
   '*':
     upstream_scm:
@@ -1443,12 +1404,6 @@ https://github.com/dci-debian-plasma/plymouth-kcm:
     upstream_scm:
       type: git
       url: https://anongit.kde.org/plymouth-kcm.git
-
-'https://github.com/dci-debian-qt/qtwebengine':
-  '*':
-  upstream_scm:
-    type: tarball
-    url: http://deb.debian.org/debian/pool/main/q/qtwebengine-opensource-src/qtwebengine-opensource-src_5.7.1+dfsg.orig.tar.xz
 
 https://github.com/ds9-common/sortinglaunchers:
   'master':
