@@ -44,8 +44,6 @@ github.com:
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: Netrunner/19.08
-    - artwork-wallpapers-netrunner-1901-desktop:
-        branch: Netrunner/19.08
     - artwork-netrunner-icons:
         branch: Netrunner/19.08
     - artwork-plymouth-theme-netrunner-black:
@@ -56,7 +54,9 @@ github.com:
         branch: Netrunner/19.08
     - netrunner-artwork-sounds:
         branch: Netrunner/19.08
-    - artwork-lnf-netrunner-core:
+    -  artwork-lnf-netrunner-zeronet:
+        branch: Netrunner/19.08
+    - artwork-wallpapers-netrunner-zeronet-rock64:
         branch: Netrunner/19.08
 
   - netrunner-core:
