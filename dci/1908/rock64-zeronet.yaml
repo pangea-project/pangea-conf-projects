@@ -86,5 +86,3 @@ github.com:
         branch: Netrunner/19.08
     - netrunner-zeronet-manual-cockpit-module:
         branch: Netrunner/19.08
-    - netrunner-zeronet-manual:
-        branch: Netrunner/19.08
