@@ -68,10 +68,6 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-zeronet:
-    - c1-calamares-zeronet:
-        branch: Netrunner/19.08
-    - c1-netrunner-zeronet-packages:
-        branch: Netrunner/19.08
     - netrunner-zeronet-desktop-settings:
         branch: Netrunner/19.08
     - netrunner-zeronet-tor-settings:
