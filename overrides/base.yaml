@@ -1514,6 +1514,13 @@ https://github.com/netrunner-odroid/c2-uboot:
       type: git
       url: https://github.com/netrunner-odroid/c2_uboot_binaries
 
+https://github.com/netrunner-zeronet/netrunner-zeronet-manual-cockpit-module:
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/netrunner-zeronet/netrunner-zeronet-manual
+      branch: master
+
 https://github.com/netrunner-odroid/c1-bootini:
   '*':
     upstream_scm:
