@@ -1267,6 +1267,10 @@ https://github.com/calamares/calamares-debian:
       type: uscan
 
 ## DCI
+https://github.com/netrunner-zeronet/netrunner-zeronet-manual-cockpit-module:
+  '*':
+    upstream_scm:
+      url: https://github.com/ScarlettGatelyMoore/netrunner-zeronet-manual
 
 https://github.com/netrunner-odroid/xserver-xorg-video-mali:
   '*':
@@ -1287,11 +1291,6 @@ https://github.com/netrunner-odroid/xserver-xorg-video-mali-450:
   '*':
     upstream_scm:
       url: https://github.com/mdrjr/c2_mali_ddx
-
-https://github.com/netrunner-zeronet/netrunner-zeronet-manual-cockpit-module:
-  '*':
-    upstream_scm:
-      url: https://github.com/netrunner-zeronet/netrunner-zeronet-manual
 
 https://github.com/rpi2-stuff/mesa:
   '{kubuntu_unstable,Neon/unstable}':
