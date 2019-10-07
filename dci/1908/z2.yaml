@@ -74,8 +74,6 @@ github.com:
         branch: Netrunner/19.08
     - rock64-boot-services:
         branch: Netrunner/19.08
-    - rock64-calamares:
-        branch: Netrunner/19.08
 
   - netrunner-zeronet:
     - netrunner-zeronet-desktop-settings:
