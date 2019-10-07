@@ -64,7 +64,17 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-rock64:
-    - '*':
+    - linux-kernel:
+        branch: Netrunner/19.08
+    - xf86-video-armsoc:
+        branch: Netrunner/19.08
+    - libmali:
+        branch: Netrunner/19.08
+    - rock64-uboot:
+        branch: Netrunner/19.08
+    - rock64-boot-services:
+        branch: Netrunner/19.08
+    - rock64-calamares:
         branch: Netrunner/19.08
 
   - netrunner-zeronet:
