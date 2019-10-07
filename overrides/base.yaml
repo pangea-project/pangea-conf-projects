@@ -259,10 +259,10 @@
     upstream_scm:
       type: git
       url: https://anongit.kde.org/kcalendarcore.git
-  Neon/release:
+  'Neon/release':
     upstream_scm:
       type: uscan
-  Neon/release-lts:
+  'Neon/release-lts':
     upstream_scm:
       type: uscan
 
