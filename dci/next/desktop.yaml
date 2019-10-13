@@ -82,8 +82,6 @@ github.com:
         branch: master
     - qtcharts-opensource-src:
         branch: master
-    - ksuperkey:
-        branch: master
 
   - ds9-common:
     - default-settings-systemd:
