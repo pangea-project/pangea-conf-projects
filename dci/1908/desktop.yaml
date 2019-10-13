@@ -186,8 +186,6 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-common:
-    - netrunner-settings-cockpit:
-        branch: Netrunner/19.08
     - netrunner-settings-firefox-pinebook:
         branch: Netrunner/19.08
     - netrunner-settings-python-apt:

@@ -186,8 +186,6 @@ github.com:
         branch: master
 
   - netrunner-common:
-    - netrunner-settings-cockpit:
-        branch: master
     - netrunner-settings-firefox-pinebook:
         branch: master
     - netrunner-settings-python-apt:
