@@ -108,8 +108,6 @@ github.com:
         branch: Netrunner/19.08
     - default-settings-thunderbird:
         branch: Netrunner/19.08
-    - anttoolbar:
-        branch: Netrunner/19.08
 
   - ds9-artwork:
     - desktop-theme-bluex:
