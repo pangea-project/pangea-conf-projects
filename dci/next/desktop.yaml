@@ -240,7 +240,13 @@ github.com:
         branch: master
 
   - netrunner-desktop:
-    - '{netrunner,calamares,base}*':
+    - '{calamares,base}*':
+        branch: master
+    - netrunner-desktop:
+        branch: master
+    - netrunner-desktop-settings:
+        branch: master
+    - netrunner-desktop-settings-desktop:
         branch: master
 
   - mycroft-packaging:

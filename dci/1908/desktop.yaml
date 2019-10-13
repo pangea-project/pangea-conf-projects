@@ -240,7 +240,13 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-desktop:
-    - '{netrunner,calamares,base}*':
+    - '{calamares,base}*':
+        branch: Netrunner/19.08
+    - netrunner-desktop:
+        branch: Netrunner/19.08
+    - netrunner-desktop-settings:
+        branch: Netrunner/19.08
+    - netrunner-desktop-settings-desktop:
         branch: Netrunner/19.08
 
   - mycroft-packaging:
