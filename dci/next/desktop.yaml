@@ -78,8 +78,6 @@ github.com:
         branch: master
     - samba-mounter:
         branch: master
-    - calamares-plasmalnf:
-        branch: master
 
   - ds9-common:
     - default-settings-systemd:

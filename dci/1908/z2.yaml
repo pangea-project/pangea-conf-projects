@@ -78,8 +78,6 @@ github.com:
         branch: Netrunner/19.08
     - samba-mounter:
         branch: Netrunner/19.08
-    - calamares-plasmalnf:
-        branch: Netrunner/19.08
 
   - ds9-common:
     - default-settings-systemd:
