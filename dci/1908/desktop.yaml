@@ -4,173 +4,91 @@ github.com:
         branch: master
 
   - dci-extras-packaging:
-    - plasma-browser-integration:
-        branch: Netrunner/19.08
-    - appimagelauncher:
-        branch: Netrunner/19.08
-    - libssl1.0.2:
-        branch: Netrunner/19.08
-    - software-properties:
-        branch: Netrunner/19.08
-    - ocs-url:
-        branch: Netrunner/19.08
-    - marble:
-        branch: Netrunner/19.08
-    - web-menu-entries:
-        branch: Netrunner/19.08
-    - libump:
-        branch: Netrunner/19.08
-    - yarock:
-        branch: Netrunner/19.08
-    - ksystraycmd:
-        branch: Netrunner/19.08
-    - kcm-repo-toggle:
-        branch: Netrunner/19.08
-    - plasma-widget-volumewin7mixer:
-        branch: Netrunner/19.08
-    - grub-customizer:
-        branch: Netrunner/19.08
-    - 0-toggle:
-        branch: Netrunner/19.08
-    - groupingplasmoid:
-        branch: Netrunner/19.08
-    - torbrowser-only:
-        branch: Netrunner/19.08
-    - tortoggle:
-        branch: Netrunner/19.08
-    - zram-config:
-        branch: Netrunner/19.08
-    - telegram-qt:
-        branch: Netrunner/19.08
-    - telepathy-morse:
-        branch: Netrunner/19.08
-    - plasma-widget-paparazzi:
-        branch: Netrunner/19.08
-    - plasma-widget-quick-controls:
-        branch: Netrunner/19.08
-    - plasma-widget-runners-field:
-        branch: Netrunner/19.08
-    - plasma-widget-radiotray:
-        branch: Netrunner/19.08
-    - ice-utility:
-        branch: Netrunner/19.08
-    - plasma-widget-notification-sidbar:
-        branch: Netrunner/19.08
-    - kcm-kernel-config:
-        branch: Netrunner/19.08
-    - carbon-gtk2:
-        branch: Netrunner/19.08
-    - carbon-qt:
-        branch: Netrunner/19.08
-    - imagewriter:
-        branch: Netrunner/19.08
-    - kcm-plasma-services:
-        branch: Netrunner/19.08
-    - kcm-about-extended:
-        branch: Netrunner/19.08
-    - simplemenu:
-        branch: Netrunner/19.08
-    - mint-common:
-        branch: Netrunner/19.08
-    - mintupdate:
+    - samba-mounter:
         branch: Netrunner/19.08
     - rootactions-servicemenu:
         branch: Netrunner/19.08
-    - samba-mounter:
+    - mintupdate:
+        branch: Netrunner/19.08
+    - mint-common:
+        branch: Netrunner/19.08
+    - simplemenu:
+        branch: Netrunner/19.08
+    - kcm-about-extended:
+        branch: Netrunner/19.08
+    - kcm-plasma-services:
+        branch: Netrunner/19.08
+    - imagewriter:
+        branch: Netrunner/19.08
+    - carbon-qt:
+        branch: Netrunner/19.08
+    - carbon-gtk2:
+        branch: Netrunner/19.08
+    - grub-customizer:
+        branch: Netrunner/19.08
+    - plasma-widget-volumewin7mixer:
+        branch: Netrunner/19.08
+    - yarock:
+        branch: Netrunner/19.08
+    - web-menu-entries:
+        branch: Netrunner/19.08
+    - marble:
+        branch: Netrunner/19.08
+    - ocs-url:
+        branch: Netrunner/19.08
+    - software-properties:
+        branch: Netrunner/19.08
+    - libssl1.0.2:
+        branch: Netrunner/19.08
+    - appimagelauncher:
+        branch: Netrunner/19.08
+    - plasma-browser-integration:
         branch: Netrunner/19.08
 
   - ds9-common:
-    - default-settings-systemd:
-        branch: Netrunner/19.08
-    - xserver-xorg-config-intel:
-        branch: Netrunner/19.08
-    - default-settings-xdg-user-dirs:
-        branch: Netrunner/19.08
-    - default-settings-session-debug:
-        branch: Netrunner/19.08
-    - default-settings-e2fsprogs:
-        branch: Netrunner/19.08
-    - default-settings-profiled:
-        branch: Netrunner/19.08
-    - default-settings-autostart:
-        branch: Netrunner/19.08
-    - default-settings-pulseaudio:
-        branch: Netrunner/19.08
-    - default-settings-plasma:
-        branch: Netrunner/19.08
-    - default-settings-kdeapps:
-        branch: Netrunner/19.08
-    - default-settings-applications:
-        branch: Netrunner/19.08
-    - default-settings-xsession:
+    - default-settings-thunderbird:
         branch: Netrunner/19.08
     - default-systemsettings-settings:
         branch: Netrunner/19.08
-    - default-settings-thunderbird:
+    - default-settings-xsession:
+        branch: Netrunner/19.08
+    - default-settings-applications:
+        branch: Netrunner/19.08
+    - default-settings-kdeapps:
+        branch: Netrunner/19.08
+    - default-settings-plasma:
+        branch: Netrunner/19.08
+    - default-settings-pulseaudio:
+        branch: Netrunner/19.08
+    - default-settings-autostart:
+        branch: Netrunner/19.08
+    - default-settings-profiled:
+        branch: Netrunner/19.08
+    - default-settings-e2fsprogs:
+        branch: Netrunner/19.08
+    - default-settings-systemd:
+        branch: Netrunner/19.08
+    - default-settings-xdg-user-dirs:
         branch: Netrunner/19.08
 
   - ds9-artwork:
-    - artwork-flattr-icons:
-        branch: Netrunner/19.08
-    - artwork-moka-icons:
-        branch: Netrunner/19.08
     - artwork-windows-cursor:
-        branch: Netrunner/19.08
-    - aurorae-theme-carbon:
         branch: Netrunner/19.08
     - aurorae-theme-forman:
         branch: Netrunner/19.08
-    - aurorae-theme-gnome3:
-        branch: Netrunner/19.08
-    - aurorae-theme-indigo:
-        branch: Netrunner/19.08
-    - aurorae-theme-metrodark:
-        branch: Netrunner/19.08
-    - aurorae-theme-win7:
-        branch: Netrunner/19.08
-    - desktop-theme-diamond:
-        branch: Netrunner/19.08
-    - desktop-theme-eclipse:
-        branch: Netrunner/19.08
-    - desktop-theme-enlightenment:
-        branch: Netrunner/19.08
-    - desktop-theme-gnome-shell-kde:
-        branch: Netrunner/19.08
-    - desktop-theme-orange-lightening:
-        branch: Netrunner/19.08
-    - desktop-theme-sevenified:
-        branch: Netrunner/19.08
-    - desktop-whiteclassicia-cursor:
+    - artwork-whiteclassicia-cursor:
         branch: Netrunner/19.08
     - desktop-theme-bluex:
         branch: Netrunner/19.08
     - lnf-theme-bluex:
         branch: Netrunner/19.08
-    - wallpapers-extra-pack-1:
-        branch: Netrunner/19.08
     - artwork-audacious:
         branch: Netrunner/19.08
-    - wallpapers-extra-pack-2:
-        branch: Netrunner/19.08
-    - lnf-theme-blackx:
+    - desktop-theme-blackx:
         branch: Netrunner/19.08
     - artwork-color-scheme-carbon:
         branch: Netrunner/19.08
-    - artwork-sddm-breeze-new:
-        branch: Netrunner/19.08
-    - desktop-theme-chromeo:
-        branch: Netrunner/19.08
-    - aurorae-theme-simplicityblu:
-        branch: Netrunner/19.08
     - artwork-sddm-simple:
-        branch: Netrunner/19.08
-    - sddm-theme-pss:
-        branch: Netrunner/19.08
-    - artwork-red-modern-cursor:
-        branch: Netrunner/19.08
-    - lnf-theme-united:
-        branch: Netrunner/19.08
-    - lnf-theme-cupertine:
         branch: Netrunner/19.08
     - desktop-theme-breeze-alphablack:
         branch: Netrunner/19.08
@@ -178,63 +96,43 @@ github.com:
         branch: Netrunner/19.08
     - artwork-sddm-sugar-dark:
         branch: Netrunner/19.08
-    - lnf-theme-redmond:
+    - aurorae-theme-indigo:
         branch: Netrunner/19.08
-    - wallpapers-extra-pack-3:
-        branch: Netrunner/19.08
-    - wallpapers-extra-pack-4:
+    - artwork-red-modern-cursor:
         branch: Netrunner/19.08
 
   - netrunner-common:
-    - netrunner-settings-firefox-pinebook:
-        branch: Netrunner/19.08
-    - netrunner-settings-python-apt:
-        branch: Netrunner/19.08
-    - netrunner-settings-autostart:
-        branch: Netrunner/19.08
-    - netrunner-settings-kcmabout:
-        branch: Netrunner/19.08
-    - netrunner-default-settings:
-        branch: Netrunner/19.08
-    - netrunner-settings-grub:
+    - netrunner-settings-firefox:
         branch: Netrunner/19.08
     - netrunner-settings-sddm:
         branch: Netrunner/19.08
-    - netrunner-settings-firefox:
+    - netrunner-settings-grub:
+        branch: Netrunner/19.08
+    - netrunner-default-settings:
+        branch: Netrunner/19.08
+    - netrunner-settings-kcmabout:
         branch: Netrunner/19.08
     - netrunner-settings-theming:
         branch: Netrunner/19.08
+    - netrunner-settings-autostart:
+        branch: Netrunner/19.08
+    - netrunner-settings-python-apt:
+        branch: Netrunner/19.08
 
   - netrunner-artwork:
-    - artwork-lnf-theme-netrunner-black:
-        branch: Netrunner/19.08
-    - artwork-lnf-theme-netrunner-desktop:
-        branch: Netrunner/19.08
-    - artwork-lnf-theme-netrunner-indigo:
-        branch: Netrunner/19.08
-    - artwork-plymouth-theme-netrunner-neo:
-        branch: Netrunner/19.08
-    - artwork-sddm-theme-netrunner-neo:
-        branch: Netrunner/19.08
-    - artwork-lnf-theme-netrunner-core:
-        branch: Netrunner/19.08
-    - artwork-grub-theme-netrunner-neo:
-        branch: Netrunner/19.08
-    - artwork-netrunner-icons:
-        branch: Netrunner/19.08
-    - artwork-plymouth-theme-netrunner-black:
+    - plymouth-theme-netrunner-classic:
         branch: Netrunner/19.08
     - netrunner-artwork:
         branch: Netrunner/19.08
-    - artwork-grub-theme-netrunner-black:
+    - artwork-netrunner-icons:
         branch: Netrunner/19.08
-    - netrunner-artwork-sounds:
+    - artwork-lnf-theme-netrunner-desktop:
         branch: Netrunner/19.08
-    - artwork-lnf-netrunner-core:
-        branch: Netrunner/19.08
-    - plymouth-theme-netrunner-classic:
+    - artwork-lnf-theme-netrunner-black:
         branch: Netrunner/19.08
     - artwork-wallpapers-netrunner-1908-desktop:
+        branch: Netrunner/19.08
+    - artwork-lnf-theme-netrunner-indigo:
         branch: Netrunner/19.08
 
   - netrunner-desktop:
