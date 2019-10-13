@@ -1,17 +1,2 @@
 github.com:
-  - dci-extras-packaging:
-    - ring:
-        branch: Netrunner/backports
-    - ring-kde:
-        branch: Netrunner/backports
-    - kcm-about-extended:
-        branch: master
   - dci-debian-packaging-backports:
-    - libwlocate:
-        branch: 'master'
-    - libkolab:
-        branch: 'master'
-    - snapd-glib:
-        branch: master
-    - libzip:
-        branch: master
