@@ -166,8 +166,6 @@ github.com:
         branch: master
     - sddm-theme-pss:
         branch: master
-    - artwork-icons-breeze-classic:
-        branch: master
     - artwork-red-modern-cursor:
         branch: master
     - lnf-theme-united:

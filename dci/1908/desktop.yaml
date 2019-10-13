@@ -166,8 +166,6 @@ github.com:
         branch: Netrunner/19.08
     - sddm-theme-pss:
         branch: Netrunner/19.08
-    - artwork-icons-breeze-classic:
-        branch: Netrunner/19.08
     - artwork-red-modern-cursor:
         branch: Netrunner/19.08
     - lnf-theme-united:
