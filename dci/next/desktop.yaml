@@ -80,8 +80,6 @@ github.com:
         branch: master
     - calamares-plasmalnf:
         branch: master
-    - qtcharts-opensource-src:
-        branch: master
 
   - ds9-common:
     - default-settings-systemd:
