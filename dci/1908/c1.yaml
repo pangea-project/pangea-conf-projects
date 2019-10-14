@@ -169,7 +169,17 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-odroid:
-    - '{c1}*':
+    - c1-calamares-core:
+        branch: Netrunner/19.08
+    - c1-netrunner-core-settings:
+        branch: Netrunner/19.08
+    - c1-uboot:
+        branch: Netrunner/19.08
+    - c1-bootini:
+        branch: Netrunner/19.08
+    - c1-linux:
+        branch: Netrunner/19.08
+    - c1-netrunner-core-meta:
         branch: Netrunner/19.08
     - mali-x11:
         branch: Netrunner/19.08
