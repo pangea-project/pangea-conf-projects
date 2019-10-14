@@ -159,7 +159,13 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-core:
-    - '{netrunner,calamares,base}*':
+    - '{calamares,base}*':
+        branch: Netrunner/19.08
+    - netrunner-core:
+        branch: Netrunner/19.08
+    - netrunner-core-settings:
+        branch: Netrunner/19.08
+    - netrunner-core-settings-desktop:
         branch: Netrunner/19.08
 
   - netrunner-odroid:
