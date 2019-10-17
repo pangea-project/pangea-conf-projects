@@ -518,6 +518,18 @@
 
 ### Backports
 
+'*anongit.neon*/backports-bionic/geoclue-2.0':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
+'*anongit.neon*/backports-bionic/xdg-desktop-portal':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
 '*anongit.neon*/backports-bionic/libssh':
   '*':
     upstream_scm:
