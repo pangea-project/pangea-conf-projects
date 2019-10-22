@@ -9,6 +9,8 @@ anongit.neon.kde.org:
     - '*'
   - neon:
     - '*'
+  - mobile:
+    - '*'
   - forks:
     - qml-box2d
     - ktrip
