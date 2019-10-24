@@ -121,7 +121,7 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-core:
-    - '{calamares,base}*':
+    - '{calamares}*':
         branch: Netrunner/19.08
     - netrunner-core:
         branch: Netrunner/19.08
@@ -143,6 +143,8 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-zeronet:
+    - base-files:
+        branch: Netrunner/19.08
     - netrunner-zeronet-desktop-settings:
         branch: Netrunner/19.08
     - netrunner-zeronet-tor-settings:

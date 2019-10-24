@@ -117,11 +117,11 @@ github.com:
         branch: Netrunner/19.08
     -  artwork-lnf-netrunner-zeronet:
         branch: Netrunner/19.08
-    - artwork-wallpapers-netrunner-zeronet-rock64:
+    - artwork-wallpapers-netrunner-zeronet-c1:
         branch: Netrunner/19.08
 
   - netrunner-core:
-    - '{calamares,base}*':
+    - '{calamares}*':
         branch: Netrunner/19.08
     - netrunner-core:
         branch: Netrunner/19.08
@@ -153,6 +153,8 @@ github.com:
         branch: Netrunner/19.08
 
   - netrunner-zeronet:
+    - base-files:
+        branch: Netrunner/19.08
     - c1-calamares-zeronet:
         branch: Netrunner/19.08
     - c1-netrunner-zeronet-packages:
