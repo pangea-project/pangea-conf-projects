@@ -4,6 +4,8 @@ github.com:
         branch: master
 
   - dci-extras-packaging:
+    - 0-toggle:
+        branch: Netrunner/19.08
     - samba-mounter:
         branch: Netrunner/19.08
     - rootactions-servicemenu:
@@ -31,8 +33,6 @@ github.com:
     - yarock:
         branch: Netrunner/19.08
     - web-menu-entries:
-        branch: Netrunner/19.08
-    - marble:
         branch: Netrunner/19.08
     - ocs-url:
         branch: Netrunner/19.08

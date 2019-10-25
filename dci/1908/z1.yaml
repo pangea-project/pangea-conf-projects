@@ -4,6 +4,8 @@ github.com:
         branch: master
 
   - dci-extras-packaging:
+    - 0-toggle:
+        branch: Netrunner/19.08
     - samba-mounter:
         branch: Netrunner/19.08
     - rootactions-servicemenu:
@@ -18,8 +20,6 @@ github.com:
         branch: Netrunner/19.08
     - kcm-plasma-services:
         branch: Netrunner/19.08
-    - imagewriter:
-        branch: Netrunner/19.08
     - carbon-qt:
         branch: Netrunner/19.08
     - carbon-gtk2:
@@ -28,13 +28,7 @@ github.com:
         branch: Netrunner/19.08
     - plasma-widget-volumewin7mixer:
         branch: Netrunner/19.08
-    - yarock:
-        branch: Netrunner/19.08
     - web-menu-entries:
-        branch: Netrunner/19.08
-    - marble:
-        branch: Netrunner/19.08
-    - ocs-url:
         branch: Netrunner/19.08
     - software-properties:
         branch: Netrunner/19.08
