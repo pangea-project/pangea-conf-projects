@@ -26,8 +26,6 @@ github.com:
         branch: Netrunner/19.08
     - carbon-gtk2:
         branch: Netrunner/19.08
-    - software-properties:
-        branch: Netrunner/19.08
     - libssl1.0.2:
         branch: Netrunner/19.08
     - plasma-browser-integration:
@@ -150,8 +148,6 @@ github.com:
     - netrunner-zeronet-desktop-settings:
         branch: Netrunner/19.08
     - netrunner-zeronet-tor-settings:
-        branch: Netrunner/19.08
-    - rock64-netrunner-zeronet-packages:
         branch: Netrunner/19.08
     - rock64-calamares-zeronet:
         branch: Netrunner/19.08

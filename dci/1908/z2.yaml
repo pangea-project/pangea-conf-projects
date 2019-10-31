@@ -26,8 +26,6 @@ github.com:
         branch: Netrunner/19.08
     - carbon-gtk2:
         branch: Netrunner/19.08
-    - software-properties:
-        branch: Netrunner/19.08
     - libssl1.0.2:
         branch: Netrunner/19.08
     - plasma-browser-integration:
@@ -103,7 +101,7 @@ github.com:
         branch: Netrunner/19.08
     - netrunner-artwork-sounds:
         branch: Netrunner/19.08
-    -  artwork-lnf-netrunner-zeronet-rock64:
+    - artwork-lnf-netrunner-zeronet-rock64:
         branch: Netrunner/19.08
     - artwork-wallpapers-netrunner-zeronet-rock64:
         branch: Netrunner/19.08
