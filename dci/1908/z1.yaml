@@ -26,10 +26,6 @@ github.com:
         branch: Netrunner/19.08
     - carbon-gtk2:
         branch: Netrunner/19.08
-    - plasma-widget-volumewin7mixer:
-        branch: Netrunner/19.08
-    - web-menu-entries:
-        branch: Netrunner/19.08
     - software-properties:
         branch: Netrunner/19.08
     - libssl1.0.2:

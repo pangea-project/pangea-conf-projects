@@ -10,8 +10,6 @@ github.com:
         branch: Netrunner/19.08
     - libssl1.0.2:
         branch: Netrunner/19.08
-    - software-properties:
-        branch: Netrunner/19.08
     - ocs-url:
         branch: Netrunner/19.08
     - marble:
@@ -25,8 +23,6 @@ github.com:
     - ksystraycmd:
         branch: Netrunner/19.08
     - kcm-repo-toggle:
-        branch: Netrunner/19.08
-    - plasma-widget-volumewin7mixer:
         branch: Netrunner/19.08
     - grub-customizer:
         branch: Netrunner/19.08
