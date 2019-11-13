@@ -1243,11 +1243,11 @@ https://github.com/mycroft-packaging/mycroft-skill-installer:
     upstream_scm:
       url: https://github.com/AIIX/MycroftSkillInstaller
 
-https://github.com/mycroft-packaging/plasma-minishell:
+https://github.com/mycroft-packaging/plasma-big-launcher:
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/scratch/mart/plasma-minishell.git
+      url: https://invent.kde.org/adityam/plasma-big-launcher
 
 https://github.com/mycroft-packaging/lottie-qml:
   '*':
