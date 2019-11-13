@@ -6,7 +6,7 @@ github.com:
         branch: master
     - mycroft-gui:
         branch: master
-    - plasma-minishell:
+    - plasma-big-launcher:
         branch: Neon/unstable
     - mycroft-skill-installer:
         branch: master
