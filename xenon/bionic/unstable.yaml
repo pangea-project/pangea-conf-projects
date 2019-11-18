@@ -16,6 +16,8 @@ github.com:
         branch: master
     - lottie-qml:
         branch: master
+    - raspi-firmware:
+        branch: master
   - xenon-packaging:
     - '*':
         branch: master
