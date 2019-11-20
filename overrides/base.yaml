@@ -1318,7 +1318,7 @@ https://github.com/rpi2-stuff/mesa:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
 
-'https://github.com/dci-extras-packaging/*':
+'https://github.com/dci-extras-packaging/{software-properties,carbon-*,mintupdate,imagewriter,kcm-*,web-menu-entries}*':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
@@ -1338,7 +1338,7 @@ https://github.com/linuxmint/mintinstall:
     upstream_scm:
       url: https://github.com/linuxmint/mintinstall
       type: git
-      
+
 https://github.com/dci-extras-packaging/mint-common:
   '*':
     upstream_scm:
