@@ -662,6 +662,12 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-bionic/opencv':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: http://archive.ubuntu.com/ubuntu/pool/universe/o/opencv/opencv_3.2.0+dfsg.orig.tar.gz
+
 '*anongit.neon*/backports-xenial/opencv':
   '*':
     upstream_scm:
