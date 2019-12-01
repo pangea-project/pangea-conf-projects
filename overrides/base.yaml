@@ -1131,7 +1131,7 @@
 '*gitlab.com/debian-pm/plasma-mobile/simplelogin':
   '*':
     upstream_scm:
-      url: https://github.com/bhush9/simplelogin
+      url: https://invent.kde.org/bshah/simplelogin/
 
 '*gitlab.com/debian-pm/libs/telepathy-ofono':
   '*':
