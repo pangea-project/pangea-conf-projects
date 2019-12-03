@@ -281,67 +281,67 @@
       type: git
       url: https://anongit.kde.org/ubiquity-slideshow-neon.git
 
-'*anongit.neon*/forks/adwaita-icon-theme':
+'*anongit.neon*/neon/adwaita-icon-theme':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/calamares-settings':
+'*anongit.neon*/neon/calamares-settings':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/debug-installer':
+'*anongit.neon*/neon/debug-installer':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/settings':
+'*anongit.neon*/neon/settings':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/hardware-integration':
+'*anongit.neon*/neon/hardware-integration':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/kde-l10n':
+'*anongit.neon*/neon/kde-l10n':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/keyring':
+'*anongit.neon*/neon/keyring':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/language-unpacker':
+'*anongit.neon*/neon/language-unpacker':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/masks':
+'*anongit.neon*/neon/masks':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/plasma-wayland-meta':
+'*anongit.neon*/neon/plasma-wayland-meta':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/seeds':
+'*anongit.neon*/neon/seeds':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/syslinux-themes-neon':
+'*anongit.neon*/neon/syslinux-themes-neon':
   'Neon/unstable':
     upstream_scm:
       type: nil
 
-'*anongit.neon*/forks/xserver-xorg-video-intel-native-modesetting':
+'*anongit.neon*/neon/xserver-xorg-video-intel-native-modesetting':
   'Neon/unstable':
     upstream_scm:
       type: nil
