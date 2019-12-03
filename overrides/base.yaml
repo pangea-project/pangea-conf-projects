@@ -284,67 +284,67 @@
 '*anongit.neon*/neon/adwaita-icon-theme':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/calamares-settings':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/debug-installer':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/settings':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/hardware-integration':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/kde-l10n':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/keyring':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/language-unpacker':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/masks':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/plasma-wayland-meta':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/seeds':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/syslinux-themes-neon':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/neon/xserver-xorg-video-intel-native-modesetting':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 # Neon-packaging
 
@@ -901,22 +901,22 @@
 '*anongit.neon*/forks/base-files':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/forks/live-build':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/forks/ubiquity':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/forks/debhelper':
   'Neon/unstable':
     upstream_scm:
-      type: nil
+      type: null
 
 '*anongit.neon*/extras/drumstick':
   'Neon/unstable':
