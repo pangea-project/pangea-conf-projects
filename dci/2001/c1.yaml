@@ -52,8 +52,6 @@ github.com:
         branch: Netrunner/20.01
     - plasma-widget-notification-sidbar:
         branch: Netrunner/20.01
-    - kcm-kernel-config:
-        branch: Netrunner/20.01
     - carbon-gtk2:
         branch: Netrunner/20.01
     - carbon-qt:
