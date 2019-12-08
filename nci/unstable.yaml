@@ -51,9 +51,6 @@ anongit.neon.kde.org:
   - qt:
     - '*':
         branch: Neon/release
-  - '':
-    - pkg-kde-tools: # Version in wily is too old for features used in Debian master.
-        branch: Neon/release
 
 launchpad.net:
   - ubuntu-release-upgrader-neon
