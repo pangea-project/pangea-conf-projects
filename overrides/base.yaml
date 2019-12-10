@@ -282,6 +282,10 @@
       type: git
       url: https://anongit.kde.org/ubiquity-slideshow-neon.git
 
+'*anongit.neon*/neon/livecd-rootfs':
+  '*':
+    upstream_scm: null
+
 '*anongit.neon*/neon/adwaita-icon-theme':
   '*':
     upstream_scm: null
@@ -886,10 +890,6 @@
     upstream_scm:
       type: uscan
 
-'*lp:ubuntu-release-upgrader-neon':
-  '*':
-    upstream_scm: null
-
 '*anongit.neon*/forks/base-files':
   '*':
     upstream_scm: null
@@ -902,7 +902,7 @@
   '*':
     upstream_scm: null
 
-'*anongit.neon*/forks/debhelper':
+'*anongit.neon*/backports-bionic/debhelper':
   '*':
     upstream_scm: null
 
