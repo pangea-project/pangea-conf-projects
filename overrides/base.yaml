@@ -886,20 +886,24 @@
     upstream_scm:
       type: uscan
 
+'*lp:ubuntu-release-upgrader-neon':
+  '*':
+    upstream_scm: null
+
 '*anongit.neon*/forks/base-files':
-  'Neon/unstable':
+  '*':
     upstream_scm: null
 
 '*anongit.neon*/forks/live-build':
-  'Neon/unstable':
+  '*':
     upstream_scm: null
 
 '*anongit.neon*/forks/ubiquity':
-  'Neon/unstable':
+  '*':
     upstream_scm: null
 
 '*anongit.neon*/forks/debhelper':
-  'Neon/unstable':
+  '*':
     upstream_scm: null
 
 '*anongit.neon*/extras/drumstick':
