@@ -42,6 +42,7 @@ anongit.neon.kde.org:
     - kmymoney
     - ubiquity
     - kdiff3
+    - zxing-cpp
   - 3rdparty:
     - '*'
   - backports-bionic:

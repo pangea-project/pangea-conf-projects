@@ -38,6 +38,7 @@ anongit.neon.kde.org:
     - ubiquity
     - xf86-video-armsoc
     - kdiff3
+    - zxing-cpp
   - 3rdparty:
     - '*'
   - backports-bionic:
