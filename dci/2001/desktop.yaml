@@ -44,6 +44,9 @@ github.com:
         branch: Netrunner/20.01
     - plasma-browser-integration:
         branch: Netrunner/20.01
+    - xdg-utils-cxx:
+        branch: Netrunner/20.01
+
 
   - ds9-common:
     - default-settings-thunderbird:
