@@ -1183,7 +1183,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz
+      url: http://embra.edinburghlinux.co.uk/~jr/grantlee5-5.2.0.tar.gz
 
 ## Mobile
 
