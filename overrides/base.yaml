@@ -1183,7 +1183,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://mirror.sucs.swan.ac.uk/pub/linux/debian/pool/main/g/grantlee5/grantlee5_5.1.0.orig.tar.gz
+      url: https://github.com/steveire/grantlee/archive/v5.2.0.tar.gz
 
 ## Mobile
 
