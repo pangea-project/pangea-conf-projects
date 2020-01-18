@@ -99,23 +99,6 @@ github.com:
     - artwork-red-modern-cursor:
         branch: Netrunner/20.01
 
-  - netrunner-common:
-    - netrunner-settings-python-apt:
-        branch: Netrunner/20.01
-    - netrunner-settings-autostart:
-        branch: Netrunner/20.01
-    - netrunner-settings-kcmabout:
-        branch: Netrunner/20.01
-    - netrunner-default-settings:
-        branch: Netrunner/20.01
-    - netrunner-settings-grub:
-        branch: Netrunner/20.01
-    - netrunner-settings-sddm:
-        branch: Netrunner/20.01
-    - netrunner-settings-firefox:
-        branch: Netrunner/20.01
-    - netrunner-settings-theming:
-        branch: Netrunner/20.01
 
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:

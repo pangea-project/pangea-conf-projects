@@ -31,31 +31,6 @@ github.com:
     - plasma-browser-integration:
         branch: Netrunner/20.01
 
-  - ds9-common:
-    - default-settings-thunderbird:
-        branch: Netrunner/20.01
-    - default-systemsettings-settings:
-        branch: Netrunner/20.01
-    - default-settings-xsession:
-        branch: Netrunner/20.01
-    - default-settings-applications:
-        branch: Netrunner/20.01
-    - default-settings-kdeapps:
-        branch: Netrunner/20.01
-    - default-settings-plasma:
-        branch: Netrunner/20.01
-    - default-settings-pulseaudio:
-        branch: Netrunner/20.01
-    - default-settings-autostart:
-        branch: Netrunner/20.01
-    - default-settings-profiled:
-        branch: Netrunner/20.01
-    - default-settings-e2fsprogs:
-        branch: Netrunner/20.01
-    - default-settings-systemd:
-        branch: Netrunner/20.01
-    - default-settings-xdg-user-dirs:
-        branch: Netrunner/20.01
 
   - ds9-artwork:
     - desktop-theme-bluex:
@@ -68,22 +43,6 @@ github.com:
     - netrunner-settings-cockpit:
         branch: Netrunner/20.01
     - netrunner-settings-firefox-pinebook:
-        branch: Netrunner/20.01
-    - netrunner-settings-python-apt:
-        branch: Netrunner/20.01
-    - netrunner-settings-autostart:
-        branch: Netrunner/20.01
-    - netrunner-settings-kcmabout:
-        branch: Netrunner/20.01
-    - netrunner-default-settings:
-        branch: Netrunner/20.01
-    - netrunner-settings-grub:
-        branch: Netrunner/20.01
-    - netrunner-settings-sddm:
-        branch: Netrunner/20.01
-    - netrunner-settings-firefox:
-        branch: Netrunner/20.01
-    - netrunner-settings-theming:
         branch: Netrunner/20.01
 
   - netrunner-artwork:
