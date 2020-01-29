@@ -628,18 +628,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-bionic/libaqbanking':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/libaqbanking_5.99.33.orig.tar.gz
-
-'*anongit.neon*/backports-bionic/libgwenhywfar':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/libgwenhywfar_4.99.16.orig.tar.gz
-
 '*anongit.neon*/backports-bionic/fuse3':
   '*':
     upstream_scm:
