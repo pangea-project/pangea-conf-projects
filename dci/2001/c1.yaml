@@ -28,8 +28,6 @@ github.com:
         branch: Netrunner/20.01
     - yarock:
         branch: Netrunner/20.01
-    - web-menu-entries:
-        branch: Netrunner/20.01
     - marble:
         branch: Netrunner/20.01
     - ocs-url:
