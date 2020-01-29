@@ -26,8 +26,6 @@ github.com:
         branch: Netrunner/20.01
     - grub-customizer:
         branch: Netrunner/20.01
-    - plasma-widget-volumewin7mixer:
-        branch: Netrunner/20.01
     - yarock:
         branch: Netrunner/20.01
     - web-menu-entries:
