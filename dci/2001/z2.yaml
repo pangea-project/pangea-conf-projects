@@ -33,8 +33,6 @@ github.com:
 
 
   - ds9-artwork:
-    - desktop-theme-bluex:
-        branch: Netrunner/20.01
     - artwork-sddm-simple:
         branch: Netrunner/20.01
 
