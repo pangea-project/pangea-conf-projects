@@ -2,3 +2,9 @@
   '*':
     upstream_scm:
       type: uscan
+
+'*gitlab.com/debian-pm/libs/telepathy-ofono':
+  '*':
+    upstream_scm:
+      url: https://github.com/TelepathyIM/telepathy-ofono
+      branch: ofono-on-ring

@@ -2,3 +2,5 @@ gitlab.com:
   - debian-pm:
     - libs/ofono:
         branch: debian
+    - libs/telepathy-ofono:
+          branch: master
