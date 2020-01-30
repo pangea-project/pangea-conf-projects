@@ -12,5 +12,6 @@
 '*gitlab.com/debian-pm/libs/ofono-qt':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: https://raw.githubusercontent.com/debian-pm-tools/orig-tar-xzs/master/ofono-qt_1.5+git20120419+bcf0c04.orig.tar.xz
 
