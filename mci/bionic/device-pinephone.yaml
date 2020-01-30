@@ -4,3 +4,5 @@ gitlab.com:
         branch: debian
     - libs/telepathy-ofono:
           branch: master
+    - libs/ofono-qt:
+        branch: master
