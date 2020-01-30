@@ -1415,7 +1415,7 @@ https://github.com/rpi2-stuff/mesa:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
 
-'https://github.com/dci-extras-packaging/{software-properties,carbon-gtk2,carbon-qt,mintupdate,imagewriter,web-menu-entries}*':
+'https://github.com/dci-extras-packaging/{carbon-gtk2,carbon-qt,mintupdate,imagewriter,web-menu-entries}*':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
