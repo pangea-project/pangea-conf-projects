@@ -27,11 +27,9 @@ github.com:
     - plasma-browser-integration:
         branch: Netrunner/20.01
 
-
   - ds9-artwork:
     - artwork-sddm-simple:
         branch: Netrunner/20.01
-
 
   - netrunner-common:
     - netrunner-settings-cockpit:

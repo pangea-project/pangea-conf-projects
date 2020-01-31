@@ -37,7 +37,6 @@ github.com:
     - artwork-sddm-simple:
         branch: Netrunner/20.01
 
-
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:
         branch: Netrunner/20.01
