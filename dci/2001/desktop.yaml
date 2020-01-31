@@ -34,8 +34,6 @@ github.com:
         branch: Netrunner/20.01
     - software-properties:
         branch: Netrunner/20.01
-    - libssl1.0.2:
-        branch: Netrunner/20.01
     - appimagelauncher:
         branch: Netrunner/20.01
     - plasma-browser-integration:
