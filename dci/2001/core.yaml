@@ -1,8 +1,4 @@
 github.com:
-  - linuxmint:
-    - mintinstall:
-        branch: master
-
   - dci-extras-packaging:
     - samba-mounter:
         branch: Netrunner/20.01

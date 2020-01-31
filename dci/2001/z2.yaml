@@ -1,8 +1,4 @@
 github.com:
-  - linuxmint:
-    - mintinstall:
-        branch: master
-
   - dci-extras-packaging:
     - 0-toggle:
         branch: Netrunner/20.01
@@ -51,8 +47,6 @@ github.com:
     - artwork-plymouth-theme-netrunner-black:
         branch: Netrunner/20.01
     - netrunner-artwork:
-        branch: Netrunner/20.01
-    - artwork-grub-theme-netrunner-black:
         branch: Netrunner/20.01
     - netrunner-artwork-sounds:
         branch: Netrunner/20.01
