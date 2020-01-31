@@ -39,8 +39,6 @@ github.com:
 
 
   - netrunner-artwork:
-    - artwork-lnf-theme-netrunner-core:
-        branch: Netrunner/20.01
     - artwork-wallpapers-netrunner-1901-desktop:
         branch: Netrunner/20.01
     - artwork-netrunner-icons:

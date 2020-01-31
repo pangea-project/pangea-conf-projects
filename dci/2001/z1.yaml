@@ -39,8 +39,6 @@ github.com:
         branch: Netrunner/20.01
 
   - netrunner-artwork:
-    - artwork-lnf-theme-netrunner-core:
-        branch: Netrunner/20.01
     - artwork-netrunner-icons:
         branch: Netrunner/20.01
     - artwork-plymouth-theme-netrunner-black:
