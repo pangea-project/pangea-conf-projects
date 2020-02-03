@@ -107,7 +107,7 @@ github.com:
         branch: Netrunner/20.01
 
   - netrunner-core:
-    - '{calamares,base}*':
+    - '{calamares-core,base}*':
         branch: Netrunner/20.01
     - netrunner-core:
         branch: Netrunner/20.01

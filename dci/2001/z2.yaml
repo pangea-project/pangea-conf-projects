@@ -43,14 +43,6 @@ github.com:
     - artwork-wallpapers-netrunner-zeronet-rock64:
         branch: Netrunner/20.01
 
-  - netrunner-core:
-    - '{calamares}*':
-        branch: Netrunner/20.01
-    - netrunner-core-settings:
-        branch: Netrunner/20.01
-    - netrunner-core-settings-desktop:
-        branch: Netrunner/20.01
-
   - netrunner-rock64:
     - linux-kernel:
         branch: Netrunner/20.01
