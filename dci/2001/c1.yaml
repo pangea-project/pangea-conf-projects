@@ -40,21 +40,9 @@ github.com:
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:
         branch: Netrunner/20.01
-    - artwork-netrunner-icons:
-        branch: Netrunner/20.01
-    - artwork-plymouth-theme-netrunner-black:
-        branch: Netrunner/20.01
-    - netrunner-artwork:
-        branch: Netrunner/20.01
-    - netrunner-artwork-sounds:
-        branch: Netrunner/20.01
-    - artwork-lnf-netrunner-core:
-        branch: Netrunner/20.01
 
   - netrunner-core:
     - '{calamares,base}*':
-        branch: Netrunner/20.01
-    - netrunner-core:
         branch: Netrunner/20.01
     - netrunner-core-settings:
         branch: Netrunner/20.01

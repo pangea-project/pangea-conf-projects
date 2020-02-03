@@ -38,14 +38,6 @@ github.com:
         branch: Netrunner/20.01
 
   - netrunner-artwork:
-    - artwork-netrunner-icons:
-        branch: Netrunner/20.01
-    - artwork-plymouth-theme-netrunner-black:
-        branch: Netrunner/20.01
-    - netrunner-artwork:
-        branch: Netrunner/20.01
-    - netrunner-artwork-sounds:
-        branch: Netrunner/20.01
     -  artwork-lnf-netrunner-zeronet:
         branch: Netrunner/20.01
     - artwork-wallpapers-netrunner-zeronet-c1:
@@ -53,8 +45,6 @@ github.com:
 
   - netrunner-core:
     - '{calamares}*':
-        branch: Netrunner/20.01
-    - netrunner-core:
         branch: Netrunner/20.01
     - netrunner-core-settings:
         branch: Netrunner/20.01
