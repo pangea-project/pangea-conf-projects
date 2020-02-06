@@ -44,7 +44,7 @@ github.com:
         branch: Netrunner/20.01
     - mintinstall:
         branch: master
-        
+
   - ds9-common:
     - default-settings-systemd:
         branch: Netrunner/20.01

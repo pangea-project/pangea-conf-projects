@@ -62,19 +62,3 @@ github.com:
         branch: Netrunner/20.01
     - arm-image-generator:
         branch: Netrunner/20.01
-
-  - mycroft-packaging:
-    - mycroft-core:
-        branch: master
-    - mycroft-gui:
-        branch: master
-    - plasma-minishell:
-        branch: Neon/unstable
-    - mycroft-skill-installer:
-        branch: master
-    - mycroft-settings:
-        branch: master
-    - calamares-settings-mycroft:
-        branch: master
-    - lottie-qml:
-        branch: master
