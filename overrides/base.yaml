@@ -576,7 +576,7 @@
 
 ### Backports
 
-'*anongit.neon*/backports-bionic/telepathy-qt':
+'*anongit.neon*/extras/telepathy-qt':
   '*':
     upstream_scm:
       type: tarball
