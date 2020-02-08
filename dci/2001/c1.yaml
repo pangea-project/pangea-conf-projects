@@ -14,27 +14,11 @@ github.com:
         branch: Netrunner/20.01
     - kcm-plasma-services:
         branch: Netrunner/20.01
-    - imagewriter:
-        branch: Netrunner/20.01
     - carbon-qt:
         branch: Netrunner/20.01
     - carbon-gtk2:
         branch: Netrunner/20.01
-    - grub-customizer:
-        branch: Netrunner/20.01
-    - yarock:
-        branch: Netrunner/20.01
-    - marble:
-        branch: Netrunner/20.01
-    - ocs-url:
-        branch: Netrunner/20.01
-    - appimagelauncher:
-        branch: Netrunner/20.01
     - plasma-browser-integration:
-        branch: Netrunner/20.01
-
-  - ds9-artwork:
-    - artwork-sddm-simple:
         branch: Netrunner/20.01
 
   - netrunner-artwork:
