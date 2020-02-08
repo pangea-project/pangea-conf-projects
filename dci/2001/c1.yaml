@@ -60,5 +60,3 @@ github.com:
         branch: Netrunner/20.01
     - xserver-xorg-video-mali:
         branch: Netrunner/20.01
-    - arm-image-generator:
-        branch: Netrunner/20.01
