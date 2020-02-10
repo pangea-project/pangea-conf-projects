@@ -20,6 +20,8 @@ github.com:
         branch: Netrunner/20.01
     - plasma-browser-integration:
         branch: Netrunner/20.01
+    - zram-config:
+        branch: Netrunner/20.01
 
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:

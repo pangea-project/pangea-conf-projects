@@ -2,8 +2,6 @@ github.com:
   - dci-extras-packaging:
     - 0-toggle:
         branch: Netrunner/20.01
-    - zram-config:
-        branch: Netrunner/20.01
     - samba-mounter:
         branch: Netrunner/20.01
     - rootactions-servicemenu:
