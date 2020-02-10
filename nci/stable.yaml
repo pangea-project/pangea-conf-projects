@@ -9,6 +9,8 @@ anongit.neon.kde.org:
     - '*'
   - neon:
     - '*'
+  - mobile:
+    - plasma-phone-components
   - forks:
     - kpeoplevcard
     - qml-box2d
