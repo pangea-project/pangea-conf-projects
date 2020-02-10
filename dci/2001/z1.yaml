@@ -16,10 +16,6 @@ github.com:
         branch: Netrunner/20.01
     - kcm-plasma-services:
         branch: Netrunner/20.01
-    - carbon-qt:
-        branch: Netrunner/20.01
-    - carbon-gtk2:
-        branch: Netrunner/20.01
     - libssl1.0.2:
         branch: Netrunner/20.01
     - plasma-browser-integration:

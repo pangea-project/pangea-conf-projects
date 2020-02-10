@@ -18,6 +18,8 @@ github.com:
         branch: Netrunner/20.01
     - carbon-gtk2:
         branch: Netrunner/20.01
+    - carbon-gtk3:
+        branch: Netrunner/20.01
     - plasma-browser-integration:
         branch: Netrunner/20.01
     - zram-config:
