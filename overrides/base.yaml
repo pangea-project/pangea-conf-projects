@@ -1415,7 +1415,7 @@ https://github.com/rpi2-stuff/mesa:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
 
-'https://github.com/dci-extras-packaging/{carbon-gtk2,carbon-qt,mintupdate,imagewriter,web-menu-entries}*':
+'https://github.com/dci-extras-packaging/{carbon-gtk3,carbon-gtk2,carbon-qt,mintupdate,imagewriter,web-menu-entries}*':
   '*':
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
@@ -1520,6 +1520,11 @@ https://github.com/dci-extras-packaging/kcm-kernel-config:
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
 
+https://github.com/dci-extras-packaging/0-toggle:
+  '*':
+    upstream_scm:
+      url: https://github.com/plasma-extensions/plasma-widget-0-toggle
+      
 https://github.com/dci-extras-packaging/libump:
   '*':
     upstream_scm:
