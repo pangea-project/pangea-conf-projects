@@ -1,7 +1,4 @@
 github.com:
-  - linuxmint:
-    - :
-        branch: master
 
   - dci-extras-packaging:
     - samba-mounter:
