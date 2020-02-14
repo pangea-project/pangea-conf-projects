@@ -2,23 +2,7 @@ github.com:
   - dci-extras-packaging:
     - 0-toggle:
         branch: Netrunner/20.01
-    - samba-mounter:
-        branch: Netrunner/20.01
-    - rootactions-servicemenu:
-        branch: Netrunner/20.01
-    - mintupdate:
-        branch: Netrunner/20.01
-    - mint-common:
-        branch: Netrunner/20.01
-    - simplemenu:
-        branch: Netrunner/20.01
-    - kcm-about-extended:
-        branch: Netrunner/20.01
-    - kcm-plasma-services:
-        branch: Netrunner/20.01
     - libssl1.0.2:
-        branch: Netrunner/20.01
-    - plasma-browser-integration:
         branch: Netrunner/20.01
 
   - ds9-artwork:
