@@ -1,6 +1,6 @@
 github.com:
   - linuxmint:
-    - mintinstall:
+    - :
         branch: master
 
   - dci-extras-packaging:
@@ -43,6 +43,8 @@ github.com:
     - appimagelauncher:
         branch: master
     - plasma-browser-integration:
+        branch: master
+    - mintinstall:
         branch: master
 
   - ds9-common:
