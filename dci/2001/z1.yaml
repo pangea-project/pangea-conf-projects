@@ -40,7 +40,7 @@ github.com:
         branch: Netrunner/20.01
     - xserver-xorg-video-mali:
         branch: Netrunner/20.01
-  
+
   - netrunner-zeronet:
     - base-files:
         branch: Netrunner/20.01
