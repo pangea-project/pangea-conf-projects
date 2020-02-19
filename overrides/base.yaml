@@ -569,10 +569,16 @@
       type: uscan
 
 '*{anonscm.debian,anongit.neon}*/qt/qtpim':
-  Neon/mobile:
+  Neon/release:
     upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/pool/main/q/qtpim-opensource-src/qtpim-opensource-src_5.0~git20140515~29475884.orig.tar.gz
+      type: git
+      url: https://code.qt.io/qt/qtpim.git
+
+'*{anonscm.debian,anongit.neon}*/qt/qtfeedback':
+  Neon/release:
+    upstream_scm:
+      type: git
+      url: https://code.qt.io/qt/qtfeedback.git
 
 ### Backports
 
