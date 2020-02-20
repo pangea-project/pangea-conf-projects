@@ -573,6 +573,7 @@
     upstream_scm:
       type: git
       url: https://code.qt.io/qt/qtpim.git
+      branch: dev
 
 '*{anonscm.debian,anongit.neon}*/qt/qtfeedback':
   Neon/release:
