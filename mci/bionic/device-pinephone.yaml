@@ -6,3 +6,5 @@ gitlab.com:
           branch: master
     - libs/ofono-qt:
         branch: master
+    - libs/telephony-service:
+          branch: master
