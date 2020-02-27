@@ -595,6 +595,30 @@
       type: tarball
       type: uscan
 
+'*anongit.neon*/backports-bionic/flatpak':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
+'*anongit.neon*/backports-bionic/bubblewrap':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
+'*anongit.neon*/backports-bionic/xdg-dbus-proxy':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
+'*anongit.neon*/backports-bionic/ostree':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
 '*anongit.neon*/backports-bionic/geoclue-2.0':
   '*':
     upstream_scm:
