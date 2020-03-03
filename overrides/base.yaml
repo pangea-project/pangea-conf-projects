@@ -725,6 +725,13 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/backports-bionic/iio-sensor-proxy':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://gitlab.freedesktop.org/hadess/iio-sensor-proxy.git
+      branch: master
+
 '*anongit.neon*/backports-bionic/libheif':
   '*':
     upstream_scm:
