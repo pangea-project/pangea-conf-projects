@@ -9,6 +9,10 @@ github.com:
     - artwork-sddm-simple:
         branch: Netrunner/20.01
 
+  - ds9-common:
+    - default-settings-e2fsprogs:
+        branch:  Netrunner/20.01
+
   - netrunner-common:
     - netrunner-settings-cockpit:
         branch: Netrunner/20.01
