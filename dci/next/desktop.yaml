@@ -1,5 +1,4 @@
 github.com:
-
   - dci-extras-packaging:
     - samba-mounter:
         branch: master
@@ -43,7 +42,7 @@ github.com:
         branch: master
     - mintinstall:
         branch: master
-
+        
   - ds9-common:
     - default-settings-thunderbird:
         branch: master
@@ -69,7 +68,7 @@ github.com:
         branch: master
     - default-settings-xdg-user-dirs:
         branch: master
-
+        
   - ds9-artwork:
     - artwork-windows-cursor:
         branch: master
@@ -99,7 +98,7 @@ github.com:
         branch: master
     - artwork-red-modern-cursor:
         branch: master
-
+        
   - netrunner-common:
     - netrunner-settings-firefox:
         branch: master
@@ -117,7 +116,7 @@ github.com:
         branch: master
     - netrunner-settings-python-apt:
         branch: master
-
+        
   - netrunner-artwork:
     - plymouth-theme-netrunner-classic:
         branch: master
@@ -133,7 +132,7 @@ github.com:
         branch: master
     - artwork-lnf-theme-netrunner-indigo:
         branch: master
-
+        
   - netrunner-desktop:
     - '{calamares,base}*':
         branch: master
@@ -143,7 +142,7 @@ github.com:
         branch: master
     - netrunner-desktop-settings-desktop:
         branch: master
-
+        
   - mycroft-packaging:
     - mycroft-core:
         branch: master
@@ -159,3 +158,4 @@ github.com:
         branch: master
     - lottie-qml:
         branch: master
+        

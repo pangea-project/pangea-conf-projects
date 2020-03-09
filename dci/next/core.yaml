@@ -1,5 +1,4 @@
 github.com:
-
   - ds9-common:
     - default-settings-thunderbird:
         branch: master
@@ -25,7 +24,7 @@ github.com:
         branch: master
     - default-settings-xdg-user-dirs:
         branch: master
-
+        
   - ds9-artwork:
     - artwork-windows-cursor:
         branch: master
@@ -51,8 +50,8 @@ github.com:
         branch: master
     - artwork-red-modern-cursor:
         branch: master
-
-
+        
+        
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: master
@@ -70,7 +69,7 @@ github.com:
         branch: master
     - artwork-lnf-netrunner-core:
         branch: master
-
+        
   - netrunner-core:
     - '{calamares-core,base}*':
         branch: master
@@ -80,3 +79,4 @@ github.com:
         branch: master
     - netrunner-core-settings-desktop:
         branch: master
+        

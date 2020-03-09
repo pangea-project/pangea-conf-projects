@@ -1,5 +1,4 @@
 github.com:
-  
   - ds9-common:
     - default-settings-thunderbird:
         branch: Netrunner/20.01
@@ -25,7 +24,7 @@ github.com:
         branch: Netrunner/20.01
     - default-settings-xdg-user-dirs:
         branch: Netrunner/20.01
-
+        
   - ds9-artwork:
     - artwork-windows-cursor:
         branch: Netrunner/20.01
@@ -51,8 +50,8 @@ github.com:
         branch: Netrunner/20.01
     - artwork-red-modern-cursor:
         branch: Netrunner/20.01
-
-
+        
+        
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: Netrunner/20.01
@@ -70,7 +69,7 @@ github.com:
         branch: Netrunner/20.01
     - artwork-lnf-netrunner-core:
         branch: Netrunner/20.01
-
+        
   - netrunner-core:
     - '{calamares-core,base}*':
         branch: Netrunner/20.01
@@ -80,3 +79,4 @@ github.com:
         branch: Netrunner/20.01
     - netrunner-core-settings-desktop:
         branch: Netrunner/20.01
+        

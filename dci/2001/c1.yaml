@@ -24,11 +24,11 @@ github.com:
         branch: Netrunner/20.01
     - zram-config:
         branch: Netrunner/20.01
-
+        
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:
         branch: Netrunner/20.01
-
+        
   - netrunner-odroid:
     - c1-calamares-core:
         branch: Netrunner/20.01
@@ -48,3 +48,4 @@ github.com:
         branch: Netrunner/20.01
     - xserver-xorg-video-mali:
         branch: Netrunner/20.01
+        

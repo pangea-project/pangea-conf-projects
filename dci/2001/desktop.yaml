@@ -46,7 +46,7 @@ github.com:
         branch: Netrunner/20.01
     - mintinstall:
         branch: master
-
+        
   - ds9-common:
     - default-settings-systemd:
         branch: Netrunner/20.01
@@ -76,7 +76,7 @@ github.com:
         branch: Netrunner/20.01
     - default-settings-thunderbird:
         branch: Netrunner/20.01
-
+        
   - ds9-artwork:
     - artwork-windows-cursor:
         branch: Netrunner/20.01
@@ -104,7 +104,7 @@ github.com:
         branch: Netrunner/20.01
     - artwork-red-modern-cursor:
         branch: Netrunner/20.01
-
+        
   - netrunner-common:
     - netrunner-settings-python-apt:
         branch: Netrunner/20.01
@@ -122,7 +122,7 @@ github.com:
         branch: Netrunner/20.01
     - netrunner-settings-theming:
         branch: Netrunner/20.01
-
+        
   - netrunner-artwork:
     - plymouth-theme-netrunner-classic:
         branch: Netrunner/20.01
@@ -140,7 +140,7 @@ github.com:
         branch: Netrunner/20.01
     - artwork-lnf-theme-netrunner-indigo:
         branch: Netrunner/20.01
-
+        
   - netrunner-desktop:
     - '{calamares,base}*':
         branch: Netrunner/20.01
@@ -150,7 +150,7 @@ github.com:
         branch: Netrunner/20.01
     - netrunner-desktop-settings-desktop:
         branch: Netrunner/20.01
-
+        
   - mycroft-packaging:
     - mycroft-core:
         branch: master
@@ -166,3 +166,4 @@ github.com:
         branch: master
     - lottie-qml:
         branch: master
+        

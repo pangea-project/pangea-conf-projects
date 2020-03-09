@@ -24,11 +24,11 @@ github.com:
         branch: master
     - zram-config:
         branch: master
-
+        
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:
         branch: master
-
+        
   - netrunner-odroid:
     - c1-calamares-core:
         branch: master
@@ -48,3 +48,4 @@ github.com:
         branch: master
     - xserver-xorg-video-mali:
         branch: master
+        
