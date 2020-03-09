@@ -51,7 +51,6 @@ github.com:
     - artwork-red-modern-cursor:
         branch: Netrunner/20.01
         
-        
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: Netrunner/20.01

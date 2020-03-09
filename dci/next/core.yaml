@@ -50,8 +50,7 @@ github.com:
         branch: master
     - artwork-red-modern-cursor:
         branch: master
-        
-        
+              
   - netrunner-artwork:
     - artwork-lnf-theme-netrunner-core:
         branch: master

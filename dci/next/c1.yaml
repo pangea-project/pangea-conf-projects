@@ -47,5 +47,4 @@ github.com:
     - odroid-boot-services:
         branch: master
     - xserver-xorg-video-mali:
-        branch: master
-        
+        branch: master  

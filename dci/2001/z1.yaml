@@ -4,27 +4,23 @@ github.com:
         branch: Netrunner/20.01
     - libssl1.0.2:
         branch: Netrunner/20.01
-
+        
   - ds9-artwork:
     - artwork-sddm-simple:
         branch: Netrunner/20.01
-
-  - ds9-common:
-    - default-settings-e2fsprogs:
-        branch:  Netrunner/20.01
-
+        
   - netrunner-common:
     - netrunner-settings-cockpit:
         branch: Netrunner/20.01
     - netrunner-settings-firefox-pinebook:
         branch: Netrunner/20.01
-
+        
   - netrunner-artwork:
     -  artwork-lnf-netrunner-zeronet:
         branch: Netrunner/20.01
     - artwork-wallpapers-netrunner-zeronet-c1:
         branch: Netrunner/20.01
-
+        
   - netrunner-odroid:
     - c1-calamares-core:
         branch: Netrunner/20.01
@@ -44,7 +40,7 @@ github.com:
         branch: Netrunner/20.01
     - xserver-xorg-video-mali:
         branch: Netrunner/20.01
-
+        
   - netrunner-zeronet:
     - base-files:
         branch: Netrunner/20.01
@@ -64,3 +60,4 @@ github.com:
         branch: Netrunner/20.01
     - netrunner-zeronet-manual-cockpit-module:
         branch: Netrunner/20.01
+        
