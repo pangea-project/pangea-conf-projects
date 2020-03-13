@@ -1414,13 +1414,6 @@ https://github.com/calamares/calamares-debian:
       type: uscan
 
 ## DCI
-https://github.com/netrunner-zeronet/netrunner-zeronet-manual-cockpit-module:
-  '*':
-    upstream_scm:
-      url: https://github.com/netrunner-zeronet/netrunner-zeronet-manual
-      type: git
-      branch: master
-
 https://github.com/netrunner-odroid/xserver-xorg-video-mali:
   '*':
     upstream_scm:
