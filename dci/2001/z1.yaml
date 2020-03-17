@@ -1,4 +1,10 @@
 github.com:
+  - ds9-common:
+    - default-settings-xsession:
+        branch: Netrunner/20.01
+    - default-settings-kdeapps:
+        branch: Netrunner/20.01
+        
   - dci-extras-packaging:
     - 0-toggle:
         branch: Netrunner/20.01
