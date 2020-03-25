@@ -41,7 +41,8 @@ anongit.neon.kde.org:
     - xf86-video-armsoc
     - kdiff3
     - zxing-cpp
-    - ubuntu-release-upgrader
+    - ubuntu-release-upgrader:
+        branch: Neon/unstable
   - 3rdparty:
     - '*'
   - backports-bionic:
