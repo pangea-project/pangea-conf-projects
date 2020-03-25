@@ -2,7 +2,7 @@
 #   restricted for the series!
 
 # Restrict all focal backports to only build on focal.
-'*anongit.neon*/focal-focal/*': &global_restriction
+'*anongit.neon*/backports-focal/*': &global_restriction
   '*': &series_restriction
     series_restrictions:
       - focal
