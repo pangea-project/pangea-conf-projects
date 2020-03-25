@@ -7,6 +7,11 @@
     series_restrictions:
       - focal
 
+# release upgrader in bionic was on launchpad, so the new repo mustn't build on bionic
+'*anongit.neon*/*/ubuntu-release-upgrader':
+  '*':
+    <<: *series_restriction
+
 # Bazaar repos are branches, so each repo is by default locked to a version
 # as they cannot support multiple series.
 'lp:livecd-rootfs-neon-focal':
