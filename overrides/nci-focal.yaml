@@ -8,7 +8,7 @@
       - focal
 
 # release upgrader in bionic was on launchpad, so the new repo mustn't build on bionic
-'*anongit.neon*/*/ubuntu-release-upgrader':
+'*anongit.neon*/forks/ubuntu-release-upgrader':
   '*':
     <<: *series_restriction
 
