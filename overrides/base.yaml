@@ -350,6 +350,11 @@
       url: https://github.com/calamares/calamares
       branch: master
 
+'*anongit.neon*/extras/calligra':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 '*anongit.neon*/extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
