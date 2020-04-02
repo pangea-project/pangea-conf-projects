@@ -44,12 +44,13 @@ anongit.neon.kde.org:
     - zxing-cpp
     - ubuntu-release-upgrader:
         branch: Neon/unstable
+    - pyqt5
+    - sip4:
+        branch: master
   - 3rdparty:
     - '*'
   - backports-bionic:
     - '*'
-    - sip4:
-        branch: master
 
 launchpad.net:
   - ubuntu-release-upgrader-neon

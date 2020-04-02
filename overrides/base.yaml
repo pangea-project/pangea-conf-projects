@@ -747,24 +747,11 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-bionic/sip4':
-  Neon/release:
-    upstream_scm:
-      type: uscan
-  master:
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-xenial/python-qt4':
   Neon/release:
     upstream_scm:
       type: uscan
   master:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-bionic/pyqt5':
-  '*':
     upstream_scm:
       type: uscan
 
@@ -864,6 +851,19 @@
 
 '*anongit.neon*/forks/zxing-cpp':
   '*':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/pyqt5':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*anongit.neon*/forks/sip4':
+  Neon/release:
+    upstream_scm:
+      type: uscan
+  master:
     upstream_scm:
       type: uscan
 
