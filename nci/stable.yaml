@@ -46,7 +46,7 @@ anongit.neon.kde.org:
         branch: Neon/unstable
     - pyqt5
     - sip4:
-        branch: master
+        branch: Neon/unstable
   - 3rdparty:
     - '*'
   - backports-bionic:
