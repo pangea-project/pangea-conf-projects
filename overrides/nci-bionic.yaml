@@ -7,6 +7,12 @@
     series_restrictions:
       - bionic
 
+# This isn't actually a fork, it's a backport... and we only need
+# it for bionic...
+'*anongit.neon*/forks/zxing-cpp.git':
+  '*':
+    <<: *series_restriction
+
 # Bazaar repos are branches, so each repo is by default locked to a version
 # as they cannot support multiple series.
 'lp:livecd-rootfs-neon-bionic':
