@@ -9,7 +9,7 @@
 
 # This isn't actually a fork, it's a backport... and we only need
 # it for bionic...
-'*anongit.neon*/forks/zxing-cpp.git':
+'*anongit.neon*/forks/zxing-cpp':
   '*':
     <<: *series_restriction
 
