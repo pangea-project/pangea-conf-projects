@@ -12,6 +12,7 @@ anongit.neon.kde.org:
   - mobile:
     - plasma-phone-components
   - forks:
+    - kid3
     - kpeoplevcard
     - qml-box2d
     - kaidan

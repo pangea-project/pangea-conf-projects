@@ -8,6 +8,7 @@ anongit.neon.kde.org:
   - neon:
     - '*'
   - forks:
+    - kid3
     - kpeoplevcard
     - qml-box2d
     - kaidan
