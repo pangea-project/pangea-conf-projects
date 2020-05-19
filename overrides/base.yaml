@@ -860,7 +860,7 @@
       type: uscan
 
 '*anongit.neon*/forks/sip4':
-  Neon/release:
+  Neon/unstable:
     upstream_scm:
       type: uscan
   master:
