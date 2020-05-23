@@ -24,7 +24,7 @@
 '*{anonscm.debian,anongit.neon}*/kde/plasma-discover':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/discover.git
+      url: https://invent.kde.org/plasma/discover.git
   'Neon/stable':
     upstream_scm:
       branch: Plasma/5.19
@@ -32,7 +32,7 @@
 '*{anonscm.debian,anongit.neon}*/kde/kirigami2':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/kirigami.git
+      url: https://invent.kde.org/frameworks/kirigami.git
 
 ## This isn't actually plasma...
 '*{anonscm.debian,anongit.neon}*/kde/plasma-mediacenter':
@@ -255,11 +255,11 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/kcalendarcore.git
+      url: https://invent.kde.org/frameworks/kcalendarcore.git
   'Neon/stable':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/kcalendarcore.git
+      url: https://invent.kde.org/frameworks/kcalendarcore.git
       branch: master
   'Neon/release':
     upstream_scm:
@@ -274,13 +274,13 @@
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/docker-neon.git
+      url: https://invent.kde.org/packaging/docker-neon.git
 
 '*anongit.neon*/neon/ubiquity-slideshow':
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/ubiquity-slideshow-neon.git
+      url: https://invent.kde.org/system/ubiquity-slideshow-neon.git
 
 '*anongit.neon*/neon/livecd-rootfs':
   '*':
@@ -369,13 +369,13 @@
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/kdesdk-devenv-dependencies.git
+      url: https://invent.kde.org/packaging/kdesdk-devenv-dependencies.git
 
 '*anongit.neon*/neon-packaging/kpublictransport':
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/kpublictransport.git
+      url: https://invent.kde.org/libraries/kpublictransport.git
 
 '*anongit.neon*/neon-packaging/kde-development-environment':
   '*':
@@ -457,17 +457,17 @@
 '*{anonscm.debian,anongit.neon}*/backports-xenial/libalkimia-xenial':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/alkimia.git
+      url: https://invent.kde.org/office/alkimia.git
 
 '*{anonscm.debian,anongit.neon}*/*/kdeconnect':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/kdeconnect-kde.git
+      url: https://invent.kde.org/network/kdeconnect-kde.git
 
 '*{anonscm.debian,anongit.neon}*/neon-packaging/kcm-tablet':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/wacomtablet.git
+      url: https://invent.kde.org/system/wacomtablet.git
   'Neon/stable':
     upstream_scm:
       branch: master
@@ -475,7 +475,7 @@
 '*anongit.neon*/extras/gcompris-qt':
   '{Neon/stable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/gcompris.git
+      url: https://invent.kde.org/education/gcompris.git
 
 '*{anonscm.debian,anongit.neon}*/extras/krename':
   'Neon/stable':
@@ -500,12 +500,12 @@
 '*anongit.neon*/extras/kdevelop-python':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/kdev-python.git
+      url: https://invent.kde.org/kdevelop/kdev-python.git
 
 '*anongit.neon*/extras/kdevelop-php':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/kdev-php.git
+      url: https://invent.kde.org/kdevelop/kdev-php.git
 
 '*anongit.neon*/3rdparty/sddm':
   'Neon/mobile':
@@ -521,7 +521,7 @@
 '*anongit.neon*/extras/phonon-backend-vlc':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/phonon-vlc.git
+      url: https://invent.kde.org/libraries/phonon-vlc.git
   '{Neon/stable}':
     upstream_scm:
       branch: 0.9
@@ -529,7 +529,7 @@
 '*anongit.neon*/extras/phonon-backend-gstreamer':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/phonon-gstreamer.git
+      url: https://invent.kde.org/libraries/phonon-gstreamer.git
   '{Neon/stable}':
     upstream_scm:
       branch: 4.9
@@ -1022,7 +1022,7 @@
 '*anongit.neon*/backports-bionic/libalkimia':
   'Neon/{release-lts,release,stable,unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/alkimia.git
+      url: https://invent.kde.org/office/alkimia.git
 
 '*anongit.neon*/backports-xenial/packagekit':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
@@ -1053,17 +1053,17 @@
 '*anongit.neon*/extras/kile':
   'Neon/unstable':
     upstream_scm:
-      url: https://anongit.kde.org/kile.git
+      url: https://invent.kde.org/office/kile.git
 
 '*{anonscm.debian,anongit.neon}*/extras/debconf-kde':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/libdebconf-kde.git
+      url: https://invent.kde.org/system/libdebconf-kde.git
 
 '*{anonscm.debian,anongit.neon}*/extras/kdeconnect-plasma':
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/kdeconnect-kde.git
+      url: https://invent.kde.org/network/kdeconnect-kde.git
 
 '*{anonscm.debian,anongit.neon}*/extras/muon':
   'Neon/stable':
@@ -1073,7 +1073,7 @@
 '*{anonscm.debian,anongit.neon}*/extras/qapt':
   '{kubuntu_unstable,Neon/stable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/libqapt.git
+      url: https://invent.kde.org/system/libqapt.git
       branch: master
 
 '*{anongit.neon}*/extras/qapt':
@@ -1089,7 +1089,7 @@
 '*{anonscm.debian,anongit.neon}*/extras/qca2':
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/qca.git
+      url: https://invent.kde.org/libraries/qca.git
 
 '*{anonscm.debian,anongit.neon}*/3rdparty/sddm':
   '{kubuntu_unstable,Neon/stable,Neon/unstable}':
@@ -1289,49 +1289,49 @@ https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
 https://github.com/plasma-phone-packaging/plasma-phone-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-phone-settings.git
+      url: https://invent.kde.org/plasma-mobile/plasma-phone-settings.git
 https://github.com/plasma-phone-packaging/kpeoplevcard:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/kpeoplevcard
-https://github.com/plasma-phone-packaging/plasma-camera-packaging:
+      url: https://invent.kde.org/pim/kpeoplevcard
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-camera-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-camera
-https://github.com/plasma-phone-packaging/plasma-phone-components-packaging:
+      url: https://invent.kde.org/plasma-camera
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-phone-components-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-phone-components.git
-https://github.com/plasma-phone-packaging/plasma-mobile-packaging:
+      url: https://invent.kde.org/plasma-phone-components.git
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-mobile-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-mobile
-https://github.com/plasma-phone-packaging/plasma-settings-packaging:
+      url: https://invent.kde.org/plasma-mobile
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-settings-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-settings
-https://github.com/plasma-phone-packaging/plasma-maliit-plugins-packaging:
+      url: https://invent.kde.org/plasma-settings
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-maliit-plugins-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-maliit-plugins.git
-https://github.com/plasma-phone-packaging/plasma-samegame-packaging:
+      url: https://invent.kde.org/plasma-maliit-plugins.git
+https://github.com/plasma-phone-packaging/plasma-mobile/plasma-samegame-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-samegame
+      url: https://invent.kde.org/plasma-samegame
 https://github.com/plasma-phone-packaging/mtp-server:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/mtp-server.git
+      url: https://invent.kde.org/plasma-mobile/mtp-server.git
 
 https://github.com/plasma-phone-packaging/spacebar:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/spacebar.git
+      url: https://invent.kde.org/plasma-mobile/spacebar.git
 
 https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-maliit-framework.git
+      url: https://invent.kde.org/plasma-mobile/plasma-maliit-framework.git
 https://github.com/plasma-phone-packaging/libepoxy:
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
@@ -1500,7 +1500,7 @@ https://github.com/dci-extras-packaging/skype:
 https://github.com/dci-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/samba-mounter.git
+      url: https://invent.kde.org/system/samba-mounter.git
       branch: master
 
 'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
@@ -1536,7 +1536,7 @@ https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer:
 https://github.com/dci-extras-packaging/simplemenu:
   '*':
     upstream_scm:
-      url: https://anongit.kde.org/plasma-simplemenu.git
+      url: https://invent.kde.org/plasma/plasma-simplemenu.git
       branch: master
 
 https://github.com/dci-extras-packaging/ksystraycmd5:
@@ -1569,7 +1569,7 @@ https://github.com/dci-debian-plasma/plymouth-kcm:
   'Netrunner/17.03':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/plymouth-kcm.git
+      url: https://invent.kde.org/plasma/plymouth-kcm.git
 
 https://github.com/ds9-common/sortinglaunchers:
   'master':
@@ -1686,7 +1686,7 @@ https://github.com/dci-debian-kde-extras/qtcurve:
   '*':
     upstream_scm:
       type: git
-      url: https://anongit.kde.org/qtcurve.git
+      url: https://invent.kde.org/system/qtcurve.git
       branch: master
 
 '*{github.com/halium-packaging,gitlab.com/debian-pm}*android-headers':
