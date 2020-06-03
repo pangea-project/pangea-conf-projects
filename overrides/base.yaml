@@ -827,6 +827,25 @@
     upstream_scm:
       type: uscan
 
+'*anongit.neon*/forks/kup-backup':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+  'Neon/unstable_bionic':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+  'Neon/stable_bionic':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+
+
 '*anongit.neon*/forks/qml-box2d':
   '*':
     upstream_scm:
