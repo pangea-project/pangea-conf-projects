@@ -12,6 +12,7 @@ anongit.neon.kde.org:
   - mobile:
     - '*'
   - forks:
+    - kup-backup
     - kid3
     - qml-box2d
     - ktrip
