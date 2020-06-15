@@ -344,11 +344,11 @@
   '{kubuntu_unstable,Neon/unstable}':
     upstream_scm:
       url: https://github.com/calamares/calamares
-      branch: master
+      branch: calamares
   'Neon/stable':
     upstream_scm:
       url: https://github.com/calamares/calamares
-      branch: master
+      branch: calamares
 
 '*anongit.neon*/extras/calligra':
   'Neon/stable':
