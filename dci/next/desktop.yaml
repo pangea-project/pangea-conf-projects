@@ -43,31 +43,6 @@ github.com:
     - mintinstall:
         branch: master
         
-  - ds9-common:
-    - default-settings-thunderbird:
-        branch: master
-    - default-systemsettings-settings:
-        branch: master
-    - default-settings-xsession:
-        branch: master
-    - default-settings-applications:
-        branch: master
-    - default-settings-kdeapps:
-        branch: master
-    - default-settings-plasma:
-        branch: master
-    - default-settings-pulseaudio:
-        branch: master
-    - default-settings-autostart:
-        branch: master
-    - default-settings-profiled:
-        branch: master
-    - default-settings-e2fsprogs:
-        branch: master
-    - default-settings-systemd:
-        branch: master
-    - default-settings-xdg-user-dirs:
-        branch: master
         
   - ds9-artwork:
     - artwork-windows-cursor:
@@ -100,6 +75,26 @@ github.com:
         branch: master
         
   - netrunner-common:
+    - default-settings-thunderbird:
+        branch: master
+    - default-settings-xsession:
+        branch: master
+    - default-settings-applications:
+        branch: master
+    - default-settings-kdeapps:
+        branch: master
+    - default-settings-profiled:
+        branch: master
+    - default-settings-plasma:
+        branch: master
+    - default-settings-pulseaudio:
+        branch: master
+    - default-settings-systemd:
+        branch: master
+    - default-settings-xdg-user-dirs:
+        branch: master
+    - default-settings-e2fsprogs:
+        branch: master
     - netrunner-settings-firefox:
         branch: master
     - netrunner-settings-sddm:
