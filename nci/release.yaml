@@ -52,3 +52,5 @@ anongit.neon.kde.org:
     - '*'
   - backports-bionic:
     - '*'
+  - backports-focal:
+    - '*'
