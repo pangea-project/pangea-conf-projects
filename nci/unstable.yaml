@@ -57,6 +57,3 @@ anongit.neon.kde.org:
   - qt:
     - '*':
         branch: Neon/release
-
-launchpad.net:
-  - ubuntu-release-upgrader-neon

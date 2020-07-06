@@ -49,6 +49,3 @@ anongit.neon.kde.org:
     - '*'
   - backports-bionic:
     - '*'
-
-launchpad.net:
-  - ubuntu-release-upgrader-neon
