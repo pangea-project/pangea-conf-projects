@@ -43,37 +43,6 @@ github.com:
     - mintinstall:
         branch: master
         
-        
-  - ds9-artwork:
-    - artwork-windows-cursor:
-        branch: master
-    - aurorae-theme-forman:
-        branch: master
-    - artwork-whiteclassicia-cursor:
-        branch: master
-    - desktop-theme-bluex:
-        branch: master
-    - lnf-theme-bluex:
-        branch: master
-    - artwork-audacious:
-        branch: master
-    - desktop-theme-blackx:
-        branch: master
-    - artwork-color-scheme-carbon:
-        branch: master
-    - artwork-sddm-simple:
-        branch: master
-    - desktop-theme-breeze-alphablack:
-        branch: master
-    - artwork-icons-obsidian:
-        branch: master
-    - artwork-sddm-sugar-dark:
-        branch: master
-    - aurorae-theme-indigo:
-        branch: master
-    - artwork-red-modern-cursor:
-        branch: master
-        
   - netrunner-common:
     - default-settings-thunderbird:
         branch: master
@@ -126,6 +95,32 @@ github.com:
     - artwork-wallpapers-netrunner-1908-desktop:
         branch: master
     - artwork-lnf-theme-netrunner-indigo:
+        branch: master
+    - artwork-windows-cursor:
+        branch: master
+    - aurorae-theme-forman:
+        branch: master
+    - artwork-whiteclassicia-cursor:
+        branch: master
+    - desktop-theme-bluex:
+        branch: master
+    - lnf-theme-bluex:
+        branch: master
+    - artwork-audacious:
+        branch: master
+    - desktop-theme-blackx:
+        branch: master
+    - artwork-color-scheme-carbon:
+        branch: master
+    - artwork-sddm-simple:
+        branch: master
+    - desktop-theme-breeze-alphablack:
+        branch: master
+    - artwork-icons-obsidian:
+        branch: master
+    - artwork-sddm-sugar-dark:
+        branch: master
+    - artwork-red-modern-cursor:
         branch: master
         
   - netrunner-desktop:
