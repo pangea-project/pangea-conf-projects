@@ -51,7 +51,5 @@ anongit.neon.kde.org:
         branch: Neon/unstable
   - 3rdparty:
     - '*'
-  - backports-bionic:
-    - '*'
   - backports-focal:
     - '*'
