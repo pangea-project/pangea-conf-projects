@@ -873,6 +873,16 @@
       type: tarball
       url: http://embra.edinburghlinux.co.uk/~jr/qml-box2d_2.0.0+git20190729.orig.tar.gz
 
+'*anongit.neon*/forks/heaptrack':
+  'Neon/release-lts':
+    upstream_scm:
+      type: tarball
+      url: http://deb.debian.org/debian/pool/main/h/heaptrack/heaptrack_1.1.0+20180922.gitf752536.orig.tar.xz
+  'Neon/release':
+    upstream_scm:
+      type: tarball
+      url: http://deb.debian.org/debian/pool/main/h/heaptrack/heaptrack_1.1.0+20180922.gitf752536.orig.tar.xz
+
 '*anongit.neon*/forks/fcitx-qt5':
   '*':
     upstream_scm:
