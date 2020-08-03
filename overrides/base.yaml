@@ -598,6 +598,12 @@
 
 ### Backports
 
+'*anongit.neon*/backports-focal/pipewire':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
 '*anongit.neon*/backports-focal/xdg-dbus-proxy':
   '*':
     upstream_scm:
