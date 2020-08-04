@@ -604,6 +604,12 @@
       type: tarball
       type: uscan
 
+'*anongit.neon*/backports-focal/xdg-desktop-portal':
+  '*':
+    upstream_scm:
+      type: tarball
+      type: uscan
+
 '*anongit.neon*/backports-focal/xdg-dbus-proxy':
   '*':
     upstream_scm:
