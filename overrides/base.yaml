@@ -365,6 +365,18 @@
     upstream_scm:
       branch: 5.x
 
+'*anongit.neon*/neon-packaging/maliit-framework':
+  '*':
+    upstream_scm:
+      url: https://github.com/maliit/framework.git
+      branch: master
+
+'*anongit.neon*/neon-packaging/maliit-keyboard':
+  '*':
+    upstream_scm:
+      url: https://github.com/maliit/keyboard.git
+      branch: master
+
 '*anongit.neon*/neon-packaging/falkon':
   'Neon/stable':
     upstream_scm:
