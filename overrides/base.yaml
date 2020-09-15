@@ -409,22 +409,12 @@
   '*':
     upstream_scm:
 
-'*anongit.neon*/backports-xenial/qoauth':
-  '*':
-    upstream_scm:
-      url: https://github.com/ayoy/qoauth.git
-
 '*anongit.neon*/extras/vc':
   '*':
     upstream_scm:
       type: uscan
 
 '*anongit.neon*/extras/qtav':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/spglib':
   '*':
     upstream_scm:
       type: uscan
@@ -475,11 +465,6 @@
       url: https://github.com/libv/libump
 
 # Extras
-
-'*{anonscm.debian,anongit.neon}*/backports-xenial/libalkimia-xenial':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/office/alkimia.git
 
 '*{anonscm.debian,anongit.neon}*/*/kdeconnect':
   '*':
@@ -797,14 +782,6 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/python-qt4':
-  Neon/release:
-    upstream_scm:
-      type: uscan
-  master:
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-bionic/libical3':
   '*':
     upstream_scm:
@@ -816,69 +793,7 @@
       type: tarball
       url: http://archive.ubuntu.com/ubuntu/pool/universe/o/opencv/opencv_3.2.0+dfsg.orig.tar.gz
 
-'*anongit.neon*/backports-xenial/opencv':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/pool/universe/o/opencv/opencv_3.2.0+dfsg.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/libical':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/twisted':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/automat':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/constantly':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/hyperlink':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/incremental':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/ostree':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/kdenlive':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libinput':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/fuse':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://github.com/libfuse/libfuse/releases/download/fuse-2.9.7/fuse-2.9.7.tar.gz
-
 '*anongit.neon*/backports-bionic/util-linux-bionic':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/snapd-glib':
   '*':
     upstream_scm:
       type: uscan
@@ -933,78 +848,6 @@
     upstream_scm:
       type: uscan
   master:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/ddcutil':
-  master:
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~rockowitz/+archive/ubuntu/ddcutil/+files/ddcutil_0.8.4.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/wayland':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/taglib':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/flatpak':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/flatpak-builder':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/xorg-server':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/x11proto-core':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libxfont':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/openbabel':
-  Neon/{release-lts,release,stable,unstable}:
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/encfs':
-  'master':
-    upstream_scm:
-      type: uscan
-      branch: master
-
-'*anongit.neon*/backports-xenial/harfbuzz':
-  'master':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/json-glib':
-  'master':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/cryfs':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/libunwind':
-  Neon/{release-lts,release,stable,unstable}:
     upstream_scm:
       type: uscan
 
@@ -1077,11 +920,6 @@
       url: https://github.com/icecc/icecream.git
       branch: master
 
-'*anongit.neon*/backports-xenial/libxkbcommon':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/backports-bionic/libarchive':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
@@ -1093,31 +931,10 @@
     upstream_scm:
       url: https://invent.kde.org/office/alkimia.git
 
-'*anongit.neon*/backports-xenial/packagekit':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/flatbuffers-xenial':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: uscan
 '*anongit.neon*/backports-bionic/flatbuffers':
   '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
     upstream_scm:
       type: uscan
-
-'*anongit.neon*/backports-xenial/libzip4':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+files/libzip_1.0.1.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/libzip':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/libz/libzip/libzip_1.3.2.orig.tar.gz
 
 '*anongit.neon*/extras/kile':
   'Neon/unstable':
@@ -1180,32 +997,8 @@
     upstream_scm:
       type: uscan
 
-'*{anonscm.debian,anongit.neon}*/backports-xenial/libkolab':
-  'Neon/unstable':
-    upstream_scm:
-      url: https://git.kolab.org/diffusion/LK/libkolab.git
-      branch: libkolab-1.0 # tittiatcoke says this is the correct Qt5 branch!
-  '{kubuntu_stable,Neon/stable}':
-    upstream_scm:
-      url: https://git.kolab.org/diffusion/LK/libkolab.git
-      branch: libkolab-1.0
-
-'*{anonscm.debian,anongit.neon}*/backports-xenial/libkolabxml':
-  'Neon/unstable':
-    upstream_scm:
-      url: https://git.kolab.org/diffusion/LKX/libkolabxml.git
-  '{kubuntu_stable,Neon/stable}':
-    upstream_scm:
-      url: https://git.kolab.org/diffusion/LKX/libkolabxml.git
-      branch: libkolabxml-1.1
-
 '*anongit.neon*/extras/gammaray':
   '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
-'*anongit.neon*/backports-xenial/qt5keychain':
-  '{Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
 
@@ -1214,45 +1007,11 @@
     upstream_scm:
       type: uscan
 
-'*anongit.neon*/backports-xenial/ldc':
-  '{Neon/release,Neon/unstable}':
-    upstream_scm:
-        type: tarball
-        url: http://http.debian.net/debian/pool/main/l/ldc/ldc_1.2.0.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/lmdb':
-  '{Neon/release,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/lmdb_0.9.18.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/ninja-build':
-  '{Neon/release,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/tests/+files/ninja-build_1.7.1.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/meson':
-  '{Neon/release,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/~ximion/+archive/ubuntu/packagekit/+files/meson_0.42.1.orig.tar.gz
-
-'*anongit.neon*/backports-xenial/avogadro':
-  'Neon/{unstable}':
-    upstream_scm:
-      type: uscan
-
 '*anongit.neon*/neon-packaging/distro-release-notifier':
   '*':
     upstream_scm:
       branch: master
       type: git
-
-'*anongit.neon*/backports-xenial/molequeue':
-  'Neon/{release-lts,release,stable,unstable}':
-    upstream_scm:
-      type: uscan
 
 '*anongit.neon*/neon-packaging/kdsoap':
   'Neon/{release-lts,release,stable,unstable}':
@@ -1528,7 +1287,7 @@ https://github.com/dci-extras-packaging/appimagelauncher:
   '*':
     upstream_scm:
       type: uscan
-      
+
 https://github.com/dci-extras-packaging/xdg-utils-cxx:
   '*':
     upstream_scm:
@@ -1617,7 +1376,7 @@ https://github.com/dci-extras-packaging/0-toggle:
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/plasma-widget-0-toggle
-      
+
 https://github.com/dci-extras-packaging/libump:
   '*':
     upstream_scm:
