@@ -21,14 +21,6 @@
 
 # Plasma
 
-'*{anonscm.debian,anongit.neon}*/kde/plasma-discover':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/plasma/discover.git
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.19
-
 '*{anonscm.debian,anongit.neon}*/kde/kirigami2':
   '*':
     upstream_scm:
@@ -40,7 +32,14 @@
     upstream_scm:
       branch: Plasma/5.7
 
-# 5.15 beta
+'*{anonscm.debian,anongit.neon}*/kde/plasma-discover':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/plasma/discover.git
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.20
+
 '*{anonscm.debian,anongit.neon}*/kde/bluedevil':
   'Neon/stable':
     upstream_scm:
