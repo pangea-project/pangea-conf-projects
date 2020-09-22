@@ -539,7 +539,7 @@
 
 ## Qt
 
-'*{invent.kde.org/neon,gitlab.com}*/{qt,netrunner-debian-qt}/*':
+'*{invent.kde.org/neon/qt,gitlab.com/*/netrunner-debian-qt}/*':
   kubuntu_unstable:
     upstream_scm:
       url: http://code.qt.io/git/qt/<%= name %>.git
