@@ -2,7 +2,7 @@
 #   restricted for the series!
 
 # Restrict all xenial backports to only build on xenial.
-'*anongit.neon*/backports-xenial/*': &global_restriction
+'*invent.kde.org/neon/backports-xenial/*': &global_restriction
   '*': &series_restriction
     series_restrictions:
       - xenial
@@ -10,20 +10,20 @@
 # Indi and kstars are tightly related so we generally need indi. However, for
 # now we don't need it in bionic and splitting xenial and bionic would
 # only complicate things. NB: This needs removing when we want indi in bionic.
-'*anongit.neon*/indi':
+'*invent.kde.org/neon/indi':
   <<: *global_restriction
 
 # This is effectively built as a backport. In bionic onwards we need no delta
 # at the time of writing.
 # https://phabricator.kde.org/T9284
-'*anongit.neon*/pkg-kde-tools':
+'*invent.kde.org/neon/pkg-kde-tools':
   <<: *global_restriction
 
 # This is a xenial exclusive hack build. In bionic this is replaced by
 # neon-masks which uses a less invasive approach to solve the problem of
 # adwaita getting pulled in. The bionic approach is not backwards compatible
 # as in xenial adwaita is being pulled in as a versioned depends.
-'*anongit.neon*/neon/adwaita-icon-theme':
+'*invent.kde.org/neon/neon/adwaita-icon-theme':
   <<: *global_restriction
 
 # Bazaar repos are branches, so each repo is by default locked to a version

@@ -1,6 +1,6 @@
 origin: unstable
 
-anongit.neon.kde.org:
+invent.kde.org/neon:
   - kde:
     - '*'
   - extras:

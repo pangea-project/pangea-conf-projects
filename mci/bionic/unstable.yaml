@@ -29,7 +29,7 @@ gitlab.com:
     - apps/llsvplayer:
           branch: master
 
-anongit.neon.kde.org:
+invent.kde.org/neon:
   - qt:
     - qtmultimedia:
         branch: Neon/mobile

@@ -7,7 +7,7 @@ gitlab.com:
     - halium/pulseaudio-modules-droid:
         branch: master
 
-anongit.neon.kde.org:
+invent.kde.org/neon:
   - kde:
     - kwin:
         branch: Neon/mobile

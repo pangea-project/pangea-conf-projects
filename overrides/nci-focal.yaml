@@ -2,13 +2,13 @@
 #   restricted for the series!
 
 # Restrict all focal backports to only build on focal.
-'*anongit.neon*/backports-focal/*': &global_restriction
+'*invent.kde.org/neon/backports-focal/*': &global_restriction
   '*': &series_restriction
     series_restrictions:
       - focal
 
 # release upgrader in bionic was on launchpad, so the new repo mustn't build on bionic
-'*anongit.neon*/forks/ubuntu-release-upgrader':
+'*invent.kde.org/neon/forks/ubuntu-release-upgrader':
   '*':
     <<: *series_restriction
 

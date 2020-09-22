@@ -2,14 +2,14 @@
 #   restricted for the series!
 
 # Restrict all bionic backports to only build on bionic.
-'*anongit.neon*/backports-bionic/*': &global_restriction
+'*invent.kde.org/neon/backports-bionic/*': &global_restriction
   '*': &series_restriction
     series_restrictions:
       - bionic
 
 # This isn't actually a fork, it's a backport... and we only need
 # it for bionic...
-'*anongit.neon*/forks/zxing-cpp':
+'*invent.kde.org/neon/forks/zxing-cpp':
   '*':
     <<: *series_restriction
 
