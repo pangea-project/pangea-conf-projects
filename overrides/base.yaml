@@ -340,7 +340,7 @@
 # Neon-packaging
 
 '*invent.kde.org/neon/extras/calamares':
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/calamares/calamares
       branch: calamares
@@ -483,11 +483,6 @@
     upstream_scm:
       branch: master
 
-'*invent.kde.org/neon/kde/ktp-common-internals':
-  kubuntu_unstable:
-    upstream_scm:
-      branch: mklapetek/SpaceBar
-
 '*invent.kde.org/neon/extras/ktorrent':
   'Neon/stable':
     upstream_scm:
@@ -540,10 +535,6 @@
 ## Qt
 
 '*{invent.kde.org/neon/qt,gitlab.com/*/netrunner-debian-qt}/*':
-  kubuntu_unstable:
-    upstream_scm:
-      url: http://code.qt.io/git/qt/<%= name %>.git
-      branch: 5.4
   Neon/release:
     upstream_scm:
       type: uscan
@@ -562,7 +553,7 @@
       url: http://http.debian.net/debian/pool/main/q/<%= name %>-opensource-src/<%= name %>-opensource-src_5.5.1.orig.tar.xz
 
 '*invent.kde.org/neon/qt/qt5webkit':
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: http://code.qt.io/git/qt/qtwebkit.git
       branch: 5.4
@@ -931,12 +922,12 @@
       url: https://invent.kde.org/office/kile.git
 
 '*invent.kde.org/neon/extras/debconf-kde':
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/system/libdebconf-kde.git
 
 '*invent.kde.org/neon/extras/kdeconnect-plasma':
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/network/kdeconnect-kde.git
 
@@ -949,7 +940,7 @@
   '{Neon/release,Neon/release-lts}':
     upstream_scm:
      type: uscan
-  '{kubuntu_unstable,Neon/stable,Neon/unstable}':
+  '{Neon/stable,Neon/unstable}':
     upstream_scm:
       url: https://invent.kde.org/system/libqapt.git
       branch: master
@@ -1086,7 +1077,7 @@
       url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
 
 https://github.com/plasma-phone-packaging/qmlkonsole:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/notmart/qmltermwidget
 
@@ -1095,68 +1086,68 @@ https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
     upstream_scm:
       type: uscan
 https://github.com/plasma-phone-packaging/plasma-phone-settings-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-mobile/plasma-phone-settings.git
 https://github.com/plasma-phone-packaging/kpeoplevcard:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/pim/kpeoplevcard
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-camera-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-camera
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-phone-components-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-phone-components.git
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-mobile-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-mobile
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-settings-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-settings
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-maliit-plugins-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-maliit-plugins.git
 https://github.com/plasma-phone-packaging/plasma-mobile/plasma-samegame-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-samegame
 https://github.com/plasma-phone-packaging/mtp-server:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-mobile/mtp-server.git
 
 https://github.com/plasma-phone-packaging/spacebar:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-mobile/spacebar.git
 
 https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://invent.kde.org/plasma-mobile/plasma-maliit-framework.git
 https://github.com/plasma-phone-packaging/libepoxy:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/anholt/libepoxy.git
 
 https://github.com/plasma-phone-packaging/appstream:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/ximion/appstream.git
 
 https://github.com/plasma-phone-packaging/screenshotapp:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/plasma-apps/screenshotapp.git
 
 https://github.com/plasma-phone-packaging/inputcontext-gtk:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/maliit/inputcontext-gtk.git
       branch: tags/0.99.0
@@ -1209,17 +1200,17 @@ https://github.com/KaidanIM/kaidan-packaging-deb:
       branch: master
 
 https://github.com/debian-packaging/mintupdate:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/blueshell-next/mintupdate
 
 https://github.com/debian-packaging/*mint*:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/linuxmint/<%= name %>
 
 https://github.com/calamares/calamares-debian:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: https://github.com/calamares/calamares
   'master':
@@ -1248,7 +1239,7 @@ https://github.com/netrunner-odroid/xserver-xorg-video-mali-450:
       url: https://github.com/mdrjr/c2_mali_ddx
 
 https://github.com/rpi2-stuff/mesa:
-  '{kubuntu_unstable,Neon/unstable}':
+  Neon/unstable:
     upstream_scm:
       url: git://anongit.freedesktop.org/mesa/mesa
       branch: 11.1
