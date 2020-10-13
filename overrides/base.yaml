@@ -590,19 +590,16 @@
 '*invent.kde.org/neon/backports-focal/pipewire':
   '*':
     upstream_scm:
-      type: tarball
       type: uscan
 
 '*invent.kde.org/neon/backports-focal/xdg-desktop-portal':
   '*':
     upstream_scm:
-      type: tarball
       type: uscan
 
 '*invent.kde.org/neon/backports-focal/xdg-dbus-proxy':
   '*':
     upstream_scm:
-      type: tarball
       type: uscan
 
 '*invent.kde.org/neon/backports-focal/mlt':
