@@ -359,6 +359,11 @@
     upstream_scm:
       branch: 5.x
 
+'*invent.kde.org/neon/neon-packaging/stellarsolver':
+  '*':
+    upstream_scm:
+      url: https://github.com/rlancaste/stellarsolver.git
+
 '*invent.kde.org/neon/neon-packaging/maliit-framework':
   '*':
     upstream_scm:
