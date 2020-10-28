@@ -41,7 +41,6 @@ invent.kde.org/neon:
     - kdenlive
     - massif-visualizer
     - kmymoney
-    - ubiquity
     - kdiff3
     - zxing-cpp
     - ubuntu-release-upgrader:

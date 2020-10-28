@@ -854,10 +854,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/forks/ubiquity':
-  '*':
-    upstream_scm: null
-
 '*invent.kde.org/neon/backports-bionic/debhelper':
   '*':
     upstream_scm: null

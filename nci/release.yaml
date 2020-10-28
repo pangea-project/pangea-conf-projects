@@ -39,7 +39,6 @@ invent.kde.org/neon:
     - kdenlive
     - massif-visualizer
     - kmymoney
-    - ubiquity
     - xf86-video-armsoc
     - kdiff3
     - zxing-cpp
