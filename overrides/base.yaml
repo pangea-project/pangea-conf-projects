@@ -1033,12 +1033,6 @@
       type: tarball
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
-'*invent.kde.org/neon/extras/grantlee':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/grantlee5-5.2.0.tar.gz
-
 ## Mobile
 
 ### Xorg
