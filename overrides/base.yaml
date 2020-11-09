@@ -1033,6 +1033,12 @@
       type: tarball
       url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
 
+'*invent.kde.org/neon/extras/grantlee':
+  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
+
 ## Mobile
 
 ### Xorg
