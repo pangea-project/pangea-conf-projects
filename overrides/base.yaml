@@ -359,6 +359,11 @@
     upstream_scm:
       branch: 5.x
 
+'*invent.kde.org/neon/neon-packaging/libetebase':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/stellarsolver':
   '*':
     upstream_scm:
