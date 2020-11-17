@@ -12,6 +12,7 @@ invent.kde.org/neon:
   - mobile:
     - '*'
   - forks:
+    - qtkeychain
     - kup-backup
     - kid3
     - qml-box2d

@@ -8,6 +8,7 @@ invent.kde.org/neon:
   - neon:
     - '*'
   - forks:
+    - qtkeychain
     - kup-backup
     - kid3
     - kpeoplevcard

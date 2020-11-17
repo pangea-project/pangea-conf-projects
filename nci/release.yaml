@@ -10,6 +10,7 @@ invent.kde.org/neon:
   - mobile:
     - plasma-phone-components
   - forks:
+    - qtkeychain
     - kup-backup
     - kid3
     - kpeoplevcard
