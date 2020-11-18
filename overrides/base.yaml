@@ -793,6 +793,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/forks/ofono':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/forks/kup-backup':
   'Neon/unstable':
     upstream_scm:
