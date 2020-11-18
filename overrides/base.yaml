@@ -1092,6 +1092,12 @@
       type: tarball
       url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
 
+'*invent.kde.org/neon/neon-packaging/ofono-qt':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
+
 https://github.com/plasma-phone-packaging/qmlkonsole:
   Neon/unstable:
     upstream_scm:
