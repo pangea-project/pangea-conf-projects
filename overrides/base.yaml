@@ -364,6 +364,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/libquotient':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/stellarsolver':
   '*':
     upstream_scm:
