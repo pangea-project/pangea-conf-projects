@@ -10,7 +10,7 @@ invent.kde.org/neon:
   - neon:
     - '*'
   - mobile:
-    - plasma-phone-components
+    - '*'
   - forks:
     - qtkeychain
     - kup-backup
