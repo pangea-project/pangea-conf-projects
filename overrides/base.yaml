@@ -597,6 +597,16 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/fwupd':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/libgusb':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/systemd':
   '*':
     upstream_scm:
