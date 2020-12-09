@@ -296,6 +296,7 @@
 '*invent.kde.org/neon/neon/debug-installer':
   '*':
     upstream_scm:
+      type: git
       url: https://invent.kde.org/system/drkonqi-pk-debug-installer.git
 
 '*invent.kde.org/neon/neon/settings':
