@@ -371,15 +371,12 @@
     upstream_scm:
       url: https://github.com/quotient-im/libQuotient
       branch: master
-'*invent.kde.org/neon/neon-packaging/libquotient':
   'Neon/stable':
     upstream_scm:
       type: uscan
-'*invent.kde.org/neon/neon-packaging/libquotient':
   'Neon/release':
     upstream_scm:
       type: uscan
-'*invent.kde.org/neon/neon-packaging/libquotient':
   'Neon/release-lts':
     upstream_scm:
       type: uscan
