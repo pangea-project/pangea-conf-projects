@@ -369,7 +369,8 @@
 '*invent.kde.org/neon/neon-packaging/libquotient':
   '*':
     upstream_scm:
-      type: uscan
+      url: https://github.com/quotient-im/libQuotient
+      branch: master
 
 '*invent.kde.org/neon/neon-packaging/stellarsolver':
   '*':
