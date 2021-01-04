@@ -9,6 +9,8 @@ invent.kde.org/neon:
     - '*'
   - neon:
     - '*'
+    - repositories:
+        branch: Neon/unstable
   - mobile:
     - '*'
   - forks:

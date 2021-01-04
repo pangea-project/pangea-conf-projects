@@ -7,6 +7,8 @@ invent.kde.org/neon:
     - '*'
   - neon:
     - '*'
+    - repositories:
+        branch: Neon/unstable
   - forks:
     - qtkeychain
     - kup-backup
