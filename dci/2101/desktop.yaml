@@ -94,6 +94,8 @@ github.com:
         branch: Netrunner/21.01
     - artwork-wallpapers-netrunner-1908-desktop:
         branch: Netrunner/21.01
+    - artwork-wallpapers-netrunner-2101-desktop:
+        branch: Netrunner/21.01
     - artwork-lnf-theme-netrunner-indigo:
         branch: Netrunner/21.01
     - artwork-windows-cursor:
