@@ -126,6 +126,8 @@ github.com:
   - netrunner-desktop:
     - '{base}*':
         branch: Netrunner/21.01
+    - calamares-desktop:
+        branch: Netrunner/21.01
     - netrunner-desktop:
         branch: Netrunner/21.01
     - netrunner-desktop-settings:
