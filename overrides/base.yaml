@@ -356,6 +356,12 @@
 
 # Neon-packaging
 
+'*invent.kde.org/neon/neon-packaging/kde-nomodeset':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kde-nomodeset.git
+
 '*invent.kde.org/neon/extras/calamares':
   Neon/unstable:
     upstream_scm:
