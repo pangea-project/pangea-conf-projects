@@ -354,6 +354,10 @@
   '*':
     upstream_scm: null
 
+'*invent.kde.org/neon/neon/mysql-overrides':
+  '*':
+    upstream_scm: null
+
 # Neon-packaging
 
 '*invent.kde.org/neon/neon-packaging/kde-nomodeset':
