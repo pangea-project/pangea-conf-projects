@@ -40,6 +40,12 @@ github.com:
         branch: Netrunner/21.01
     - plasma-browser-integration:
         branch: Netrunner/21.01
+    - xdg-utils-cxx:
+        branch: Netrunner/21.01
+    - libappimage:
+        branch: Netrunner/21.01
+    - appimagelauncher:
+        branch: Netrunner/21.01
         
   - netrunner-common:
     - default-settings-thunderbird:
