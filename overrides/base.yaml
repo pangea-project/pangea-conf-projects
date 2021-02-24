@@ -358,6 +358,10 @@
   '*':
     upstream_scm: null
 
+'*invent.kde.org/neon/neon/configure-inotify':
+  '*':
+    upstream_scm: null
+
 # Neon-packaging
 
 '*invent.kde.org/neon/neon-packaging/kde-nomodeset':
@@ -1352,7 +1356,7 @@ https://github.com/dci-extras-packaging/libappimage:
   '*':
     upstream_scm:
       type: uscan
-      
+
 https://github.com/dci-extras-packaging/plasma-browser-integration:
   '*':
     upstream_scm:
