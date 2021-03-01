@@ -396,7 +396,7 @@
       type: uscan
 
 '*invent.kde.org/neon/neon-packaging/libquotient':
-  'Neon/stable':
+  'Neon/unstable':
     upstream_scm:
       type: uscan
   'Neon/stable':
