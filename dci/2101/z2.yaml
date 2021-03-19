@@ -1,10 +1,4 @@
 github.com:
-  - ds9-common:
-    - default-settings-xsession:
-        branch: Netrunner/21.01
-    - default-settings-kdeapps:
-        branch: Netrunner/21.01
-        
   - dci-extras-packaging:
     - 0-toggle:
         branch: Netrunner/21.01
@@ -35,20 +29,22 @@ github.com:
     - plasma-browser-integration:
         branch: Netrunner/21.01
         
-  - ds9-artwork:
-    - artwork-sddm-simple:
-        branch: Netrunner/21.01
-        
   - netrunner-common:
     - netrunner-settings-cockpit:
         branch: Netrunner/21.01
     - netrunner-settings-firefox-pinebook:
+        branch: Netrunner/21.01
+    - default-settings-xsession:
+        branch: Netrunner/21.01
+    - default-settings-kdeapps:
         branch: Netrunner/21.01
         
   - netrunner-artwork:
     - artwork-lnf-netrunner-zeronet-rock64:
         branch: Netrunner/21.01
     - artwork-wallpapers-netrunner-zeronet-rock64:
+        branch: Netrunner/21.01
+    - artwork-sddm-simple:
         branch: Netrunner/21.01
         
   - netrunner-rock64:
