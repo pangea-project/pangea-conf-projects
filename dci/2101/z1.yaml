@@ -1,0 +1,69 @@
+github.com:
+  - ds9-common:
+    - default-settings-xsession:
+        branch: Netrunner/21.01
+    - default-settings-kdeapps:
+        branch: Netrunner/21.01
+        
+  - dci-extras-packaging:
+    - 0-toggle:
+        branch: Netrunner/21.01
+    - libssl1.0.2:
+        branch: Netrunner/21.01
+        
+  - ds9-artwork:
+    - artwork-sddm-simple:
+        branch: Netrunner/21.01
+        
+  - netrunner-common:
+    - netrunner-settings-cockpit:
+        branch: Netrunner/21.01
+    - netrunner-settings-firefox-pinebook:
+        branch: Netrunner/21.01
+        
+  - netrunner-artwork:
+    -  artwork-lnf-netrunner-zeronet:
+        branch: Netrunner/21.01
+    - artwork-wallpapers-netrunner-zeronet-c1:
+        branch: Netrunner/21.01
+        
+  - netrunner-odroid:
+    - c1-calamares-core:
+        branch: Netrunner/21.01
+    - c1-netrunner-core-settings:
+        branch: Netrunner/21.01
+    - c1-uboot:
+        branch: Netrunner/21.01
+    - c1-bootini:
+        branch: Netrunner/21.01
+    - c1-linux:
+        branch: Netrunner/21.01
+    - c1-netrunner-core-meta:
+        branch: Netrunner/21.01
+    - mali-x11:
+        branch: Netrunner/21.01
+    - odroid-boot-services:
+        branch: Netrunner/21.01
+    - xserver-xorg-video-mali:
+        branch: Netrunner/21.01
+        
+  - netrunner-zeronet:
+    - base-files:
+        branch: Netrunner/21.01
+    - c1-calamares-zeronet:
+        branch: Netrunner/21.01
+    - c1-netrunner-zeronet-packages:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-desktop-settings:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-tor-settings:
+        branch: Netrunner/21.01
+    - rock64-calamares-zeronet:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-iptable-settings:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-cockpit-module:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-manual-cockpit-module:
+        branch: Netrunner/21.01
+        

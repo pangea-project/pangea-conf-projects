@@ -67,7 +67,7 @@ github.com:
         
   - netrunner-core:
     - '{calamares-core,base}*':
-        branch: master
+        branch: Netrunner/21.01
     - netrunner-core:
         branch: Netrunner/21.01
     - netrunner-core-settings:

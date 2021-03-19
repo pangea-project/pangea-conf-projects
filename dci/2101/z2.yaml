@@ -1,0 +1,83 @@
+github.com:
+  - ds9-common:
+    - default-settings-xsession:
+        branch: Netrunner/21.01
+    - default-settings-kdeapps:
+        branch: Netrunner/21.01
+        
+  - dci-extras-packaging:
+    - 0-toggle:
+        branch: Netrunner/21.01
+    - zram-config:
+        branch: Netrunner/21.01
+    - samba-mounter:
+        branch: Netrunner/21.01
+    - rootactions-servicemenu:
+        branch: Netrunner/21.01
+    - mintupdate:
+        branch: Netrunner/21.01
+    - mint-common:
+        branch: Netrunner/21.01
+    - simplemenu:
+        branch: Netrunner/21.01
+    - kcm-about-extended:
+        branch: Netrunner/21.01
+    - kcm-plasma-services:
+        branch: Netrunner/21.01
+    - carbon-qt:
+        branch: Netrunner/21.01
+    - carbon-gtk2:
+        branch: Netrunner/21.01
+    - carbon-gtk3:
+        branch: Netrunner/21.01
+    - libssl1.0.2:
+        branch: Netrunner/21.01
+    - plasma-browser-integration:
+        branch: Netrunner/21.01
+        
+  - ds9-artwork:
+    - artwork-sddm-simple:
+        branch: Netrunner/21.01
+        
+  - netrunner-common:
+    - netrunner-settings-cockpit:
+        branch: Netrunner/21.01
+    - netrunner-settings-firefox-pinebook:
+        branch: Netrunner/21.01
+        
+  - netrunner-artwork:
+    - artwork-lnf-netrunner-zeronet-rock64:
+        branch: Netrunner/21.01
+    - artwork-wallpapers-netrunner-zeronet-rock64:
+        branch: Netrunner/21.01
+        
+  - netrunner-rock64:
+    - linux-kernel:
+        branch: Netrunner/21.01
+    - xf86-video-armsoc:
+        branch: Netrunner/21.01
+    - libmali:
+        branch: Netrunner/21.01
+    - rock64-uboot:
+        branch: Netrunner/21.01
+    - rock64-boot-services:
+        branch: Netrunner/21.01
+        
+  - netrunner-zeronet:
+    - base-files:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-desktop-settings:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-tor-settings:
+        branch: Netrunner/21.01
+    - rock64-netrunner-zeronet-packages:
+        branch: Netrunner/21.01
+    - rock64-calamares-zeronet:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-iptable-settings:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-cockpit-module:
+        branch: Netrunner/21.01
+    - netrunner-zeronet-manual-cockpit-module:
+        branch: Netrunner/21.01
+        
