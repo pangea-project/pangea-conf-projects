@@ -934,7 +934,7 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/backports-bionic/debhelper':
+'*invent.kde.org/neon/backports-focal/debhelper':
   '*':
     upstream_scm: null
 
