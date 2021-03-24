@@ -589,7 +589,7 @@
 
 ## Qt
 
-'*{invent.kde.org/neon/qt,gitlab.com/*/netrunner-debian-qt}/*':
+'*{invent.kde.org/neon/qt,gitlab.com/*}/*':
   Neon/release:
     upstream_scm:
       type: uscan
@@ -602,10 +602,6 @@
   Neon/testing-qt:
     upstream_scm:
       type: uscan
-  Netrunner/stable:
-    upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/q/<%= name %>-opensource-src/<%= name %>-opensource-src_5.5.1.orig.tar.xz
 
 '*invent.kde.org/neon/qt/qt5webkit':
   Neon/unstable:
@@ -1441,44 +1437,10 @@ https://github.com/dci-extras-packaging/libump:
     upstream_scm:
       url: https://github.com/libv/libump
 
-'https://github.com/dci-debian-{qt,frameworks,plasma,kde-applications,kde-extras}/*':
-  '*':
-    upstream_scm:
-      type: uscan
-
-https://github.com/dci-debian-plasma/plymouth-kcm:
-  'Netrunner/17.03':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/plasma/plymouth-kcm.git
-
-https://github.com/ds9-common/sortinglaunchers:
-  'master':
-    upstream_scm:
-      type: git
-      url: https://anongit.kde.org/scratch/hein/sortinglaunchers.git
-
-https://github.com/ds9-common/anttoolbar:
-  'master':
-    upstream_scm:
-      type: uscan
-
 'https://github.com/dci-debian-packaging-backports/*':
   '*':
     upstream_scm:
       type: uscan
-
-https://github.com/dci-debian-packaging-backports/libwlocate:
-  '*':
-    upstream_scm:
-      type: tarball
-      url: 'https://launchpad.net/ubuntu/+archive/primary/+files/libwlocate_0.0git20130108.orig.tar.gz'
-
-https://github.com/dci-debian-packaging-backports/libyuv:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://chromium.googlesource.com/libyuv/libyuv/
 
 https://github.com/netrunner-odroid/c1-uboot:
   '*':
@@ -1555,13 +1517,6 @@ https://github.com/shadeslayer/kde-l10n-common:
     upstream_scm:
       type: git
       url: https://github.com/shadeslayer/<%= name %>
-      branch: master
-
-https://github.com/dci-debian-kde-extras/qtcurve:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/qtcurve.git
       branch: master
 
 '*{github.com/halium-packaging,gitlab.com/debian-pm}*android-headers':
