@@ -934,10 +934,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/backports-focal/debhelper':
-  '*':
-    upstream_scm: null
-
 '*invent.kde.org/neon/extras/drumstick':
   'Neon/unstable':
     upstream_scm:
