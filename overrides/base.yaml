@@ -363,7 +363,7 @@
     upstream_scm: null
 
 #DCI natives
-'*github.com/dci-extras-packaging/rootactions-servicemenu':
+'https://github.com/dci-extras-packaging/rootactions-servicemenu':
   '*':
   upstream_scm: null
 
