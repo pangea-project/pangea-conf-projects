@@ -703,11 +703,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/backports-focal/debhelper':
-  '*':
-    upstream_scm:
-      type: nil
-
 '*invent.kde.org/neon/extras/telepathy-qt':
   '*':
     upstream_scm:
