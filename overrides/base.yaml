@@ -1394,7 +1394,6 @@ https://github.com/dci-extras-packaging/samba-mounter:
   '*':
     upstream_scm:
       url: https://invent.kde.org/system/samba-mounter.git
-      branch: master
 
 'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
   '*':
@@ -1430,7 +1429,6 @@ https://github.com/dci-extras-packaging/simplemenu:
   '*':
     upstream_scm:
       url: https://invent.kde.org/plasma/plasma-simplemenu.git
-      branch: master
 
 https://github.com/dci-extras-packaging/kcm-kernel-config:
   '*':
