@@ -1343,11 +1343,6 @@ https://github.com/dci-extras-packaging/appimagelauncher:
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/appimagelauncher:
-  '*':
-    upstream_scm:
-      type: uscan
-
 https://github.com/dci-extras-packaging/xdg-utils-cxx:
   '*':
     upstream_scm:
@@ -1358,21 +1353,10 @@ https://github.com/dci-extras-packaging/libappimage:
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/plasma-browser-integration:
+'https://github.com/dci-extras-packaging/groupingplasmoid':
   '*':
     upstream_scm:
-      type: uscan
-
-https://github.com/dci-extras-packaging/mint-common:
-  '*':
-    upstream_scm:
-      url: https://github.com/linuxmint/mint-common
-      type: git
-
-https://github.com/dci-extras-packaging/groupingplasmoid:
-  '*':
-    upstream_scm:
-      url: https://anongit.kde.org/scratch/davidedmundson/groupingplasmoid.git
+    url: https://invent.kde.org/davidedmundson/groupingplasmoid
       type: git
 
 'https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,latte-dock,marble,libssl1.0.2}*':
@@ -1380,20 +1364,21 @@ https://github.com/dci-extras-packaging/groupingplasmoid:
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/calamares-plasmalnf:
+'https://github.com/dci-extras-packaging/calamares-plasmalnf':
   '*':
     upstream_scm:
       url: https://github.com/calamares/calamares
       branch: master
 
-https://github.com/dci-extras-packaging/skype:
+'https://github.com/dci-extras-packaging/skype':
   '*':
     upstream_scm:
 
-https://github.com/dci-extras-packaging/samba-mounter:
+'https://github.com/dci-extras-packaging/samba-mounter':
   '*':
     upstream_scm:
       url: https://invent.kde.org/system/samba-mounter.git
+      type: git
 
 'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
   '*':
@@ -1405,111 +1390,107 @@ https://github.com/dci-extras-packaging/samba-mounter:
     upstream_scm:
       url: https://github.com/ds9-extras/<%= name %>
 
-https://github.com/dci-extras-packaging/imagewriter:
+'https://github.com/dci-extras-packaging/imagewriter':
   '*':
     upstream_scm:
       url: https://github.com/openSUSE/imagewriter
 
-https://github.com/dci-extras-packaging/ksuperkey:
+'https://github.com/dci-extras-packaging/ksuperkey':
   '*':
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
-https://github.com/dci-extras-packaging/{yarock,xdgurl,telepathy-,telegram-}*:
+'https://github.com/dci-extras-packaging/{yarock,xdgurl,telepathy-,telegram-}*':
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer:
+'https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer':
   '*':
     upstream_scm:
       type: uscan
 
-https://github.com/dci-extras-packaging/simplemenu:
+'https://github.com/dci-extras-packaging/simplemenu':
   '*':
     upstream_scm:
       url: https://invent.kde.org/plasma/plasma-simplemenu.git
+      type: git
 
-https://github.com/dci-extras-packaging/kcm-kernel-config:
+'https://github.com/dci-extras-packaging/kcm-kernel-config':
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/kernel-kcm
 
-https://github.com/dci-extras-packaging/0-toggle:
+'https://github.com/dci-extras-packaging/0-toggle':
   '*':
     upstream_scm:
       url: https://github.com/plasma-extensions/plasma-widget-0-toggle
 
-https://github.com/dci-extras-packaging/libump:
+'https://github.com/dci-extras-packaging/libump':
   '*':
     upstream_scm:
       url: https://github.com/libv/libump
 
-'https://github.com/dci-debian-packaging-backports/*':
-  '*':
-    upstream_scm:
-      type: uscan
-
-https://github.com/netrunner-odroid/c1-uboot:
+'https://github.com/netrunner-odroid/c1-uboot':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/mdrjr/c1_uboot_binaries
 
-https://github.com/netrunner-pine64/pine64-uboot:
+'https://github.com/netrunner-pine64/pine64-uboo't:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/ayufan-pine64/boot-tools
 
-https://github.com/netrunner-pine64/libvdpau-sunxi:
+'https://github.com/netrunner-pine64/libvdpau-sunxi':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/davidedmundson/libvdpau-sunxi
       branch: wpackaging
 
-https://github.com/netrunner-pine64/libcedrus:
+'https://github.com/netrunner-pine64/libcedrus':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/linux-sunxi/libcedrus
       branch: master
 
-https://github.com/netrunner-odroid/c2-uboot:
+'https://github.com/netrunner-odroid/c2-uboot':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/netrunner-odroid/c2_uboot_binaries
 
-https://github.com/netrunner-odroid/c1-bootini:
+'https://github.com/netrunner-odroid/c1-bootini':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/mdrjr/c1_bootini
 
-https://github.com/netrunner-odroid/c1-linux:
+'https://github.com/netrunner-odroid/c1-linux':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/hardkernel/linux
       branch: odroidc-3.10.y
 
-https://github.com/netrunner-odroid/c2-linux:
+'https://github.com/netrunner-odroid/c2-linux':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/hardkernel/linux
       branch: odroidc2-3.14.y
 
-https://github.com/netrunner-pine64/pine64-linux:
+'https://github.com/netrunner-pine64/pine64-linux':
   '*':
     upstream_scm:
       type: git
       url: https://github.com/ayufan-pine64/linux-pine64
       branch: my-hacks-1.2-with-drm
 
-https://github.com/shadeslayer/kde-l10n-common:
+'https://github.com/shadeslayer/kde-l10n-common':
   '*':
     upstream_scm:
       type: kde-l10n
