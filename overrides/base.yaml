@@ -1356,10 +1356,10 @@ https://github.com/dci-extras-packaging/libappimage:
 'https://github.com/dci-extras-packaging/groupingplasmoid':
   '*':
     upstream_scm:
-    url: https://invent.kde.org/davidedmundson/groupingplasmoid
+      url: https://invent.kde.org/davidedmundson/groupingplasmoid
       type: git
 
-'https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,latte-dock,marble,libssl1.0.2}*':
+https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,latte-dock,marble,libssl1.0.2}*:
   '*':
     upstream_scm:
       type: uscan
@@ -1437,7 +1437,7 @@ https://github.com/dci-extras-packaging/libappimage:
       type: git
       url: https://github.com/mdrjr/c1_uboot_binaries
 
-'https://github.com/netrunner-pine64/pine64-uboo't:
+'https://github.com/netrunner-pine64/pine64-uboot':
   '*':
     upstream_scm:
       type: git
