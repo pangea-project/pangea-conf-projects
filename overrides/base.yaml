@@ -705,8 +705,7 @@
 
 '*invent.kde.org/neon/backports-focal/debhelper':
   '*':
-    upstream_scm:
-      type: null
+    upstream_scm: null
 
 '*invent.kde.org/neon/extras/telepathy-qt':
   '*':
