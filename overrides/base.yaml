@@ -366,6 +366,7 @@
 'github.com/dci-extras-packaging/rootactions-servicemenu':
   '*':
     upstream_scm: null
+
 'github.com/netrunner-desktop/netrunner-desktop':
   '*':
     upstream_scm: null
@@ -373,7 +374,7 @@
 # Neon-packaging
 
 '*invent.kde.org/neon/neon-packaging/kde-nomodeset':
-  '*':release
+  '*':
     upstream_scm:
       type: git
       url: https://invent.kde.org/system/kde-nomodeset.git
