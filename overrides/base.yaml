@@ -33,237 +33,247 @@
       url: https://invent.kde.org/plasma/discover.git
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/bluedevil':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/breeze':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/breeze-grub':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/breeze-gtk':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/breeze-plymouth':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/drkonqi':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kactivitymanagerd':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kde-cli-tools':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kde-gtk-config':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kdecoration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kdeplasma-addons':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kgamma5':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/khotkeys':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kinfocenter':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kmenuedit':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kscreen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kscreenlocker':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/ksshaskpass':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/ksysguard':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kwallet-pam':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kwayland-integration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kwin':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kwrited':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/libkscreen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/libksysguard':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/milou':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/oxygen':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-desktop':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-integration':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-nm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-pa':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-sdk':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-vault':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-workspace':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plasma-workspace-wallpapers':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/plymouth-kcm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/polkit-kde-agent-1':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/powerdevil':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/sddm-kcm':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/systemsettings':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/xdg-desktop-portal-kde':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kwayland-server':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/neon-packaging/plasma-disks':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/neon-packaging/plasma-firewall':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/neon-packaging/plasma-systemmonitor':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/neon-packaging/qqc2-breeze-style':
   'Neon/stable':
     upstream_scm:
-      branch: Plasma/5.21
+      branch: Plasma/5.22
+
+'*invent.kde.org/neon/neon-packaging/layer-shell-qt':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.22
+
+'*invent.kde.org/neon/neon-packaging/ksystemstats':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.22
 
 '*invent.kde.org/neon/kde/kcalcore':
   'Neon/unstable':
