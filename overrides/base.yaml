@@ -606,50 +606,6 @@
     upstream_scm:
       branch: 4.9
 
-## Qt
-
-'*{invent.kde.org/neon/qt,gitlab.com/*}/*':
-  Neon/release:
-    upstream_scm:
-      type: uscan
-  Neon/mobile:
-    upstream_scm:
-      type: uscan
-  Neon/testing:
-    upstream_scm:
-      type: uscan
-  Neon/testing-qt:
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/qt/qt5webkit':
-  Neon/unstable:
-    upstream_scm:
-      url: http://code.qt.io/git/qt/qtwebkit.git
-      branch: 5.4
-  Neon/release:
-    upstream_scm:
-      type: uscan
-  Neon/testing:
-    upstream_scm:
-      type: uscan
-  Neon/testing-qt:
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/qt/qtpim':
-  Neon/release:
-    upstream_scm:
-      type: git
-      url: https://code.qt.io/qt/qtpim.git
-      branch: dev
-
-'*invent.kde.org/neon/qt/qtfeedback':
-  Neon/release:
-    upstream_scm:
-      type: git
-      url: https://code.qt.io/qt/qtfeedback.git
-
 ### Backports
 
 '*invent.kde.org/neon/backports-focal/libgwenhywfar':
