@@ -642,10 +642,10 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/backports-focal/fwupd$':
+'*invent.kde.org/neon/backports-focal/fwupd':
   '*':
     upstream_scm:
-      type: tarball
+      type: uscan
 
 '*invent.kde.org/neon/backports-focal/libgusb':
   '*':
@@ -693,6 +693,10 @@
       type: uscan
 
 '*invent.kde.org/neon/backports-focal/debhelper':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/backports-focal/fwupd-signed':
   '*':
     upstream_scm: null
 
