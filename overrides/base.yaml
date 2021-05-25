@@ -645,7 +645,7 @@
 '*invent.kde.org/neon/backports-focal/fwupd$':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
 
 '*invent.kde.org/neon/backports-focal/libgusb':
   '*':
@@ -678,7 +678,7 @@
       type: uscan
 
 '*invent.kde.org/neon/backports-focal/mlt':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
+  '*':
     upstream_scm:
       type: uscan
 
@@ -772,11 +772,6 @@
       type: uscan
 
 '*invent.kde.org/neon/backports-bionic/libzip':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/wayland-protocols':
   '*':
     upstream_scm:
       type: uscan
