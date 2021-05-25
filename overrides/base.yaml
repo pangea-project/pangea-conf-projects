@@ -608,15 +608,7 @@
 
 ### Qt
 
-# qtfeedback is super special as the qtproject hasn't really pursued its
-# development but Bhushan says it is generally useful. So. Build the
-# master branch for the time being in lieu of other options.
-'*invent.kde.org/neon/qt/qtfeedback':
-  '*':
-    upstream_scm:
-      type: git
-      branch: master
-      url: https://code.qt.io/qt/qtfeedback.git
+# Qt lives in its own file!
 
 ### Backports
 

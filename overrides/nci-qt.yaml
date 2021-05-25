@@ -1,0 +1,309 @@
+# Qt
+
+# Global rule for everything
+'*{invent.kde.org/neon/qt,gitlab.com/*}/*':
+  '*':
+    upstream_scm:
+      type: uscan
+
+# Special mobile stuffs:
+'*invent.kde.org/neon/qt/qtpim':
+  Neon/release:
+    upstream_scm:
+      type: git
+      url: https://code.qt.io/qt/qtpim.git
+      branch: dev
+
+# qtfeedback is super special as the qtproject hasn't really pursued its
+# development but Bhushan says it is generally useful. So. Build the
+# master branch for the time being in lieu of other options.
+'*invent.kde.org/neon/qt/qtfeedback':
+  '*':
+    upstream_scm:
+      type: git
+      branch: master
+      url: https://code.qt.io/qt/qtfeedback.git
+
+########
+# Forked by KDE and has a branch. Force all branches onto the git build.
+########
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtbase':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtbase
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtserialport':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtserialport
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qttools':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qttools
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtdeclarative':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtdeclarative
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtgraphicaleffects':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtgraphicaleffects
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtsensors':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtsensors
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtdatavis3d':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtdatavis3d
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtfeedback':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtfeedback
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtcharts':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtcharts
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtpim':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtpim
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebchannel':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebchannel
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtspeech':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtspeech
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtscxml':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtscxml
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtx11extras':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtx11extras
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qt3d':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qt3d
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebengine':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebengine
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtnetworkauth':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtnetworkauth
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtsystems':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtsystems
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebsockets':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebsockets
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtimageformats':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtimageformats
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtlocation':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtlocation
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtxmlpatterns':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtxmlpatterns
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtconnectivity':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtconnectivity
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtgamepad':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtgamepad
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwayland':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwayland
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebkit':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebkit
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebview':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebview
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebkit-examples':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtwebkit-examples
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qttranslations':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qttranslations
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtquickcontrols':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtquickcontrols
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtremoteobjects':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtremoteobjects
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtmultimedia':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtmultimedia
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtdoc':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtdoc
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtserialbus':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtserialbus
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtvirtualkeyboard':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtvirtualkeyboard
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtstyleplugins':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtstyleplugins
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtquickcontrols2':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtquickcontrols2
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtscript':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtscript
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtsvg':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtsvg
+      branch: kde/5.15
+      type: git
+
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtlottie':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtlottie
+      branch: kde/5.15
+      type: git
