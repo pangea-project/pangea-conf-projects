@@ -906,7 +906,7 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/forks/pyqt-sip5':
+'*invent.kde.org/neon/forks/pyqt5-sip':
   '*':
     upstream_scm:
       type: uscan
