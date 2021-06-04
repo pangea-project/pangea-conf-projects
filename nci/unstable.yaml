@@ -48,6 +48,7 @@ invent.kde.org/neon:
     - ubuntu-release-upgrader:
         branch: Neon/unstable
     - pyqt5
+    - pyqt5webengine
     - pyqt5-sip
     - pyqt-builder
     - sip5
