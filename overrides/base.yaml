@@ -901,6 +901,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/forks/qscintilla2':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/forks/pyqt5webengine':
   '*':
     upstream_scm:
