@@ -436,14 +436,12 @@
 '*invent.kde.org/neon/neon-packaging/maliit-framework':
   '*':
     upstream_scm:
-      url: https://github.com/maliit/framework.git
-      branch: master
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/maliit-keyboard':
   '*':
     upstream_scm:
-      url: https://github.com/maliit/keyboard.git
-      branch: master
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/falkon':
   'Neon/stable':
