@@ -1551,7 +1551,7 @@ https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-cust
     upstream_scm:
       type: uscan
 
-https://github.com/halium-packaging/nemo-gst-interfaces:
+'*{github.com/halium-packaging,gitlab.com/debian-pm/halium}/nemo-gst-interfaces':
   master:
     upstream_scm:
       type: git
@@ -1563,7 +1563,7 @@ https://github.com/halium-packaging/nemo-gst-interfaces:
       type: git
       url: https://github.com/sailfishos/<%= name %>
 
-https://github.com/halium-packaging/gst-omx:
+'*{github.com/halium-packaging,gitlab.com/debian-pm/halium}/gst-omx':
   master:
     upstream_scm:
       type: tarball

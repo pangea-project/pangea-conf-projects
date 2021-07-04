@@ -6,14 +6,11 @@ gitlab.com:
         branch: master
     - halium/pulseaudio:
         branch: Neon/mobile
-
-github.com:
-  - halium-packaging:
-    - nemo-gst-interfaces:
+    - halium/nemo-gst-interfaces:
         branch: master
-    - droidmedia:
+    - halium/droidmedia:
         branch: master
-    - gst-omx:
+    - halium/gst-omx:
         branch: master
-    - gst-droid:
+    - halium/gst-droid:
         branch: master
