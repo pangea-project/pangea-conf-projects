@@ -610,6 +610,21 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/libglib-testing':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/appstream-glib':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/malcontent':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/ostree':
   '*':
     upstream_scm:
