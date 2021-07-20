@@ -21,5 +21,3 @@ invent.kde.org/neon:
   - forks:
     - pyqt5:
         branch: Neon/unstable
-    - python-qt4:
-        branch: master

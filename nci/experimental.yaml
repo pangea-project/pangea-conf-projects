@@ -22,8 +22,6 @@ invent.kde.org/neon:
   - forks:
     - pyqt5:
         branch: Neon/testing
-    - python-qt4:
-        branch: master
   - extras:
     - skrooge:
         branch: Neon/release

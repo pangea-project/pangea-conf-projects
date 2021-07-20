@@ -21,8 +21,6 @@ invent.kde.org/neon:
     - skrooge
     - base-files
     - live-build
-    - aptdaemon:
-        branch: master
     - gcompris
     - libarchive
     - k3b
