@@ -53,6 +53,7 @@ invent.kde.org/neon:
     - sip5
     - sip4:
         branch: Neon/unstable
+    - ofono
   - 3rdparty:
     - '*'
   - backports-focal:
