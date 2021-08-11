@@ -1311,7 +1311,7 @@ https://github.com/mycroft-packaging/mycroft-gui:
 https://github.com/mycroft-packaging/mycroft-skill-installer:
   '*':
     upstream_scm:
-      url: https://github.com/AIIX/MycroftSkillInstaller
+      url: https://invent.kde.org/plasma-bigscreen/mycroft-skill-installer
 
 https://github.com/mycroft-packaging/lottie-qml:
   '*':
