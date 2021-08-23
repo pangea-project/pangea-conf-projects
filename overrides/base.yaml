@@ -610,6 +610,16 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/libavif':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/dav1d':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/flatpak':
   '*':
     upstream_scm:
