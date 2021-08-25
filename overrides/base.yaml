@@ -610,6 +610,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/wayland-utils':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/libavif':
   '*':
     upstream_scm:
