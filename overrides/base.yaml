@@ -894,6 +894,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/forks/jasper':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/forks/qtkeychain':
   '*':
     upstream_scm:
