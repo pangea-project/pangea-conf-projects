@@ -14,6 +14,7 @@ invent.kde.org/neon:
   - mobile:
     - '*'
   - forks:
+    - jasper
     - qtkeychain
     - kup-backup
     - kid3
