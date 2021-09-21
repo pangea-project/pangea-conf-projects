@@ -1,0 +1,4 @@
+github.com:
+  - zynthbox:
+    - zynthbox-meta-packaging:
+        branch: main
