@@ -245,6 +245,11 @@
     upstream_scm:
       branch: Plasma/5.23
 
+'*invent.kde.org/neon/neon-packaging/qcoro':
+  'Neon/stable':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/plasma-disks':
   'Neon/stable':
     upstream_scm:
