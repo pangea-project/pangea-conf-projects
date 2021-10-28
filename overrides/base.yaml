@@ -618,7 +618,8 @@
 '*invent.kde.org/neon/backports-focal/libaccounts-qt':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libaccounts-qt/1.16-2/libaccounts-qt_1.16.orig.tar.gz
 
 '*invent.kde.org/neon/backports-focal/cmake':
   '*':
