@@ -1,79 +1,79 @@
 github.com:
   - dci-extras-packaging:
     - 0-toggle:
-        branch: master
+        branch: Netrunner/22
     - zram-config:
-        branch: master
+        branch: Netrunner/22
     - samba-mounter:
-        branch: master
+        branch: Netrunner/22
     - rootactions-servicemenu:
-        branch: master
+        branch: Netrunner/22
     - mintupdate:
-        branch: master
+        branch: Netrunner/22
     - mint-common:
-        branch: master
+        branch: Netrunner/22
     - simplemenu:
-        branch: master
+        branch: Netrunner/22
     - kcm-about-extended:
-        branch: master
+        branch: Netrunner/22
     - kcm-plasma-services:
-        branch: master
+        branch: Netrunner/22
     - carbon-qt:
-        branch: master
+        branch: Netrunner/22
     - carbon-gtk2:
-        branch: master
+        branch: Netrunner/22
     - carbon-gtk3:
-        branch: master
+        branch: Netrunner/22
     - libssl1.0.2:
-        branch: master
+        branch: Netrunner/22
     - plasma-browser-integration:
-        branch: master
+        branch: Netrunner/22
         
   - netrunner-common:
     - netrunner-settings-cockpit:
-        branch: master
+        branch: Netrunner/22
     - netrunner-settings-firefox-pinebook:
-        branch: master
+        branch: Netrunner/22
     - default-settings-xsession:
-        branch: master
+        branch: Netrunner/22
     - default-settings-kdeapps:
-        branch: master
+        branch: Netrunner/22
         
   - netrunner-artwork:
     - artwork-lnf-netrunner-zeronet-rock64:
-        branch: master
+        branch: Netrunner/22
     - artwork-wallpapers-netrunner-zeronet-rock64:
-        branch: master
+        branch: Netrunner/22
     - artwork-sddm-simple:
-        branch: master
+        branch: Netrunner/22
         
   - netrunner-rock64:
     - linux-kernel:
-        branch: master
+        branch: Netrunner/22
     - xf86-video-armsoc:
-        branch: master
+        branch: Netrunner/22
     - libmali:
-        branch: master
+        branch: Netrunner/22
     - rock64-uboot:
-        branch: master
+        branch: Netrunner/22
     - rock64-boot-services:
-        branch: master
+        branch: Netrunner/22
         
   - netrunner-zeronet:
     - base-files:
-        branch: master
+        branch: Netrunner/22
     - netrunner-zeronet-desktop-settings:
-        branch: master
+        branch: Netrunner/22
     - netrunner-zeronet-tor-settings:
-        branch: master
+        branch: Netrunner/22
     - rock64-netrunner-zeronet-packages:
-        branch: master
+        branch: Netrunner/22
     - rock64-calamares-zeronet:
-        branch: master
+        branch: Netrunner/22
     - netrunner-zeronet-iptable-settings:
-        branch: master
+        branch: Netrunner/22
     - netrunner-zeronet-cockpit-module:
-        branch: master
+        branch: Netrunner/22
     - netrunner-zeronet-manual-cockpit-module:
-        branch: master
+        branch: Netrunner/22
         

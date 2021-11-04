@@ -1,50 +1,50 @@
 github.com:
   - dci-extras-packaging:
     - samba-mounter:
-        branch: Netrunner/21.01
+        branch: master
     - rootactions-servicemenu:
-        branch: Netrunner/21.01
+        branch: master
     - mintupdate:
-        branch: Netrunner/21.01
+        branch: master
     - mint-common:
-        branch: Netrunner/21.01
+        branch: master
     - simplemenu:
-        branch: Netrunner/21.01
+        branch: master
     - kcm-about-extended:
-        branch: Netrunner/21.01
+        branch: master
     - kcm-plasma-services:
-        branch: Netrunner/21.01
+        branch: master
     - carbon-qt:
-        branch: Netrunner/21.01
+        branch: master
     - carbon-gtk2:
-        branch: Netrunner/21.01
+        branch: master
     - carbon-gtk3:
-        branch: Netrunner/21.01
+        branch: master
     - plasma-browser-integration:
-        branch: Netrunner/21.01
+        branch: master
     - zram-config:
-        branch: Netrunner/21.01
+        branch: master
         
   - netrunner-artwork:
     - artwork-wallpapers-netrunner-1901-desktop:
-        branch: Netrunner/21.01
+        branch: master
         
   - netrunner-odroid:
     - c1-calamares-core:
-        branch: Netrunner/21.01
+        branch: master
     - c1-netrunner-core-settings:
-        branch: Netrunner/21.01
+        branch: master
     - c1-uboot:
-        branch: Netrunner/21.01
+        branch: master
     - c1-bootini:
-        branch: Netrunner/21.01
+        branch: master
     - c1-linux:
-        branch: Netrunner/21.01
+        branch: master
     - c1-netrunner-core-meta:
-        branch: Netrunner/21.01
+        branch: master
     - mali-x11:
-        branch: Netrunner/21.01
+        branch: master
     - odroid-boot-services:
-        branch: Netrunner/21.01
+        branch: master
     - xserver-xorg-video-mali:
-        branch: Netrunner/21.01 
+        branch: master 
