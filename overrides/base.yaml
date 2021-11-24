@@ -402,7 +402,7 @@
 '*invent.kde.org/neon/extras/calligra':
   'Neon/stable':
     upstream_scm:
-      branch: master
+      branch: 'calligra/3.3'
 
 '*invent.kde.org/neon/extras/kphotoalbum':
   'Neon/stable':
