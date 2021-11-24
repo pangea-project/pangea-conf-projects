@@ -399,11 +399,6 @@
       url: https://github.com/calamares/calamares
       branch: calamares
 
-'*invent.kde.org/neon/extras/calligra':
-  'Neon/stable':
-    upstream_scm:
-      branch: 'calligra/3.3'
-
 '*invent.kde.org/neon/extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
