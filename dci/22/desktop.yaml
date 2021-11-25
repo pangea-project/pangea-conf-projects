@@ -128,7 +128,7 @@ github.com:
         branch: Netrunner/22
         
   - netrunner-desktop:
-    - '{base}*':
+    - base-files:
         branch: Netrunner/22
     - calamares-desktop:
         branch: Netrunner/22

@@ -66,7 +66,9 @@ github.com:
         branch: Netrunner/22
         
   - netrunner-core:
-    - '{calamares-core,base}*':
+    - calamares-core:
+        branch: Netrunner/22
+    - base-files:
         branch: Netrunner/22
     - netrunner-core:
         branch: Netrunner/22
