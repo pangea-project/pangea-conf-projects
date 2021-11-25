@@ -14,7 +14,7 @@ github.com:
         branch: Netrunner/22
     - default-settings-pulseaudio:
         branch: Netrunner/22
-    - default-settings-autostart:
+    - netrunner-settings-autostart:
         branch: Netrunner/22
     - default-settings-profiled:
         branch: Netrunner/22
