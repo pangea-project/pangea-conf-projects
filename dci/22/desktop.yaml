@@ -42,8 +42,6 @@ github.com:
         branch: Netrunner/22
     - xdg-utils-cxx:
         branch: Netrunner/22
-    - libappimage:
-        branch: Netrunner/22
     - appimagelauncher:
         branch: Netrunner/22
         
