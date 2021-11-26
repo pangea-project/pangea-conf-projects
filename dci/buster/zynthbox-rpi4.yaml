@@ -1,4 +1,14 @@
 github.com:
   - zynthbox:
-    - zynthbox-meta-packaging:
+    - zynthbox-meta:
         branch: main
+    - zynthian-qml:
+        branch: main
+    - zynthian-quick-components:
+        branch: master
+    - libzl:
+        branch: main
+    - zynthbox-bootsplash:
+        branch: master
+    - a2jmidi:
+        branch: master
