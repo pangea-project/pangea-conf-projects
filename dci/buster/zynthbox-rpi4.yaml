@@ -2,7 +2,7 @@ github.com:
   - zynthbox:
     - zynthbox-meta:
         branch: main
-    - zynthian-qml:
+    - zynthbox-qml:
         branch: main
     - zynthian-quick-components:
         branch: master
