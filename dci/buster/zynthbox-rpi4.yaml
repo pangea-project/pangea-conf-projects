@@ -4,6 +4,8 @@ github.com:
         branch: main
     - zynthbox-qml:
         branch: main
+    - zynthbox-update-script:
+        branch: main
     - zynthian-quick-components:
         branch: master
     - libzl:
