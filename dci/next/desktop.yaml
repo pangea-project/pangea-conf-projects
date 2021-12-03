@@ -124,7 +124,9 @@ github.com:
         branch: master
         
   - netrunner-desktop:
-    - '{calamares,base}*':
+    - base-files:
+        branch: master
+    - calamares-desktop:
         branch: master
     - netrunner-desktop:
         branch: master
