@@ -618,7 +618,8 @@
 '*invent.kde.org/neon/backports-focal/draco':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: http://deb.debian.org/debian/pool/main/d/draco/draco_1.4.3+dfsg.orig.tar.xz
 
 '*invent.kde.org/neon/backports-focal/libxmlb':
   '*':
