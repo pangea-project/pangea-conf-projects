@@ -610,6 +610,16 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/assimp':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/draco':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/libxmlb':
   '*':
     upstream_scm:
