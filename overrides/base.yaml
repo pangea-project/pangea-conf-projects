@@ -292,6 +292,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/kde/kio':
+  'Neon/unstable':
+    upstream_scm:
+      branch: work/privilegeexecution
+
 # Neon natives
 
 '*invent.kde.org/neon/neon/docker-neon':
@@ -1720,8 +1725,8 @@ https://github.com/xenon-packaging/linux-bsp-rock64:
     upstream_scm:
       type: tarball
       url: https://github.com/ayufan-rock64/linux-kernel/archive/release-4.4.tar.gz
-      
-      
+
+
 https://github.com/zynthbox/*:
     upstream_scm:
       type: git
