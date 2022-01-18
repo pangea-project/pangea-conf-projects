@@ -292,11 +292,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/kde/kio':
-  'Neon/unstable':
-    upstream_scm:
-      branch: work/privilegeexecution
-
 # Neon natives
 
 '*invent.kde.org/neon/neon/docker-neon':
