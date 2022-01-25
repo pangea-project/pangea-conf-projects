@@ -610,6 +610,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/libseccomp':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/gpgme1.0':
   '*':
     upstream_scm:
