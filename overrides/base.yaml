@@ -449,12 +449,6 @@
       type: tarball
       url: https://github.com/shlomif/rinutils/releases/download/0.4.1/rinutils-0.4.1.tar.xz
 
-'*invent.kde.org/neon/kde/kconfigwidgets':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/tmp/kconfigwidgets-5.91.0.1.tar.xz
-
 '*invent.kde.org/neon/neon-packaging/black-hole-solver':
   '*':
     upstream_scm:
