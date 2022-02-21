@@ -485,7 +485,7 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/qcoro':
+'*invent.kde.org/neon/extras/qcoro':
   '*':
     upstream_scm:
       type: uscan
