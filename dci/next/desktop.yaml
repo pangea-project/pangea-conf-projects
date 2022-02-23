@@ -28,21 +28,15 @@ github.com:
         branch: master
     - web-menu-entries:
         branch: master
-    - marble:
-        branch: master
     - ocs-url:
         branch: master
     - software-properties:
         branch: master
     - libssl1.0.2:
         branch: master
-    - appimagelauncher:
-        branch: master
-    - plasma-browser-integration:
-        branch: master
     - mintinstall:
         branch: master
-        
+
   - netrunner-common:
     - default-settings-thunderbird:
         branch: master
@@ -80,7 +74,7 @@ github.com:
         branch: master
     - netrunner-settings-python-apt:
         branch: master
-        
+
   - netrunner-artwork:
     - plymouth-theme-netrunner-classic:
         branch: master
@@ -122,7 +116,7 @@ github.com:
         branch: master
     - artwork-red-modern-cursor:
         branch: master
-        
+
   - netrunner-desktop:
     - base-files:
         branch: master
@@ -134,4 +128,3 @@ github.com:
         branch: master
     - netrunner-desktop-settings-desktop:
         branch: master
-
