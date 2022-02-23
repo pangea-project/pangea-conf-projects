@@ -28,8 +28,6 @@ github.com:
         branch: Netrunner/22
     - web-menu-entries:
         branch: Netrunner/22
-    - marble:
-        branch: Netrunner/22
     - ocs-url:
         branch: Netrunner/22
     - software-properties:
@@ -38,13 +36,11 @@ github.com:
         branch: Netrunner/22
     - mintinstall:
         branch: Netrunner/22
-    - plasma-browser-integration:
-        branch: Netrunner/22
     - xdg-utils-cxx:
         branch: Netrunner/22
     - appimagelauncher:
         branch: Netrunner/22
-        
+
   - netrunner-common:
     - default-settings-thunderbird:
         branch: Netrunner/22
@@ -82,7 +78,7 @@ github.com:
         branch: Netrunner/22
     - netrunner-settings-python-apt:
         branch: Netrunner/22
-        
+
   - netrunner-artwork:
     - plymouth-theme-netrunner-classic:
         branch: Netrunner/22
@@ -124,7 +120,7 @@ github.com:
         branch: Netrunner/22
     - artwork-red-modern-cursor:
         branch: Netrunner/22
-        
+
   - netrunner-desktop:
     - base-files:
         branch: Netrunner/22
@@ -136,4 +132,3 @@ github.com:
         branch: Netrunner/22
     - netrunner-desktop-settings-desktop:
         branch: Netrunner/22
-
