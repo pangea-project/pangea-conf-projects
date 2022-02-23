@@ -36,10 +36,6 @@ github.com:
         branch: Netrunner/22
     - mintinstall:
         branch: Netrunner/22
-    - xdg-utils-cxx:
-        branch: Netrunner/22
-    - appimagelauncher:
-        branch: Netrunner/22
 
   - netrunner-common:
     - default-settings-thunderbird:
