@@ -275,6 +275,11 @@
     upstream_scm:
       branch: Plasma/5.24
 
+'*invent.kde.org/neon/neon-packaging/oxygen-sounds':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.24
+
 '*invent.kde.org/neon/kde/kcalcore':
   'Neon/unstable':
     upstream_scm:
