@@ -619,7 +619,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/tmp/release-70-1.tar.gz
+      url: http://embra.edinburghlinux.co.uk/~jr/tmp/icu_70.1.orig.tar.gz
 
 '*invent.kde.org/neon/backports-focal/wayland':
   '*':
