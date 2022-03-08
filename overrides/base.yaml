@@ -650,7 +650,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://deb.debian.org/debian/pool/main/d/draco/draco_1.5.2+dfsg.orig.tar.xz
+      url: http://archive.neon.kde.org/unstable/pool/main/d/draco/draco_1.4.3+dfsg.orig.tar.xz
 
 '*invent.kde.org/neon/backports-focal/libxmlb':
   '*':
