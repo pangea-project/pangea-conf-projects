@@ -1518,7 +1518,8 @@ https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-cust
 'https://github.com/dci-extras-packaging/samba-mounter':
   '*':
     upstream_scm:
-      type: uscan
+      url: https://invent.kde.org/system/samba-mounter.git
+      type: git
 
 'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
   '*':
@@ -1540,6 +1541,11 @@ https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-cust
     upstream_scm:
       url: https://github.com/hanschen/ksuperkey.git
 
+'https://github.com/dci-extras-packaging/{yarock,xdgurl,telepathy-,telegram-}*':
+  '*':
+    upstream_scm:
+      type: uscan
+
 'https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer':
   '*':
     upstream_scm:
@@ -1548,7 +1554,8 @@ https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-cust
 'https://github.com/dci-extras-packaging/simplemenu':
   '*':
     upstream_scm:
-      type: uscan
+      url: https://invent.kde.org/plasma/plasma-simplemenu.git
+      type: git
 
 'https://github.com/dci-extras-packaging/kcm-kernel-config':
   '*':
@@ -1634,6 +1641,13 @@ https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-cust
     upstream_scm:
       type: tarball
       url: 'https://deb.debian.org/debian/pool/contrib/v/virtualbox/virtualbox_5.1.14-dfsg.orig.tar.xz'
+
+'https://github.com/netrunner-pine64/{xf86-video-armsoc,pine64-mali-x11}*':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/shadeslayer/<%= name %>
+      branch: master
 
 '*{github.com/halium-packaging,gitlab.com/debian-pm}*android-headers':
   halium-7.1:
