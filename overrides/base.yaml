@@ -13,7 +13,6 @@
 '*github.com*':
   '*':
     upstream_scm:
-      type: uscan
 
 # Plasma
 
