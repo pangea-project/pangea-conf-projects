@@ -907,11 +907,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/backports-bionic/fuse3':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/backports-bionic/libzip':
   '*':
     upstream_scm:
