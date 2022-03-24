@@ -3,6 +3,8 @@ origin: unstable
 invent.kde.org/neon:
   - kde:
     - '*'
+  - kf6:
+    - '*'
   - extras:
     - '*'
   - neon-packaging:
