@@ -754,6 +754,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-focal/poppler-data':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/wayland-protocols':
   '*':
     upstream_scm:
