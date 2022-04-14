@@ -299,6 +299,12 @@
 
 # Neon natives
 
+'*invent.kde.org/neon/neon-packaging/isoimagewriter':
+  'Neon/stable':
+    upstream_scm:
+      type: tarball
+      url: http://embra.edinburghlinux.co.uk/~jr/tmp/isoimagewriter-0.9.tar.xz
+
 '*invent.kde.org/neon/neon/docker-neon':
   '*':
     upstream_scm:
