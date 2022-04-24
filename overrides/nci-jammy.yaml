@@ -1,0 +1,8 @@
+# NB: global_restriction is defined as an anchor setting all branches to
+#   restricted for the series!
+
+# Restrict all jammy backports to only build on jammy.
+'*invent.kde.org/neon/backports-jammy/*': &global_restriction
+  '*': &series_restriction
+    series_restrictions:
+      - jammy
