@@ -137,7 +137,7 @@
   '*':
     upstream_scm:
       url: https://invent.kde.org/qt/qt/qtwebengine
-      branch: kde/5.15
+      branch: '5.15'
       type: git
 
 '*{invent.kde.org/neon/qt,gitlab.com/*}/qtnetworkauth':
