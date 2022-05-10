@@ -456,7 +456,8 @@
 '*invent.kde.org/neon/neon-packaging/black-hole-solver':
   '*':
     upstream_scm:
-      type: uscan
+      type: tarball
+      url: http://archive.neon.kde.org/unstable/pool/main/b/black-hole-solver/black-hole-solver_1.10.1.orig.tar.xz
 
 '*invent.kde.org/neon/neon-packaging/kdesdk-devenv-dependencies':
   '*':
