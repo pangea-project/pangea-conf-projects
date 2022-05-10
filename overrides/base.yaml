@@ -451,8 +451,7 @@
 '*invent.kde.org/neon/neon-packaging/rinutils':
   '*':
     upstream_scm:
-      type: tarball
-      url: https://github.com/shlomif/rinutils/releases/download/0.4.1/rinutils-0.4.1.tar.xz
+      url: uscan
 
 '*invent.kde.org/neon/neon-packaging/black-hole-solver':
   '*':
