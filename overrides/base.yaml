@@ -615,6 +615,21 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-focal/lcms2':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/highway':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-focal/libjxl':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/libcec':
   '*':
     upstream_scm:
