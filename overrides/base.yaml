@@ -620,6 +620,11 @@
     upstream_scm:
       type: null
 
+'*invent.kde.org/neon/backports-jammy/gfxboot-theme-ubuntu':
+  '*':
+    upstream_scm:
+      type: null
+
 '*invent.kde.org/neon/backports-focal/lcms2':
   '*':
     upstream_scm:
