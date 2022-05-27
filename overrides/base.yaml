@@ -615,6 +615,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-jammy/syslinux-themes-ubuntu':
+  '*':
+    upstream_scm:
+      type: null
+
 '*invent.kde.org/neon/backports-focal/lcms2':
   '*':
     upstream_scm:
