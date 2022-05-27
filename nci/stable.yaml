@@ -59,3 +59,5 @@ invent.kde.org/neon:
     - '*'
   - backports-focal:
     - '*'
+  - backports-jammy:
+    - '*'
