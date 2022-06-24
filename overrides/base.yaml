@@ -615,6 +615,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-jammy/wayland-utils':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/syslinux-themes-ubuntu':
   '*':
     upstream_scm:
