@@ -615,7 +615,7 @@
 
 ### Backports
 
-'*invent.kde.org/neon/backports-jammy/wayland-utils':
+'*invent.kde.org/neon/backports-jammy/wayland-utils-jammy':
   '*':
     upstream_scm:
       type: uscan
