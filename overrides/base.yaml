@@ -280,11 +280,6 @@
     upstream_scm:
       branch: Plasma/5.25
 
-'*invent.kde.org/neon/kde/zeroconf-ioslave':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/frameworks/kio-zeroconf.git
-
 '*invent.kde.org/neon/kde/kcalcore':
   'Neon/unstable':
     upstream_scm:
