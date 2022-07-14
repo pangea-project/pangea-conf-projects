@@ -136,9 +136,8 @@
 '*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebengine':
   '*':
     upstream_scm:
-      url: https://invent.kde.org/qt/qt/qtwebengine
-      branch: '5.15'
-      type: git
+      type: tarball
+      url: http://deb.debian.org/debian/pool/main/q/qtwebengine-opensource-src/qtwebengine-opensource-src_5.15.10+dfsg.orig.tar.xz
 
 '*{invent.kde.org/neon/qt,gitlab.com/*}/qtnetworkauth':
   '*':
