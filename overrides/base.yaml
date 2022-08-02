@@ -661,6 +661,11 @@
       type: tarball
       url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/lcms2/2.12~rc1-2/lcms2_2.12~rc1.orig.tar.gz
 
+'*invent.kde.org/neon/backports-focal/zxing-cpp':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/highway':
   '*':
     upstream_scm:
