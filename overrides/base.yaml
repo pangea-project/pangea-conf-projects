@@ -451,7 +451,7 @@
 '*invent.kde.org/neon/neon-packaging/rinutils':
   '*':
     upstream_scm:
-      url: uscan
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/black-hole-solver':
   '*':
