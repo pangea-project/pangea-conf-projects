@@ -587,7 +587,7 @@
   'Neon/stable':
     upstream_scm:
       url: https://github.com/sddm/sddm.git
-      branch: master
+      branch: develop
   'Neon/unstable':
     upstream_scm:
       url: https://github.com/sddm/sddm.git
