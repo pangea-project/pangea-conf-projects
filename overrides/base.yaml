@@ -773,8 +773,7 @@
 '*invent.kde.org/neon/backports-focal/meson':
   '*':
     upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/meson/0.57.0+really0.56.2-0.1/meson_0.57.0+really0.56.2.orig.tar.gz
+      type: uscan
 
 '*invent.kde.org/neon/backports-focal/wayland-utils':
   '*':
