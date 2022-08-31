@@ -410,11 +410,7 @@
       branch: 5.x
 
 '*invent.kde.org/neon/extras/kraft':
-  'Neon/stable':
-    upstream_scm:
-      url: git@github.com:dragotin/kraft.git
-'*invent.kde.org/neon/extras/kraft':
-  'Neon/unstable':
+  '*':
     upstream_scm:
       url: git@github.com:dragotin/kraft.git
 
