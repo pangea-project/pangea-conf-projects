@@ -52,6 +52,7 @@ invent.kde.org/neon:
     - pyqt5webengine
     - pyqt5-sip
     - pyqt-builder
+    - sip6
     - sip5
     - sip4:
         branch: Neon/unstable
