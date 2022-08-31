@@ -404,16 +404,16 @@
       url: https://github.com/calamares/calamares
       branch: calamares
 
-'*invent.kde.org/neon/extras/kraft':
+'*invent.kde.org/neon/extras/kphotoalbum':
   'Neon/stable':
     upstream_scm:
       branch: 5.x
 
-'*invent.kde.org/neon/extras/kphotoalbum':
+'*invent.kde.org/neon/extras/kraft':
   'Neon/stable':
     upstream_scm:
       url: git@github.com:dragotin/kraft.git
-'*invent.kde.org/neon/extras/kphotoalbum':
+'*invent.kde.org/neon/extras/kraft':
   'Neon/unstable':
     upstream_scm:
       url: git@github.com:dragotin/kraft.git
