@@ -1144,6 +1144,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/forks/sip6':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/forks/sip5':
   '*':
     upstream_scm:
