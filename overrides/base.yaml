@@ -440,6 +440,11 @@
     upstream_scm:
       branch: 5.x
 
+'*invent.kde.org/neon/extras/qtcurve':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
 '*invent.kde.org/neon/extras/kraft':
   '*':
     upstream_scm:
