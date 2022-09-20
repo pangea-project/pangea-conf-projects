@@ -18,7 +18,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: https://download.kde.org/Attic/calligra/3.2.2/calligraplan-3.2.2.tar.xz
+      url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
 
 # Plasma
 
