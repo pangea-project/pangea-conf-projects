@@ -14,6 +14,12 @@
   '*':
     upstream_scm:
 
+'*invent.kde.org/neon/extras/calligra':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: https://download.kde.org/Attic/calligra/3.2.2/calligraplan-3.2.2.tar.xz
+
 # Plasma
 
 '*invent.kde.org/neon/kde/kirigami2':
