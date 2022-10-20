@@ -454,7 +454,7 @@
 '*invent.kde.org/neon/extras/kraft':
   '*':
     upstream_scm:
-      url: git@github.com:dragotin/kraft.git
+      url: https://github.com/dragotin/kraft.git
 
 '*invent.kde.org/neon/neon-packaging/libetebase':
   '*':
