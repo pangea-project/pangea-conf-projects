@@ -1447,6 +1447,13 @@
 
 ## Mobile
 
+'*invent.kde.org/neon/mobile/plasma-phone-settings':
+  Neon/release:
+    upstream_scm:
+      url: https://invent.kde.org/plasma-mobile/plasma-phone-settings.git
+      type: git
+      branch: master
+
 ### Xorg
 '*invent.kde.org/neon/xserver/xorg-server':
   debian-experimental:
