@@ -506,6 +506,12 @@
       type: tarball
       url: http://archive.neon.kde.org/unstable/pool/main/b/black-hole-solver/black-hole-solver_1.10.1.orig.tar.xz
 
+'*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/aws/aws-sdk-cpp.git
+
 '*invent.kde.org/neon/neon-packaging/kdesdk-devenv-dependencies':
   '*':
     upstream_scm:
