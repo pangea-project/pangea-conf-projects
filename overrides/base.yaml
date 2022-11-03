@@ -510,7 +510,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: https://github.com/sigma67/ytmusicapi/archive/refs/tags/0.22.0.tar.gz
+      url: http://embra.edinburghlinux.co.uk/~jr/ytmusicapi-0.22.0.tar.gz
 
 '*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
   '*':
