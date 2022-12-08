@@ -726,6 +726,7 @@
 
 '*invent.kde.org/neon/backports-jammy/mlt-jammy':
   '*':
+    upstream_scm:
       type: tarball
       url: http://deb.debian.org/debian/pool/main/m/mlt/mlt_7.12.0.orig.tar.gz
 
