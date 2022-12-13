@@ -549,6 +549,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/kddockwidgets':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/extras/qcoro':
   '*':
     upstream_scm:
