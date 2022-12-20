@@ -509,8 +509,7 @@
 '*invent.kde.org/neon/neon-packaging/ytmusicapi':
   '*':
     upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/ytmusicapi-0.22.0.tar.gz
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
   '*':
