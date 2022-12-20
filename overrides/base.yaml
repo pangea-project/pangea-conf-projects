@@ -517,6 +517,7 @@
     upstream_scm:
       type: git
       url: https://github.com/aws/aws-sdk-cpp.git
+      branch: main
 
 '*invent.kde.org/neon/neon-packaging/kdesdk-devenv-dependencies':
   '*':
