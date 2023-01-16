@@ -20,12 +20,6 @@
       type: tarball
       url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
 
-'*invent.kde.org/neon/qt/qtcreator':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/qtcreator/7.0.1-1/qtcreator_7.0.1.orig.tar.xz
-
 # Plasma
 
 '*invent.kde.org/neon/kde/kirigami2':
