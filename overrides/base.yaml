@@ -673,6 +673,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-jammy/callaudiod':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/litehtml-jammy':
   '*':
     upstream_scm:
