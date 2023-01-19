@@ -20,6 +20,838 @@
       type: tarball
       url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
 
+# Frameworks
+
+'*invent.kde.org/neon/kde/attica':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/baloo':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/bluez-qt':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/breeze-icons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/extra-cmake-modules':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/frameworkintegration':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kactivities':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kactivities-stats':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kapidox':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/karchive':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kauth':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kbookmarks':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcalendarcore':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcmutils':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcodecs':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcompletion':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kconfig':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kconfigwidgets':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcontacts':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcoreaddons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kcrash':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdav':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdbusaddons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdeclarative':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kded':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdelibs4support':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdesignerplugin':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdesu':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdewebkit':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdnssd':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kdoctools':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kemoticons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kfilemetadata':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kglobalaccel':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kguiaddons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kholidays':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/khtml':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/ki18n':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kiconthemes':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kidletime':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kimageformats':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kinit':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kio':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kirigami':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kitemmodels':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kitemviews':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kjobwidgets':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kjs':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kjsembed':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kmediaplayer':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/knewstuff':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/knotifications':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/knotifyconfig':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kpackage':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kparts':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kpeople':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kplotting':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kpty':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kquickcharts':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kross':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/krunner':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kservice':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/ktexteditor':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/ktextwidgets':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kunitconversion':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kwallet':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kwayland':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kwidgetsaddons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kwindowsystem':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kxmlgui':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/kxmlrpcclient':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/modemmanager-qt':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/networkmanager-qt':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/oxygen-icons5':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/plasma-framework':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/prison':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/purpose':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/qqc2-desktop-style':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/solid':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/sonnet':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/syndication':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/syntax-highlighting':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
+'*invent.kde.org/neon/kde/threadweaver':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: kf5
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      branch: kf5
+
 # Plasma
 
 '*invent.kde.org/neon/kde/kirigami2':
