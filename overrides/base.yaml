@@ -1524,6 +1524,11 @@
   '*':
     upstream_scm:
       type: uscan
+      
+'*invent.kde.org/neon/backports-jammy/libjxl-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
 
 '*invent.kde.org/neon/backports-jammy/wayland-jammy':
   '*':
