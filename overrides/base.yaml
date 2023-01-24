@@ -25,6 +25,7 @@
 '*invent.kde.org/neon/kf6/kf6-polkit-qt-1':
   '*':
     upstream_scm:
+      type: git
       url: https://invent.kde.org/neon/kf6/kf6-polkit-qt-1.git
 
 # Frameworks
