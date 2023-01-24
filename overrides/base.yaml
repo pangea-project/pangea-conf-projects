@@ -20,6 +20,13 @@
       type: tarball
       url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
 
+# KF6
+
+'*invent.kde.org/neon/kf6/kf6-polkit-qt-1':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/neon/kf6/kf6-polkit-qt-1.git
+
 # Frameworks
 
 '*invent.kde.org/neon/kde/attica':
