@@ -37,6 +37,11 @@
     upstream_scm:
       branch: master
 
+'*invent.kde.org/frameworks/kservice.git':
+  '*':
+    upstream_scm:
+      branch: master
+
 # Plasma
 
 '*invent.kde.org/neon/kde/kirigami2':
