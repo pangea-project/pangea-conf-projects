@@ -27,730 +27,876 @@
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/attica.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      https://invent.kde.org/frameworks/attica.git
 
 '*invent.kde.org/neon/kf6/kf6-baloo':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/baloo.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/baloo.git
 
 '*invent.kde.org/neon/kf6/kf6-bluez-qt':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/bluez-qt.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/bluez-qt.git
 
 '*invent.kde.org/neon/kf6/kf6-breeze-icons':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/breeze-icons.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/breeze-icons.git
 
 '*invent.kde.org/neon/kf6/kf6-extra-cmake-modules':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/extra-cmake-modules.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/extra-cmake-modules.git
 
 '*invent.kde.org/neon/kf6/kf6-frameworkintegration':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/frameworkintegration.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/frameworkintegration.git
 
 '*invent.kde.org/neon/kf6/kf6-kactivities':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kactivities.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kactivities.git
 
 '*invent.kde.org/neon/kf6/kf6-kactivities-stats':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kactivities-stats.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kactivities-stats.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kapidox':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kapidox.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kapidox.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-karchive':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/karchive.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/karchive.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kauth':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kauth.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kauth.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kbookmarks':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kbookmarks.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kbookmarks.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcalendarcore':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcalendarcore.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcalendarcore.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcmutils':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcmutils.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcmutils.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcodecs':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcodecs.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcodecs.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcompletion':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcompletion.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcompletion.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kconfig':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kconfig.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kconfig.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kconfigwidgets':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kconfigwidgets.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kconfigwidgets.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcontacts':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcontacts.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcontacts.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcoreaddons':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcoreaddons.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcoreaddons.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kcrash':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kcrash.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kcrash.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kdav':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdav.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdav.git
 
 '*invent.kde.org/neon/kf6/kf6-kdbusaddons':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdbusaddons.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdbusaddons.git
 
 '*invent.kde.org/neon/kf6/kf6-kdeclarative':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdeclarative.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdeclarative.git
 
 '*invent.kde.org/neon/kf6/kf6-kded':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kded.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kded.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kdesu':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kdesu.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdesu.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kdnssd':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kdnssd.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdnssd.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kdoctools':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kdoctools.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kdoctools.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kfilemetadata':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kfilemetadata.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kfilemetadata.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kglobalaccel':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kglobalaccel.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kglobalaccel.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kguiaddons':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kguiaddons.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kguiaddons.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kholidays':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kholidays.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kholidays.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-ki18n':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/ki18n.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/ki18n.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kiconthemes':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kiconthemes.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kiconthemes.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kidletime':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kidletime.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kidletime.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kimageformats':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kimageformats.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kimageformats.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kinit':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kinit.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kinit.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kio':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kio.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kio.git
 
 '*invent.kde.org/neon/kf6/kf6-kirigami':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kirigami.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kirigami.git
 
 '*invent.kde.org/neon/kf6/kf6-kitemmodels':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kitemmodels.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kitemmodels.git
 
 '*invent.kde.org/neon/kf6/kf6-kitemviews':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kitemviews.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kitemviews.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kjobwidgets':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kjobwidgets.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kjobwidgets.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-knewstuff':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/knewstuff.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/knewstuff.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-knotifications':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/knotifications.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/knotifications.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-knotifyconfig':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/knotifyconfig.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/knotifyconfig.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kpackage':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kpackage.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kpackage.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kparts':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kparts.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kparts.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kpeople':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kpeople.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kpeople.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kplotting':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kplotting.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kplotting.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kpty':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kpty.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kpty.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kquickcharts':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kquickcharts.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kquickcharts.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-krunner':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/krunner.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/krunner.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kservice':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kservice.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kservice.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-ktexteditor':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/ktexteditor.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/ktexteditor.git
 
 '*invent.kde.org/neon/kf6/kf6-ktextwidgets':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/ktextwidgets.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/ktextwidgets.git
 
 '*invent.kde.org/neon/kf6/kf6-kunitconversion':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kunitconversion.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kunitconversion.git
 
 '*invent.kde.org/neon/kf6/kf6-kwallet':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kwallet.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kwallet.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kwayland':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kwayland.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kwayland.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kwidgetsaddons':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kwidgetsaddons.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kwidgetsaddons.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kwindowsystem':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kwindowsystem.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kwindowsystem.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-kxmlgui':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/kxmlgui.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/kxmlgui.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-modemmanager-qt':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/modemmanager-qt.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/modemmanager-qt.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-networkmanager-qt':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/networkmanager-qt.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/networkmanager-qt.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-oxygen-icons5':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/oxygen-icons5.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/oxygen-icons5.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-plasma-framework':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/plasma-framework.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/plasma-framework.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-prison':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/prison.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/prison.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-purpose':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/purpose.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/purpose.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-qqc2-desktop-style':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/qqc2-desktop-style.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/qqc2-desktop-style.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-solid':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/solid.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/solid.gitaster
 
 '*invent.kde.org/neon/kf6/kf6-sonnet':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/sonnet.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/sonnet.git
 
 '*invent.kde.org/neon/kf6/kf6-syndication':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/syndication.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/syndication.git
 
 '*invent.kde.org/neon/kf6/kf6-syntax-highlighting':
   'Neon/unstable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/syntax-highlighting.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/syntax-highlighting.git
 
 '*invent.kde.org/neon/kf6/kf6-threadweaver':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: master
+      branch: m
+      url: https://invent.kde.org/frameworks/threadweaver.gitaster
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
+      url: https://invent.kde.org/frameworks/threadweaver.gitaster
 
 # Plasma
 
