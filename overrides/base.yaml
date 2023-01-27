@@ -27,12 +27,12 @@
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/frameworks/polkit-qt-1.git
+      url: https://invent.kde.org/libraries/polkit-qt-1.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/frameworks/polkit-qt-1.git
+      url: https://invent.kde.org/libraries/polkit-qt-1.git
 
 '*invent.kde.org/neon/kf6/kf6-attica':
   'Neon/unstable':
