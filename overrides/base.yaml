@@ -890,13 +890,13 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: m
-      url: https://invent.kde.org/frameworks/threadweaver.gitaster
+      branch: master
+      url: https://invent.kde.org/frameworks/threadweaver.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/frameworks/threadweaver.gitaster
+      url: https://invent.kde.org/frameworks/threadweaver.git
 
 # Plasma
 
