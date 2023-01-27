@@ -32,7 +32,7 @@
     upstream_scm:
       type: git
       branch: master
-      https://invent.kde.org/frameworks/attica.git
+      url: https://invent.kde.org/frameworks/attica.git
 
 '*invent.kde.org/neon/kf6/kf6-baloo':
   'Neon/unstable':
