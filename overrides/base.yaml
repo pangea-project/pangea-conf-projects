@@ -1388,7 +1388,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://archive.neon.kde.org/unstable/pool/main/b/black-hole-solver/black-hole-solver_1.10.1.orig.tar.xz
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/ytmusicapi':
   '*':
