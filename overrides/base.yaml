@@ -2112,11 +2112,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/forks/kaidan':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/forks/zxing-cpp':
   '*':
     upstream_scm:
