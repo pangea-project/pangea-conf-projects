@@ -1653,6 +1653,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/qxmpp-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/shared-mime-info-jammy':
   '*':
     upstream_scm:
