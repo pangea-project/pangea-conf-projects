@@ -1658,6 +1658,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/libomemo-c-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/shared-mime-info-jammy':
   '*':
     upstream_scm:
