@@ -1675,7 +1675,7 @@
     upstream_scm:
       type: uscan
 
-      '*invent.kde.org/neon/backports-jammy/libjpeg-turbo-jammy':
+'*invent.kde.org/neon/backports-jammy/libjpeg-turbo-jammy':
   '*':
     upstream_scm:
       type: uscan
