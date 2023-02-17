@@ -68,3 +68,5 @@ invent.kde.org/neon:
   - qt6:
     - '*':
         branch: Neon/release
+    - 'qt6-qca':
+        branch: Neon/unstable
