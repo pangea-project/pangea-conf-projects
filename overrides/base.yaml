@@ -22,6 +22,13 @@
 
 # KF6
 
+'*invent.kde.org/neon/qt6/qt6-qca':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: master
+      url: https://invent.kde.org/libraries/qca.git
+
 '*invent.kde.org/neon/kf6/kf6-polkit-qt-1':
   'Neon/unstable':
     upstream_scm:
