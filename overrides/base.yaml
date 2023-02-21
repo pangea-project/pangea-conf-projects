@@ -1702,6 +1702,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/libunibreak-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-focal/lcms2':
   '*':
     upstream_scm:
