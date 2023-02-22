@@ -2121,6 +2121,12 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/forks/kaidan':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: https://download.kde.org/unstable/kaidan/0.8.0/kaidan-0.8.0.tar.xz
+
 '*invent.kde.org/neon/forks/qtkeychain':
   '*':
     upstream_scm:
