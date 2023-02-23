@@ -2120,6 +2120,20 @@
   '*':
     upstream_scm:
       type: uscan
+      
+'*invent.kde.org/neon/extras/ktechlab':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/sdk/ktechlab.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/sdk/ktechlab.git
+  'Neon/release':
+    upstream_scm:
+      type: tarball
+      url: https://download.kde.org/unstable/ktechlab/ktechlab-0.50.0.tar.xz
 
 '*invent.kde.org/neon/forks/kaidan':
   '*':
