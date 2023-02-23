@@ -2122,7 +2122,15 @@
       type: uscan
 
 '*invent.kde.org/neon/forks/kaidan':
-  '*':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kaidan.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kaidan.git
+  'Neon/release':
     upstream_scm:
       type: tarball
       url: https://download.kde.org/unstable/kaidan/0.8.0/kaidan-0.8.0.tar.xz
