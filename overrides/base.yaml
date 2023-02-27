@@ -1577,6 +1577,11 @@
 
 ### Backports
 
+'*invent.kde.org/neon/backports-jammy/chafa-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/harfbuzz':
   '*':
     upstream_scm:
