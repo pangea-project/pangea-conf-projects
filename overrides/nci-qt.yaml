@@ -152,6 +152,13 @@
       url: https://invent.kde.org/qt/qt/qtsystems
       branch: dev
       type: git
+      
+'*{invent.kde.org/neon/qt,gitlab.com/*}/qtmqtt':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/qt/qt/qtmqtt
+      branch: 5.15.2
+      type: git
 
 '*{invent.kde.org/neon/qt,gitlab.com/*}/qtwebsockets':
   '*':
