@@ -1408,6 +1408,21 @@
   '*':
     upstream_scm:
       type: uscan
+      
+'*invent.kde.org/neon/neon-packaging/vector-blf':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/fastfloat':
+  '*':
+    upstream_scm:
+      type: uscan
+ 
+ '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
+  '*':
+    upstream_scm:
+      type: uscan
 
 '*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
   '*':
@@ -1576,6 +1591,11 @@
 # Qt lives in its own file!
 
 ### Backports
+
+'*https://invent.kde.org/neon/backports-jammy/libqt5qxlsx-jammy-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
 
 '*https://invent.kde.org/neon/backports-jammy/javatools-jammy':
   '*':
