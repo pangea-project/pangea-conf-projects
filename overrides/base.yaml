@@ -1414,6 +1414,16 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/fastfloat':
+  '*':
+    upstream_scm:
+      type: uscan
+ 
+ '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
   '*':
     upstream_scm:
