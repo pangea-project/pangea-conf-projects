@@ -1407,7 +1407,7 @@
   '*':
     upstream_scm:
       type: uscan
-      
+
 '*invent.kde.org/neon/neon-packaging/vector-blf':
   '*':
     upstream_scm:
@@ -1417,7 +1417,7 @@
   '*':
     upstream_scm:
       type: uscan
- 
+
 '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
     upstream_scm:
