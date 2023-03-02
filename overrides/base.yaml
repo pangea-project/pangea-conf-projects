@@ -1401,7 +1401,6 @@
 '*invent.kde.org/neon/neon-packaging/black-hole-solver':
   '*':
     upstream_scm:
-      type: tarball
       type: uscan
 
 '*invent.kde.org/neon/neon-packaging/ytmusicapi':
@@ -1419,7 +1418,7 @@
     upstream_scm:
       type: uscan
  
- '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
+'*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
     upstream_scm:
       type: uscan
@@ -1592,7 +1591,7 @@
 
 ### Backports
 
-'*https://invent.kde.org/neon/backports-jammy/libqt5qxlsx-jammy-jammy':
+'*https://invent.kde.org/neon/backports-jammy/libqt5qxlsx-jammy':
   '*':
     upstream_scm:
       type: uscan
