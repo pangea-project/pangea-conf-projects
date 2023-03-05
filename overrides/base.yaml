@@ -1596,6 +1596,11 @@
     upstream_scm:
       type: uscan
 
+'*https://invent.kde.org/neon/backports-jammy/pythran':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*https://invent.kde.org/neon/backports-jammy/javatools-jammy':
   '*':
     upstream_scm:
