@@ -29,6 +29,13 @@
       branch: master
       url: https://invent.kde.org/libraries/phonon.git
 
+'*invent.kde.org/neon/qt6/qt6-libqaccessibilityclient':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      branch: master
+      url: https://invent.kde.org/libraries/libqaccessibilityclient.git
+
 '*invent.kde.org/neon/qt6/qt6-qca':
   'Neon/unstable':
     upstream_scm:
