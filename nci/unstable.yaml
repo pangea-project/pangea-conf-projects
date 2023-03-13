@@ -72,3 +72,5 @@ invent.kde.org/neon:
         branch: Neon/unstable
     - 'qt6-phonon':
         branch: Neon/unstable
+    - 'qt6-libqaccessibilityclient':
+        branch: Neon/unstable
