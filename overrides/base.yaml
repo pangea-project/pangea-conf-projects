@@ -1598,6 +1598,11 @@
 
 ### Backports
 
+'*https://invent.kde.org/neon/backports-jammy/packagekit':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*https://invent.kde.org/neon/backports-jammy/packagekit-qt':
   '*':
     upstream_scm:
