@@ -2197,6 +2197,18 @@
       type: tarball
       url: https://download.kde.org/unstable/ktechlab/ktechlab-0.50.0.tar.xz
 
+'*invent.kde.org/neon/forks/kuserfeedback6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/neon/forks/kuserfeedback6.git
+
+'*invent.kde.org/neon/forks/libkexiv2-6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/neon/forks/libkexiv2-6.git
+
 '*invent.kde.org/neon/forks/kaidan':
   'Neon/unstable':
     upstream_scm:
