@@ -2201,13 +2201,13 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/neon/forks/kuserfeedback6.git
+      url: https://invent.kde.org/libraries/kuserfeedback.git
 
 '*invent.kde.org/neon/forks/libkexiv2-6':
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/neon/forks/libkexiv2-6.git
+      url: https://invent.kde.org/graphics/libkexiv2.git
 
 '*invent.kde.org/neon/forks/kaidan':
   'Neon/unstable':
