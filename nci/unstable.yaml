@@ -14,6 +14,8 @@ invent.kde.org/neon:
   - mobile:
     - '*'
   - forks:
+    - kuserfeedback6
+    - libkexiv2-6
     - jasper
     - qtkeychain
     - kup-backup
