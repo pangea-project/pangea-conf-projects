@@ -2197,6 +2197,12 @@
       type: tarball
       url: https://download.kde.org/unstable/ktechlab/ktechlab-0.50.0.tar.xz
 
+'*invent.kde.org/neon/forks/kf6-kirigami-addons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kirigami-addons.git
+
 '*invent.kde.org/neon/forks/kuserfeedback6':
   'Neon/unstable':
     upstream_scm:
