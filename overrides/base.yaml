@@ -2054,23 +2054,6 @@
     upstream_scm:
       branch: Plasma/5.27
 
-'*invent.kde.org/neon/kde/kcalcore':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/frameworks/kcalendarcore.git
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/frameworks/kcalendarcore.git
-      branch: master
-  'Neon/release':
-    upstream_scm:
-      type: uscan
-  'Neon/release-lts':
-    upstream_scm:
-      type: uscan
-
 # Neon natives
 
 '*invent.kde.org/neon/neon/docker-neon':
