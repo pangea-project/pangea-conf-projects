@@ -14,12 +14,6 @@
   '*':
     upstream_scm:
 
-'*invent.kde.org/neon/extras/calligra':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
-
 # KF6
 
 '*invent.kde.org/neon/qt6/qt6-phonon':
