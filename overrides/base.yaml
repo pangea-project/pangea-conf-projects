@@ -1,7 +1,7 @@
-# UScan releases
+### UScan releases ###
 
 '*invent.kde.org/neon/*':
-  '{Neon/release,Neon/release-lts}':
+  '{Neon/release}':
     upstream_scm:
       type: uscan
 
@@ -14,13 +14,706 @@
   '*':
     upstream_scm:
 
-'*invent.kde.org/neon/extras/calligra':
+
+### 3rd Party ###
+
+'*invent.kde.org/neon/3rdparty/indi':
+  '{Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
+
+'*invent.kde.org/neon/3rdparty/libnova':
+  '{Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: tarball
+      url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
+
+'*invent.kde.org/neon/3rdparty/libappimage':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/3rdparty/sddm':
+  'Neon/mobile':
+    upstream_scm:
+      type: uscan
+  'Neon/stable':
+    upstream_scm:
+      url: https://github.com/sddm/sddm.git
+      branch: develop
+  'Neon/unstable':
+    upstream_scm:
+      url: https://github.com/sddm/sddm.git
+      branch: develop
+
+
+### Backports-Jammy ###
+
+'*invent.kde.org/neon/backports-jammy/appstream-jammy2':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/callaudiod':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/chafa-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/gfxboot-theme-ubuntu':
+  '*':
+    upstream_scm:
+      type: null
+
+'*invent.kde.org/neon/backports-jammy/javatools-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/lcms2-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libdbusmenu-qt':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libdrm-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libjpeg-turbo-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libjxl-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libomemo-c-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libqalculate':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libqt5qxlsx-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libunibreak-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/litehtml-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/meson-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/mlt-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/packagekit':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/packagekit-qt':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/poppler-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/pythran':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/qxmpp-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/shared-mime-info-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/syslinux-themes-ubuntu':
+  '*':
+    upstream_scm:
+      type: null
+
+'*invent.kde.org/neon/backports-jammy/wayland-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/wayland-protocols-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/wayland-utils-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/xsimd-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/yt-dlp':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/zxing-cpp-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+
+### Extras ###
+
+'*invent.kde.org/neon/extras/debconf-kde':
+  Neon/unstable:
+    upstream_scm:
+      url: https://invent.kde.org/system/libdebconf-kde.git
+
+'*invent.kde.org/neon/extras/gammaray':
+  '{Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/extras/gcompris-qt':
+  '{Neon/stable,Neon/unstable}':
+    upstream_scm:
+      url: https://invent.kde.org/education/gcompris.git
+
+'*invent.kde.org/neon/extras/grantlee':
+  '{Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      type: uscan
+
+      '*invent.kde.org/neon/extras/icecc':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/icecc/icecream.git
+      branch: master
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://github.com/icecc/icecream.git
+      branch: master
+
+'*invent.kde.org/neon/extras/icemon':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://github.com/icecc/icemon.git
+      branch: master
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://github.com/icecc/icemon.git
+      branch: master
+
+'*invent.kde.org/neon/extras/kdevelop-python':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/kdevelop/kdev-python.git
+
+'*invent.kde.org/neon/extras/kdevelop-php':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/kdevelop/kdev-php.git
+
+'*invent.kde.org/neon/extras/kraft':
+  '*':
+    upstream_scm:
+      url: https://github.com/dragotin/kraft.git
+
+'*invent.kde.org/neon/extras/kile':
+  'Neon/unstable':
+    upstream_scm:
+      url: https://invent.kde.org/office/kile.git
+
+'*invent.kde.org/neon/extras/krename':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
+'*invent.kde.org/neon/extras/ktechlab':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/sdk/ktechlab.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/sdk/ktechlab.git
+  'Neon/release':
+    upstream_scm:
+      type: tarball
+      url: https://download.kde.org/unstable/ktechlab/ktechlab-0.50.0.tar.xz
+
+'*invent.kde.org/neon/extras/ktorrent':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
+'*invent.kde.org/neon/extras/kphotoalbum':
+  'Neon/stable':
+    upstream_scm:
+      branch: 5.x
+
+'*invent.kde.org/neon/extras/libktorrent':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
+'*invent.kde.org/neon/extras/phonon-backend-vlc':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/libraries/phonon-vlc.git
+  '{Neon/stable}':
+    upstream_scm:
+      branch: 0.9
+
+'*invent.kde.org/neon/extras/phonon-backend-gstreamer':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/libraries/phonon-gstreamer.git
+  '{Neon/stable}':
+    upstream_scm:
+      branch: 4.9
+
+'*invent.kde.org/neon/extras/qca2':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/libraries/qca.git
+
+'*invent.kde.org/neon/extras/qtav':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/extras/qtcurve':
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
+'*invent.kde.org/neon/extras/telepathy-qt':
+  '*':
+    upstream_scm:
+      type: uscan
+
+
+### Forks ###
+
+'*invent.kde.org/neon/forks/*':
+  master:
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/base-files':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/forks/breeze5':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/plasma/breeze
+
+'*invent.kde.org/neon/forks/fcitx-qt5':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/jasper':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/kaidan':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kaidan.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kaidan.git
+  'Neon/release':
+    upstream_scm:
+      type: tarball
+      url: https://download.kde.org/unstable/kaidan/0.8.0/kaidan-0.8.0.tar.xz
+
+'*invent.kde.org/neon/forks/kf6-kirigami-addons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kirigami-addons.git
+
+'*invent.kde.org/neon/forks/kup-backup':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+  'Neon/stable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kup.git
+
+'*invent.kde.org/neon/forks/kuserfeedback6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kuserfeedback.git
+
+'*invent.kde.org/neon/forks/libkexiv2-6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/graphics/libkexiv2.git
+
+'*invent.kde.org/neon/forks/live-build':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/forks/ofono':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/pyqt-builder':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/pyqt5':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/pyqt5-sip':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/pyqt5webengine':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/qml-box2d':
   '*':
     upstream_scm:
       type: tarball
-      url: https://download.kde.org/Attic/calligra/3.2.1/calligra-3.2.1.tar.xz
+      url: http://embra.edinburghlinux.co.uk/~jr/qml-box2d_2.0.0+git20190729.orig.tar.gz
 
-# KF6
+'*invent.kde.org/neon/forks/qtkeychain':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/sip5':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/forks/sip6':
+  '*':
+    upstream_scm:
+      type: uscan
+
+
+### Neon Natives ###
+
+'*invent.kde.org/neon/neon/calamares-settings':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/configure-inotify':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/debug-installer':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/drkonqi-pk-debug-installer.git
+
+'*invent.kde.org/neon/neon/docker-neon':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/packaging/docker-neon.git
+
+'*invent.kde.org/neon/neon/hardware-integration':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/keyring':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/livecd-rootfs':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/masks':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/mysql-overrides':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/seeds':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/settings':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/syslinux-themes-neon':
+  '*':
+    upstream_scm: null
+
+'*invent.kde.org/neon/neon/ubiquity-slideshow':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/ubiquity-slideshow-neon.git
+
+'*invent.kde.org/neon/neon/xserver-xorg-video-intel-native-modesetting':
+  '*':
+    upstream_scm: null
+
+
+### Neon-packaging ###
+
+'*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/aws/aws-sdk-cpp.git
+      branch: main
+
+'*invent.kde.org/neon/neon-packaging/black-hole-solver':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/distro-release-notifier':
+  '*':
+    upstream_scm:
+      branch: master
+      type: git
+
+'*invent.kde.org/neon/neon-packaging/falkon':
+  'Neon/stable':
+    upstream_scm:
+      branch: Falkon/3.1
+
+'*invent.kde.org/neon/neon-packaging/fastfloat':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/hotspot':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/kcm-tablet':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/system/wacomtablet.git
+  'Neon/stable':
+    upstream_scm:
+      branch: master
+
+'*invent.kde.org/neon/neon-packaging/kde-nomodeset':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/system/kde-nomodeset.git
+
+'*invent.kde.org/neon/neon-packaging/kde-development-environment':
+  '*':
+    upstream_scm:
+
+'*invent.kde.org/neon/neon-packaging/kdesdk-devenv-dependencies':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/packaging/kdesdk-devenv-dependencies.git
+
+'*invent.kde.org/neon/neon-packaging/kddockwidgets':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/kdsoap':
+  'Neon/{release,stable,unstable}':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/kpublictransport':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kpublictransport.git
+
+'*invent.kde.org/neon/neon-packaging/kube':
+  'Neon/unstable':
+    upstream_scm:
+      branch: develop
+      type: git
+
+'*invent.kde.org/neon/neon-packaging/libetebase':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/libmsym':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/libquotient':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+  'Neon/stable':
+    upstream_scm:
+      type: uscan
+  'Neon/release':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/maliit-framework':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/maliit-keyboard':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/ofono-qt':
+  '*':
+    upstream_scm:
+      type: tarball
+      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
+
+'*invent.kde.org/neon/neon-packaging/perfparser':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/KDAB/perfparser.git
+      branch: hotspot
+
+'*invent.kde.org/neon/extras/qcoro':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/qmltermwidget':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://github.com/Swordfish90/qmltermwidget
+
+'*invent.kde.org/neon/neon-packaging/rinutils':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/stellarsolver':
+  '*':
+    upstream_scm:
+      url: https://github.com/rlancaste/stellarsolver.git
+
+
+'*invent.kde.org/neon/neon-packaging/symboleditor':
+  'Neon/release':
+    upstream_scm:
+      type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+
+'*invent.kde.org/neon/neon-packaging/sink':
+  'Neon/unstable':
+    upstream_scm:
+      branch: develop
+      type: git
+
+'*invent.kde.org/neon/neon-packaging/telepathy-ofono':
+  '*':
+    upstream_scm:
+      url: https://github.com/TelepathyIM/telepathy-ofono
+      branch: staging
+
+'*invent.kde.org/neon/neon-packaging/vector-blf':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/ytmusicapi':
+  '*':
+    upstream_scm:
+      type: uscan
+
+
+### Qt ###
+
+# Qt lives in its own file!
+
+
+### Mass overrides below ###
+
+### KF6 ###
 
 '*invent.kde.org/neon/qt6/qt6-phonon':
   'Neon/unstable':
@@ -931,7 +1624,8 @@
       branch: master
       url: https://invent.kde.org/frameworks/threadweaver.git
 
-# Frameworks
+
+### Frameworks 5 ###
 
 '*invent.kde.org/neon/kde/attica':
   'Neon/unstable':
@@ -1763,26 +2457,9 @@
       type: git
       branch: kf5
 
-# Plasma
 
-'*invent.kde.org/neon/kde/kirigami2':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/frameworks/kirigami.git
-
-## This isn't actually plasma...
-'*invent.kde.org/neon/kde/plasma-mediacenter':
-  '*':
-    upstream_scm:
-      branch: Plasma/5.7
-
-'*invent.kde.org/neon/kde/plasma-discover':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/plasma/discover.git
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
+### Plasma ###
+#kde
 
 '*invent.kde.org/neon/kde/bluedevil':
   'Neon/stable':
@@ -1854,6 +2531,11 @@
     upstream_scm:
       branch: Plasma/5.27
 
+'*invent.kde.org/neon/kde/kirigami2':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/frameworks/kirigami.git
+
 '*invent.kde.org/neon/kde/kmenuedit':
   'Neon/stable':
     upstream_scm:
@@ -1889,6 +2571,11 @@
     upstream_scm:
       branch: Plasma/5.27
 
+'*invent.kde.org/neon/kde/kwayland-server':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
 '*invent.kde.org/neon/kde/kwin':
   'Neon/stable':
     upstream_scm:
@@ -1920,6 +2607,14 @@
       branch: Plasma/5.27
 
 '*invent.kde.org/neon/kde/plasma-desktop':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
+'*invent.kde.org/neon/kde/plasma-discover':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/plasma/discover.git
   'Neon/stable':
     upstream_scm:
       branch: Plasma/5.27
@@ -1989,42 +2684,9 @@
     upstream_scm:
       branch: Plasma/5.27
 
-'*invent.kde.org/neon/kde/kwayland-server':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
+#neon-packaging
 
-'*invent.kde.org/neon/neon-packaging/plasma-disks':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/plasma-firewall':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/plasma-systemmonitor':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/qqc2-breeze-style':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/layer-shell-qt':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/ksystemstats':
-  'Neon/stable':
-    upstream_scm:
-      branch: Plasma/5.27
-
-'*invent.kde.org/neon/neon-packaging/oxygen-sounds':
+'*invent.kde.org/neon/neon-packaging/aura-browser':
   'Neon/stable':
     upstream_scm:
       branch: Plasma/5.27
@@ -2034,7 +2696,17 @@
     upstream_scm:
       branch: Plasma/5.27
 
-'*invent.kde.org/neon/neon-packaging/aura-browser':
+'*invent.kde.org/neon/neon-packaging/ksystemstats':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
+'*invent.kde.org/neon/neon-packaging/layer-shell-qt':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
+'*invent.kde.org/neon/neon-packaging/oxygen-sounds':
   'Neon/stable':
     upstream_scm:
       branch: Plasma/5.27
@@ -2049,1791 +2721,27 @@
     upstream_scm:
       branch: Plasma/5.27
 
+'*invent.kde.org/neon/neon-packaging/plasma-disks':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
+'*invent.kde.org/neon/neon-packaging/plasma-firewall':
+  'Neon/stable':
+    upstream_scm:
+      branch: Plasma/5.27
+
 '*invent.kde.org/neon/neon-packaging/plasma-remotecontrollers':
   'Neon/stable':
     upstream_scm:
       branch: Plasma/5.27
 
-# Neon natives
-
-'*invent.kde.org/neon/neon/docker-neon':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/packaging/docker-neon.git
-
-'*invent.kde.org/neon/neon/ubiquity-slideshow':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/ubiquity-slideshow-neon.git
-
-'*invent.kde.org/neon/neon/livecd-rootfs':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/adwaita-icon-theme':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/calamares-settings':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/debug-installer':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/drkonqi-pk-debug-installer.git
-
-'*invent.kde.org/neon/neon/settings':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/hardware-integration':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/kde-l10n':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/keyring':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/language-unpacker':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/masks':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/plasma-wayland-meta':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/seeds':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/syslinux-themes-neon':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/xserver-xorg-video-intel-native-modesetting':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/mysql-overrides':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/neon/configure-inotify':
-  '*':
-    upstream_scm: null
-
-#DCI natives
-'github.com/dci-extras-packaging/rootactions-servicemenu':
-  '*':
-    upstream_scm: null
-
-'github.com/netrunner-desktop/netrunner-desktop':
-  '*':
-    upstream_scm: null
-
-# Neon-packaging
-
-'*invent.kde.org/neon/neon-packaging/kde-nomodeset':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/kde-nomodeset.git
-
-'*invent.kde.org/neon/extras/calamares':
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/calamares/calamares
-      branch: calamares
+'*invent.kde.org/neon/neon-packaging/plasma-systemmonitor':
   'Neon/stable':
     upstream_scm:
-      url: https://github.com/calamares/calamares
-      branch: calamares
+      branch: Plasma/5.27
 
-'*invent.kde.org/neon/extras/kphotoalbum':
+'*invent.kde.org/neon/neon-packaging/qqc2-breeze-style':
   'Neon/stable':
     upstream_scm:
-      branch: 5.x
-
-'*invent.kde.org/neon/extras/qtcurve':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/kraft':
-  '*':
-    upstream_scm:
-      url: https://github.com/dragotin/kraft.git
-
-'*invent.kde.org/neon/neon-packaging/libetebase':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/libquotient':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-  'Neon/stable':
-    upstream_scm:
-      type: uscan
-  'Neon/release':
-    upstream_scm:
-      type: uscan
-  'Neon/release-lts':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/stellarsolver':
-  '*':
-    upstream_scm:
-      url: https://github.com/rlancaste/stellarsolver.git
-
-'*invent.kde.org/neon/neon-packaging/maliit-framework':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/maliit-keyboard':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/falkon':
-  'Neon/stable':
-    upstream_scm:
-      branch: Falkon/3.1
-
-'*invent.kde.org/neon/neon-packaging/rinutils':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/black-hole-solver':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/ytmusicapi':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/vector-blf':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/fastfloat':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/aws-sdk-cpp':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/aws/aws-sdk-cpp.git
-      branch: main
-
-'*invent.kde.org/neon/neon-packaging/kdesdk-devenv-dependencies':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/packaging/kdesdk-devenv-dependencies.git
-
-'*invent.kde.org/neon/neon-packaging/kpublictransport':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/libraries/kpublictransport.git
-
-'*invent.kde.org/neon/neon-packaging/kde-development-environment':
-  '*':
-    upstream_scm:
-
-'*invent.kde.org/neon/extras/vc':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/extras/qtav':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/hotspot':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/kddockwidgets':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/extras/qcoro':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/perfparser':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/KDAB/perfparser.git
-      branch: hotspot
-
-
-'*invent.kde.org/neon/neon-packaging/libvdpau-sunxi':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/davidedmundson/libvdpau-sunxi
-      branch: wpackaging
-
-'*invent.kde.org/neon/neon-packaging/qmltermwidget':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/Swordfish90/qmltermwidget
-
-'*invent.kde.org/neon/neon-packaging/libcedrus':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/linux-sunxi/libcedrus
-      branch: master
-
-'*invent.kde.org/neon/neon-packaging/libyuv':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://chromium.googlesource.com/libyuv/libyuv/
-
-'*invent.kde.org/neon/neon-packaging/libump':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/libv/libump
-
-# Extras
-
-'*invent.kde.org/neon/*/kdeconnect':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/network/kdeconnect-kde.git
-
-'*invent.kde.org/neon/neon-packaging/kcm-tablet':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/system/wacomtablet.git
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/gcompris-qt':
-  '{Neon/stable,Neon/unstable}':
-    upstream_scm:
-      url: https://invent.kde.org/education/gcompris.git
-
-'*invent.kde.org/neon/extras/krename':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/ktorrent':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/libktorrent':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/kdevelop-python':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/kdevelop/kdev-python.git
-
-'*invent.kde.org/neon/extras/kdevelop-php':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/kdevelop/kdev-php.git
-
-'*invent.kde.org/neon/3rdparty/sddm':
-  'Neon/mobile':
-    upstream_scm:
-      type: uscan
-  'Neon/stable':
-    upstream_scm:
-      url: https://github.com/sddm/sddm.git
-      branch: develop
-  'Neon/unstable':
-    upstream_scm:
-      url: https://github.com/sddm/sddm.git
-      branch: develop
-
-'*invent.kde.org/neon/extras/phonon-backend-vlc':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/libraries/phonon-vlc.git
-  '{Neon/stable}':
-    upstream_scm:
-      branch: 0.9
-
-'*invent.kde.org/neon/extras/phonon-backend-gstreamer':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/libraries/phonon-gstreamer.git
-  '{Neon/stable}':
-    upstream_scm:
-      branch: 4.9
-
-### Qt
-
-# Qt lives in its own file!
-
-### Backports
-
-'*https://invent.kde.org/neon/backports-jammy/packagekit':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/packagekit-qt':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/libdbusmenu-qt':
-  '*':
-    upstream_scm:
-      type: uscan
-
-
-'*https://invent.kde.org/neon/backports-jammy/libjxl-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/pythran':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/libqt5qxlsx-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/javatools-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/yt-dlp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/chafa-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/harfbuzz':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/callaudiod':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/litehtml-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/wayland-protocols-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/libqalculate':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/wayland-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/lcms2-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/poppler-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/zxing-cpp-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/meson-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/appstream-glib-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/appstream-jammy2':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/mlt-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/wayland-utils-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/wayland-utils':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/syslinux-themes-ubuntu':
-  '*':
-    upstream_scm:
-      type: null
-
-'*invent.kde.org/neon/backports-jammy/gfxboot-theme-ubuntu':
-  '*':
-    upstream_scm:
-      type: null
-
-'*invent.kde.org/neon/backports-jammy/libdrm-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/qxmpp-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/libomemo-c-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/libjpeg-turbo-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/xsimd-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*https://invent.kde.org/neon/backports-jammy/libraqm-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/shared-mime-info-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-jammy/libunibreak-jammy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/lcms2':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/lcms2/2.12~rc1-2/lcms2_2.12~rc1.orig.tar.gz
-
-'*invent.kde.org/neon/backports-focal/shared-mime-info':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libdrm':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/zxing-cpp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/highway':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libjxl':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://deb.debian.org/debian/pool/main/j/jpeg-xl/jpeg-xl_0.7.0~git20220325.7594374+ds.orig.tar.xz
-
-'*invent.kde.org/neon/backports-focal/libcec':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/xcvt':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/fuse3':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libportal':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/icu':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/tmp/icu_70.1.orig.tar.gz
-
-'*invent.kde.org/neon/backports-focal/wayland':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libseccomp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/gpgme1.0':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/litehtml':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/assimp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/draco':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://archive.neon.kde.org/unstable/pool/main/d/draco/draco_1.4.3+dfsg.orig.tar.xz
-
-'*invent.kde.org/neon/backports-focal/libxmlb':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libaccounts-qt':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libaccounts-qt/1.16-2/libaccounts-qt_1.16.orig.tar.gz
-
-'*invent.kde.org/neon/backports-focal/md4c':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/cmake':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libevdev':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libinput':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/meson':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/wayland-utils':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libavif':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/dav1d':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/flatpak':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libglib-testing':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/appstream-glib':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/appstream':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/malcontent':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/ostree':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/pyside2':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/poppler':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/poppler-data':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/wayland-protocols':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/bup':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libqofono':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libgwenhywfar':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/kcolorpicker':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/kimageannotator':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/fwupd':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libgusb':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/systemd':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/iio-sensor-proxy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/pipewire':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/xdg-desktop-portal':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/xdg-dbus-proxy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/mlt':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/libaqbanking':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/qxmpp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/debhelper':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/backports-focal/fwupd-signed':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/extras/telepathy-qt':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libvncserver':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/bubblewrap':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/xdg-dbus-proxy':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/ostree':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/geoclue-2.0':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/xdg-desktop-portal':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libssh':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/pipewire':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/ddcutil':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/rttr':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/meson':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libaqbanking':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libzip':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/s3fs-fuse':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/qxmpp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/poppler':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/ebook-tools':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/gpgme':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/appimagelauncher':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/3rdparty/libappimage':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/squashfuse':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libheif':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/appstream-bionic':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/libical3':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/opencv':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://archive.ubuntu.com/ubuntu/pool/universe/o/opencv/opencv_3.2.0+dfsg.orig.tar.gz
-
-'*invent.kde.org/neon/backports-bionic/util-linux-bionic':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/jasper':
-  '*':
-    upstream_scm:
-      type: uscan
-      
-'*invent.kde.org/neon/extras/ktechlab':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/sdk/ktechlab.git
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/sdk/ktechlab.git
-  'Neon/release':
-    upstream_scm:
-      type: tarball
-      url: https://download.kde.org/unstable/ktechlab/ktechlab-0.50.0.tar.xz
-
-'*invent.kde.org/neon/forks/breeze5':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/plasma/breeze
-
-'*invent.kde.org/neon/forks/kf6-kirigami-addons':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/libraries/kirigami-addons.git
-
-'*invent.kde.org/neon/forks/kuserfeedback6':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/libraries/kuserfeedback.git
-
-'*invent.kde.org/neon/forks/libkexiv2-6':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/graphics/libkexiv2.git
-
-'*invent.kde.org/neon/forks/kaidan':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/network/kaidan.git
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/network/kaidan.git
-  'Neon/release':
-    upstream_scm:
-      type: tarball
-      url: https://download.kde.org/unstable/kaidan/0.8.0/kaidan-0.8.0.tar.xz
-
-'*invent.kde.org/neon/forks/qtkeychain':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/ofono':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/kup-backup':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/kup.git
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/kup.git
-  'Neon/unstable_bionic':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/kup.git
-  'Neon/stable_bionic':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/system/kup.git
-
-
-'*invent.kde.org/neon/forks/qml-box2d':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: http://embra.edinburghlinux.co.uk/~jr/qml-box2d_2.0.0+git20190729.orig.tar.gz
-
-'*invent.kde.org/neon/forks/fcitx-qt5':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/zxing-cpp':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/pyqt5':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-focal/qscintilla2':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/pyqt5webengine':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/pyqt-builder':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/pyqt5-sip':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/sip6':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/sip5':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/sip4':
-  '*':
-    upstream_scm:
-      type: uscan
-
-## Misc
-
-'*invent.kde.org/neon/forks/*':
-  master:
-    upstream_scm:
-      type: uscan
-  debian-unstable:
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/base-files':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/forks/live-build':
-  '*':
-    upstream_scm: null
-
-'*invent.kde.org/neon/extras/drumstick':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/xf86-video-armsoc':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/shadeslayer/xf86-video-armsoc.git
-      branch: master
-
-'*invent.kde.org/neon/forks/rtl8723ds-bt':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/NextThingCo/rtl8723ds_bt.git
-      branch: master
-
-'*invent.kde.org/neon/extras/icemon':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://github.com/icecc/icemon.git
-      branch: master
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://github.com/icecc/icemon.git
-      branch: 3.1
-
-'*invent.kde.org/neon/extras/icecc':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://github.com/icecc/icecream.git
-      branch: master
-  'Neon/stable':
-    upstream_scm:
-      type: git
-      url: https://github.com/icecc/icecream.git
-      branch: master
-
-'*invent.kde.org/neon/backports-bionic/libarchive':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libarchive/3.4.0-1build1/libarchive_3.4.0.orig.tar.gz
-
-'*invent.kde.org/neon/backports-bionic/libalkimia':
-  'Neon/{release-lts,release,stable,unstable}':
-    upstream_scm:
-      url: https://invent.kde.org/office/alkimia.git
-
-'*invent.kde.org/neon/backports-bionic/flatbuffers':
-  '{Neon/release,Neon/release-lts,Neon/unstable,Neon/stable}':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/extras/kile':
-  'Neon/unstable':
-    upstream_scm:
-      url: https://invent.kde.org/office/kile.git
-
-'*invent.kde.org/neon/extras/debconf-kde':
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/system/libdebconf-kde.git
-
-'*invent.kde.org/neon/extras/kdeconnect-plasma':
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/network/kdeconnect-kde.git
-
-'*invent.kde.org/neon/extras/muon':
-  'Neon/stable':
-    upstream_scm:
-      branch: master
-
-'*invent.kde.org/neon/extras/qapt':
-  '{Neon/release,Neon/release-lts}':
-    upstream_scm:
-     type: uscan
-  '{Neon/stable,Neon/unstable}':
-    upstream_scm:
-      url: https://invent.kde.org/system/libqapt.git
-      branch: master
-
-'*invent.kde.org/neon/extras/exiv2':
-  '{Neon/release,Neon/release-lts,Neon/stable,Neon/unstable}':
-    upstream_scm:
-     type: uscan
-
-'*invent.kde.org/neon/extras/qca2':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/libraries/qca.git
-
-'*invent.kde.org/neon/extras/qt-gstreamer':
-  '*':
-    upstream_scm:
-      url: git://anongit.freedesktop.org/gstreamer/qt-gstreamer
-
-'*invent.kde.org/neon/extras/telepathy-accounts-signon':
-  '*':
-    upstream_scm:
-      url: https://gitlab.com/accounts-sso/telepathy-accounts-signon.git
-
-'*invent.kde.org/neon/extras/libaccounts-glib':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/extras/gammaray':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/forks/libqalculate':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/distro-release-notifier':
-  '*':
-    upstream_scm:
-      branch: master
-      type: git
-
-'*invent.kde.org/neon/neon-packaging/kdsoap':
-  'Neon/{release-lts,release,stable,unstable}':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/libmsym':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/neon-packaging/symboleditor':
-  'Neon/release':
-    upstream_scm:
-      type: uscan
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-
-'*invent.kde.org/neon/neon-packaging/kube':
-  'Neon/unstable':
-    upstream_scm:
-      branch: develop
-      type: git
-
-'*invent.kde.org/neon/neon-packaging/sink':
-  'Neon/unstable':
-    upstream_scm:
-      branch: develop
-      type: git
-
-'*invent.kde.org/neon/3rdparty/indi':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/backports-bionic/mlt':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/3rdparty/libnova':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: tarball
-      url: http://mirrors.accretive-networks.net/debian/pool/main/libn/libnova/libnova_0.16.orig.tar.xz
-
-'*invent.kde.org/neon/extras/grantlee':
-  '{Neon/release-lts,Neon/release,Neon/stable,Neon/unstable}':
-    upstream_scm:
-      type: uscan
-
-
-## Mobile
-
-'*invent.kde.org/neon/mobile/plasma-phone-settings':
-  Neon/release:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile/plasma-phone-settings.git
-      type: git
-      branch: master
-
-### Xorg
-'*invent.kde.org/neon/xserver/xorg-server':
-  debian-experimental:
-    upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/x/xorg-server/xorg-server_1.18.0.orig.tar.gz
-
-'*invent.kde.org/neon/proto/x11proto-core':
-  debian-unstable:
-    upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/x/x11proto-core/x11proto-core_7.0.28.orig.tar.gz
-
-'*invent.kde.org/neon/proto/x11proto-randr':
-  debian-unstable:
-    upstream_scm:
-      type: tarball
-      url: http://http.debian.net/debian/pool/main/x/x11proto-randr/x11proto-randr_1.5.0.orig.tar.gz
-
-'*gitlab.com/debian-pm/plasma-mobile/simplelogin':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/bshah/simplelogin/
-
-'*invent.kde.org/neon/neon-packaging/telepathy-ofono':
-  '*':
-    upstream_scm:
-      url: https://github.com/TelepathyIM/telepathy-ofono
-      branch: staging
-
-'*gitlab.com/debian-pm/libs/ofono-qt':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
-
-'*invent.kde.org/neon/neon-packaging/ofono-qt':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
-
-https://github.com/plasma-phone-packaging/qmlkonsole:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/notmart/qmltermwidget
-
-https://github.com/plasma-phone-packaging/qtvirtualkeyboard:
-  Neon/mobile:
-    upstream_scm:
-      type: uscan
-https://github.com/plasma-phone-packaging/plasma-phone-settings-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile/plasma-phone-settings.git
-https://github.com/plasma-phone-packaging/kpeoplevcard:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/pim/kpeoplevcard
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-camera-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-camera
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-phone-components-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-phone-components.git
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-mobile-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-settings-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-settings
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-maliit-plugins-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-maliit-plugins.git
-https://github.com/plasma-phone-packaging/plasma-mobile/plasma-samegame-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-samegame
-https://github.com/plasma-phone-packaging/mtp-server:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile/mtp-server.git
-
-https://github.com/plasma-phone-packaging/spacebar:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile/spacebar.git
-
-https://github.com/plasma-phone-packaging/plasma-maliit-framework-packaging:
-  Neon/unstable:
-    upstream_scm:
-      url: https://invent.kde.org/plasma-mobile/plasma-maliit-framework.git
-https://github.com/plasma-phone-packaging/libepoxy:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/anholt/libepoxy.git
-
-https://github.com/plasma-phone-packaging/appstream:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/ximion/appstream.git
-
-https://github.com/plasma-phone-packaging/screenshotapp:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/plasma-apps/screenshotapp.git
-
-https://github.com/plasma-phone-packaging/inputcontext-gtk:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/maliit/inputcontext-gtk.git
-      branch: tags/0.99.0
-
-https://github.com/plasma-phone-packaging/libhybris:
-  '*':
-    upstream_scm:
-      url: https://github.com/libhybris/libhybris.git
-
-https://gitlab.com/debian-pm/apps/llsvplayer:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/jbbgameich/videoplayer
-      branch: master
-
-https://github.com/plasma-phone-packaging/nemo-qtmultimedia-plugins:
-  master:
-    upstream_scm:
-      type: git
-      url: https://git.merproject.org/mer-core/nemo-qtmultimedia-plugins.git
-
-https://github.com/mycroft-packaging/mycroft-gui:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/MycroftAI/mycroft-gui.git
-      branch: master
-
-https://github.com/mycroft-packaging/mycroft-skill-installer:
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/plasma-bigscreen/mycroft-skill-installer
-
-https://github.com/mycroft-packaging/lottie-qml:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/kbroulik/lottie-qml
-
-https://github.com/KaidanIM/gloox-packaging:
-  'master':
-    upstream_scm:
-      type: uscan
-
-https://github.com/KaidanIM/kaidan-packaging-deb:
-  'master':
-    upstream_scm:
-      url: https://github.com/KaidanIM/Kaidan
-      branch: master
-
-https://github.com/debian-packaging/mintupdate:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/blueshell-next/mintupdate
-
-https://github.com/debian-packaging/*mint*:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/linuxmint/<%= name %>
-
-https://github.com/calamares/calamares-debian:
-  Neon/unstable:
-    upstream_scm:
-      url: https://github.com/calamares/calamares
-  'master':
-    upstream_scm:
-      type: uscan
-
-## DCI
-https://github.com/netrunner-odroid/xserver-xorg-video-mali:
-  '*':
-    upstream_scm:
-      url: https://github.com/mdrjr/c1_mali_ddx
-
-https://github.com/netrunner-odroid/mali-x11:
-  '*':
-    upstream_scm:
-      url: https://github.com/mdrjr/c1_mali_libs
-
-https://github.com/netrunner-odroid/c2-mali-x11:
-  '*':
-    upstream_scm:
-      url: https://github.com/mdrjr/c2_mali
-
-https://github.com/netrunner-odroid/xserver-xorg-video-mali-450:
-  '*':
-    upstream_scm:
-      url: https://github.com/mdrjr/c2_mali_ddx
-
-https://github.com/rpi2-stuff/mesa:
-  Neon/unstable:
-    upstream_scm:
-      url: git://anongit.freedesktop.org/mesa/mesa
-      branch: 11.1
-
-'https://github.com/dci-extras-packaging/{carbon-gtk3,carbon-gtk2,carbon-qt,mintupdate,imagewriter,web-menu-entries}*':
-  '*':
-    upstream_scm:
-      url: https://github.com/ds9-extras/<%= name %>
-
-https://github.com/dci-extras-packaging/appimagelauncher:
-  '*':
-    upstream_scm:
-      type: uscan
-
-https://github.com/dci-extras-packaging/xdg-utils-cxx:
-  '*':
-    upstream_scm:
-      type: uscan
-
-https://github.com/dci-extras-packaging/libappimage:
-  '*':
-    upstream_scm:
-      type: uscan
-
-'https://github.com/dci-extras-packaging/groupingplasmoid':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/davidedmundson/groupingplasmoid
-      type: git
-
-https://github.com/dci-extras-packaging/{krita,qtcharts-opensource-src,grub-customizer,latte-dock,marble,libssl1.0.2}*:
-  '*':
-    upstream_scm:
-      type: uscan
-
-'https://github.com/dci-extras-packaging/calamares-plasmalnf':
-  '*':
-    upstream_scm:
-      url: https://github.com/calamares/calamares
-      branch: master
-
-'https://github.com/dci-extras-packaging/skype':
-  '*':
-    upstream_scm:
-
-'https://github.com/dci-extras-packaging/samba-mounter':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/system/samba-mounter.git
-      type: git
-
-'https://github.com/dci-extras-packaging/{plasma,kcm,ice}-*':
-  '*':
-    upstream_scm:
-      url: https://github.com/plasma-extensions/<%= name %>
-
-'https://github.com/dci-extras-packaging/kcm-{plasma-services,about-extended,repo-toggle}':
-  '*':
-    upstream_scm:
-      url: https://github.com/ds9-extras/<%= name %>
-
-'https://github.com/dci-extras-packaging/imagewriter':
-  '*':
-    upstream_scm:
-      url: https://github.com/openSUSE/imagewriter
-
-'https://github.com/dci-extras-packaging/ksuperkey':
-  '*':
-    upstream_scm:
-      url: https://github.com/hanschen/ksuperkey.git
-
-'https://github.com/dci-extras-packaging/{yarock,xdgurl,telepathy-,telegram-}*':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'https://github.com/dci-extras-packaging/plasma-widget-volumewin7mixer':
-  '*':
-    upstream_scm:
-      type: uscan
-
-'https://github.com/dci-extras-packaging/simplemenu':
-  '*':
-    upstream_scm:
-      url: https://invent.kde.org/plasma/plasma-simplemenu.git
-      type: git
-
-'https://github.com/dci-extras-packaging/kcm-kernel-config':
-  '*':
-    upstream_scm:
-      url: https://github.com/plasma-extensions/kernel-kcm
-
-'https://github.com/dci-extras-packaging/0-toggle':
-  '*':
-    upstream_scm:
-      url: https://github.com/plasma-extensions/plasma-widget-0-toggle
-
-'https://github.com/dci-extras-packaging/libump':
-  '*':
-    upstream_scm:
-      url: https://github.com/libv/libump
-
-'https://github.com/netrunner-odroid/c1-uboot':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/mdrjr/c1_uboot_binaries
-
-'https://github.com/netrunner-pine64/pine64-uboot':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-pine64/boot-tools
-
-'https://github.com/netrunner-pine64/libvdpau-sunxi':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/davidedmundson/libvdpau-sunxi
-      branch: wpackaging
-
-'https://github.com/netrunner-pine64/libcedrus':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/linux-sunxi/libcedrus
-      branch: master
-
-'https://github.com/netrunner-odroid/c2-uboot':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/netrunner-odroid/c2_uboot_binaries
-
-'https://github.com/netrunner-odroid/c1-bootini':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/mdrjr/c1_bootini
-
-'https://github.com/netrunner-odroid/c1-linux':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/hardkernel/linux
-      branch: odroidc-3.10.y
-
-'https://github.com/netrunner-odroid/c2-linux':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/hardkernel/linux
-      branch: odroidc2-3.14.y
-
-'https://github.com/netrunner-pine64/pine64-linux':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-pine64/linux-pine64
-      branch: my-hacks-1.2-with-drm
-
-'https://github.com/shadeslayer/kde-l10n-common':
-  '*':
-    upstream_scm:
-      type: kde-l10n
-
-'*invent.kde.org/neon/pkg-virtualbox/virtualbox*':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: 'https://deb.debian.org/debian/pool/contrib/v/virtualbox/virtualbox_5.1.14-dfsg.orig.tar.xz'
-
-'https://github.com/netrunner-pine64/{xf86-video-armsoc,pine64-mali-x11}*':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/shadeslayer/<%= name %>
-      branch: master
-
-'*{github.com/halium-packaging,gitlab.com/debian-pm}*android-headers':
-  halium-7.1:
-    upstream_scm:
-      type: git
-      url: https://github.com/halium/android-headers
-      branch: halium-7.1
-
-'*{github.com/halium-packaging,gitlab.com/debian-pm}*/libhybris':
-  '{master,halium-7.1}':
-    upstream_scm:
-      type: git
-      url: https://github.com/halium/libhybris
-      branch: halium-7.1
-
-'*{github.com/halium-packaging,gitlab.com/debian-pm}*/lxc-android':
-  master:
-    upstream_scm:
-      type: git
-      url: https://github.com/halium/lxc-android
-      branch: master
-
-'*gitlab.com/debian-pm/halium/pulseaudio*':
-  '*':
-    upstream_scm:
-      type: uscan
-
-https://github.com/halium-packaging/nemo-gst-interfaces:
-  master:
-    upstream_scm:
-      type: git
-      url: https://git.merproject.org/mer-core/nemo-gst-interfaces.git
-
-'*{github.com/halium-packaging,gitlab.com/debian-pm}*{droidmedia,gst-droid}*':
-  master:
-    upstream_scm:
-      type: git
-      url: https://github.com/sailfishos/<%= name %>
-
-https://github.com/halium-packaging/gst-omx:
-  master:
-    upstream_scm:
-      type: tarball
-      url: https://gstreamer.freedesktop.org/src/gst-omx/gst-omx-1.10.4.tar.xz
-
-https://github.com/netrunner-pine64/rtl8723ds-bt:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/NextThingCo/rtl8723ds_bt
-      branch: master
-
-https://github.com/netrunner-pine64/rtl8723ds-bt-firmware:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-pine64/linux-build
-      branch: master
-
-https://github.com/netrunner-rock64/linux-kernel:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-rock64/linux-kernel
-      branch: release-4.4.190
-
-https://github.com/{netrunner-rock64/xf86-video-armsoc,xenon-packaging/xf86-video-armsoc-bsp-rock64}:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/shadeslayer/xf86-video-armsoc
-      branch: devel/rockchip
-
-'https://github.com/xenon-packaging/libmali-bsp-rock64':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-rock64/libmali
-      branch: rockchip
-
-https://github.com/xenon-packaging/rkbin-bsp-rock64:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-rock64/rkbin
-
-https://github.com/xenon-packaging/u-boot-bsp-rock64:
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/ayufan-rock64/linux-u-boot
-      branch: rockchip-master
-
-https://github.com/xenon-packaging/linux-bsp-rock64:
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://github.com/ayufan-rock64/linux-kernel/archive/release-4.4.tar.gz
-
-
-https://github.com/zynthbox/*:
-    upstream_scm:
-      type: git
-      url: https://github.com/zynthbox/<=% name %>
-      branch: master
-
-https://github.com/netrunner-desktop/calamares-desktop:
-    upstream_scm:
-      type: git
-      url: https://github.com/netrunner-desktop/calamares-desktop
+      branch: Plasma/5.27
