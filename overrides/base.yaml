@@ -203,6 +203,16 @@
 
 ### Extras ###
 
+'*invent.kde.org/neon/extras/calamares':
+  Neon/unstable:
+    upstream_scm:
+      url: https://github.com/calamares/calamares
+      branch: calamares
+  'Neon/stable':
+    upstream_scm:
+      url: https://github.com/calamares/calamares
+      branch: calamares
+
 '*invent.kde.org/neon/extras/debconf-kde':
   Neon/unstable:
     upstream_scm:
@@ -223,7 +233,7 @@
     upstream_scm:
       type: uscan
 
-      '*invent.kde.org/neon/extras/icecc':
+'*invent.kde.org/neon/extras/icecc':
   'Neon/unstable':
     upstream_scm:
       type: git
@@ -246,6 +256,11 @@
       type: git
       url: https://github.com/icecc/icemon.git
       branch: master
+
+'*invent.kde.org/neon/*/kdeconnect':
+  '*':
+    upstream_scm:
+      url: https://invent.kde.org/network/kdeconnect-kde.git
 
 '*invent.kde.org/neon/extras/kdevelop-python':
   '*':
