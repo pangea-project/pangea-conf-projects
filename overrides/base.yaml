@@ -35,9 +35,6 @@
       type: uscan
 
 '*invent.kde.org/neon/3rdparty/sddm':
-  'Neon/mobile':
-    upstream_scm:
-      type: uscan
   'Neon/stable':
     upstream_scm:
       url: https://github.com/sddm/sddm.git
