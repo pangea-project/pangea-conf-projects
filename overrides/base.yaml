@@ -554,8 +554,9 @@
 
 '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
-    upstream_scm:
-      type: uscan
+    ustream_scm:
+      type: git
+      url: https://github.com/LinuxDevon/dbc_parser_cpp.git
 
 '*invent.kde.org/neon/neon-packaging/distro-release-notifier':
   '*':
