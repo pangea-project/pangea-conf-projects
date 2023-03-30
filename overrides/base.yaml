@@ -551,7 +551,7 @@
 
 '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
-    ustream_scm:
+    upstream_scm:
       type: git
       url: https://github.com/LinuxDevon/dbc_parser_cpp.git
 
