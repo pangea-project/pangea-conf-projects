@@ -711,7 +711,8 @@
 '*invent.kde.org/neon/neon-packaging/vector-blf':
   '*':
     upstream_scm:
-      type: uscan
+      type: git
+      url: github.com/Technica-Engineering/vector_blf.git
 
 '*invent.kde.org/neon/neon-packaging/ytmusicapi':
   '*':
