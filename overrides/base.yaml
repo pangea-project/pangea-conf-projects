@@ -584,6 +584,16 @@
     upstream_scm:
       branch: master
 
+'*invent.kde.org/neon/neon-packaging/liborigin':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/neon-packaging/libxisf':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/kde-nomodeset':
   '*':
     upstream_scm:
