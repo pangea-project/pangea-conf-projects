@@ -553,7 +553,8 @@
   '*':
     upstream_scm:
       type: git
-      url: https://github.com/LinuxDevon/dbc_parser_cpp.git
+      url: https://github.com/Murmele/dbc_parser_cpp.git
+      branch: 18a2a4e46f44a06617e1fa9c2e4524eff2bc389d
 
 '*invent.kde.org/neon/neon-packaging/distro-release-notifier':
   '*':
