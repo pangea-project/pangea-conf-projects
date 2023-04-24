@@ -48,9 +48,13 @@
 ### Backports-Jammy ###
 
 '*invent.kde.org/neon/backports-jammy/appstream-jammy2':
-  '*':
+  '{Neon/release,Neon/stable}':
     upstream_scm:
       type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      url: https://github.com/ximion/appstream.git
+      branch: main
 
 '*invent.kde.org/neon/backports-jammy/callaudiod':
   '*':
