@@ -66,6 +66,16 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/fcitx5':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/fcitx5-qt':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/gfxboot-theme-ubuntu':
   '*':
     upstream_scm:
@@ -182,6 +192,11 @@
       type: uscan
 
 '*invent.kde.org/neon/backports-jammy/wayland-utils-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/xcb-imdkit':
   '*':
     upstream_scm:
       type: uscan
