@@ -219,7 +219,7 @@
 
 ### Docker-Images ###
 
-'*invent.kde.org/neon/docker-images':
+'*invent.kde.org/neon/neon/docker-neon':
   '*':
     upstream_scm:
       type: git
