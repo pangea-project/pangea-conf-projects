@@ -217,6 +217,15 @@
       type: uscan
 
 
+### Docker-Images ###
+
+'*invent.kde.org/neon/docker-images':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/neon/docker-images.git
+
+
 ### Extras ###
 
 '*invent.kde.org/neon/extras/calamares':
@@ -504,12 +513,6 @@
     upstream_scm:
       type: git
       url: https://invent.kde.org/system/drkonqi-pk-debug-installer.git
-
-'*invent.kde.org/neon/neon/docker-neon':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/packaging/docker-neon.git
 
 '*invent.kde.org/neon/neon/hardware-integration':
   '*':
