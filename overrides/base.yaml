@@ -96,17 +96,17 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/backports-jammy/libgwenhywfar':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/backports-jammy/libdbusmenu-qt':
   '*':
     upstream_scm:
       type: uscan
 
 '*invent.kde.org/neon/backports-jammy/libdrm-jammy':
+  '*':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libgwenhywfar':
   '*':
     upstream_scm:
       type: uscan
