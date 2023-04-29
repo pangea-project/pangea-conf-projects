@@ -504,10 +504,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/neon/configure-inotify':
-  '*':
-    upstream_scm: null
-
 '*invent.kde.org/neon/neon/debug-installer':
   '*':
     upstream_scm:
