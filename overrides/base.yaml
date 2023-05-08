@@ -81,7 +81,7 @@
     upstream_scm:
       type: null
 
-'*https://invent.kde.org/neon/backports-jammy/gpgme':
+'*invent.kde.org/neon/backports-jammy/gpgme':
   '*':
     upstream_scm:
       type: null
