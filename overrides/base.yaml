@@ -81,6 +81,11 @@
     upstream_scm:
       type: null
 
+'*https://invent.kde.org/neon/backports-jammy/gpgme':
+  '*':
+    upstream_scm:
+      type: null
+
 '*invent.kde.org/neon/backports-jammy/javatools-jammy':
   '*':
     upstream_scm:
