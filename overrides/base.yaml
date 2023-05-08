@@ -166,6 +166,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/qt-advanced-docking-system':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/qxmpp-jammy':
   '*':
     upstream_scm:
