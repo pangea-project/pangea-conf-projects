@@ -686,12 +686,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/ofono-qt':
-  '*':
-    upstream_scm:
-      type: tarball
-      url: https://debian-pm-tools.github.io/orig-tar-xzs/ofono-qt_1.5%2Bgit20120419%2Bbcf0c04.orig.tar.xz
-
 '*invent.kde.org/neon/neon-packaging/perfparser':
   '*':
     upstream_scm:
@@ -734,12 +728,6 @@
     upstream_scm:
       branch: develop
       type: git
-
-'*invent.kde.org/neon/neon-packaging/telepathy-ofono':
-  '*':
-    upstream_scm:
-      url: https://github.com/TelepathyIM/telepathy-ofono
-      branch: staging
 
 '*invent.kde.org/neon/neon-packaging/vector-blf':
   '*':
