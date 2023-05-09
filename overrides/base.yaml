@@ -456,11 +456,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/forks/ofono':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/forks/pyqt-builder':
   '*':
     upstream_scm:
