@@ -581,6 +581,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/cask-server':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
     upstream_scm:
