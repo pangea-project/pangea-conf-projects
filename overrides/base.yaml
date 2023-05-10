@@ -101,6 +101,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/libdisplay-info':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/backports-jammy/libdbusmenu-qt':
   '*':
     upstream_scm:
