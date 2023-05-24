@@ -476,10 +476,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/forks/plasma-integration5':
-  '*':
-    upstream_scm: null
-
 '*invent.kde.org/neon/forks/pyqt-builder':
   '*':
     upstream_scm:
