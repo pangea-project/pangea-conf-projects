@@ -15,7 +15,6 @@ invent.kde.org/neon:
     - '*'
   - forks:
     - breeze5
-    - plasma-integration5
     - kf6-kirigami-addons
     - kuserfeedback6
     - libkexiv2-6
