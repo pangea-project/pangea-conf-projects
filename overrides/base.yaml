@@ -414,12 +414,6 @@
   '*':
     upstream_scm: null
 
-'*invent.kde.org/neon/forks/breeze5':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/plasma/breeze
-
 '*invent.kde.org/neon/forks/fcitx-qt5':
   '*':
     upstream_scm:
@@ -444,12 +438,6 @@
       type: tarball
       url: https://download.kde.org/unstable/kaidan/0.8.0/kaidan-0.8.0.tar.xz
 
-'*invent.kde.org/neon/forks/kf6-kirigami-addons':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/libraries/kirigami-addons.git
-
 '*invent.kde.org/neon/forks/kup-backup':
   'Neon/unstable':
     upstream_scm:
@@ -459,18 +447,6 @@
     upstream_scm:
       type: git
       url: https://invent.kde.org/system/kup.git
-
-'*invent.kde.org/neon/forks/kuserfeedback6':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/libraries/kuserfeedback.git
-
-'*invent.kde.org/neon/forks/libkexiv2-6':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      url: https://invent.kde.org/graphics/libkexiv2.git
 
 '*invent.kde.org/neon/forks/live-build':
   '*':
@@ -586,6 +562,12 @@
       url: https://invent.kde.org/pim/akonadi-search.git
       branch: work/carl/parse-html-with-rust
 
+'*invent.kde.org/neon/neon-packaging/breeze5':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/plasma/breeze
+
 '*invent.kde.org/neon/neon-packaging/corrosion':
   '*':
     upstream_scm:
@@ -644,6 +626,12 @@
   'Neon/stable':
     upstream_scm:
       branch: master
+
+'*invent.kde.org/neon/neon-packaging/libkexiv2-6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/graphics/libkexiv2.git
 
 '*invent.kde.org/neon/neon-packaging/liborigin':
   '*':
@@ -1301,6 +1289,12 @@
       branch: master
       url: https://invent.kde.org/frameworks/kirigami.git
 
+'*invent.kde.org/neon/kf6/kf6-kirigami-addons':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kirigami-addons.git
+
 '*invent.kde.org/neon/kf6/kf6-kitemmodels':
   'Neon/unstable':
     upstream_scm:
@@ -1540,6 +1534,12 @@
       type: git
       branch: master
       url: https://invent.kde.org/frameworks/kunitconversion.git
+
+'*invent.kde.org/neon/kf6/kf6-kuserfeedback':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kuserfeedback.git
 
 '*invent.kde.org/neon/kf6/kf6-kwallet':
   'Neon/unstable':
