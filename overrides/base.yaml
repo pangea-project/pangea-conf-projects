@@ -719,6 +719,12 @@
       url: https://github.com/KDAB/perfparser.git
       branch: hotspot
 
+'*invent.kde.org/neon/neon-packaging/plasma-integration5':
+  '*':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/neon/neon-packaging/plasma-integration5
+
 '*invent.kde.org/neon/extras/qcoro':
   '*':
     upstream_scm:
