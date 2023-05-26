@@ -566,7 +566,7 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/plasma/breeze
+      url: https://invent.kde.org/plasma/breeze.git
 
 '*invent.kde.org/neon/neon-packaging/corrosion':
   '*':
@@ -723,7 +723,7 @@
   '*':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/neon/neon-packaging/plasma-integration5
+      url: https://invent.kde.org/neon/neon-packaging/plasma-integration5.git
 
 '*invent.kde.org/neon/extras/qcoro':
   '*':
