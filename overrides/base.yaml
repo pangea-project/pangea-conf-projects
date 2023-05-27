@@ -723,7 +723,7 @@
   '*':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/neon/neon-packaging/plasma-integration5.git
+      url: https://invent.kde.org/plasma/plasma-integration.git
 
 '*invent.kde.org/neon/extras/qcoro':
   '*':
