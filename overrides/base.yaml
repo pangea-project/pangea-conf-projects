@@ -1510,12 +1510,12 @@
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/libraries/ktexttemplate.git
+      url: https://invent.kde.org/frameworks/ktexttemplate.git
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/libraries/ktexttemplate.git
+      url: https://invent.kde.org/frameworks/ktexttemplate.git
 
 '*invent.kde.org/neon/kf6/kf6-ktextwidgets':
   'Neon/unstable':
