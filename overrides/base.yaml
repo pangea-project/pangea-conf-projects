@@ -673,7 +673,7 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://invent.kde.org/neon/neon-packaging/kpeoplevcard6.git
+      url: https://invent.kde.org/pim/kpeoplevcard
 
 '*invent.kde.org/neon/neon-packaging/kpublictransport':
   '*':
