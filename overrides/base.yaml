@@ -669,6 +669,18 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/kdsoap6':
+  'Neon/{unstable}':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kdsoap-ws-discovery-client.git
+
+'*invent.kde.org/neon/neon-packaging/kio-extras6':
+  'Neon/{unstable}':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kio-extras.git
+
 '*invent.kde.org/neon/neon-packaging/kmoretools6':
   'Neon/unstable':
     upstream_scm:
