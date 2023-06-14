@@ -627,6 +627,12 @@
     upstream_scm:
       branch: master
 
+'*invent.kde.org/neon/neon-packaging/kdsoap-ws-discovery-client6':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/libraries/kdsoap-ws-discovery-client.git
+
 '*invent.kde.org/neon/neon-packaging/libkexiv2-6':
   'Neon/unstable':
     upstream_scm:
