@@ -137,7 +137,7 @@
   '*':
     upstream_scm:
       type: tarball
-      url: http://deb.debian.org/debian/pool/main/q/qtwebengine-opensource-src/qtwebengine-opensource-src_5.15.13+dfsg.orig.tar.xz
+      url: http://deb.debian.org/debian/pool/main/q/qtwebengine-opensource-src/qtwebengine-opensource-src_5.15.14+dfsg.orig.tar.xz
 
 '*{invent.kde.org/neon/qt,gitlab.com/*}/qtnetworkauth':
   '*':
