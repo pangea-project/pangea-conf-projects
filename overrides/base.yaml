@@ -754,7 +754,7 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/qmltermwidget'6:
+'*invent.kde.org/neon/neon-packaging/qmltermwidget':
   '*':
     upstream_scm:
       type: git
