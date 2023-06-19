@@ -754,11 +754,18 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/qmltermwidget':
+'*invent.kde.org/neon/neon-packaging/qmltermwidget'6:
   '*':
     upstream_scm:
       type: git
       url: https://github.com/Swordfish90/qmltermwidget
+
+'*invent.kde.org/neon/neon-packaging/qmltermwidget6':
+  '*':
+    upstream_scm:
+      type: git
+      branch: tofe/qt6
+      url: https://github.com/Tofee/qmltermwidget.git
 
 '*invent.kde.org/neon/neon-packaging/rinutils':
   '*':
