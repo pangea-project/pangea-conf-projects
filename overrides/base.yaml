@@ -1512,12 +1512,12 @@
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/libraries/ksvg
+      url: https://invent.kde.org/frameworks/ksvg
   'Neon/stable':
     upstream_scm:
       type: git
       branch: master
-      url: https://invent.kde.org/libraries/ksvg
+      url: https://invent.kde.org/frameworks/ksvg
 
 '*invent.kde.org/neon/kf6/kf6-ktextaddons':
   'Neon/unstable':
