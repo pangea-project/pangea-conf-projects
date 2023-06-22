@@ -8,7 +8,7 @@
 
 # qtchooser git has qt6 support
 '*invent.kde.org/neon/qt/qtchooser':
-  Neon/unstable:
+  Neon/release:
     upstream_scm:
       type: git
       url: https://code.qt.io/qtsdk/qtchooser.git
