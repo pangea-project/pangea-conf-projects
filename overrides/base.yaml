@@ -690,7 +690,7 @@
   'Neon/unstable':
     upstream_scm:
       type: git
-      url: https://https://invent.kde.org/neon/kde/kwayland-integration.git
+      url: https://invent.kde.org/plasma/kwayland-integration.git
 
 '*invent.kde.org/neon/neon-packaging/liborigin':
   '*':
