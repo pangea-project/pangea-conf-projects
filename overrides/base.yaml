@@ -22,7 +22,6 @@
     upstream_scm:
       type: uscan
 
-
 '*invent.kde.org/neon/3rdparty/libnova':
   '{Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
@@ -46,6 +45,12 @@
 
 
 ### Backports-Jammy ###
+
+'*invent.kde.org/neon/backports-jammy/accounts-qml-module':
+  '{Neon/release,Neon/stable,Neon/unstable}':
+    upstream_scm:
+      url: https://gitlab.com/accounts-sso/accounts-qml-module.git
+      branch: master
 
 '*invent.kde.org/neon/backports-jammy/appstream-jammy2':
   '{Neon/release,Neon/stable}':
@@ -95,6 +100,24 @@
   '*':
     upstream_scm:
       type: uscan
+
+'*invent.kde.org/neon/backports-jammy/libaccounts-glib':
+  '{Neon/release,Neon/stable}':
+    upstream_scm:
+      type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      url: https://gitlab.com/accounts-sso/libaccounts-glib.git
+      branch: master
+
+'*invent.kde.org/neon/backports-jammy/libaccounts-qt':
+  '{Neon/release,Neon/stable}':
+    upstream_scm:
+      type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      url: https://gitlab.com/accounts-sso/libaccounts-qt.git
+      branch: master
 
 '*invent.kde.org/neon/backports-jammy/libaqbanking':
   '*':
@@ -146,6 +169,15 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/libsignon-glib':
+  '{Neon/release,Neon/stable}':
+    upstream_scm:
+      type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      url: https://gitlab.com/accounts-sso/libsignon-glib.git
+      branch: main
+
 '*invent.kde.org/neon/backports-jammy/libunibreak-jammy':
   '*':
     upstream_scm:
@@ -195,6 +227,15 @@
   '*':
     upstream_scm:
       type: uscan
+
+'*invent.kde.org/neon/backports-jammy/signond':
+  '{Neon/release,Neon/stable}':
+    upstream_scm:
+      type: uscan
+  'Neon/unstable':
+    upstream_scm:
+      url: https://gitlab.com/accounts-sso/signond.git
+      branch: master
 
 '*invent.kde.org/neon/backports-jammy/shared-mime-info-jammy':
   '*':
@@ -619,6 +660,12 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/kaccounts6-integration':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://invent.kde.org/network/kaccounts-integration.git
+
 '*invent.kde.org/neon/neon-packaging/kcm-tablet':
   '*':
     upstream_scm:
@@ -638,6 +685,12 @@
     upstream_scm:
       type: git
       url: https://invent.kde.org/graphics/libkexiv2.git
+
+'*invent.kde.org/neon/neon-packaging/kwayland-integration5':
+  'Neon/unstable':
+    upstream_scm:
+      type: git
+      url: https://https://invent.kde.org/neon/kde/kwayland-integration.git
 
 '*invent.kde.org/neon/neon-packaging/liborigin':
   '*':
