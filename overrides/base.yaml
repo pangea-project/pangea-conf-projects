@@ -110,7 +110,7 @@
       url: https://gitlab.com/accounts-sso/libaccounts-glib.git
       branch: master
 
-'*invent.kde.org/neon/backports-jammy/libaccounts-qt':
+'*invent.kde.org/neon/3rdparty/libaccounts-qt':
   '{Neon/release,Neon/stable}':
     upstream_scm:
       type: uscan
