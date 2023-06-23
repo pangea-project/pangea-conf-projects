@@ -176,7 +176,7 @@
   'Neon/unstable':
     upstream_scm:
       url: https://gitlab.com/accounts-sso/libsignon-glib.git
-      branch: main
+      branch: master
 
 '*invent.kde.org/neon/backports-jammy/libunibreak-jammy':
   '*':
