@@ -34,7 +34,7 @@
 
 # qt6-3d has an optional dependency on unreleased qt6-gamepad
 '*invent.kde.org/neon/qt6/qt6-gamepad':
-  'Neon/unstable':
+  'Neon/release':
     upstream_scm:
       type: git
       branch: dev
