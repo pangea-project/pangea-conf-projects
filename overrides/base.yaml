@@ -732,6 +732,7 @@
   'Neon/unstable':
     upstream_scm:
       type: git
+      branch: kf6
       url: https://invent.kde.org/network/kio-extras.git
 
 '*invent.kde.org/neon/neon-packaging/kmoretools6':
