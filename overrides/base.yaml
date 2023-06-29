@@ -734,11 +734,11 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/kio-extras6':
+'*invent.kde.org/neon/neon-packaging/kio-extras5':
   'Neon/unstable':
     upstream_scm:
       type: git
-      branch: kf6
+      branch: master
       url: https://invent.kde.org/network/kio-extras.git
 
 '*invent.kde.org/neon/neon-packaging/kmoretools6':
