@@ -60,3 +60,12 @@ invent.kde.org/neon:
     - '*'
   - backports-jammy:
     - '*'
+  - qt6:
+    - '*':
+        branch: Neon/release
+    - 'qt6-qca':
+        branch: Neon/release
+    - 'qt6-phonon':
+        branch: Neon/release
+    - 'qt6-libqaccessibilityclient':
+        branch: Neon/release
