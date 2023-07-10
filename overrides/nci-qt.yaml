@@ -23,6 +23,16 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/qt6/qt6-charts':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-shadertools':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/qt6/qt6-languageserver':
   'Neon/unstable':
     upstream_scm:
