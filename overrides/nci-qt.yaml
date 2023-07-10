@@ -18,6 +18,161 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/qt6/qt6-speech':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-languageserver':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-positioning':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-quicktimeline':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-webview':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-webengine':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-wayland':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-virtualkeyboard':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-translations':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-sensors':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-3d':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-doc':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-5compat':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-remoteobjects':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-tools':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-declarative':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-multimedia':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-networkauth':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-serialport':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-webchannel':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-websockets':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-svg':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-lottie':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-connectivity':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-location':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-datavis3d':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-serialbus':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-imageformats':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-sharertools':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-quick3d':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
+'*invent.kde.org/neon/qt6/qt6-scxml':
+  'Neon/unstable':
+    upstream_scm:
+      type: uscan
+
 # qtchooser git has qt6 support
 '*invent.kde.org/neon/qt/qtchooser':
   Neon/release:
