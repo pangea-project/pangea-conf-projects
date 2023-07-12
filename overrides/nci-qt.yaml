@@ -188,7 +188,7 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/qt6/qt6-sharertools':
+'*invent.kde.org/neon/qt6/qt6-quick3dphysics':
   'Neon/unstable':
     upstream_scm:
       type: uscan
