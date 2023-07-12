@@ -28,21 +28,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/qt6/qt6-phonon':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/qt6/qt6-libqaccessibilityclient':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-
-'*invent.kde.org/neon/qt6/qt6-qca':
-  'Neon/unstable':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/qt6/qt6-speech':
   'Neon/unstable':
     upstream_scm:
