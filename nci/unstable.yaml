@@ -66,4 +66,4 @@ invent.kde.org/neon:
     - '*':
         branch: Neon/release
   - qt6:
-    - '*':
+    - '*'
