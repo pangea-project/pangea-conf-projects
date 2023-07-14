@@ -62,4 +62,5 @@ invent.kde.org/neon:
   - backports-jammy:
     - '*'
   - qt6:
-    - '*'
+    - '*':
+        branch: Neon/stable
