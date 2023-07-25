@@ -858,6 +858,11 @@
       branch: tofe/qt6
       url: https://github.com/Tofee/qmltermwidget.git
 
+'*invent.kde.org/neon/neon-packaging/qqc2-breeze5-style':
+  'Neon/unstable':
+    upstream_scm:
+      branch: Plasma/5.27
+
 '*invent.kde.org/neon/neon-packaging/rinutils':
   '*':
     upstream_scm:
