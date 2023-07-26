@@ -861,7 +861,8 @@
 '*invent.kde.org/neon/neon-packaging/qqc2-breeze5-style':
   'Neon/unstable':
     upstream_scm:
-    url: https://invent.kde.org/plasma/qqc2-breeze-style.git
+      type: git
+      url: https://invent.kde.org/plasma/qqc2-breeze-style.git
       branch: Plasma/5.27
 
 '*invent.kde.org/neon/neon-packaging/rinutils':
