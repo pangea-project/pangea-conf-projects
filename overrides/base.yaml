@@ -759,6 +759,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/kdsoap5':
+  'Neon/{release,stable,unstable}':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/kio-extras5':
   'Neon/unstable':
     upstream_scm:
