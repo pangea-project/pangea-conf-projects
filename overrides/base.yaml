@@ -545,15 +545,6 @@
       type: uscan
 
 
-### KDE ###
-### temporary while some apps are on kf6 branches ###
-
-'*invent.kde.org/neon/kde/dolphin':
-  'Neon/unstable':
-    upstream_scm:
-      type: git
-      branch: kf6
-
 ### Neon Natives ###
 
 '*invent.kde.org/neon/neon/calamares-settings':
