@@ -9,7 +9,7 @@ invent.kde.org/neon:
     - '*':
         branch: Neon/experimental
   - neon-packaging:
-        - '*':
+    - '*':
         branch: Neon/experimental
   - neon:
     - '*':
