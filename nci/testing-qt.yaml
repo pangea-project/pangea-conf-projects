@@ -1,23 +1,2 @@
 invent.kde.org/neon:
-  - qt:
-    - '*'
-  - kde:
-    - plasma-framework:
-        branch: Neon/unstable
-    - kwayland:
-        branch: Neon/unstable
-    - kdeclarative:
-        branch: Neon/unstable
-    - plasma-integration:
-        branch: Neon/unstable
-    - kio-extras:
-        branch: Neon/unstable
-    - breeze:
-        branch: Neon/unstable
-    - kwin:
-        branch: Neon/unstable
-    - akonadi:
-        branch: Neon/unstable
-  - forks:
-    - pyqt5:
-        branch: Neon/unstable
+
