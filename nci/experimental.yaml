@@ -27,7 +27,7 @@ invent.kde.org/neon:
     - '*':
         branch: Neon/experimental
   - qt:
-        - '*':
+    - '*':
         branch: Neon/experimental
   - qt6:
     - '*':
