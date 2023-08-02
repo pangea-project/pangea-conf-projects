@@ -323,6 +323,11 @@
   '{Neon/release,Neon/stable,Neon/unstable}':
     upstream_scm:
       type: uscan
+  'Neon/experimental':
+    upstream_scm:
+      type: git
+      url: https://github.com/KDAB/GammaRay.git
+      branch: master
 
 '*invent.kde.org/neon/extras/gcompris-qt':
   '{Neon/stable,Neon/unstable}':
@@ -545,14 +550,21 @@
       type: uscan
 
 
-### KDE ###
+### Experimental Archive ###
 ### temporary while some apps are on kf6 branches ###
 
 '*invent.kde.org/neon/kde/dolphin':
-  'Neon/unstable':
+  'Neon/experimental':
     upstream_scm:
       type: git
       branch: kf6
+
+'*invent.kde.org/neon/kde/dolphin-plugins':
+  'Neon/experimental':
+    upstream_scm:
+      type: git
+      branch: kf6
+
 
 ### Neon Natives ###
 
