@@ -292,6 +292,10 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/backports-jammy/immer':
+  '*':
+    upstream_scm:
+      type: uscan
 
 ### Docker-Images ###
 
