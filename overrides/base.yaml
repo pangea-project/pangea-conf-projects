@@ -674,12 +674,6 @@
     upstream_scm:
       type: uscan
 
-'*invent.kde.org/neon/neon-packaging/immer':
-  '*':
-    upstream_scm:
-      type: git
-      url: https://github.com/immerjs/immer.git
-
 '*invent.kde.org/neon/neon-packaging/dbc-parser-cpp':
   '*':
     upstream_scm:
