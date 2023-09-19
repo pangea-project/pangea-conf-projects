@@ -697,6 +697,11 @@
     upstream_scm:
       type: uscan
 
+'*invent.kde.org/neon/neon-packaging/immer':
+  '*':
+    upstream_scm:
+      type: uscan
+
 '*invent.kde.org/neon/neon-packaging/hotspot':
   '*':
     upstream_scm:
