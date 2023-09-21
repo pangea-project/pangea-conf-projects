@@ -189,7 +189,7 @@
       branch: master
 
 '*invent.kde.org/neon/backports-jammy/signon-ui':
-  '{Neon/release,Neon/stable,Neon/unstable}':
+  '*':
     upstream_scm:
       type: tarball
       url: http://archive.ubuntu.com/ubuntu/pool/universe/s/signon-ui/signon-ui_0.17+18.04.20171027+really20160406.orig.tar.gz
