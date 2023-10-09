@@ -61,11 +61,6 @@
       url: https://github.com/ximion/appstream.git
       branch: main
 
-'*invent.kde.org/neon/backports-jammy/appstream-jammy3':
-  '*':
-    upstream_scm:
-      type: uscan
-
 '*invent.kde.org/neon/backports-jammy/distrobox':
   '*':
     upstream_scm:
